@@ -172,11 +172,11 @@ input:invalid, textarea:invalid {
 /* These selection declarations have to be separate.
    No text-shadow: twitter.com/miketaylr/status/12228805301 
    Also: hot pink. */
-::-moz-selection{ background: #999; color:#fff; text-shadow: none; }
-::selection { background:#999; color:#fff; text-shadow: none; } 
+::-moz-selection{ background: #B4D5FE; color:#333; text-shadow: none; }
+::selection { background:#B4D5FE; color:#333; text-shadow: none; } 
 
 /*  j.mp/webkit-tap-highlight-color */
-a:link { -webkit-tap-highlight-color: #999; } 
+a:link { -webkit-tap-highlight-color: #B4D5FE; } 
 
 /* make buttons play nice in IE:    
    www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
