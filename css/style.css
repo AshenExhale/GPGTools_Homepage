@@ -371,16 +371,19 @@ ul#projects li {
     color:#222;
 }
 
+
 ul#projects li a {
         white-space:nowrap;
 }
-ul#projects li a img {
+ul#projects li div {
     margin-top:2em;
 }
-
-ul#projects li img {
-    vertical-align:middle;
+div.project {
+    text-align:center;
+    float:left;
+    margin:1em;
 }
+
 
 div#overview {
     background: #3b577d;
@@ -474,6 +477,8 @@ footer {
     height:3.2em;
     border-top:1px solid #aaa;
     border-bottom:1px solid #aaa;
+    margin-top:10em;
+    clear:both;
 }
 
 footer div {
