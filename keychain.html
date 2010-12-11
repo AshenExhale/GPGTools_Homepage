@@ -7,8 +7,9 @@
 <head>
   <meta charset="utf-8">
   <title>GPGTools - OpenPGP Tools for Apple OS X</title>
-  <meta name="description" content="GPGTools - OpenPGP tools for Apple OS X">
+  <meta name="description" content="GPGTools - OpenPGP/PGP/GPG tools for Apple OS X (GPGMail, GPG Keychain Access, ...). To encrypt, decrypt, validate, and sign files and e-mails.">
   <meta name="author" content="GPGTools Project Team">
+  <meta name="keywords" content="OpenPGP, PGP, GPG, Encryption, Decryption, Validation, Signing, Security, Apple, OS X, Mail, GPGMail, GPGTools, Keychain">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="all" />
   <link rel="shortcut icon" href="./favicon.ico">
