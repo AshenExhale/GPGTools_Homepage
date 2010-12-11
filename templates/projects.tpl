@@ -12,22 +12,9 @@
             <h3>Maintained Projects</h3>
             <p>List of maintained projects.</p>
             <ul id="projects" class="sub">
-            <li><a href="gpgmail.php"><img src="./images/gpgmail.png" alt="GPGMail" title="GPGMail" class="logo"/> GPGMail</a> (OpenPGP for Mail.app)</li>
-            <li><a href="keychain.php"><img src="./images/gpgkeychain.png" alt="GPG Keychain Access" title="GPG Keychain Access" class="logo"/> GPG Keychain Access</a> (Keychain for OpenPGP)</li>
-            <li><a href="installer.php"><img src="./images/gpgtoolsdmg.png" alt="GPG Tools Installer" title="GPG Tools Installer" /> GPG Tools Installer</a> (Install all above tools and dependencies)</li>
-            </ul>
-            <h3>Incubator Projects</h3>
-            <p>List of unfinished but interesting projects maintained by the GPGTools Project Team.</p>
-            <ul class="sub">
-                <li><a href="https://github.com/AlexanderWillner/GPGMail_Mobile/wiki/Introduction">GPGMail mobile</a>. An OpenPGP implementation in JavaScript for mobile devices.</li>
-                <li><a href="https://github.com/GPGMail/GPGMail_Preferences">GPGMail/GPGTools Preferences</a>. A system wide preference pane for the GPGTools.</li>
-            </ul>
-            <h3>Unmaintained Projects</h3>
-            <p>List of old unmaintained projects.</p>
-            <ul class="sub">
-            <li><a href="http://macgpg.sourceforge.net/">MacGPG</a>. GPG related software for OS X (GPGFileTool, GPGDropThing, GPGPreferences, ...).</li>
-            <li><a href="http://abkey.far-blue.co.uk/">AB Key</a>. GPG for the OS X address book.</li>
-            <li><a href="http://www.far-blue.co.uk/projects/gpgservices.html">GPGService</a>. GPG for the OS X service menu.</li>
+                <li><div class="project"><a href="installer.html"><img src="./images/gpgtoolsdmg.png" alt="Installer for OpenPGP and all necessary files" title="Installer for OpenPGP and all necessary files" /><br/>GPG Tools Installer</a></div></li>            
+                <li><div class="project"><a href="keychain.html"><img src="./images/gpgkeychain.png" alt="Keychain for OpenPGP" title="Keychain for OpenPGP" class="logo"/><br/>GPG Keychain Access</a></div></li>
+                <li><div class="project"><a href="gpgmail.html"><img src="./images/gpgmail.png" alt="OpenPGP plugin for Apple Mail" title="OpenPGP plugin for Apple Mail" class="logo"/><br/>GPGMail</a></div></li>
             </ul>
         </div>
     </div>
