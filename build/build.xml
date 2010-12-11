@@ -68,6 +68,8 @@
 		<exclude name=".project"/>
 		<exclude name=".settings"/>
         <exclude name="README.markdown"/>
+        <exclude name="*.php"/>
+        <exclude name="templates/"/>
         <exclude name="**/.git/**"/>
         <exclude name="**/.svn/**"/>
         <exclude name=".gitignore"/>
