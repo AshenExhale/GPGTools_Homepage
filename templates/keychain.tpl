@@ -6,10 +6,10 @@
     <div id="spacer">
     </div>
     <div id="info">
-    <a href="https://github.com/downloads/GPGMail/GPGKeychainAccess/GPGKeychainAccess-0_3_0b.tar.bz2"><img src="./images/download.png" title="download" alt="download" id="download"/></a>
-    <h3><a href="https://github.com/downloads/GPGMail/GPGKeychainAccess/GPGKeychainAccess-0_3_0b.tar.bz2">Download</a></h3>
-    <p>Version 0.3.0b</p>
-    <p>28. November 2010.</p>
+    <a href="https://github.com/downloads/GPGMail/GPGKeychainAccess/GPGKeychainAccess-0_3_1b.tar.bz2"><img src="./images/download.png" title="download" alt="download" id="download"/></a>
+    <h3><a href="https://github.com/downloads/GPGMail/GPGKeychainAccess/GPGKeychainAccess-0_3_1b.tar.bz2">Download</a></h3>
+    <p>Version 0.3.1b</p>
+    <p>11. December 2010.</p>
     <p><br>(<a href="#">signature</a> | <a href="http://github.com/gpgmail/GPGKeychainAccess/downloads">others</a>)</p>
     </div>
     <div id="main">
@@ -27,7 +27,13 @@
             </ul>
             <h3>Release Notes</h3>
             <p>Also have a look at the <a href="https://github.com/GPGMail/GPGKeychainAccess/commits/master">list of last changes</a>.<br/><br/></p>
-            <p><b>Version 0.3.0 (28.11.2010).</b></p>
+            <p><b>Version 0.3.1 (11.12.2010).</b></p>
+            <ul class="sub">
+                <li>Right click context menu.</li>
+                <li>Added new icons.</li>
+                <li>Added support for algorithm preferences.</li>
+                <li>Showing validity.</li>
+            </ul><p><b>Version 0.3.0 (28.11.2010).</b></p>
             <ul class="sub">
                 <li>Added support for PPC.</li>
                 <li>Improved performance at startup and when refresh the key list.</li>
