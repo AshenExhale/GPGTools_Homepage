@@ -6,11 +6,11 @@
     <div id="spacer">
     </div>
     <div id="info">
-    <a href="http://github.com/downloads/gpgtools/GPGTools/GPGTools-20101113.dmg.zip"><img src="./images/download.png" title="download" alt="download" id="download"/></a>
-    <h3><a href="http://github.com/downloads/gpgtools/GPGTools/GPGTools-20101113.dmg.zip">Download</a></h3>
+    <a href="http://github.com/downloads/gpgtools/GPGTools/GPGTools-20101113.dmg.zip" class='piwik_download'><img src="./images/download.png" title="download" alt="download" id="download"/></a>
+    <h3><a href="http://github.com/downloads/gpgtools/GPGTools/GPGTools-20101113.dmg.zip" class='piwik_download'>Download</a></h3>
     <p>Version 2010.11.13</p>
     <p>13. November 2010.</p>
-    <p><br>(<a href="https://github.com/downloads/GPGTools/GPGTools/GPGTools-20101113.dmg.zip.asc">signature</a> | <a href="http://github.com/GPGTools/GPGTools/downloads">others</a>)</p>
+    <p><br>(<a href="https://github.com/downloads/GPGTools/GPGTools/GPGTools-20101113.dmg.zip.asc" class='piwik_download'>signature</a> | <a href="http://github.com/GPGTools/GPGTools/downloads">others</a>)</p>
     </div>
     <div id="main">
         <div id="m_content">

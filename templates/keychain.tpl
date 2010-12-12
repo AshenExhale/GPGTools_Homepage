@@ -6,11 +6,11 @@
     <div id="spacer">
     </div>
     <div id="info">
-    <a href="https://github.com/downloads/GPGMail/GPGKeychainAccess/GPGKeychainAccess-0_3_1b.tar.bz2"><img src="./images/download.png" title="download" alt="download" id="download"/></a>
-    <h3><a href="https://github.com/downloads/GPGMail/GPGKeychainAccess/GPGKeychainAccess-0_3_1b.tar.bz2">Download</a></h3>
+    <a href="https://github.com/downloads/GPGMail/GPGKeychainAccess/GPGKeychainAccess-0_3_1b.tar.bz2" class='piwik_download'><img src="./images/download.png" title="download" alt="download" id="download"/></a>
+    <h3><a href="https://github.com/downloads/GPGMail/GPGKeychainAccess/GPGKeychainAccess-0_3_1b.tar.bz2" class='piwik_download'>Download</a></h3>
     <p>Version 0.3.1b</p>
     <p>11. December 2010.</p>
-    <p><br>(<a href="https://github.com/downloads/GPGMail/GPGKeychainAccess/GPGKeychainAccess-0_3_1b.tar.bz2.asc">signature</a> | <a href="http://github.com/gpgmail/GPGKeychainAccess/downloads">others</a>)</p>
+    <p><br>(<a href="https://github.com/downloads/GPGMail/GPGKeychainAccess/GPGKeychainAccess-0_3_1b.tar.bz2.asc" class='piwik_download'>signature</a> | <a href="http://github.com/gpgmail/GPGKeychainAccess/downloads">others</a>)</p>
     </div>
     <div id="main">
         <div id="m_content">
