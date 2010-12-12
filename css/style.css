@@ -453,7 +453,7 @@ img#64bit {height:34px; width:35px;}
 img#secure {height:50px; width:35px;}
 img#download {height:80px; width:80px;}
 img#gpgtoolslogo {height:100px; width:100px;}
-ul#projects li a img.screenshot {height:100px; width:204px; vertical-align:middle;}
+ul#projects li a img.screenshot, ul#projects li video.screenshot {height:100px; width:204px; vertical-align:middle;}
 img.logo {height:100px; width:100px;}
 
 #sn {list-style-type:none; margin:0;}

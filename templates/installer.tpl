@@ -25,7 +25,7 @@
             <h3>Screenshots</h3>
             <ul id="projects" class="sub">
                 <li><a href="./images/installer.png"><img class="screenshot" src="./images/installer.png" alt="List of components in the installer" title="List of components in the installer" />List of components in the installer</a></li>
-            </ul>
+                <li><video id="install-video" poster="./images/screencast.jpg" class="screenshot" controls="controls"><source src="./videos/install_gpgtools.m4v" type="video/mp4" /></video>Install GPG Tools</li>            </ul>
             <h3>Release Notes</h3>
             <p>Also have a look at the <a href="https://github.com/GPGTools/GPGTools/commits/master">list of last changes</a>.<br/><br/></p>
             <p><b>Version 2010.11.13 (13.11.2010).</b></p>

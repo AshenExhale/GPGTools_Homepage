@@ -23,7 +23,8 @@
             </ul>
             <h3>Screenshots</h3>
             <ul id="projects" class="sub">
-            <li><a href="./images/gpgkeychain_keys.png"><img class="screenshot" src="./images/gpgkeychain_keys.png" alt="list of keys" title="list of keys" />List of installed keys</a></li>
+                <li><a href="./images/gpgkeychain_keys.png"><img class="screenshot" src="./images/gpgkeychain_keys.png" alt="list of keys" title="list of keys" />List of installed keys</a></li>
+                <li><video id="keychain-video" poster="./images/screencast.jpg" class="screenshot" controls="controls"><source src="./videos/create_key.m4v" type="video/mp4" /></video>Create a private key</li>
             </ul>
             <h3>Release Notes</h3>
             <p>Also have a look at the <a href="https://github.com/GPGMail/GPGKeychainAccess/commits/master">list of last changes</a>.<br/><br/></p>
