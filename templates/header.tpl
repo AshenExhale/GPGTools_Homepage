@@ -15,7 +15,7 @@
   <link rel="shortcut icon" href="./favicon.ico">
   <link rel="apple-touch-icon" href="./apple-touch-icon.png">
   <link rel="stylesheet" href="./css/style.css?v=2" media="all">
-  <link href="http://twitter.com/favorites/170783148.rss" rel="alternate" title="Recent Tweets" type="application/rss+xml" />
+  <link href="http://twitter.com/statuses/user_timeline/170783148.rss" rel="alternate" title="Recent Tweets" type="application/rss+xml" />
   <script src="./js/libs/modernizr-1.6.min.js"></script>
 </head>
 
