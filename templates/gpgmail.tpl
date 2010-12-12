@@ -19,7 +19,7 @@
             <h3>Support</h3>
             <p>Please have a look at the <a href="http://gpgmail.org/faq">FAQ section</a>. Also it would be nice to <a href="http://www.apple.com/feedback/macosx.html">tell Apple</a> to support bundles for Mail.app officially.<br/><br/></p>
             <h3>Main Features</h3>
-            <ul id="features" class="sub">
+            <ul class="sub projects">
             <li><img src="./images/secure.jpg" alt="Secure" title="Secure" id="secure"/> Sign, encrypt, decrypt, and verify all your mails.</li>
             <li><img src="./images/64bit.jpg" alt="64 Bit" title="64 Bit" id="64bit"/> The bundle is 64-bit and Snow Leopard ready.</li>
             </ul>
@@ -30,7 +30,7 @@
             <li><a href="./images/decrypted.png"><img class="screenshot" src="./images/decrypted.png" alt="decrypted message" title="decrypted message" />Decrypted message</a></li>
             </ul>
             <h3>Screencasts</h3>
-            <ul id="projects" class="sub">
+            <ul class="sub projects">
                 <li><a href="http://www.gpgtools.org/videos/encrypt_mail.m4v"><img class="screenshot" src="./images/screencast.jpg" alt="send an encrypted mail" title="send an encrypted mail" /> Send an encrypted mail</a></li>
             </ul>
             <h3>Release Notes</h3>
