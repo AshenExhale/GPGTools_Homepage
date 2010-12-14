@@ -1,7 +1,7 @@
 {extends file="index.tpl"}
 {block name=body}
     <div id="overview">
-      <div id="o_content"><img src="./images/gpgtoolsdmg.png" alt="GPGTools Installer" title="GPGTools Installer" class="logo"/> <h2>GPGTools Installer</h2></div>
+      <div id="o_content"><img src="./images/gpginstaller.png" alt="GPGTools Installer" title="GPGTools Installer" class="logo"/> <h2>GPGTools Installer</h2></div>
     </div>
     <div id="spacer">
     </div>

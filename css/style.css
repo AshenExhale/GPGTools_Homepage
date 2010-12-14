@@ -452,9 +452,9 @@ div#info img {
 img#64bit {height:34px; width:35px;}
 img#secure {height:50px; width:35px;}
 img#download {height:80px; width:80px;}
-img#gpgtoolslogo {height:100px; width:100px;}
+img#gpgtoolslogo {height:128px; width:128px;}
 img.screenshot, video.screenshot {height:100px; width:204px; vertical-align:middle;}
-img.logo {height:100px; width:100px;}
+img.logo {height:128px; width:128px;}
 
 #sn {list-style-type:none; margin:0;}
 #sn li {display:inline;}
