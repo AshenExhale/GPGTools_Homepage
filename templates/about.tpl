@@ -14,9 +14,10 @@
             <p>Another point is the origin of information. Every piece of information has its source that inseparably belongs to it. The source of an information is almost as importand as the information itself. By using GPGTools the reciever of an email or file can be sure the information has been sent by only you. He even can tell if the content has been altered on its way through the internet and is therefore not valid for you. PGP messages cannot be faked! - Not partially, not completely, NOT AT ALL!</p>
             <ul class="sub"></ul>
             <h3>How can I contact you?</h3>
-            <p>To contact the GPGTools Project Team please:</p>
+            <p>Yes, please contact us - we're also looking for developers! Here are your options:</p>
             <ul class="sub">
                 <li>drop us a mail: <a href="mailto:gpgmail-users@lists.gpgmail.org">to the mailing list</a></li>
+                <li>twitter: <a href="http://twitter.com/gpgmail/">to our account</a></li>
                 <li>open a bug or feature request: <a href="http://gpgtools.lighthouseapp.com/">at the issue tracker</a></li>
                 <li>browse the projects: <a href="http://github.com/gpgtools/">at the github page</a></li>
             </ul>
