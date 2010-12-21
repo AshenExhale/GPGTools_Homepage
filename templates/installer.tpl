@@ -6,11 +6,11 @@
     <div id="spacer">
     </div>
     <div id="info">
-    <a href="http://github.com/downloads/gpgtools/GPGTools/GPGTools-20101113.dmg.zip" class='piwik_download'><img src="./images/download.png" title="download" alt="download" id="download"/></a>
-    <h3><a href="http://github.com/downloads/gpgtools/GPGTools/GPGTools-20101113.dmg.zip" class='piwik_download'>Download</a></h3>
-    <p>Version 2010.11.13</p>
-    <p>13. November 2010.</p>
-    <p><br>(<a href="https://github.com/downloads/GPGTools/GPGTools/GPGTools-20101113.dmg.zip.asc" class='piwik_download'>signature</a> | <a href="http://github.com/GPGTools/GPGTools/downloads">others</a>)</p>
+    <a href="https://github.com/downloads/GPGTools/GPGTools/GPGTools-20101220.dmg" class='piwik_download'><img src="./images/download.png" title="download" alt="download" id="download"/></a>
+    <h3><a href="https://github.com/downloads/GPGTools/GPGTools/GPGTools-20101220.dmg" class='piwik_download'>Download</a></h3>
+    <p>Version 2010.12.20</p>
+    <p>20. December 2010.</p>
+    <p><br>(<a href="https://github.com/downloads/GPGTools/GPGTools/GPGTools-20101220.dmg.asc" class='piwik_download'>signature</a> | <a href="http://github.com/GPGTools/GPGTools/downloads">others</a>)</p>
     </div>
     <div id="main">
         <div id="m_content">
@@ -26,6 +26,7 @@
             </ul>
             <h3>Screenshots</h3>
             <ul id="projects" class="sub">
+                <li><a href="./images/installer_dmg.png"><img class="screenshot" src="./images/installer_dmg.png" alt="The installation volume" title="The installation volume" />The installation volume</a></li>
                 <li><a href="./images/installer.png"><img class="screenshot" src="./images/installer.png" alt="List of components in the installer" title="List of components in the installer" />List of components in the installer</a></li>
             </ul>
             <h3>Screencasts</h3>
@@ -34,6 +35,13 @@
             </ul>
             <h3>Release Notes</h3>
             <p>Also have a look at the <a href="https://github.com/GPGTools/GPGTools/commits/master">list of last changes</a>.<br/><br/></p>
+            <p><b>Version 2010.12.20 (20.12.2010).</b></p>
+            <ul class="sub">
+                <li>Added Enigmail</li>
+                <li>Updated GPGKeychainAccess to 0.3.1b</li>
+                <li>Updated the background image</li>
+                <li>Removed the zip extension</li>
+            </ul>
             <p><b>Version 2010.11.13 (13.11.2010).</b></p>
             <ul class="sub">
                 <li>Updated GPGKeychainAccess to 0.2.2b</li>
