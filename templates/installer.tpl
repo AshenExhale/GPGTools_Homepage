@@ -1,7 +1,7 @@
 {extends file="index.tpl"}
 {block name=body}
     <div id="overview">
-      <div id="o_content"><img src="./images/gpginstaller.png" alt="GPGTools Installer" title="GPGTools Installer" class="logo"/> <h2>GPGTools Installer</h2></div>
+      <div id="o_content"><img src="./images/gpginstaller.png" alt="GPGTools Installer" title="GPGTools Installer" class="logo"/> <h2>Installer</h2></div>
     </div>
     <div id="spacer">
     </div>
@@ -18,9 +18,11 @@
             <p>GPGTools Installer is an open source installer for Apple OS X. It installs all related OpenPGP applications, plugins and dependencies.<br/><br/></p>
             <h3>Main Features</h3>
             <ul id="features" class="sub">
-                <li><img src="./images/secure.jpg" alt="Core" title="Core" id="core"/> Core components GnuPG1, GPGAgent, and GPGPinentry.</li>
-                <li><img src="./images/secure.jpg" alt="Tools" title="Tools" id="tools"/> Tools GPGMail and GPGKeychainAccess.</li>
-                <li><img src="./images/64bit.jpg" alt="64 Bit" title="64 Bit" id="64bit"/> The application is 64-bit and Snow Leopard ready.</li>
+                <li><img src="./images/gpgtools.png" alt="Core" title="Core" id="core" class="icon" /> Core components GnuPG1, GPGAgent, and GPGPinentry.</li>
+                <li><img src="./images/gpgmail.png" alt="Tools" title="Tools" id="gpgmail" class="icon" /> Integrated GPGMail.</li>
+                <li><img src="./images/gpgkeychain.png" alt="Tools" title="Tools" id="gpgmail" class="icon" /> Integrated GPG Keychain Access.</li>
+                <li><img src="./images/enigmail.png" alt="Tools" title="Tools" id="gpgmail" class="icon" /> Integrated Enigmail.</li>
+                <li><img src="./images/64bit.jpg" alt="64 Bit" title="64 Bit" id="64bit" class="icon" /> The application is 64-bit and Snow Leopard ready.</li>
             </ul>
             <h3>Screenshots</h3>
             <ul id="projects" class="sub">

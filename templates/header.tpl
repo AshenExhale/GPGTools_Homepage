@@ -25,11 +25,11 @@
       <div id="foo">
           <div id="logo">
             <a href="index.html"><img src="./images/gpgtools_xmas.png" alt="GPGTools" title="GPGTools" class="logo"/></a>
-            <h1>GPGTools</h1>
+            <h1><a href="index.php" id="header">GPGTools</a></h1>
           </div>
           <div id="navigation">
             <ul>
-              <li><a href="index.php">Projects</a></li>
+              <li><a href="projects.php">Projects</a></li>
               <li><a href="news.php">News</a></li>
               <li><a href="about.php">About</a></li>
             </ul>

@@ -21,19 +21,6 @@
                 <li>open a bug or feature request: <a href="http://gpgtools.lighthouseapp.com/">at the issue tracker</a></li>
                 <li>browse the projects: <a href="http://github.com/gpgtools/">at the github page</a></li>
             </ul>
-            <h3>Incubator Projects</h3>
-            <p>List of unfinished but interesting projects maintained by the GPGTools Project Team.</p>
-            <ul class="sub">
-                <li><a href="https://github.com/AlexanderWillner/GPGMail_Mobile/wiki/Introduction">GPGMail mobile</a>. An OpenPGP implementation in JavaScript for mobile devices.</li>
-                <li><a href="https://github.com/GPGMail/GPGMail_Preferences">GPGMail/GPGTools Preferences</a>. A system wide preference pane for the GPGTools.</li>
-            </ul>
-            <h3>Unmaintained Projects</h3>
-            <p>List of old unmaintained projects.</p>
-            <ul class="sub">
-            <li><a href="http://macgpg.sourceforge.net/">MacGPG</a>. GPG related software for OS X (GPGFileTool, GPGDropThing, GPGPreferences, ...).</li>
-            <li><a href="http://abkey.far-blue.co.uk/">AB Key</a>. GPG for the OS X address book.</li>
-            <li><a href="http://www.far-blue.co.uk/projects/gpgservices.html">GPGService</a>. GPG for the OS X service menu.</li>
-            </ul>
         </div>
     </div>
 {/block}
