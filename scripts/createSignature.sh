@@ -6,4 +6,4 @@ if [ "$1" == "" ]; then
 fi
 
 curl -O -L $1
-gpg --detach-sign -a -u 76D78F0500D026C4 `basename $1`
+gpg --detach-sign -u 76D78F0500D026C4 `basename $1`
