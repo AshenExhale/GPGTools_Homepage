@@ -3,6 +3,6 @@ require('libs/Smarty.class.php');
 
 $theSite = new Smarty;
 
-$theSite->display('templates/projects.tpl');
+$theSite->display('templates/start.tpl');
 
 ?>
