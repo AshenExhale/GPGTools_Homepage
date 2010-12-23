@@ -450,6 +450,7 @@ div#info {
     border-radius: 5px;
     margin:3em;
     padding:.5em;
+    width:20em;
 }
 div#info p {
     display:inline;

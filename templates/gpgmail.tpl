@@ -10,6 +10,7 @@
     <h3><a href="http://github.com/downloads/gpgmail/GPGMail/GPGMail-1.3.1.pkg" class='piwik_download'>Download</a></h3>
     <p>Version 1.3.1.</p>
     <p>16 November 2010.</p>
+    <p>Requires Mac OS X 10.6.</p>
     <p><br>(<a href="http://github.com/downloads/gpgmail/GPGMail/GPGMail-1.3.1.pkg.sig" class='piwik_download'>signature</a> | <a href="http://github.com/gpgmail/GPGMail/downloads">others</a>)</p>
     </div>
     <div id="main">
