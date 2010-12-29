@@ -10,6 +10,7 @@
     <h3><a href="https://github.com/downloads/GPGMail/GPGKeychainAccess/GPGKeychainAccess-0_3_1b.tar.bz2" class='piwik_download'>Download</a></h3>
     <p>Version 0.3.1b</p>
     <p>11. December 2010.</p>
+    <p>Requires OS X >= 10.5.</p>
     <p><br>(<a href="https://github.com/downloads/GPGMail/GPGKeychainAccess/GPGKeychainAccess-0_3_1b.tar.bz2.asc" class='piwik_download'>signature</a> | <a href="http://github.com/gpgmail/GPGKeychainAccess/downloads">others</a>)</p>
     </div>
     <div id="main">
@@ -29,6 +30,12 @@
             <ul class="sub projects">
                 <li><a href="http://www.gpgtools.org/videos/create_key.m4v"><img class="screenshot" src="./images/screencast.jpg" alt="create a private key" title="create a private key" /> Create a private key</a></li>
             </ul>
+            <h3>What others say</h3>
+            <p>Ratings and other information from other sites.</p>
+            <ul id="features" class="sub">
+              <li><script type='text/javascript' src='http://www.macupdate.com/developers/badge/17201'></script></script><noscript><a href="http://www.macupdate.com/app/mac/17201">GPGMail on MacUpdate</a></noscript></li>
+              <li><script type="text/javascript" src="http://osx.iusethis.com/app/include/gpgkeychainaccess/1"></script><noscript><a href="http://osx.iusethis.com/app/gpgkeychainaccess">GPG Keychain Access on iusethis</a></noscript></li>
+            </ul>
             <h3>Release Notes</h3>
             <p>Also have a look at the <a href="https://github.com/GPGMail/GPGKeychainAccess/commits/master">list of last changes</a>.<br/><br/></p>
             <p><b>Version 0.3.1 (11.12.2010).</b></p>
@@ -37,14 +44,6 @@
                 <li>Added new icons.</li>
                 <li>Added support for algorithm preferences.</li>
                 <li>Showing validity.</li>
-            </ul><p><b>Version 0.3.0 (28.11.2010).</b></p>
-            <ul class="sub">
-                <li>Added support for PPC.</li>
-                <li>Improved performance at startup and when refresh the key list.</li>
-                <li>Added support to create revocation certificates.</li>
-                <li>MacGPGME is no longer used.</li>
-                <li>Included GPGOptions directly.</li>
-                <li>Fixed a bug with Drag & Drop.</li>
             </ul>
         </div>
     </div>
