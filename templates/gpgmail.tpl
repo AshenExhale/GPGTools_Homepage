@@ -9,8 +9,8 @@
     <a href="http://github.com/downloads/gpgmail/GPGMail/GPGMail-1.3.1.pkg" class='piwik_download'><img src="./images/download.png" title="download" alt="download" id="download"/></a>
     <h3><a href="http://github.com/downloads/gpgmail/GPGMail/GPGMail-1.3.1.pkg" class='piwik_download'>Download</a></h3>
     <p>Version 1.3.1.</p>
-    <p>16 November 2010.</p>
-    <p>Requires Mac OS X 10.6.</p>
+    <p>16. November 2010.</p>
+    <p>Requires OS X >= 10.6.</p>
     <p><br>(<a href="http://github.com/downloads/gpgmail/GPGMail/GPGMail-1.3.1.pkg.sig" class='piwik_download'>signature</a> | <a href="http://github.com/gpgmail/GPGMail/downloads">others</a>)</p>
     </div>
     <div id="main">
@@ -34,6 +34,12 @@
             <ul class="sub projects">
                 <li><a href="http://www.gpgtools.org/videos/encrypt_mail.m4v"><img class="screenshot" src="./images/screencast.jpg" alt="send an encrypted mail" title="send an encrypted mail" /> Send an encrypted mail</a></li>
             </ul>
+            <h3>What others say</h3>
+            <p>Ratings and other information from other sites.</p>
+            <ul id="features" class="sub">
+            <li><script type='text/javascript' src='http://www.macupdate.com/developers/badge/7654'></script><noscript><a href="http://www.macupdate.com/app/mac/7654">GPGMail on MacUpdate</a></noscript></li>
+            <li><script type="text/javascript" src="http://osx.iusethis.com/app/include/gpgmail/1"></script><noscript><a href="http://osx.iusethis.com/app/gpgmail">GPGMail on iusethis</a></noscript></li>
+            </ul>
             <h3>Release Notes</h3>
             <p>Also have a look at the <a href="https://github.com/GPGMail/GPGMail/commits/master">list of last changes</a>.<br/><br/></p>
             <p><b>Version 1.3.1 (11.11.2010).</b></p>
@@ -45,12 +51,6 @@
                 <li>Issue 81: Disabled "update now" button</li>
                 <li>Issue 212: Started to update the logos</li>
                 <li>And many, many other minor updates.</li>
-            </ul>
-            <p><b>Version 1.3.0 (29.07.2010).</b></p>
-            <ul class="sub">
-            <li>New development team.</li>
-            <li>Officiall support for Snow Leopard.</li>
-            <li>Integrated update mechanism (sparkle).</li>
             </ul>
         </div>
     </div>
