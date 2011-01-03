@@ -17,7 +17,7 @@
             <p>Yes, please contact us - we're also looking for developers! Here are your options:</p>
             <ul class="sub">
                 <li>drop us a mail: <a href="mailto:gpgmail-users@lists.gpgmail.org">to the mailing list</a></li>
-                <li>twitter: <a href="http://twitter.com/gpgmail/">to our account</a></li>
+                <li>twitter: <a href="http://twitter.com/gpgtools/">to our account</a></li>
                 <li>open a bug or feature request: <a href="http://gpgtools.lighthouseapp.com/home">at the issue tracker</a></li>
                 <li>browse the projects: <a href="http://github.com/gpgtools/">at the github page</a></li>
             </ul>
