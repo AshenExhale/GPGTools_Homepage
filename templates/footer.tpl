@@ -39,7 +39,7 @@ var _paq = _paq || [];
         s.parentNode.insertBefore(g,s);
 })();
 </script>
-<noscript><p><img height="1" width="1" src="http://{$PIWIK_URL}/piwik.php?idsite={$IDSITE}&rec=1" style="border:0" alt="" /></p></noscript>
+<noscript><p><img height="1" width="1" src="http://{$PIWIK_URL}/piwik.php?idsite={$IDSITE}&amp;rec=1" style="border:0" alt="" /></p></noscript>
   <!-- End Piwik Tag -->
 </body>
 </html>
