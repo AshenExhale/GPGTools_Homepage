@@ -311,6 +311,7 @@ h3 {
 
 header {
     text-align:center;
+    vertical-align: text-top;
     background: #333;
     background: -moz-linear-gradient(top, #333, #131313);
     background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#131313));
@@ -351,10 +352,12 @@ div#navigation ul {
     list-style-type: none;
     color:#aaa;
     float:none;
+    margin-right:1em;
 }
 div#navigation ul li {
     display:inline;
-    margin:1em;
+    margin-top:1em;
+    margin-left:1em;
 }
 ul.sub {
     margin:2em;
@@ -378,7 +381,8 @@ ul#projects li {
 
 
 ul#projects li a {
-        white-space:nowrap;
+    float:left;
+        /*white-space:nowrap;*/
 }
 ul#projects li div {
     margin-top:2em;
@@ -395,12 +399,13 @@ div.project2 {
 
 
 div#overview {
+    vertical-align: text-top;
     background: #3b577d;
     background: -moz-linear-gradient(top, #3b577d, #273f5c);
     background: -webkit-gradient(linear, left top, left bottom, from(#3b577d), to(#273f5c));
     height:3em;
     padding-top:3em;
-    
+    padding-right:1em;
 }
 
 div#o_content {
@@ -432,7 +437,7 @@ div#m_content {
     margin: 1em;
 }
 
-ul#features {
+ul#features, ul#other {
     list-style-type: none;
 }
 

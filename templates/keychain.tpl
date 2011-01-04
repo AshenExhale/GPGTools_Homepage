@@ -26,16 +26,16 @@
             </ul>
             <h3>Screenshots</h3>
             <ul class="sub projects">
-                <li><a href="./images/gpgkeychain_keys.png"><img class="screenshot" src="./images/gpgkeychain_keys.png" alt="list of keys" title="list of keys" />List of installed keys</a></li>
+                <li><a href="./images/gpgkeychain_keys.png"><img class="screenshot" src="./images/gpgkeychain_keys.png" alt="list of keys" title="list of keys" /><br />List of installed keys</a></li>
             </ul>
             <h3>Screencasts</h3>
             <ul class="sub projects">
-                <li><a href="http://www.gpgtools.org/videos/create_key.m4v"><img class="screenshot" src="./images/screencast.jpg" alt="create a private key" title="create a private key" /> Create a private key</a></li>
+                <li><a href="http://www.gpgtools.org/videos/create_key.m4v"><img class="screenshot" src="./images/screencast.jpg" alt="create a private key" title="create a private key" /><br />Create a private key</a></li>
             </ul>
             <h3>What others say</h3>
             <p>Ratings and other information from other sites.</p>
             <ul id="other" class="sub">
-              <li><script type='text/javascript' src='http://www.macupdate.com/developers/badge/17201'></script></script><noscript><a href="http://www.macupdate.com/app/mac/17201">GPGMail on MacUpdate</a></noscript></li>
+              <li><script type='text/javascript' src='http://www.macupdate.com/developers/badge/17201'></script><noscript><a href="http://www.macupdate.com/app/mac/17201">GPGMail on MacUpdate</a></noscript></li>
               <li><script type="text/javascript" src="http://osx.iusethis.com/app/include/gpgkeychainaccess/1"></script><noscript><a href="http://osx.iusethis.com/app/gpgkeychainaccess">GPG Keychain Access on iusethis</a></noscript></li>
             </ul>
             <h3>Release Notes</h3>
