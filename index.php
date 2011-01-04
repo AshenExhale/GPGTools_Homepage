@@ -1,9 +1,7 @@
 <?php
 require('libs/Smarty.class.php');
-
-$theSite = new Smarty;
+require('libs/Smarty.config.php');
 
 $theSite->assign('title', 'Official Homepage');
 $theSite->display('templates/start.tpl');
-
 ?>

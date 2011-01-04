@@ -1,7 +1,6 @@
 <?php
 require('libs/Smarty.class.php');
-
-$theSite = new Smarty;
+require('libs/Smarty.config.php');
 
 $theSite->assign('title', 'MacGPG2');
 $theSite->display('templates/macgpg2.tpl');
