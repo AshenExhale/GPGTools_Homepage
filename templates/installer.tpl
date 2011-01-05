@@ -6,17 +6,17 @@
     <div id="spacer">
     </div>
     <div id="info">
-    <a href="https://github.com/downloads/GPGTools/GPGTools/GPGTools-20110103.dmg" class='piwik_download'><img src="./images/download.png" title="download" alt="download" id="download"/></a>
-    <h3><a href="https://github.com/downloads/GPGTools/GPGTools/GPGTools-20110103.dmg" class='piwik_download'>Download</a></h3>
-    <p>Version 2011.01.03</p>
-    <p>03. January 2011.</p>
+    <a href="https://github.com/downloads/GPGTools/GPGTools/GPGTools-20110105.dmg" class='piwik_download'><img src="./images/download.png" title="download" alt="download" id="download"/></a>
+    <h3><a href="https://github.com/downloads/GPGTools/GPGTools/GPGTools-20110105.dmg" class='piwik_download'>Download</a></h3>
+    <p>Version 2011.01.05</p>
+    <p>05. January 2011.</p>
     <p>Requires Mac OS X 10.6.</p>
-    <p><br>(<a href="https://github.com/downloads/GPGTools/GPGTools/GPGTools-20110103.dmg.sig" class='piwik_download'>signature</a> | <a href="http://github.com/GPGTools/GPGTools/downloads">others</a>)</p>
+    <p><br>(<a href="https://github.com/downloads/GPGTools/GPGTools/GPGTools-20110105.dmg.sig" class='piwik_download'>signature</a> | <a href="http://github.com/GPGTools/GPGTools/downloads">others</a>)</p>
     </div>
     <div id="main">
         <div id="m_content">
             <h3>Overview</h3>
-            <p>GPGTools Installer is an open source installer for Apple OS X. It installs all related OpenPGP applications, plugins and dependencies.<br/><br/></p>
+            <p>GPGTools Installer is an open source installer for Apple OS X. It installs all related OpenPGP applications, plugins and dependencies. This is a BETA version so use at your own risk - also currently you cannot use GnuPG2 in parallel.<br/><br/></p>
                         <h3>Support</h3>
             <p>Please have a look at the <a href="http://gpgtools.lighthouseapp.com/home">issue section</a> and ask <a href="mailto:gpgmail-users@lists.gpgmail.org">the mailing list</a> for further support.<br/><br/></p>
             <h3>Main Features</h3>
@@ -38,10 +38,16 @@
             </ul>
             <h3>Release Notes</h3>
             <p>Also have a look at the <a href="https://github.com/GPGTools/GPGTools/commits/master">list of last changes</a>.<br/><br/></p>
+            <p><b>Version 2011.01.05 (05.01.2011).</b></p>
+            <ul class="sub">
+                <li><a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/15">Issue 15</a>: Fixed check for OS requirements.</li>
+                <li><a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/26">Issue 26</a>: Fixed permission issues.</li>
+                <li><a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/16">Issue 27</a>: Added check for GPG2.</li>
+            </ul>
             <p><b>Version 2011.01.03 (03.01.2011).</b></p>
             <ul class="sub">
                 <li><a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/14">Issue 14</a>: Resized the window a bit.</li>
-                <li><a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/15">Issue 15</a>: now checking for OS requirements.</li>
+                <li><a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/15">Issue 15</a>: Now checking for OS requirements.</li>
                 <li><a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/16">Issue 16</a>: Fixed a bug related to gpg installed using fink.</li>
             </ul>
             <p><b>Version 2010.12.20 (20.12.2010).</b></p>
