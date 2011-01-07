@@ -11,7 +11,7 @@
     <p>Version 2011.01.05_1</p>
     <p>05. January 2011.</p>
     <p>Requires Mac OS X 10.6.</p>
-    <p><br>(<a href="https://github.com/downloads/GPGTools/GPGTools/GPGTools-20110105_1.dmg.sig" class='piwik_download'>signature</a> | <a href="http://github.com/GPGTools/GPGTools/downloads">others</a>)</p>
+    <p><br>(<a href="https://github.com/downloads/GPGTools/GPGTools/GPGTools-20110105_1.dmg.sig" class='piwik_download'>signature</a> | <a href="http://github.com/GPGTools/GPGTools/downloads">others</a> | <a href="http://github.com/GPGTools/GPGTools/">src</a>)</p>
     </div>
     <div id="main">
         <div id="m_content">

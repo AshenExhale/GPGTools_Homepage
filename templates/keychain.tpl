@@ -11,7 +11,7 @@
     <p>Version 0.3.1b</p>
     <p>11. December 2010.</p>
     <p>Requires OS X >= 10.5.</p>
-    <p><br>(<a href="https://github.com/downloads/GPGMail/GPGKeychainAccess/GPGKeychainAccess-0_3_1b.tar.bz2.asc" class='piwik_download'>signature</a> | <a href="http://github.com/gpgmail/GPGKeychainAccess/downloads">others</a>)</p>
+    <p><br>(<a href="https://github.com/downloads/GPGMail/GPGKeychainAccess/GPGKeychainAccess-0_3_1b.tar.bz2.asc" class='piwik_download'>signature</a> | <a href="http://github.com/gpgmail/GPGKeychainAccess/downloads">others</a> | <a href="http://github.com/gpgmail/GPGKeychainAccess/">src</a>)</p>
     </div>
     <div id="main">
         <div id="m_content">
