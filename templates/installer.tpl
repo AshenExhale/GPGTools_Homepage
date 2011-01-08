@@ -39,7 +39,7 @@
             <h3>What others say</h3>
             <p>Ratings and other information from other sites.</p>
             <ul id="other" class="sub">
-            <li><script type='text/javascript' src='http://www.macupdate.com/developers/badge/11136'></script><noscript><a href="http://www.macupdate.com/app/mac/11136">MacGPG2 on MacUpdate</a></noscript></li>
+            <!--<li><script type='text/javascript' src='http://www.macupdate.com/developers/badge/11136'></script><noscript><a href="http://www.macupdate.com/app/mac/11136">GPGTools on MacUpdate</a></noscript></li>-->
             <li><script type="text/javascript" src="http://osx.iusethis.com/app/include/gpgtools/1"></script><noscript><a href="http://osx.iusethis.com/app/gpgtools">GPGTools on iusethis</a></noscript></li>
             </ul>
             <h3>Release Notes</h3>
