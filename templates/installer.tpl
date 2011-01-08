@@ -21,10 +21,10 @@
             <p>Please have a look at the <a href="http://gpgtools.lighthouseapp.com/tickets">issue section</a> and ask <a href="mailto:gpgmail-users@lists.gpgmail.org">the mailing list</a> for further support.<br/><br/></p>
             <h3>Main Features</h3>
             <ul id="features" class="sub">
-                <li><img src="./images/gpgtools.png" alt="Core" title="Core" id="core" class="icon" /> Integrated GPG1 (<a href="https://github.com/GPGTools/GPGTools/blob/master/README.markdown">not GPG2</a>), GPGAgent, and GPGPinentry.</li>
-                <li><img src="./images/gpgmail.png" alt="GPGMail" title="GPGMail" id="gpgmail" class="icon" /> Integrated GPGMail.</li>
-                <li><img src="./images/gpgkeychain.png" alt="GPG Keychain Access" title="GPG Keychain Access" id="gpgkeychain" class="icon" /> Integrated GPG Keychain Access.</li>
-                <li><img src="./images/enigmail.png" alt="Enigmail" title="Enigmail" id="enigmail" class="icon" /> Integrated Enigmail.</li>
+                <li><img src="./images/gpgtools.png" alt="Core" title="Core" id="core" class="icon" /> Integrated GPG1 (<a href="https://github.com/GPGTools/GPGTools/blob/master/README.markdown">not GPG2, yet</a>), GPGAgent, and GPGPinentry.</li>
+                <li><img src="./images/gpgmail.png" alt="GPGMail" title="GPGMail" id="gpgmail" class="icon" /> Integrated <a href="gpgmail.html">GPGMail</a>.</li>
+                <li><img src="./images/gpgkeychain.png" alt="GPG Keychain Access" title="GPG Keychain Access" id="gpgkeychain" class="icon" /> Integrated <a href="keychain.html">GPG Keychain Access</a>.</li>
+                <li><img src="./images/enigmail.png" alt="Enigmail" title="Enigmail" id="enigmail" class="icon" /> Integrated <a href="http://enigmail.mozdev.org/">Enigmail</a>.</li>
                 <li><img src="./images/64bit.jpg" alt="64 Bit" title="64 Bit" id="64bit" class="icon" /> The application is 64-bit and Snow Leopard ready.</li>
             </ul>
             <h3>Screenshots</h3>
@@ -35,6 +35,12 @@
             <h3>Screencasts</h3>
             <ul class="sub projects">
                 <li><a href="http://www.gpgtools.org/videos/install_gpgtools.m4v"><img class="screenshot" src="./images/screencast.jpg" alt="install gpgtools" title="install gpgtools" /><br />Install GPGTools</a></li>
+            </ul>
+            <h3>What others say</h3>
+            <p>Ratings and other information from other sites.</p>
+            <ul id="other" class="sub">
+            <li><script type='text/javascript' src='http://www.macupdate.com/developers/badge/11136'></script><noscript><a href="http://www.macupdate.com/app/mac/11136">MacGPG2 on MacUpdate</a></noscript></li>
+            <li><script type="text/javascript" src="http://osx.iusethis.com/app/include/gpgtools/1"></script><noscript><a href="http://osx.iusethis.com/app/gpgtools">GPGTools on iusethis</a></noscript></li>
             </ul>
             <h3>Release Notes</h3>
             <p>Also have a look at the <a href="https://github.com/GPGTools/GPGTools/commits/master">list of last changes</a>.<br/><br/></p>
