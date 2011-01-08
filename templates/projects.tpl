@@ -7,16 +7,23 @@
     </div>
     <div id="main">
         <div id="m_content">
+            <h3 class="clear">The GPGTools Installer</h3>
+            <p>The main goal is to provide an easy installer for GnuPG and
+            all related tools on OS X.</p>
+            <ul class="sub projects">
+                <li><div class="project"><a href="installer.html"><img src="./images/gpginstaller.png" alt="Installer OpenPGP and related tools" title="Installer for OpenPGP and related tools" class="logo"/><br/>Installer</a></div></li>
+            </ul>
+
             <h3 class="clear">Maintained Projects</h3>
             <p>List of maintained projects that are included in the installer.</p>
-            <ul id="projects" class="sub">
+            <ul class="sub projects">
                 <li><div class="project"><a href="keychain.html"><img src="./images/gpgkeychain.png" alt="Keychain for OpenPGP" title="Keychain for OpenPGP" class="logo"/><br/>GPG Keychain Access</a></div></li>
                 <li><div class="project"><a href="gpgmail.html"><img src="./images/gpgmail.png" alt="OpenPGP plugin for Apple Mail" title="OpenPGP plugin for Apple Mail" class="logo"/><br/>GPGMail</a></div></li>
                 <li><div class="project"><a href="macgpg2.html"><img src="./images/gpgtools.png" alt="Mac OS X bindings for GnuPG 2.x" title="Mac OS X bindings for GnuPG 2.x" class="logo"/><br/>MacGPG2</a></div></li>
             </ul>
             <h3 class="clear">Related Projects</h3>
             <p>List of related projects that are included in the installer.</p>
-            <ul id="projects" class="sub">
+            <ul class="sub projects">
                 <li><div class="project"><a href="http://enigmail.mozdev.org"><img src="./images/enigmail.png" alt="Enigmail" title="Enigmail" class="logo"/><br/>Enigmail</a></div></li>
             </ul>
             <h3 class="clear">Incubator Projects</h3>
