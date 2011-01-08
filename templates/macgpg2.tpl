@@ -40,7 +40,7 @@
             <p>Ratings and other information from other sites.</p>
             <ul id="other" class="sub">
             <li><script type='text/javascript' src='http://www.macupdate.com/developers/badge/11136'></script><noscript><a href="http://www.macupdate.com/app/mac/11136">MacGPG2 on MacUpdate</a></noscript></li>
-            <!-- <li><script type="text/javascript" src="http://osx.iusethis.com/app/include/MacGPG2/1"></script><noscript><a href="http://osx.iusethis.com/app/MacGPG2">MacGPG2 on iusethis</a></noscript></li> -->
+            <li><script type="text/javascript" src="http://osx.iusethis.com/app/include/macgnuprivacyguard2/1"></script><noscript><a href="http://osx.iusethis.com/app/macgnuprivacyguard2">MacGPG2 on iusethis</a></noscript></li>
             </ul>
             <h3>Release Notes</h3>
             <p>Also have a look at the <a href="https://github.com/GPGTools/MacGPG2/commits/master">list of last changes</a>.<br/><br/></p>
