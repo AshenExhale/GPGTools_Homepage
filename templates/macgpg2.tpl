@@ -18,7 +18,7 @@
             <h3>Overview</h3>
             <p>MacGPG2 is the Mac OS X port of GnuPG, licensed under the GNU GPL. The aims of the project are to make GnuPG easy to install, provide a native MacOSX pinentry utility and interact with existing GnuPG tools for MacOSX.<br/><br/></p>
             <h3>Support</h3>
-            <p>Please have a look at the <a href="http://gpgtools.lighthouseapp.com/projects/66001/tickets">issue section</a> and ask <a href="mailto:gpgmail-users@lists.gpgmail.org">the mailing list</a> for further support.<br/><br/></p>
+            <p>Please have a look at the <a href="http://gpgtools.lighthouseapp.com/projects/66001/tickets">issue section</a> and ask <a href="mailto:gpgtools-users@lists.gpgtools.org">the mailing list</a> for further support.<br/><br/></p>
             <h3>Main Features</h3>
             <ul id="features" class="sub">
                <li><img src="./images/installericon.png" alt="Installer" title="Installer" id="installer"/> Will be part of the <a href="installer.html">GPGTools Installer</a> soon.</li>

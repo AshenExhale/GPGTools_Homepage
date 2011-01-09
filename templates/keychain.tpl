@@ -18,7 +18,7 @@
             <h3>Overview</h3>
             <p>GPG Keychain Access is an open source application for Apple OS X. It brings the functionality to manage OpenPGP keys.<br/><br/></p>
             <h3>Support</h3>
-            <p>Please have a look at the <a href="https://github.com/GPGTools/GPGKeychainAccess/wiki/Getting-started">getting started</a> and <a href="http://gpgtools.lighthouseapp.com/projects/65684/tickets">issue</a> section and ask <a href="mailto:gpgmail-users@lists.gpgmail.org">the mailing list</a> for further support.<br/><br/></p>
+            <p>Please have a look at the <a href="https://github.com/GPGTools/GPGKeychainAccess/wiki/Getting-started">getting started</a> and <a href="http://gpgtools.lighthouseapp.com/projects/65684/tickets">issue</a> section and ask <a href="mailto:gpgtools-users@lists.gpgtools.org">the mailing list</a> for further support.<br/><br/></p>
             <h3>Main Features</h3>
             <ul id="features" class="sub">
             <li><img src="./images/installericon.png" alt="Installer" title="Installer" id="installer"/> Is part of the <a href="installer.html">GPGTools Installer</a>.</li>

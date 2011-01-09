@@ -18,9 +18,9 @@
             <h3>Mailing Lists</h3>
             <p>To read e-mails from the teams and to communicate with us and other users:</p>
             <ul class="sub">
-                <li>announcements (read only): <a href="http://lists.gpgmail.org/mailman/listinfo/gpgmail-announce">subscribe</a> | <a href="http://lists.gpgmail.org/pipermail/gpgmail-announce/">archive</a></li>
-                <li>users: <a href="http://lists.gpgmail.org/mailman/listinfo/gpgmail-users">subscribe</a> | <a href="http://lists.gpgmail.org/pipermail/gpgmail-users/">archive</a></li>
-                <li>developers: <a href="http://lists.gpgmail.org/mailman/listinfo/gpgmail-devel">subscribe</a> | <a href="http://lists.gpgmail.org/pipermail/gpgmail-devel/">archive</a></li>
+                <li>announcements (read only): <a href="http://lists.gpgtools.org/mailman/listinfo/gpgtools-announce">subscribe</a> | <a href="http://lists.gpgtools.org/pipermail/gpgtools-announce/">archive</a></li>
+                <li>users: <a href="http://lists.gpgtools.org/mailman/listinfo/gpgtools-users">subscribe</a> | <a href="http://lists.gpgtools.org/pipermail/gpgtools-users/">archive</a></li>
+                <li>developers: <a href="http://lists.gpgtools.org/mailman/listinfo/gpgtools-devel">subscribe</a> | <a href="http://lists.gpgtools.org/pipermail/gpgtools-devel/">archive</a></li>
             </ul>
         </div>
     </div>

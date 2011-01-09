@@ -18,7 +18,7 @@
             <h3>Overview</h3>
             <p>GPGTools Installer is an open source installer for Apple OS X. It installs all related OpenPGP applications, plugins and dependencies. This is a BETA version so use at your own risk - also currently you cannot use the installer when you've GnuPG2 already installed. But we're working on it.<br/><br/></p>
                         <h3>Support</h3>
-            <p>Please have a look at the <a href="http://gpgtools.lighthouseapp.com/tickets">issue section</a> and ask <a href="mailto:gpgmail-users@lists.gpgmail.org">the mailing list</a> for further support.<br/><br/></p>
+            <p>Please have a look at the <a href="http://gpgtools.lighthouseapp.com/tickets">issue section</a> and ask <a href="mailto:gpgtools-users@lists.gpgtools.org">the mailing list</a> for further support.<br/><br/></p>
             <h3>Main Features</h3>
             <ul id="features" class="sub">
                 <li><img src="./images/gpgtools.png" alt="Core" title="Core" id="core" class="icon" /> Integrated GPG1 (<a href="https://github.com/GPGTools/GPGTools/blob/master/README.markdown">not GPG2, yet</a>), GPGAgent, and GPGPinentry.</li>
