@@ -1,4 +1,4 @@
-<!doctype html>  
+<!doctype html>
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
 <!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
 <!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
@@ -14,7 +14,8 @@
   <meta name="robots" content="all" />
   <link rel="shortcut icon" href="./favicon.ico">
   <link rel="apple-touch-icon" href="./apple-touch-icon.png">
-  <link rel="stylesheet" href="./css/style.css?v=2" media="all">
+  <link rel="stylesheet" media="all" href="./css/style.css?v=2">
+  <link rel="stylesheet" media="screen and (min-width: 1024px)" href="./css/badge.css?v=2" />
   <link href="http://twitter.com/statuses/user_timeline/170783148.rss" rel="alternate" title="Recent Tweets" type="application/rss+xml" />
   <script src="./js/libs/modernizr-1.6.min.js"></script>
 </head>
@@ -34,5 +35,9 @@
               <li><a href="about.php">About</a></li>
             </ul>
           </div>
+          <a id="badge" href="http://gpgtools.lighthouseapp.com/tickets">
+              <span>We need developers!</span>
+              <span>Fix an issue ;)</span>
+          </a>
       </div>
     </header>
