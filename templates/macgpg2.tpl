@@ -1,7 +1,7 @@
 {extends file="index.tpl"}
 {block name=body}
     <div id="overview">
-      <div id="o_content"><img src="./images/gpgtools.png" alt="MacGPG2" title="MacGPG2" class="logo"/> <h2>MacGPG2</h2></div>
+      <div id="o_content"><img src="./images/macgpg2.png" alt="MacGPG2" title="MacGPG2" class="logo"/> <h2>MacGPG2</h2></div>
     </div>
     <div id="spacer">
     </div>

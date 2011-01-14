@@ -19,7 +19,8 @@
             <ul class="sub projects">
                 <li><div class="project"><a href="keychain.html"><img src="./images/gpgkeychain.png" alt="Keychain for OpenPGP" title="Keychain for OpenPGP" class="logo"/><br/>GPG Keychain Access</a></div></li>
                 <li><div class="project"><a href="gpgmail.html"><img src="./images/gpgmail.png" alt="OpenPGP plugin for Apple Mail" title="OpenPGP plugin for Apple Mail" class="logo"/><br/>GPGMail</a></div></li>
-                <li><div class="project"><a href="macgpg2.html"><img src="./images/gpgtools.png" alt="Mac OS X bindings for GnuPG 2.x" title="Mac OS X bindings for GnuPG 2.x" class="logo"/><br/>MacGPG2</a></div></li>
+                <li><div class="project"><a href="macgpg2.html"><img src="./images/macgpg2.png" alt="Mac OS X bindings for GnuPG 2.x" title="Mac OS X bindings for GnuPG 2.x" class="logo"/><br/>MacGPG2</a></div></li>
+                <li><div class="project"><a href="gpgservices.html"><img src="./images/gpgservices.png" alt="Mac OS X GPG Services Menu" title="Mac OS X GPG Services Menu" class="logo"/><br/>GPGServices</a></div></li>
             </ul>
             <h3 class="clear">Related Projects</h3>
             <p>List of related projects that are included in the installer.</p>
