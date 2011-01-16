@@ -6,12 +6,12 @@
     <div id="spacer">
     </div>
     <div id="info">
-    <a href="https://github.com/downloads/GPGMail/GPGKeychainAccess/GPGKeychainAccess-0_3_1b.tar.bz2" class='piwik_download'><img src="./images/download.png" title="download" alt="download" id="download"/></a>
-    <h3><a href="https://github.com/downloads/GPGMail/GPGKeychainAccess/GPGKeychainAccess-0_3_1b.tar.bz2" class='piwik_download'>Download</a></h3>
-    <p>Version 0.3.1b</p>
+    <a href="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess-0_8_0b.tar.bz2" class='piwik_download'><img src="./images/download.png" title="download" alt="download" id="download"/></a>
+    <h3><a href="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess-0_8_0b.tar.bz2" class='piwik_download'>Download</a></h3>
+    <p>Version 0.8.0b</p>
     <p>11. December 2010.</p>
     <p>Requires OS X >= 10.5.</p>
-    <p><br>(<a href="https://github.com/downloads/GPGMail/GPGKeychainAccess/GPGKeychainAccess-0_3_1b.tar.bz2.asc" class='piwik_download'>signature</a> | <a href="http://github.com/gpgmail/GPGKeychainAccess/downloads">others</a> | <a href="http://github.com/gpgmail/GPGKeychainAccess/">src</a>)</p>
+    <p><br>(<a href="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess-0_8_0b.tar.bz2.asc" class='piwik_download'>signature</a> | <a href="http://github.com/GPGTools/GPGKeychainAccess/downloads">others</a> | <a href="http://github.com/GPGTools/GPGKeychainAccess/">src</a>)</p>
     </div>
     <div id="main">
         <div id="m_content">
@@ -40,13 +40,10 @@
               <li><script type="text/javascript" src="http://osx.iusethis.com/app/include/gpgkeychainaccess/1"></script><noscript><a href="http://osx.iusethis.com/app/gpgkeychainaccess">GPG Keychain Access on iusethis</a></noscript></li>
             </ul>
             <h3>Release Notes</h3>
-            <p>Also have a look at the <a href="https://github.com/GPGMail/GPGKeychainAccess/commits/master">list of last changes</a>.<br/><br/></p>
-            <p><b>Version 0.3.1 (11.12.2010).</b></p>
+            <p>Also have a look at the <a href="https://github.com/GPGTools/GPGKeychainAccess/commits/master">list of last changes</a>.<br/><br/></p>
+            <p><b>Version 0.8.0 (16.01.2011).</b></p>
             <ul class="sub">
-                <li>Right click context menu.</li>
-                <li>Added new icons.</li>
-                <li>Added support for algorithm preferences.</li>
-                <li>Showing validity.</li>
+                <li>Added support for MacGPG2-2.0.17.</li>
             </ul>
         </div>
     </div>
