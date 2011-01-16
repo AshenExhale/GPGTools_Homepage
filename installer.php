@@ -15,7 +15,7 @@ $theSite->assign('overview', 'GPGTools Installer is an open source installer for
 $theSite->assign('support', 'Please have a look at the <a href="http://gpgtools.lighthouseapp.com/tickets">issue section</a> and ask <a href="mailto:gpgtools-users@lists.gpgtools.org">the mailing list</a> for further support.');
 
 $features = array(
-'gpgtools.png' => array('Integrated GPG1 (<a href=\'https://github.com/GPGTools/GPGTools/blob/master/README.markdown\'>not GPG2, yet</a>), GPGAgent, and GPGPinentry', 'GPG1, GPGAgent, GPGPinentry'),
+'macgpg2.png' => array('Integrated GPG1 (<a href="macgpg2.html">GPG2</a> will be added very soon), GPGAgent, and GPGPinentry', 'GPG1, GPGAgent, GPGPinentry'),
 'gpgmail.png' => array('Integrated <a href="gpgmail.html">GPGMail</a>', 'GPGMail'),
 'gpgkeychain.png' => array('Integrated <a href="keychain.html">GPG Keychain Access</a>', 'GPG Keychain Access'),
 'enigmail.png' => array('Integrated <a href="http://enigmail.mozdev.org/">Enigmail</a>', 'Mozilla Enigmail'),
