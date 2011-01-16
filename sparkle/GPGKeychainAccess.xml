@@ -62,6 +62,19 @@
 					   type="application/octet-stream" />
 		</item>
 
+		<item>
+			<title>Version 0.8.0b</title>
+			<description>GPG Keychain Access Version 0.8.0b</description>
+			<sparkle:releaseNotesLink>
+				http://gpgtools.github.com/GPGKeychainAccess/changelog_0.8.0b.html
+			</sparkle:releaseNotesLink>
+			<pubDate>Sun, 16 Jan 2011 12:40:00 +0100</pubDate>
+			<enclosure url="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess-0_8_0b.tar.bz2"
+					   sparkle:version="0.8.0b"
+					   sparkle:dsaSignature="MC4CFQCO61zx/KqfaHW6O0Xo5WXWEDY4ogIVAJGYjrvvOk3SfLBktrJiR9R9cSsm"
+					   length="1069156"
+					   type="application/octet-stream" />
+		</item>
 
 	</channel>
 </rss>	
