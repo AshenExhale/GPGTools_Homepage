@@ -9,7 +9,7 @@
     <a href="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess-0_8_0b.tar.bz2" class='piwik_download'><img src="./images/download.png" title="download" alt="download" id="download"/></a>
     <h3><a href="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess-0_8_0b.tar.bz2" class='piwik_download'>Download</a></h3>
     <p>Version 0.8.0b</p>
-    <p>11. December 2010.</p>
+    <p>16. January 2011.</p>
     <p>Requires OS X >= 10.5.</p>
     <p><br>(<a href="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess-0_8_0b.tar.bz2.asc" class='piwik_download'>signature</a> | <a href="http://github.com/GPGTools/GPGKeychainAccess/downloads">others</a> | <a href="http://github.com/GPGTools/GPGKeychainAccess/">src</a>)</p>
     </div>
