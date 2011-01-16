@@ -1,18 +1,6 @@
 {extends file="index.tpl"}
 {block name=body}
-    <div id="overview">
-      <div id="o_content"><img src="./images/gpgkeychain.png" alt="GPG Keychain Access" title="GPG Keychain Access" class="logo"/> <h2>GPG Keychain Access</h2></div>
-    </div>
-    <div id="spacer">
-    </div>
-    <div id="info">
-    <a href="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess-0_8_0b.tar.bz2" class='piwik_download'><img src="./images/download.png" title="download" alt="download" id="download"/></a>
-    <h3><a href="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess-0_8_0b.tar.bz2" class='piwik_download'>Download</a></h3>
-    <p>Version 0.8.0b</p>
-    <p>16. January 2011.</p>
-    <p>Requires OS X >= 10.5.</p>
-    <p><br>(<a href="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess-0_8_0b.tar.bz2.asc" class='piwik_download'>signature</a> | <a href="http://github.com/GPGTools/GPGKeychainAccess/downloads">others</a> | <a href="http://github.com/GPGTools/GPGKeychainAccess/">src</a>)</p>
-    </div>
+{include file="templates/download.tpl"}
     <div id="main">
         <div id="m_content">
             <h3>Overview</h3>

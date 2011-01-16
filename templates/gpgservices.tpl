@@ -1,18 +1,6 @@
 {extends file="index.tpl"}
 {block name=body}
-    <div id="overview">
-      <div id="o_content"><img src="./images/gpgtools.png" alt="GPGServices" title="GPGServices" class="logo"/> <h2>GPGServices</h2></div>
-    </div>
-    <div id="spacer">
-    </div>
-    <div id="info">
-    <a href="https://github.com/GPGTools/GPGServices/downloads/GPGServices-1.1a1.dmg" class='piwik_download'><img src="./images/download.png" title="download" alt="download" id="download"/></a>
-    <h3><a href="https://github.com/GPGTools/GPGServices/downloads/GPGServices-1.1a1.dmg" class='piwik_download'>Download</a></h3>
-    <p>Version 1.1 alpha1.</p>
-    <p>14. January 2011.</p>
-    <p>Requires OS X >= 10.5.</p>
-    <p><br>(<a href="https://github.com/GPGTools/GPGServices/downloads/GPGServices-1.1a1.dmg.sig" class='piwik_download'>signature</a> | <a href="http://github.com/GPGTools/GPGServices/downloads">others</a> | <a href="http://github.com/GPGTools/GPGServices/">src</a>)</p>
-    </div>
+{include file="templates/download.tpl"}
     <div id="main">
         <div id="m_content">
             <h3>Overview</h3>

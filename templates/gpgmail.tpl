@@ -1,18 +1,6 @@
 {extends file="index.tpl"}
 {block name=body}
-    <div id="overview">
-      <div id="o_content"><img src="./images/gpgmail.png" alt="GPGMail" title="GPGMail" class="logo"/> <h2>GPGMail</h2></div>
-    </div>
-    <div id="spacer">
-    </div>
-    <div id="info">
-    <a href="http://github.com/downloads/gpgmail/GPGMail/GPGMail-1.3.1.pkg" class='piwik_download'><img src="./images/download.png" title="download" alt="download" id="download"/></a>
-    <h3><a href="http://github.com/downloads/gpgmail/GPGMail/GPGMail-1.3.1.pkg" class='piwik_download'>Download</a></h3>
-    <p>Version 1.3.1.</p>
-    <p>16. November 2010.</p>
-    <p>Requires OS X >= 10.6.</p>
-    <p><br>(<a href="http://github.com/downloads/gpgmail/GPGMail/GPGMail-1.3.1.pkg.sig" class='piwik_download'>signature</a> | <a href="http://github.com/gpgmail/GPGMail/downloads">others</a> | <a href="http://github.com/gpgmail/GPGMail/">src</a>)</p>
-    </div>
+{include file="templates/download.tpl"}
     <div id="main">
         <div id="m_content">
             <h3>Overview</h3>
