@@ -18,7 +18,10 @@ $features = array(
 );
 $theSite->assign('features', $features);
 
-$theSite->assign('screenshots', "");
+$screenshots = array(
+'gpgservices_prefs.png' => 'Enable the services in the preferences'
+);
+$theSite->assign('screenshots', $screenshots);
 $theSite->assign('screencasts', "");
 $theSite->assign('macupdate', "");
 $theSite->assign('iusethis', "");
