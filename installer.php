@@ -15,7 +15,8 @@ $theSite->assign('overview', 'GPGTools Installer is an open source installer for
 $theSite->assign('lighthouse', '65162');
 
 $limitations = array(
-'36' => 'System wide installation not possible'
+'36' => 'System wide installation not possible',
+'37' => 'Installer breaks GPG2 installations (solved in the next release)',
 );
 $theSite->assign('limitations', $limitations);
 
