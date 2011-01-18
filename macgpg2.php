@@ -12,7 +12,9 @@ $theSite->assign('date', '31. October 2010');
 $theSite->assign('reqs', 'OS X >= 10.4');
 
 $theSite->assign('overview', 'MacGPG2 is the Mac OS X port of GnuPG, licensed under the GNU GPL. The aims of the project are to make GnuPG easy to install, provide a native MacOSX pinentry utility and interact with existing GnuPG tools for MacOSX.');
-$theSite->assign('support', 'Please have a look at the <a href="http://gpgtools.lighthouseapp.com/projects/66001/tickets">issue section</a> and ask <a href="mailto:gpgtools-users@lists.gpgtools.org">the mailing list</a> for further support.');
+$theSite->assign('lighthouse', '66001');
+
+$theSite->assign('limitations', "");
 
 $features = array(
 'installericon.png' => array('Will be part of the <a href="installer.html" title="our main project: the installer">GPGTools Installer</a> soon', 'Installer')

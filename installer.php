@@ -12,7 +12,12 @@ $theSite->assign('date', '05. January 2011');
 $theSite->assign('reqs', 'OS X 10.6');
 
 $theSite->assign('overview', 'GPGTools Installer is an open source installer for Apple OS X. It installs all related OpenPGP applications, plugins and dependencies. This is a BETA version so use at your own risk - also currently you cannot use the installer when you have GnuPG2 already installed. But we are working on it.');
-$theSite->assign('support', 'Please have a look at the <a href="http://gpgtools.lighthouseapp.com/tickets">issue section</a> and ask <a href="mailto:gpgtools-users@lists.gpgtools.org">the mailing list</a> for further support.');
+$theSite->assign('lighthouse', '65162');
+
+$limitations = array(
+'36' => 'System wide installation not possible'
+);
+$theSite->assign('limitations', $limitations);
 
 $features = array(
 'macgpg2.png' => array('Integrated GnuPG1 (<a href="macgpg2.html">GnuPG2</a> will be added very soon), gpg-agent, and pinentry-mac', 'gpg1, gpg-agent, pinentry-mac'),

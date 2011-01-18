@@ -10,8 +10,16 @@ $theSite->assign('url_sig', 'GPGMail-1.3.1.pkg.sig');
 $theSite->assign('version', '1.3.1');
 $theSite->assign('date', '16. November 2010');
 $theSite->assign('reqs', 'OS X 10.6');
-$theSite->assign('overview', 'GPGMail is an open source plugin for Apple Mail. It brings the functionality to sign, verify, encrypt and decrypt mails using the OpenPGP standard.');
-$theSite->assign('support', 'Please have a look at the <a href="https://github.com/GPGMail/GPGMail/wiki/Getting-started">getting started</a> and <a href="http://gpgmail.org/faq">FAQ</a> section. Also have a look at the <a href="http://gpgtools.lighthouseapp.com/projects/65764/tickets">issue section</a> and ask <a href="mailto:gpgtools-users@lists.gpgtools.org">the mailing list</a> for further support. It would be nice to <a href="http://www.apple.com/feedback/macosx.html">tell Apple</a> to support bundles for Mail.app officially.');
+
+$theSite->assign('overview', '<p>GPGMail is an open source plugin for Apple Mail. It brings the functionality to sign, verify, encrypt and decrypt mails using the OpenPGP standard.</p><p>Please have a look at the <a href="https://github.com/GPGMail/GPGMail/wiki/Getting-started">getting started</a> and <a href="http://gpgmail.org/faq">FAQ</a> section. It would be nice to <a href="http://www.apple.com/feedback/macosx.html">tell Apple</a> to support bundles for Mail.app officially.</p>');
+$theSite->assign('lighthouse', '65764');
+
+$limitations = array(
+'11' => 'Unread count goes out of sync',
+'94' => 'OpenType fonts are not displayed',
+'107' => 'Automatic update not working the system wide installations'
+);
+$theSite->assign('limitations', $limitations);
 
 $features = array(
 'installericon.png' => array('Is part of the <a href="installer.html" title="our main project: the installer">GPGTools Installer</a>', 'Installer'),

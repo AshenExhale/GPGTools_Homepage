@@ -23,8 +23,19 @@
         <div id="m_content">
             <h3>Overview</h3>
             <p>{$overview}<br/><br/></p>
-            <h3>Support</h3>
-            <p>{$support}<br/><br/></p>
+            <h3>Support and Current Limitations</h3>
+            <p>Please have a look at the <a href="http://gpgtools.lighthouseapp.com/projects/{$lighthouse}/tickets?q=state%3Aopen&filter=">list of open issues</a> and ask <a href="mailto:gpgtools-users@lists.gpgtools.org">the mailing list</a> for further support.</p>
+            {if is_array($limitations)}
+            <p>Most annoying limitation currently are:</p>
+            <ul id="limitations" class="sub">
+               {foreach from=$limitations key=l_id item=l_title}
+                <li><a href="http://gpgtools.lighthouseapp.com/projects/{$lighthouse}/tickets/{$l_id}">Issue #{$l_id}</a>: {$l_title}.</li>
+                {/foreach}
+            </ul>
+            {else}
+            <p><br/><br/></p>
+            {/if}
+
             {if is_array($features)}
             <h3>Main Features</h3>
             <ul id="features" class="sub">
@@ -50,8 +61,8 @@
             </ul>
             {/if}
             {if $macupdate neq '' or $iusethis neq ''}
-            <h3>What others say</h3>
-            <p>Ratings and other information from other sites.</p>
+            <h3>Software Portals</h3>
+            <p>Ratings and user comments on other sites.</p>
             <ul id="other" class="sub">
             {if $macupdate neq ''}<li><script type='text/javascript' src='http://www.macupdate.com/developers/badge/{$macupdate}'></script><noscript><a href="http://www.macupdate.com/app/mac/{$macupdate}" title='{$title} on MacUpdate'>{$title} on MacUpdate</a></noscript></li>{/if}
             {if $iusethis neq ''}<li><script type="text/javascript" src="http://osx.iusethis.com/app/include/{$iusethis}/1"></script><noscript><a href="http://osx.iusethis.com/app/{$iusethis}" title='{$title} on iusethis'>{$title} on iusethis</a></noscript></li>{/if}

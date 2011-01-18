@@ -10,8 +10,11 @@ $theSite->assign('url_sig', 'GPGKeychainAccess-0_8_0b.tar.bz2.asc');
 $theSite->assign('version', '0.8.0b');
 $theSite->assign('date', '16. January 2011');
 $theSite->assign('reqs', 'OS X >= 10.5');
-$theSite->assign('overview', 'GPG Keychain Access is an open source application for Apple OS X. It brings the functionality to manage OpenPGP keys.');
-$theSite->assign('support', 'Please have a look at the <a href="https://github.com/GPGTools/GPGKeychainAccess/wiki/Getting-started">getting started</a> and <a href="http://gpgtools.lighthouseapp.com/projects/65684/tickets">issue</a> section and ask <a href="mailto:gpgtools-users@lists.gpgtools.org">the mailing list</a> for further support.');
+
+$theSite->assign('overview', 'GPG Keychain Access is an open source application for Apple OS X. It brings the functionality to manage OpenPGP keys. Please have a look at the <a href="https://github.com/GPGTools/GPGKeychainAccess/wiki/Getting-started">getting started</a> wiki.');
+$theSite->assign('lighthouse', '65684');
+
+$theSite->assign('limitations', "");
 
 $features = array(
 'installericon.png' => array('Is part of the <a href="installer.html" title="our main project: the installer">GPGTools Installer</a>', 'Installer'),
