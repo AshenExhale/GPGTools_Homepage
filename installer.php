@@ -16,7 +16,7 @@ $theSite->assign('lighthouse', '65162');
 
 $limitations = array(
 '36' => 'System wide installation not possible',
-'37' => 'Installer breaks GPG2 installations (solved in the next release)',
+'37' => 'Installer breaks GPG2 installations (already solved in the next <a href="http://github.com/GPGTools/GPGTools/downloads">current beta</a>)',
 );
 $theSite->assign('limitations', $limitations);
 
