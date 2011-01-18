@@ -16,7 +16,7 @@ $theSite->assign('lighthouse', '67607');
 
 $limitations = array(
 '4' => 'Services are not automatically enabled',
-'10' => 'Encryption and decryption is not implemented'
+'10' => 'Encryption is not implemented (decryption implemented in the sources)'
 );
 $theSite->assign('limitations', $limitations);
 
