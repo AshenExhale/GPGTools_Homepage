@@ -12,6 +12,9 @@ clean:
 	@echo "Cleaning..."
 	@rm -fr template_c
 
+web:
+	@open http://gpgtools.org
+
 check:
 	@echo "Checking..."
 	# not html5 compatible, yet
