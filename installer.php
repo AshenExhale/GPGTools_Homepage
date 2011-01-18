@@ -11,7 +11,7 @@ $theSite->assign('version', '2011.01.05_1');
 $theSite->assign('date', '05. January 2011');
 $theSite->assign('reqs', 'OS X 10.6');
 
-$theSite->assign('overview', 'GPGTools Installer is an open source installer for Apple OS X. It installs all related OpenPGP applications, plugins and dependencies. This is a BETA version so use at your own risk - also currently you cannot use the installer when you have GnuPG2 already installed. But we are working on it.');
+$theSite->assign('overview', 'GPGTools Installer is an open source installer for Apple OS X. It installs all related OpenPGP applications, plugins and dependencies.');
 $theSite->assign('lighthouse', '65162');
 
 $limitations = array(
