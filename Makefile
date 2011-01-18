@@ -2,7 +2,7 @@ all: show
 
 show: compile
 	@echo "Opening..."
-	@open index.html
+	@./build/run.sh
 
 compile: clean
 	@echo "Compiling..."
