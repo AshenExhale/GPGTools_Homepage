@@ -27,7 +27,9 @@ $features = array(
 $theSite->assign('features', $features);
 
 $screenshots = array(
-'gpgservices_prefs.png' => 'Enable the services in the preferences'
+'gpgservices_prefs.png' => 'Enable the services in the preferences',
+'gpgservices_verify.png' => 'Verify a text selection',
+'gpgservices_insert.png' => 'Insert your own key',
 );
 $theSite->assign('screenshots', $screenshots);
 $theSite->assign('screencasts', "");
