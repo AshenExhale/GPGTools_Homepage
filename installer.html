@@ -45,77 +45,71 @@
 
 
     <div id="overview">
-      <div id="o_content"><img src="./images/gpginstaller.png" alt="GPGTools Installer" title="GPGTools Installer" class="logo"/> <h2>Installer</h2></div>
+      <div id="o_content"><img src="./images/gpginstaller.png" alt="Installer" title="Installer" class="logo"/> <h2>Installer</h2></div>
     </div>
     <div id="spacer">
     </div>
     <div id="info">
-    <a href="https://github.com/downloads/GPGTools/GPGTools/GPGTools-20110105_1.dmg" class='piwik_download'><img src="./images/download.png" title="download" alt="download" id="download"/></a>
-    <h3><a href="https://github.com/downloads/GPGTools/GPGTools/GPGTools-20110105_1.dmg" class='piwik_download'>Download</a></h3>
-    <p>Version 2011.01.05_1</p>
-    <p>05. January 2011.</p>
-    <p>Requires Mac OS X 10.6.</p>
-    <p><br>(<a href="https://github.com/downloads/GPGTools/GPGTools/GPGTools-20110105_1.dmg.sig" class='piwik_download'>signature</a> | <a href="http://github.com/GPGTools/GPGTools/downloads">others</a> | <a href="http://github.com/GPGTools/GPGTools/">src</a>)</p>
+    <a href="https://github.com/downloads/GPGTools/GPGTools/GPGTools-20110118_beta1.dmg" class='piwik_download' title='start the download'><img src="./images/download.png" title="download" alt="download" id="download"/></a>
+    <h3><a href="https://github.com/downloads/GPGTools/GPGTools/GPGTools-20110118_beta1.dmg" class='piwik_download' title='start the download'>Download</a></h3>
+    <p>Version 2011.01.18beta1.</p>
+    <p>18. January 2011.</p>
+    <p>Requires OS X 10.6.</p>
+    <p>
+        <br>
+        (<a href="https://github.com/downloads/GPGTools/GPGTools/GPGTools-20110118_beta1.dmg.sig" class='piwik_download' title='the signature'>sig</a> |
+        <a href="https://github.com/GPGTools/GPGTools/downloads" title='other files and versions'>others</a> |
+        <a href="https://github.com/GPGTools/GPGTools" title='the sources of this project'>src</a> |
+        <a href="https://github.com/GPGTools/GPGTools/raw/master/LICENSE.txt" title='the license of this project'>license</a>)
+    </p>
     </div>
     <div id="main">
         <div id="m_content">
             <h3>Overview</h3>
-            <p>GPGTools Installer is an open source installer for Apple OS X. It installs all related OpenPGP applications, plugins and dependencies. This is a BETA version so use at your own risk - also currently you cannot use the installer when you've GnuPG2 already installed. But we're working on it.<br/><br/></p>
-                        <h3>Support</h3>
-            <p>Please have a look at the <a href="http://gpgtools.lighthouseapp.com/tickets">issue section</a> and ask <a href="mailto:gpgtools-users@lists.gpgtools.org">the mailing list</a> for further support.<br/><br/></p>
-            <h3>Main Features</h3>
+            <p>GPGTools Installer is an open source installer for Apple OS X. It installs all related OpenPGP applications, plugins and dependencies.<br/><br/></p>
+            <h3>Support and Current Limitations</h3>
+            <p>Please have a look at the <a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets?q=state%3Aopen&amp;filter=">list of open issues</a> and ask <a href="mailto:gpgtools-users@lists.gpgtools.org">the mailing list</a> for further support.</p>
+                        <p>Most annoying limitations currently are:</p>
+            <ul id="limitations" class="sub">
+                               <li><a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/36">Issue #36</a>: System wide installation not possible.</li>
+                            </ul>
+            
+                        <h3>Main Features</h3>
             <ul id="features" class="sub">
-                <li><img src="./images/gpgtools.png" alt="Core" title="Core" id="core" class="icon" /> Integrated GPG1 (<a href="https://github.com/GPGTools/GPGTools/blob/master/README.markdown">not GPG2, yet</a>), GPGAgent, and GPGPinentry.</li>
-                <li><img src="./images/gpgmail.png" alt="GPGMail" title="GPGMail" id="gpgmail" class="icon" /> Integrated <a href="gpgmail.html">GPGMail</a>.</li>
-                <li><img src="./images/gpgkeychain.png" alt="GPG Keychain Access" title="GPG Keychain Access" id="gpgkeychain" class="icon" /> Integrated <a href="keychain.html">GPG Keychain Access</a>.</li>
-                <li><img src="./images/enigmail.png" alt="Enigmail" title="Enigmail" id="enigmail" class="icon" /> Integrated <a href="http://enigmail.mozdev.org/">Enigmail</a>.</li>
-                <li><img src="./images/64bit.jpg" alt="64 Bit" title="64 Bit" id="64bit" class="icon" /> The application is 64-bit and Snow Leopard ready.</li>
-            </ul>
-            <h3>Screenshots</h3>
+                               <li><img src="./images/macgpg2.png" alt="gpg2, gpg-agent, pinentry-mac" title="gpg2, gpg-agent, pinentry-mac" class="icon" /> Integrated <a href="macgpg2.html">MacGPG2</a>.</li>
+                                <li><img src="./images/gpgmail.png" alt="GPGMail" title="GPGMail" class="icon" /> Integrated <a href="gpgmail.html">GPGMail</a>.</li>
+                                <li><img src="./images/gpgkeychain.png" alt="GPG Keychain Access" title="GPG Keychain Access" class="icon" /> Integrated <a href="keychain.html">GPG Keychain Access</a>.</li>
+                                <li><img src="./images/gpgservices.png" alt="GPGServices" title="GPGServices" class="icon" /> Integrated <a href="gpgservices.html">GPGServices</a>.</li>
+                                <li><img src="./images/enigmail.png" alt="Mozilla Enigmail" title="Mozilla Enigmail" class="icon" /> Integrated <a href="http://enigmail.mozdev.org/">Enigmail</a>.</li>
+                                <li><img src="./images/64bit.jpg" alt="Snow Leopard" title="Snow Leopard" class="icon" /> The application is 64-bit and Snow Leopard ready.</li>
+                            </ul>
+                                    <h3>Screenshots</h3>
             <ul class="sub projects">
-                <li><a href="./images/installer_dmg.png"><img class="screenshot" src="./images/installer_dmg.png" alt="The installation volume" title="The installation volume" /><br />The installation volume</a></li>
-                <li><a href="./images/installer.png"><img class="screenshot" src="./images/installer.png" alt="List of components in the installer" title="List of components in the installer" /><br />List of components in the installer</a></li>
-            </ul>
-            <h3>Screencasts</h3>
+                            <li><a href="./images/installer_dmg.png"><img class="screenshot" src="./images/installer_dmg.png" alt="The installation volume" title="The installation volume" /><br/>The installation volume</a>.</li>
+                            <li><a href="./images/installer.png"><img class="screenshot" src="./images/installer.png" alt="List of components in the installer" title="List of components in the installer" /><br/>List of components in the installer</a>.</li>
+                        </ul>
+                                    <h3>Screencasts</h3>
             <ul class="sub projects">
-                <li><a href="http://www.gpgtools.org/videos/install_gpgtools.m4v"><img class="screenshot" src="./images/screencast.jpg" alt="install gpgtools" title="install gpgtools" /><br />Install GPGTools</a></li>
-            </ul>
-            <h3>What others say</h3>
-            <p>Ratings and other information from other sites.</p>
+                            <li><a href="http://www.gpgtools.org/videos/install_gpgtools.m4v" title='Install GPGTools'><img class="screenshot" src="./images/screencast.jpg" alt="Install GPGTools" title="Install GPGTools" /><br />Install GPGTools</a>.</li>
+                        </ul>
+                                    <h3>Software Portals</h3>
+            <p>Ratings and user comments on other sites.</p>
             <ul id="other" class="sub">
-            <!--<li><script type='text/javascript' src='http://www.macupdate.com/developers/badge/11136'></script><noscript><a href="http://www.macupdate.com/app/mac/11136">GPGTools on MacUpdate</a></noscript></li>-->
-            <li><script type="text/javascript" src="http://osx.iusethis.com/app/include/gpgtools/1"></script><noscript><a href="http://osx.iusethis.com/app/gpgtools">GPGTools on iusethis</a></noscript></li>
-            </ul>
-            <h3>Release Notes</h3>
-            <p>Also have a look at the <a href="https://github.com/GPGTools/GPGTools/commits/master">list of last changes</a>.<br/><br/></p>
-            <p><b>Version 2011.01.05_1 (05.01.2011).</b></p>
+            <li><script type='text/javascript' src='http://www.macupdate.com/developers/badge/9417'></script><noscript><a href="http://www.macupdate.com/app/mac/9417" title='Installer on MacUpdate'>Installer on MacUpdate</a></noscript></li>            <li><script type="text/javascript" src="http://osx.iusethis.com/app/include/gpgtools/1"></script><noscript><a href="http://osx.iusethis.com/app/gpgtools" title='Installer on iusethis'>Installer on iusethis</a></noscript></li>            </ul>
+                        <h3>Release Notes</h3>
+            <p>Also have a look at the <a href="https://github.com/GPGTools/GPGTools/commits/master" title='last commits'>list of last changes</a>.<br/><br/></p>
+            <p><b>Version 2011.01.18beta1 (18. January 2011).</b></p>
             <ul class="sub">
-                <li>Update: GPGMail 1.3.2beta.</li>
-                <li><a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/15">Issue 15</a>: Fixed check for OS requirements.</li>
-                <li><a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/26">Issue 26</a>: Fixed permission issues.</li>
-                <li><a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/16">Issue 27</a>: Added check for GPG2.</li>
-            </ul>
-            <p><b>Version 2011.01.03 (03.01.2011).</b></p>
-            <ul class="sub">
-                <li><a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/14">Issue 14</a>: Resized the window a bit.</li>
-                <li><a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/15">Issue 15</a>: Now checking for OS requirements.</li>
-                <li><a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/16">Issue 16</a>: Fixed a bug related to gpg installed using fink.</li>
-            </ul>
-            <p><b>Version 2010.12.20 (20.12.2010).</b></p>
-            <ul class="sub">
-                <li>Added Enigmail</li>
-                <li>Updated GPG Keychain Access to 0.3.1b</li>
-                <li>Updated the background image</li>
-                <li>Removed the zip extension</li>
-            </ul>
-            <p><b>Version 2010.11.13 (13.11.2010).</b></p>
-            <ul class="sub">
-                <li>Updated GPG Keychain Access to 0.2.2b</li>
-                <li>Added explanation why we use GnuPG1 and not GnuPG2</li>
-                <li>Right name for the Uninstaller</li>
-                <li>Fixed path in zip file</li>
-                <li>Added script to create DMG</li>
-            </ul>
+                            <li>Update: GPGMail 1.3.2rc1.</li>
+                            <li>Update: GPG Keychain Access 0.8.0b.</li>
+                            <li><a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/37">Issue 37</a>: Does not break GPG2 anymore.</li>
+                            <li><a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/9">Issue 9</a>: Now based on MacGPG2 2.0.17rc3.</li>
+                            <li><a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/34">Issue 34</a>: Added GPGServices.</li>
+                            <li><a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/28">Issue 28</a>: Updated uninstaller.</li>
+                            <li><a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/13">Issue 13</a>: Added pka support.</li>
+                            <li><a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/12">Issue 12</a>: Remove start-gpg-agent.</li>
+                            <li><a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/29">Issue 29</a>: Updated icons.</li>
+                        </ul>
         </div>
     </div>
 
