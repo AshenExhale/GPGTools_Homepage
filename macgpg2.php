@@ -17,7 +17,7 @@ $theSite->assign('lighthouse', '66001');
 $theSite->assign('limitations', "");
 
 $features = array(
-'installericon.png' => array('Will be part of the <a href="installer.html" title="our main project: the installer">GPGTools Installer</a> soon', 'Installer')
+'installericon.png' => array('Is part of the <a href="installer.html" title="our main project: the installer">GPGTools Installer</a>', 'Installer'),
 );
 $theSite->assign('features', $features);
 $theSite->assign('screenshots', "");

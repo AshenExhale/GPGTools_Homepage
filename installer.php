@@ -5,10 +5,10 @@ require('libs/Smarty.config.php');
 $theSite->assign('title', 'Installer');
 $theSite->assign('img_logo', 'gpginstaller.png');
 $theSite->assign('url_base', 'GPGTools/GPGTools');
-$theSite->assign('url_dl', 'GPGTools-20110105_1.dmg');
-$theSite->assign('url_sig', 'GPGTools-20110105_1.dmg.sig');
-$theSite->assign('version', '2011.01.05_1');
-$theSite->assign('date', '05. January 2011');
+$theSite->assign('url_dl', 'GPGTools-20110118_beta1.dmg');
+$theSite->assign('url_sig', 'GPGTools-20110118_beta1.dmg.sig');
+$theSite->assign('version', '2011.01.18beta1');
+$theSite->assign('date', '18. January 2011');
 $theSite->assign('reqs', 'OS X 10.6');
 
 $theSite->assign('overview', 'GPGTools Installer is an open source installer for Apple OS X. It installs all related OpenPGP applications, plugins and dependencies.');
@@ -16,14 +16,14 @@ $theSite->assign('lighthouse', '65162');
 
 $limitations = array(
 '36' => 'System wide installation not possible',
-'37' => 'Installer breaks GPG2 installations (already solved in the <a href="http://github.com/GPGTools/GPGTools/downloads">current beta</a>)',
 );
 $theSite->assign('limitations', $limitations);
 
 $features = array(
-'macgpg2.png' => array('Integrated GnuPG1 (<a href="macgpg2.html">GnuPG2</a> will be added very soon), gpg-agent, and pinentry-mac', 'gpg1, gpg-agent, pinentry-mac'),
+'macgpg2.png' => array('Integrated <a href="macgpg2.html">MacGPG2</a>', 'gpg2, gpg-agent, pinentry-mac'),
 'gpgmail.png' => array('Integrated <a href="gpgmail.html">GPGMail</a>', 'GPGMail'),
 'gpgkeychain.png' => array('Integrated <a href="keychain.html">GPG Keychain Access</a>', 'GPG Keychain Access'),
+'gpgservices.png' => array('Integrated <a href="gpgservices.html">GPGServices</a>', 'GPGServices'),
 'enigmail.png' => array('Integrated <a href="http://enigmail.mozdev.org/">Enigmail</a>', 'Mozilla Enigmail'),
 '64bit.jpg' => array('The application is 64-bit and Snow Leopard ready', 'Snow Leopard')
 );
@@ -40,14 +40,19 @@ $screencasts = array(
 );
 $theSite->assign('screencasts', $screencasts);
 
-$theSite->assign('macupdate', "");
+$theSite->assign('macupdate', "9417");
 $theSite->assign('iusethis', "gpgtools");
 
 $changelog = array(
-'Update: GPGMail 1.3.2beta',
-'<a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/15">Issue 15</a>: Fixed check for OS requirements',
-'<a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/26">Issue 26</a>: Fixed permission issues',
-'<a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/16">Issue 27</a>: Added check for GPG2'
+'Update: GPGMail 1.3.2rc1',
+'Update: GPG Keychain Access 0.8.0b',
+'<a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/37">Issue 37</a>: Does not break GPG2 anymore',
+'<a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/9">Issue 9</a>: Now based on MacGPG2 2.0.17rc3',
+'<a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/34">Issue 34</a>: Added GPGServices',
+'<a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/28">Issue 28</a>: Updated uninstaller',
+'<a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/13">Issue 13</a>: Added pka support',
+'<a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/12">Issue 12</a>: Remove start-gpg-agent',
+'<a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/29">Issue 29</a>: Updated icons',
 );
 $theSite->assign('changelog', $changelog);
 
