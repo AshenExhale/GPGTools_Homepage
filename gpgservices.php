@@ -33,7 +33,7 @@ $screenshots = array(
 );
 $theSite->assign('screenshots', $screenshots);
 $theSite->assign('screencasts', "");
-$theSite->assign('macupdate', "");
+$theSite->assign('macupdate', "36566");
 $theSite->assign('iusethis', "gpgservices");
 
 $changelog = array(
