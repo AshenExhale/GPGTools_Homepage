@@ -16,7 +16,7 @@ $theSite->assign('lighthouse', '67607');
 
 $limitations = array(
 '4' => 'Services are not automatically enabled',
-'10' => 'Encryption is not implemented (decryption implemented in the sources)'
+'10' => 'Encryption is not implemented (GUI is missing only, decryption already implemented in the current sources)'
 );
 $theSite->assign('limitations', $limitations);
 
@@ -34,7 +34,7 @@ $screenshots = array(
 $theSite->assign('screenshots', $screenshots);
 $theSite->assign('screencasts', "");
 $theSite->assign('macupdate', "");
-$theSite->assign('iusethis', "");
+$theSite->assign('iusethis', "gpgservices");
 
 $changelog = array(
 "Now compatible with MacGPG 2.0.17",
