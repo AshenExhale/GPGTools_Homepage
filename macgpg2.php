@@ -21,7 +21,9 @@ $features = array(
 'installericon.png' => array('Is part of the <a href="installer.html" title="our main project: the installer">GPGTools Installer</a>', 'Installer'),
 );
 $theSite->assign('features', $features);
-$theSite->assign('screenshots', "");
+
+$screenshots = array("macgpg2_screenshot.png" => "MacGPG2 Installer");$theSite->assign('screenshots', $screenshots);
+
 $theSite->assign('screencasts', "");
 
 $theSite->assign('macupdate', "11136");
