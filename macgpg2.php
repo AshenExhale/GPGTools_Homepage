@@ -7,7 +7,7 @@ $theSite->assign('img_logo', 'macgpg2.png');
 $theSite->assign('url_base', 'GPGTools/MacGPG2');
 $theSite->assign('url_dl', 'MacGPG2-2.0.16.zip');
 $theSite->assign('url_sig', 'MacGPG2-2.0.16.zip.sig');
-$theSite->assign('url_beta', 'MacGPG2-2.0.17RC3.zip');
+$theSite->assign('url_beta', 'MacGPG2-2.0.17.zip');
 $theSite->assign('version', '2.0.16');
 $theSite->assign('date', '31. October 2010');
 $theSite->assign('reqs', 'OS X >= 10.4');
