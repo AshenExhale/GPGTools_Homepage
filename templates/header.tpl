@@ -26,7 +26,7 @@
     <header>
       <div id="foo">
           <div id="logo">
-            <a href="index.html"><img src="./images/gpgtools.png" alt="GPGTools" title="GPGTools" class="logo"/></a>
+            <a href="index.html"><img src="./images/macgpg2.png" alt="GPGTools" title="GPGTools" class="logo"/></a>
             <h1><a href="index.php" id="header">GPGTools</a></h1>
           </div>
           <div id="navigation">
