@@ -70,12 +70,18 @@
             {/if}
             <h3>Release Notes</h3>
             <p>Also have a look at the <a href="https://github.com/{$url_base}/commits/master" title='last commits'>list of last changes</a>.<br/><br/></p>
-            <p><b>Version {$version} ({$date}).</b></p>
-            <ul class="sub">
-            {foreach from=$changelog item=change}
-                <li>{$change}.</li>
+            {foreach from=$changelog key=cVersion item=changes}
+                <p><b>Version {$cVersion} ({$changes[0]}).</b></p>
+                <ul class="sub">
+                {foreach from=$changes[1] key=issue item=change}
+                    {if $issue > 0}
+                       <li><a href='http://gpgtools.lighthouseapp.com/projects/{$lighthouse}/tickets/{$issue}'>Issue {$issue}</a>: {$change}.</li>
+                    {else}
+                        <li>{$change}.</li>
+                    {/if}
+                {/foreach}
+                </ul>
             {/foreach}
-            </ul>
         </div>
     </div>
 {/block}
