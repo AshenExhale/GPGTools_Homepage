@@ -7,6 +7,7 @@ $theSite->assign('img_logo', 'gpgmail.png');
 $theSite->assign('url_base', 'GPGMail/GPGMail');
 $theSite->assign('url_dl', 'GPGMail-1.3.1.pkg');
 $theSite->assign('url_sig', 'GPGMail-1.3.1.pkg.sig');
+$theSite->assign('url_beta', 'GPGMail-1.3.2rc1.zip');
 $theSite->assign('version', '1.3.1');
 $theSite->assign('date', '16. November 2010');
 $theSite->assign('reqs', 'OS X 10.6');

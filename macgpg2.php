@@ -7,6 +7,7 @@ $theSite->assign('img_logo', 'macgpg2.png');
 $theSite->assign('url_base', 'GPGTools/MacGPG2');
 $theSite->assign('url_dl', 'MacGPG2-2.0.16.zip');
 $theSite->assign('url_sig', 'MacGPG2-2.0.16.zip.sig');
+$theSite->assign('url_beta', 'MacGPG2-2.0.17RC3.zip');
 $theSite->assign('version', '2.0.16');
 $theSite->assign('date', '31. October 2010');
 $theSite->assign('reqs', 'OS X >= 10.4');
@@ -20,7 +21,9 @@ $features = array(
 'installericon.png' => array('Is part of the <a href="installer.html" title="our main project: the installer">GPGTools Installer</a>', 'Installer'),
 );
 $theSite->assign('features', $features);
-$theSite->assign('screenshots', "");
+
+$screenshots = array("macgpg2_screenshot.png" => "MacGPG2 Installer");$theSite->assign('screenshots', $screenshots);
+
 $theSite->assign('screencasts', "");
 
 $theSite->assign('macupdate', "11136");
