@@ -5,11 +5,11 @@ require('libs/Smarty.config.php');
 $theSite->assign('title', 'GPGServices');
 $theSite->assign('img_logo', 'gpgservices.png');
 $theSite->assign('url_base', 'GPGTools/GPGServices');
-$theSite->assign('url_dl', 'GPGServices-20110117.dmg');
+$theSite->assign('url_dl', 'GPGServices-1.3.dmg');
 $theSite->assign('url_beta', '');
-$theSite->assign('url_sig', 'GPGServices-20110117.dmg.sig');
-$theSite->assign('version', '1.2b');
-$theSite->assign('date', '17. January 2011');
+$theSite->assign('url_sig', 'GPGServices-1.3.dmg.sig');
+$theSite->assign('version', '1.3');
+$theSite->assign('date', '23. January 2011');
 $theSite->assign('reqs', 'OS X 10.6');
 
 $theSite->assign('overview', 'The GPGServices service plugin adds to the global Services menu (in the Application menu) the facility to sign and verify plain text in any application that supports text services. The plugin also provides convenience facilities to import an ascii-armoured key from text in any application as well as return your default key, in ascii armoured format, and the keys fingerprint.</p><p>Signing and pasting your key or fingerprint require the host application to support pasting of text (so you will not be able to sign text highlighted in a pdf file in Preview, for instance). Verifying a signature and importing a key only require that you can highlight the text.</p><p>Here you can find the <a href="http://www.far-blue.co.uk/projects/gpgservices.html">discontinued original version</a>.');
@@ -17,7 +17,7 @@ $theSite->assign('lighthouse', '67607');
 
 $limitations = array(
 '4' => 'Services are not automatically enabled',
-'10' => 'Encryption is not implemented (GUI is missing only, decryption already implemented in the current sources)'
+'10' => 'Encryption is not implemented (GUI mockup is available)'
 );
 $theSite->assign('limitations', $limitations);
 
@@ -39,10 +39,11 @@ $theSite->assign('iusethis', "gpgservices");
 
 $changelog = array(
     '1.3' => array('23. January 2011', array(
-        "15" => "added support for decryption"
+        "15" => "added support for decryption",
+        "2" => "installer checks for gpg existence"
     )),
     '1.2b' => array('17. January 2011', array(
-        "a" => "Now compatible with MacGPG 2.0.17",
+        "a" => "now compatible with MacGPG 2.0.17",
         "5" => "logout/login not needed anymore",
         "3" => "renamed context menu",
         "11" => "better feedback when importing existing keys",
@@ -50,7 +51,7 @@ $changelog = array(
         "14" => "updated version information"
     )),
     '1.1a' => array('14. January 2011', array(
-        "a" => "Initial port from the old sources to Snow Leopard"
+        "a" => "initial port from the old sources to Snow Leopard"
     ))
 );
 $theSite->assign('changelog', $changelog);
