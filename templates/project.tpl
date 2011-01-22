@@ -11,8 +11,8 @@
     <p>Version {$version}.</p>
     <p>{$date}.</p>
     <p>Requires {$reqs}.</p>
-    <p>
         <hr>
+    <p>
         (<a href="https://github.com/downloads/{$url_base}/{$url_sig}" class='piwik_download' title='the signature'>sig</a> |
         <a href="https://github.com/{$url_base}/downloads" title='other files and versions'>others</a> |
         <a href="https://github.com/{$url_base}" title='the sources of this project'>src</a> |
