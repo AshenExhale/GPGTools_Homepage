@@ -6,6 +6,7 @@ $theSite->assign('title', 'GPG Keychain Access');
 $theSite->assign('img_logo', 'gpgkeychain.png');
 $theSite->assign('url_base', 'GPGTools/GPGKeychainAccess');
 $theSite->assign('url_dl', 'GPGKeychainAccess-0_8_0b.tar.bz2');
+$theSite->assign('url_beta', '');
 $theSite->assign('url_sig', 'GPGKeychainAccess-0_8_0b.tar.bz2.asc');
 $theSite->assign('version', '0.8.0b');
 $theSite->assign('date', '16. January 2011');
@@ -37,7 +38,18 @@ $theSite->assign('macupdate', "17201");
 $theSite->assign('iusethis', "gpgkeychainaccess");
 
 $changelog = array(
-"Added support for MacGPG2-2.0.17"
+    '0.8.1b' => array('22. January 2011', array(
+        "a" => "Added keyserver preferences"
+        )),
+    '0.8.0b' => array('16. January 2011', array(
+        "a" => "Added support for MacGPG2-2.0.17"
+        )),
+    '0.3.1b' => array('11. December 2010', array(
+        "a" => "Right click context menu",
+        "b" => "Added new icons",
+        "c" => "Added support for algorithm preferences",
+        "d" => "Showing validity"
+        )),
 );
 $theSite->assign('changelog', $changelog);
 

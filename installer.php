@@ -6,6 +6,7 @@ $theSite->assign('title', 'Installer');
 $theSite->assign('img_logo', 'gpginstaller.png');
 $theSite->assign('url_base', 'GPGTools/GPGTools');
 $theSite->assign('url_dl', 'GPGTools-20110118_beta1.dmg');
+$theSite->assign('url_beta', '');
 $theSite->assign('url_sig', 'GPGTools-20110118_beta1.dmg.sig');
 $theSite->assign('version', '2011.01.18beta1');
 $theSite->assign('date', '18. January 2011');
@@ -44,15 +45,17 @@ $theSite->assign('macupdate', "9417");
 $theSite->assign('iusethis', "gpgtools");
 
 $changelog = array(
-'Update: GPGMail 1.3.2rc1',
-'Update: GPG Keychain Access 0.8.0b',
-'<a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/37">Issue 37</a>: Does not break GPG2 anymore',
-'<a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/9">Issue 9</a>: Now based on MacGPG2 2.0.17rc3',
-'<a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/34">Issue 34</a>: Added GPGServices',
-'<a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/28">Issue 28</a>: Updated uninstaller',
-'<a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/13">Issue 13</a>: Added pka support',
-'<a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/12">Issue 12</a>: Remove start-gpg-agent',
-'<a href="http://gpgtools.lighthouseapp.com/projects/65162/tickets/29">Issue 29</a>: Updated icons',
+    '2011.01.18beta1' => array('18. January 2011', array(
+        'a' => 'Update: GPGMail 1.3.2rc1',
+        'b' => 'Update: GPG Keychain Access 0.8.0b',
+        '37' => 'Does not break GPG2 anymore',
+        '9' => 'Now based on MacGPG2 2.0.17rc3',
+        '34' => 'Added GPGServices',
+        '28' => 'Updated uninstaller',
+        '13' => 'Added pka support',
+        '12' => 'Remove start-gpg-agent',
+        '29' => 'Updated icons',
+        ))
 );
 $theSite->assign('changelog', $changelog);
 

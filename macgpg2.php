@@ -22,7 +22,10 @@ $features = array(
 );
 $theSite->assign('features', $features);
 
-$screenshots = array("macgpg2_screenshot.png" => "MacGPG2 Installer");$theSite->assign('screenshots', $screenshots);
+$screenshots = array(
+"macgpg2_screenshot.png" => "MacGPG2 Installer"
+);
+$theSite->assign('screenshots', $screenshots);
 
 $theSite->assign('screencasts', "");
 
@@ -30,15 +33,17 @@ $theSite->assign('macupdate', "11136");
 $theSite->assign('iusethis', "macgnuprivacyguard2");
 
 $changelog = array(
-"Last version to support PPC and MacOSX Tiger",
-"Maximum key size increased to 8192 bits; recommended for expert users only",
-"Core upgraded to GnuPG v2.0.16",
-"Configured to use standard socket and daemonise gpg agent on the fly if required",
-"Libassuan upgraded to v2.0.2-svn389",
-"Libgpg-error updated to v1.9",
-"Libgcrypt updated to v1.4.6",
-"If the agent's --use-standard-socket option is active, all tools try to start and daemonize the agent on the fly. In the past this was only supported on W32; on non-W32 systems the new configure option --use-standard-socket may now be used to use this feature by default",
-"The gpg-agent commands KILLAGENT and RELOADAGENT are now available on all platforms"
+    '2.0.16' => array('31. October 2010', array(
+        'a' => 'Last version to support PPC and MacOSX Tiger',
+        'b' => 'Maximum key size increased to 8192 bits; recommended for expert users only',
+        'c' => "Core upgraded to GnuPG v2.0.16",
+        'd' => "Configured to use standard socket and daemonise gpg agent on the fly if required",
+        'e' => "Libassuan upgraded to v2.0.2-svn389",
+        'f' => "Libgpg-error updated to v1.9",
+        'g' => "Libgcrypt updated to v1.4.6",
+        'h' => "If the agent's --use-standard-socket option is active, all tools try to start and daemonize the agent on the fly. In the past this was only supported on W32; on non-W32 systems the new configure option --use-standard-socket may now be used to use this feature by default",
+        'i' => "The gpg-agent commands KILLAGENT and RELOADAGENT are now available on all platforms",
+        )),
 );
 $theSite->assign('changelog', $changelog);
 

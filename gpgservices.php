@@ -6,6 +6,7 @@ $theSite->assign('title', 'GPGServices');
 $theSite->assign('img_logo', 'gpgservices.png');
 $theSite->assign('url_base', 'GPGTools/GPGServices');
 $theSite->assign('url_dl', 'GPGServices-20110117.dmg');
+$theSite->assign('url_beta', '');
 $theSite->assign('url_sig', 'GPGServices-20110117.dmg.sig');
 $theSite->assign('version', '1.2b');
 $theSite->assign('date', '17. January 2011');
@@ -37,15 +38,22 @@ $theSite->assign('macupdate', "36566");
 $theSite->assign('iusethis', "gpgservices");
 
 $changelog = array(
-"Now compatible with MacGPG 2.0.17",
-"<a href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/5'>Issue 5</a>: logout/login not needed anymore",
-"<a href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/3'>Issue 3</a>: renamed context menu",
-"<a href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/11'>Issue 11</a>: better feedback when importing existing keys",
-"<a href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/13'>Issue 13</a>: changed product the identifier",
-"<a href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/14'>Issue 14</a>: updated version information"
+    '1.3' => array('23. January 2011', array(
+        "15" => "added support for decryption"
+    )),
+    '1.2b' => array('17. January 2011', array(
+        "a" => "Now compatible with MacGPG 2.0.17",
+        "5" => "logout/login not needed anymore",
+        "3" => "renamed context menu",
+        "11" => "better feedback when importing existing keys",
+        "13" => "changed product the identifier",
+        "14" => "updated version information"
+    )),
+    '1.1a' => array('14. January 2011', array(
+        "a" => "Initial port from the old sources to Snow Leopard"
+    ))
 );
 $theSite->assign('changelog', $changelog);
 
 $theSite->display('templates/project.tpl');
-
 ?>
