@@ -68,9 +68,8 @@
             {if $iusethis neq ''}<li><script type="text/javascript" src="http://osx.iusethis.com/app/include/{$iusethis}/1"></script><noscript><a href="http://osx.iusethis.com/app/{$iusethis}" title='{$title} on iusethis'>{$title} on iusethis</a></noscript></li>{/if}
             </ul>
             {/if}
-            <h3><a href="{$changelogfile}">Release Notes</a></h3>
-            <p>Also have a look at the <a href="https://github.com/{$url_base}/commits/master" title='last commits'>list of last changes</a>.<br/><br/></p>
-            
+            <h3>Release Notes</h3>
+            <p>Also have a look at the <a href="{$changelogfile}">list of all release notes</a> and <a href="https://github.com/{$url_base}/commits/master" title='last commits'>list of last changes</a>.<br/><br/></p>
 			{foreach $changelog as $changes}
 				{if $changes@index eq 3}
 					{break}
