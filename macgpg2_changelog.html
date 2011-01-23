@@ -6,7 +6,7 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>{$title} | GPGTools (OpenPGP Tools for Apple OS X)</title>
+  <title>MacGPG2 | GPGTools (OpenPGP Tools for Apple OS X)</title>
   <meta name="description" content="GPGTools - OpenPGP/PGP/GPG tools for Apple OS X (GPGMail, GPG Keychain Access, ...). To encrypt, decrypt, validate, and sign files and e-mails.">
   <meta name="author" content="GPGTools Project Team">
   <meta name="keywords" content="OpenPGP, PGP, GPG, Encryption, Decryption, Security, Apple, OS X, Mail, Keychain">
@@ -32,24 +32,24 @@
       </div>
     </header>
     <div id="overview">
-      <div id="o_content"><img src="./images/{$img_logo}" alt="{$title}" title="{$title}" class="logo"/> <h2>{$title}</h2></div>
+      <div id="o_content"><img src="./images/macgpg2.png" alt="MacGPG2" title="MacGPG2" class="logo"/> <h2>MacGPG2</h2></div>
     </div>
     <div id="spacer">
     </div>
     <h3>Release Notes</h3>
-			{foreach $changelog as $changes}
-                <p><b>Version {$changes@key} ({$changes[0]}).</b></p>
+			                <p><b>Version 2.0.16 (31. October 2010).</b></p>
                 <ul class="sub">
-                {foreach $changes[1] as $change}
-                    {if $change@key > 0}
-                       <li><a href='http://gpgtools.lighthouseapp.com/projects/{$lighthouse}/tickets/{$change@key}'>Issue {$change@key}</a>: {$change}.</li>
-                    {else}
-                        <li>{$change}.</li>
-                    {/if}
-                {/foreach}
-                </ul>
-            {/foreach}
-        </div>
+                                                            <li>Last version to support PPC and MacOSX Tiger.</li>
+                                                                                <li>Maximum key size increased to 8192 bits; recommended for expert users only.</li>
+                                                                                <li>Core upgraded to GnuPG v2.0.16.</li>
+                                                                                <li>Configured to use standard socket and daemonise gpg agent on the fly if required.</li>
+                                                                                <li>Libassuan upgraded to v2.0.2-svn389.</li>
+                                                                                <li>Libgpg-error updated to v1.9.</li>
+                                                                                <li>Libgcrypt updated to v1.4.6.</li>
+                                                                                <li>If the agent's --use-standard-socket option is active, all tools try to start and daemonize the agent on the fly. In the past this was only supported on W32; on non-W32 systems the new configure option --use-standard-socket may now be used to use this feature by default.</li>
+                                                                                <li>The gpg-agent commands KILLAGENT and RELOADAGENT are now available on all platforms.</li>
+                                                    </ul>
+                    </div>
     </div>
     <footer>
         <div>

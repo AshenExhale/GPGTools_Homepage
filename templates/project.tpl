@@ -68,14 +68,18 @@
             {if $iusethis neq ''}<li><script type="text/javascript" src="http://osx.iusethis.com/app/include/{$iusethis}/1"></script><noscript><a href="http://osx.iusethis.com/app/{$iusethis}" title='{$title} on iusethis'>{$title} on iusethis</a></noscript></li>{/if}
             </ul>
             {/if}
-            <h3>Release Notes</h3>
+            <h3><a href="{$changelogfile}">Release Notes</a></h3>
             <p>Also have a look at the <a href="https://github.com/{$url_base}/commits/master" title='last commits'>list of last changes</a>.<br/><br/></p>
-            {foreach from=$changelog key=cVersion item=changes}
-                <p><b>Version {$cVersion} ({$changes[0]}).</b></p>
+            
+			{foreach $changelog as $changes}
+				{if $changes@index eq 3}
+					{break}
+				{/if}
+                <p><b>Version {$changes@key} ({$changes[0]}).</b></p>
                 <ul class="sub">
-                {foreach from=$changes[1] key=issue item=change}
-                    {if $issue > 0}
-                       <li><a href='http://gpgtools.lighthouseapp.com/projects/{$lighthouse}/tickets/{$issue}'>Issue {$issue}</a>: {$change}.</li>
+                {foreach $changes[1] as $change}
+                    {if $change@key > 0}
+                       <li><a href='http://gpgtools.lighthouseapp.com/projects/{$lighthouse}/tickets/{$change@key}'>Issue {$change@key}</a>: {$change}.</li>
                     {else}
                         <li>{$change}.</li>
                     {/if}

@@ -6,7 +6,7 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>{$title} | GPGTools (OpenPGP Tools for Apple OS X)</title>
+  <title>GPGMail | GPGTools (OpenPGP Tools for Apple OS X)</title>
   <meta name="description" content="GPGTools - OpenPGP/PGP/GPG tools for Apple OS X (GPGMail, GPG Keychain Access, ...). To encrypt, decrypt, validate, and sign files and e-mails.">
   <meta name="author" content="GPGTools Project Team">
   <meta name="keywords" content="OpenPGP, PGP, GPG, Encryption, Decryption, Security, Apple, OS X, Mail, Keychain">
@@ -32,24 +32,22 @@
       </div>
     </header>
     <div id="overview">
-      <div id="o_content"><img src="./images/{$img_logo}" alt="{$title}" title="{$title}" class="logo"/> <h2>{$title}</h2></div>
+      <div id="o_content"><img src="./images/gpgmail.png" alt="GPGMail" title="GPGMail" class="logo"/> <h2>GPGMail</h2></div>
     </div>
     <div id="spacer">
     </div>
     <h3>Release Notes</h3>
-			{foreach $changelog as $changes}
-                <p><b>Version {$changes@key} ({$changes[0]}).</b></p>
+			                <p><b>Version 1.3.1 (16. November 2010).</b></p>
                 <ul class="sub">
-                {foreach $changes[1] as $change}
-                    {if $change@key > 0}
-                       <li><a href='http://gpgtools.lighthouseapp.com/projects/{$lighthouse}/tickets/{$change@key}'>Issue {$change@key}</a>: {$change}.</li>
-                    {else}
-                        <li>{$change}.</li>
-                    {/if}
-                {/foreach}
-                </ul>
-            {/foreach}
-        </div>
+                                                            <li>Issue 221: Fixed compatibility with 10.6.5.</li>
+                                                                                <li>Issue 14: Added make clean.</li>
+                                                                                <li>Issue 98: Renamed preference pane to GPGMail.</li>
+                                                                                <li>Issue 54: Renamed PGP to OpenPGP in the menu.</li>
+                                                                                <li>Issue 81: Disabled 'update now' button.</li>
+                                                                                <li>Issue 212: Started to update the logos.</li>
+                                                                                <li>And many, many other minor updates.</li>
+                                                    </ul>
+                    </div>
     </div>
     <footer>
         <div>

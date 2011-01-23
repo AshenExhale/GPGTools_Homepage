@@ -1,6 +1,6 @@
 <?php
 require('libs/Smarty.class.php');
 require('libs/Smarty.config.php');
-require('keychain.php.conf');
+require('installer.php.conf');
 $theSite->display('templates/changelog.tpl');
 ?>
