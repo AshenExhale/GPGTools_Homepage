@@ -8,6 +8,17 @@
 		
 		
 		<item>
+			<title>Version 0.8.2b</title>
+			<description>GPG Keychain Access Version 0.8.2b</description>
+			<sparkle:releaseNotesLink>http://www.gpgtools.org/keychain_sparkle.html</sparkle:releaseNotesLink>
+			<pubDate>Sun, 23 Jan 2011 16:17:36 +0100</pubDate>
+			<enclosure url="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.2b.dmg"
+					   sparkle:version="0.8.2b"
+					   sparkle:dsaSignature="MCwCFEmnKqzPj+XBj3Fy3yqBU1LwT6y+AhRtjSDtsJcHRprEu5dKQZiFvHeIsA=="
+					   length="1786936"
+					   type="application/octet-stream" />
+		</item>
+		<item>
 			<title>Version 0.8.1b</title>
 			<description>GPG Keychain Access Version 0.8.1b</description>
 			<sparkle:releaseNotesLink>
