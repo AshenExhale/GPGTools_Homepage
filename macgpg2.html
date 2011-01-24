@@ -50,17 +50,17 @@
     <div id="spacer">
     </div>
     <div id="info">
-    <a href="https://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.16.zip" class='piwik_download' title='start the download'><img src="./images/download.png" title="download" alt="download" id="download"/></a>
-    <h3><a href="https://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.16.zip" class='piwik_download' title='start the download'>Download</a></h3>
-    <p>Version 2.0.16.</p>
-    <p>31. October 2010.</p>
-    <p>Requires OS X >= 10.4.</p>
+    <a href="https://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.17.6.zip" class='piwik_download' title='start the download'><img src="./images/download.png" title="download" alt="download" id="download"/></a>
+    <h3><a href="https://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.17.6.zip" class='piwik_download' title='start the download'>Download</a></h3>
+    <p>Version 2.0.17.</p>
+    <p>25. February 2011.</p>
+    <p>Requires OS X >= 10.5.</p>
         <hr>
     <p>
-        (<a href="https://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.16.zip.sig" class='piwik_download' title='the signature'>sig</a> |
+        (<a href="https://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.17.6.zip.asc" class='piwik_download' title='the signature'>sig</a> |
         <a href="https://github.com/GPGTools/MacGPG2/downloads" title='other files and versions'>others</a> |
         <a href="https://github.com/GPGTools/MacGPG2" title='the sources of this project'>src</a> |
-        <a href="https://github.com/GPGTools/MacGPG2/raw/master/LICENSE.txt" title='the license of this project'>license</a> | <a href="https://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.17.6.zip" title="not released test version (use at your own risk)">beta</a>)
+        <a href="https://github.com/GPGTools/MacGPG2/raw/master/LICENSE.txt" title='the license of this project'>license</a>)
     </p>
     </div>
     <div id="main">
@@ -85,7 +85,22 @@
             <li><script type='text/javascript' src='http://www.macupdate.com/developers/badge/11136'></script><noscript><a href="http://www.macupdate.com/app/mac/11136" title='MacGPG2 on MacUpdate'>MacGPG2 on MacUpdate</a></noscript></li>            <li><script type="text/javascript" src="http://osx.iusethis.com/app/include/macgnuprivacyguard2/1"></script><noscript><a href="http://osx.iusethis.com/app/macgnuprivacyguard2" title='MacGPG2 on iusethis'>MacGPG2 on iusethis</a></noscript></li>            </ul>
                         <h3>Release Notes</h3>
             <p>Also have a look at the <a href="macgpg2_changelog.html">list of all release notes</a> and <a href="https://github.com/GPGTools/MacGPG2/commits/master" title='last commits'>list of last changes</a>.<br/><br/></p>
-							                <p><b>Version 2.0.16 (31. October 2010).</b></p>
+							                <p><b>Version 2.0.17 (25. February 2011).</b></p>
+                <ul class="sub">
+                                                            <li>Tiger and PPC chips no longer supported.</li>
+                                                                                <li>v2.0.16 will be deleted from your system.</li>
+                                                                                <li>You may need to change the file path for gpg2 to /usr/local/MacGPG2/bin/gpg2.</li>
+                                                                                <li>Removal now as simple as 'sudo rm -fr /usr/local/MacGPG2'.</li>
+                                                                                <li>Core upgraded to GnuPG v2.0.17.</li>
+                                                                                <li>Configured to use standard socket and daemonise gpg agent on the fly if required.</li>
+                                                                                <li>Maximum key size increased to 8192 bits; recommended for expert users only.</li>
+                                                                                <li>Includes GPGTools gpg-agent cache-id option patch.</li>
+                                                                                <li>Installs exclusively under /usr/local/MacGPG2/ removing previous v2.0.16 install.</li>
+                                                                                <li>Creates default gpg configuration file if none exists.</li>
+                                                                                <li>Libksba upgraded to v1.1.0.</li>
+                                                                                <li>Libusb upgraded to v1.0.8.</li>
+                                                    </ul>
+            				                <p><b>Version 2.0.16 (31. October 2010).</b></p>
                 <ul class="sub">
                                                             <li>Last version to support PPC and MacOSX Tiger.</li>
                                                                                 <li>Maximum key size increased to 8192 bits; recommended for expert users only.</li>
