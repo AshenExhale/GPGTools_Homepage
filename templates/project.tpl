@@ -23,10 +23,10 @@
         <div id="m_content">
             <h3>Overview</h3>
             <p>{$overview}<br/><br/></p>
-            <h3>Support and Current Limitations</h3>
+            <h3>Support and Issues</h3>
             <p>Please have a look at the <a href="http://gpgtools.lighthouseapp.com/projects/{$lighthouse}/tickets?q=state%3Aopen&amp;filter=">list of open issues</a> and ask <a href="mailto:gpgtools-users@lists.gpgtools.org">the mailing list</a> for further support.</p>
             {if is_array($limitations)}
-            <p>Most annoying limitations currently are:</p>
+            <p>Often reported limitations:</p>
             <ul id="limitations" class="sub">
                {foreach from=$limitations key=l_id item=l_title}
                 <li><a href="http://gpgtools.lighthouseapp.com/projects/{$lighthouse}/tickets/{$l_id}">Issue #{$l_id}</a>: {$l_title}.</li>
