@@ -10,7 +10,7 @@
           <h3>Overview</h3>
           <ul class="sub">
           {foreach $categories as $category name=catloop}
-            <li>{$category}<ul class="sub">
+            <li>{$category}<ul class="">
            {foreach from=$faq.$category key=question item=answer name=queloop}
                <li><a href="#{$smarty.foreach.catloop.iteration}.{$smarty.foreach.queloop.iteration}"><span class="question">{$question}</span></a></li>
            {/foreach}
