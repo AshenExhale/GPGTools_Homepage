@@ -21,7 +21,7 @@
             <h3 class="clear">{$category}</h3>
             <ul class="sub">
            {foreach from=$faq.$category key=question item=answer name=queloop}
-               <li><a id="{$smarty.foreach.catloop.iteration}.{$smarty.foreach.queloop.iteration}"></a><div class="question">{$question}<div><div class="answer">{$answer}</div></li>
+               <li><a id="{$smarty.foreach.catloop.iteration}.{$smarty.foreach.queloop.iteration}"></a><div class="question">{$question}</div><div class="answer">{$answer}</div></li>
            {/foreach}
             </ul>
         {/foreach}
