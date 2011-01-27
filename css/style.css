@@ -518,3 +518,15 @@ img.icon {
 }
 
 #badge {display:none;}
+
+.question {
+    color:#444;
+    font-weight:bold;
+    margin-bottom:.5em;
+}
+
+.answer {
+    margin-top:.5em;
+    margin-bottom:1.5em;
+    color:#666;
+}
