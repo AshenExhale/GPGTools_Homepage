@@ -21,8 +21,9 @@
             information about the included applications and related projects.</p>
             <p>If you have any further questions that are not listed in the
             <a href="faq.php" title="Frequently Asked Questions">FAQ</a>,
-            please do not heasitate to <a href="about.html" title="have a
-            look at the 'How can I contact you?' section.">contact us</a>.</p>
+            please do not heasitate to <a href="about.html"
+            title="have a look at the 'How can I contact you?' section.">
+            contact us</a>.</p>
             <ul class="sub"></ul>
             <div class="project2">
                 <a href="installer.html">
