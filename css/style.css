@@ -331,7 +331,7 @@ header a, header a:visited {
     font-size:larger;
     padding:.3em;
 }
-header a:hover {
+div#navigation a:hover {
     color:#fff;
     background:#444;
     -webkit-border-radius: 5px;
@@ -372,7 +372,6 @@ ul#projects, ul.projects {
 
 a#header, a#header:hover {
     color:#fff;
-    background:transparent;
 }
 
 ul#projects li {
