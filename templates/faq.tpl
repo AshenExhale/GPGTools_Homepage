@@ -8,6 +8,9 @@
     <div id="main">
         <div id="m_content">
           <h3>Overview</h3>
+          <p>Here we list common questions about GPGTools. Please do not
+          hesitate to <a href="about.html">contact us</a>
+          if your question is not answered here:</p>
           <ul class="sub">
           {foreach $categories as $category name=catloop}
             <li>{$category}<ul class="">
