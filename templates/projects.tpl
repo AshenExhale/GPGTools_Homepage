@@ -31,7 +31,7 @@
                 <li><div class="project"><a href="keychain.html"><img src="./images/gpgkeychain.png" alt="Keychain for OpenPGP" title="Keychain for OpenPGP" class="logo"/><br/>GPG Keychain Access</a></div></li>
                 <li><div class="project"><a href="gpgmail.html"><img src="./images/gpgmail.png" alt="OpenPGP plugin for Apple Mail" title="OpenPGP plugin for Apple Mail" class="logo"/><br/>GPGMail</a></div></li>
                 <li><div class="project"><a href="gpgservices.html"><img src="./images/gpgservices.png" alt="Mac OS X GPG Services Menu" title="Mac OS X GPG Services Menu" class="logo"/><br/>GPGServices</a></div></li>
-                <li><div class="project"><a href="gpgpreferences.html"><img src="./images/gpgpreferences.png" alt="Mac OS X GPG System Preferences" title="Mac OS X GPG System Preferences" class="logo"/><br/>GPGPreferences</a></div></li>
+                <li><div class="project"><a href="gpgpreferences.html"><img src="./images/gpgpreferences-128px.png" alt="Mac OS X GPG System Preferences" title="Mac OS X GPG System Preferences" class="logo"/><br/>GPGPreferences</a></div></li>
             </ul>
             <h3 id="related" class="clear">Related Projects</h3>
             <p>List of related projects that are included in the installer.</p>
@@ -58,6 +58,7 @@
                 <li><a href="http://macgpg.sourceforge.net/">MacGPG</a>. GPG related software for OS X (original author of GPGServices, GPGFileTool, GPGDropThing, GPGPreferences, ...).</li>
                 <li><a href="http://de.getfiregpg.org/">FireGPG</a>. GPG plugin for Mozilla Firefox.</li>
                 <li><a href="http://www.media-art-online.org/wija/">wija</a> / <a href="http://www.jbother.org">JBother</a>. OpenPGP compatible Jabber/XMPP chat clients (<a href="http://xmpp.org/extensions/xep-0027.html">XEP-0027</a>) for OS X.</li>
+                <li><a href="http://sourceforge.net/projects/gpgrelay/">GPGrelay</a>. Small email-relaying server that uses GnuPG to sign/encrypt (SMTP-Relay) or verify/decrypt (POP3-/IMAP-Relay) emails. This enables many email-clients to send and receive emails that are PGP-MIME conform.</li>
             </ul>
         </div>
     </div>
