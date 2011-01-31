@@ -45,6 +45,7 @@
                 <li><a href="https://github.com/GPGTools/GPGPreferences">GPGPreferences</a>. Edit GnuPG's options file with a GUI preference pane (state: we need a maintainer).</li>
                 <li><a href="https://github.com/GPGTools/ABKey">ABKey</a>. GPG for the OS X address book (state: we need a maintainer).</li>
                 <li><a href="https://github.com/GPGTools/GPGMail_Preferences">GPGTools/GPGMail Preferences</a>. A system wide preference pane for the GPGTools (state: needs more work).</li>
+                <li><a href="https://github.com/GPGTools/GPGMail_Spotlight">GPGMail Spotlight Plugin</a>. OS X Spotlight Plugin to search within encrypted mails (state: needs a maintainer, not implemented yet).</li>
                 <li><a href="https://github.com/AlexanderWillner/GPGMail_Mobile/wiki/Introduction">GPGMail mobile</a>. An OpenPGP implementation in JavaScript for mobile devices (state: proof of concept).</li>
             </ul>
             <h3 id="interesting" class="clear">Interesting Projects</h3>
