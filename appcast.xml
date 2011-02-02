@@ -6,7 +6,7 @@
 		<description>Visit http://www.gpgtools.org/ for further information.</description>
 		<language>en</language>
 			    	<item>
-		        <title>Version 2011.01.25</title>
+		        <title>Installer version 2011.01.25</title>
 		        <description><![CDATA[
 		        <ul>
                                                                                                                                                                 <li>MacGPG: 2.0.17.</li>
@@ -29,7 +29,7 @@
 		               type="application/octet-stream" />
         	</item>
         	    	<item>
-		        <title>Version 2011.01.18beta1</title>
+		        <title>Installer version 2011.01.18beta1</title>
 		        <description><![CDATA[
 		        <ul>
                                                                                                                                                                 <li>Update: GPGMail 1.3.2rc1.</li>
@@ -54,7 +54,7 @@
 		               type="application/octet-stream" />
         	</item>
         	    	<item>
-		        <title>Version 2011.01.05_1</title>
+		        <title>Installer version 2011.01.05_1</title>
 		        <description><![CDATA[
 		        <ul>
                                                                                                                                                                 <li>Update: GPGMail 1.3.2beta.</li>
@@ -74,7 +74,7 @@
 		               type="application/octet-stream" />
         	</item>
         	    	<item>
-		        <title>Version 2011.01.05</title>
+		        <title>Installer version 2011.01.05</title>
 		        <description><![CDATA[
 		        <ul>
                                                                                                                                                                <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/15'>Issue 15</a>: Fixed check for OS requirements.</li>
@@ -93,7 +93,7 @@
 		               type="application/octet-stream" />
         	</item>
         	    	<item>
-		        <title>Version 2011.01.03</title>
+		        <title>Installer version 2011.01.03</title>
 		        <description><![CDATA[
 		        <ul>
                                                                                                                                                                 <li>no release notes.</li>
@@ -116,7 +116,7 @@
 		<description>Visit http://www.gpgtools.org/ for further information.</description>
 		<language>en</language>
 			    	<item>
-		        <title>Version 2.0.17</title>
+		        <title>MacGPG2 version 2.0.17</title>
 		        <description><![CDATA[
 		        <ul>
                                                                                                                                                                 <li>Tiger and PPC chips no longer supported.</li>
@@ -144,7 +144,7 @@
 		               type="application/octet-stream" />
         	</item>
         	    	<item>
-		        <title>Version 2.0.16</title>
+		        <title>MacGPG2 version 2.0.16</title>
 		        <description><![CDATA[
 		        <ul>
                                                                                                                                                                 <li>Last version to support PPC and MacOSX Tiger.</li>
@@ -175,7 +175,7 @@
 		<description>Visit http://www.gpgtools.org/ for further information.</description>
 		<language>en</language>
 			    	<item>
-		        <title>Version 1.3.1</title>
+		        <title>GPGMail version 1.3.1</title>
 		        <description><![CDATA[
 		        <ul>
                                                                                                                                                                 <li>Issue 221: Fixed compatibility with 10.6.5.</li>
@@ -198,7 +198,7 @@
 		               type="application/octet-stream" />
         	</item>
         	    	<item>
-		        <title>Version 1.3.0</title>
+		        <title>GPGMail version 1.3.0</title>
 		        <description><![CDATA[
 		        <ul>
                                                                                                                                                                 <li>Added Sparkle updates.</li>

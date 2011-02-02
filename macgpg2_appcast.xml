@@ -6,7 +6,7 @@
 		<description>Visit http://www.gpgtools.org/ for further information.</description>
 		<language>en</language>
 			    	<item>
-		        <title>Version 2.0.17</title>
+		        <title>MacGPG2 version 2.0.17</title>
 		        <description><![CDATA[
 		        <ul>
                                                                                                                                                                 <li>Tiger and PPC chips no longer supported.</li>
@@ -34,7 +34,7 @@
 		               type="application/octet-stream" />
         	</item>
         	    	<item>
-		        <title>Version 2.0.16</title>
+		        <title>MacGPG2 version 2.0.16</title>
 		        <description><![CDATA[
 		        <ul>
                                                                                                                                                                 <li>Last version to support PPC and MacOSX Tiger.</li>

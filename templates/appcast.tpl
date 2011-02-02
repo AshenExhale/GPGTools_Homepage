@@ -5,7 +5,7 @@
 		<language>en</language>
 		{foreach $changelog as $changes}
 	    	<item>
-		        <title>Version {$changes@key}</title>
+		        <title>{$title} version {$changes@key}</title>
 		        <description><![CDATA[
 		        <ul>
                 {foreach $changes[1] as $change}
