@@ -3,12 +3,23 @@
    <channel>
 		<title>GPGTools - {$title} - Changelog</title>
 		<link>http://www.gpgtools.org/{$name}_appcast.xml</link>
-		<description>New {$title} version available.</description>
+		<description>Visit http://www.gpgtools.org/ for further information.</description>
 		<language>en</language>
 		{foreach $changelog as $changes}
 	    	<item>
 		        <title>Version {$changes@key}</title>
-		        <description>Visit http://www.gpgtools.org/ for further information.</description>
+		        <description>
+		        <ul>
+                {foreach $changes[1] as $change}
+                    {if $change@key|substr:0:7 == 'sparkle'}{continue}{/if}
+                    {if $change@key > 0}
+                       <li><a href='http://gpgtools.lighthouseapp.com/projects/{$lighthouse}/tickets/{$change@key}'>Issue {$change@key}</a>: {$change}.</li>
+                    {else}
+                        <li>{$change}.</li>
+                    {/if}
+                {/foreach}
+                </ul>
+		        </description>
     		    <sparkle:releaseNotesLink>
 	    	        http://www.gpgtools.org/{$name}_sparkle.html
 		        </sparkle:releaseNotesLink>
