@@ -14,7 +14,11 @@ echo " * Running PHP...";
 for src in `ls *.php`; do
     dest=`basename -s .php "$src"`
     echo "   * $dest";
-    php $src > "$dest".html
+    if [[ $dest == *appcast* ]]; then
+        php $src > "$dest".xml
+    else
+        php $src > "$dest".html
+    fi
 done
 # ------------------------------------------
 

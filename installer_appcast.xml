@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <channel>
+		<title>GPGTools - Installer - Changelog</title>
+		<link>http://www.gpgtools.org/installer_appcast.xml</link>
+		<description>New Installer version available.</description>
+		<language>en</language>
+			    	<item>
+		        <title>Version 2011.01.25</title>
+		        <description>Visit http://www.gpgtools.org/ for further information.</description>
+    		    <sparkle:releaseNotesLink>
+	    	        http://www.gpgtools.org/installer_sparkle.html
+		        </sparkle:releaseNotesLink>
+    		    <pubDate>Tue, 25 Jan 2011 12:00:00 +0100</pubDate>
+		        <enclosure url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110125.dmg"
+		               sparkle:version="2011.01.25"
+					   sparkle:dsaSignature=""
+		               length=""
+		               type="application/octet-stream" />
+        	</item>
+        	    	<item>
+		        <title>Version 2011.01.18beta1</title>
+		        <description>Visit http://www.gpgtools.org/ for further information.</description>
+    		    <sparkle:releaseNotesLink>
+	    	        http://www.gpgtools.org/installer_sparkle.html
+		        </sparkle:releaseNotesLink>
+    		    <pubDate>Tue, 18 Jan 2011 12:00:00 +0100</pubDate>
+		        <enclosure url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110118beta1.dmg"
+		               sparkle:version="2011.01.18beta1"
+					   sparkle:dsaSignature=""
+		               length=""
+		               type="application/octet-stream" />
+        	</item>
+        	    	<item>
+		        <title>Version 2011.01.05_1</title>
+		        <description>Visit http://www.gpgtools.org/ for further information.</description>
+    		    <sparkle:releaseNotesLink>
+	    	        http://www.gpgtools.org/installer_sparkle.html
+		        </sparkle:releaseNotesLink>
+    		    <pubDate>Wed, 05 Jan 2011 13:00:00 +0100</pubDate>
+		        <enclosure url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110105_1.dmg"
+		               sparkle:version="2011.01.05_1"
+					   sparkle:dsaSignature=""
+		               length=""
+		               type="application/octet-stream" />
+        	</item>
+        	    	<item>
+		        <title>Version 2011.01.05</title>
+		        <description>Visit http://www.gpgtools.org/ for further information.</description>
+    		    <sparkle:releaseNotesLink>
+	    	        http://www.gpgtools.org/installer_sparkle.html
+		        </sparkle:releaseNotesLink>
+    		    <pubDate>Wed, 05 Jan 2011 12:00:00 +0100</pubDate>
+		        <enclosure url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110105.dmg"
+		               sparkle:version="2011.01.05"
+					   sparkle:dsaSignature=""
+		               length=""
+		               type="application/octet-stream" />
+        	</item>
+        	    	<item>
+		        <title>Version 2011.01.03</title>
+		        <description>Visit http://www.gpgtools.org/ for further information.</description>
+    		    <sparkle:releaseNotesLink>
+	    	        http://www.gpgtools.org/installer_sparkle.html
+		        </sparkle:releaseNotesLink>
+    		    <pubDate>Sun, 23 Jan 2011 12:00:00 +0100</pubDate>
+		        <enclosure url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110103.dmg"
+		               sparkle:version="2011.01.03"
+					   sparkle:dsaSignature=""
+		               length=""
+		               type="application/octet-stream" />
+        	</item>
+        	</channel>
+</rss>
