@@ -8,7 +8,7 @@
 		{foreach $changelog as $changes}
 	    	<item>
 		        <title>Version {$changes@key}</title>
-		        <description>
+		        <description><![CDATA[
 		        <ul>
                 {foreach $changes[1] as $change}
                     {if $change@key|substr:0:7 == 'sparkle'}{continue}{/if}
@@ -19,7 +19,7 @@
                     {/if}
                 {/foreach}
                 </ul>
-		        </description>
+		        ]]></description>
     		    <sparkle:releaseNotesLink>
 	    	        http://www.gpgtools.org/{$name}_sparkle.html
 		        </sparkle:releaseNotesLink>
