@@ -26,8 +26,8 @@
     		    <pubDate>{$changes[1]['sparkle_date']}</pubDate>
 		        <enclosure url="{$changes[1]['sparkle_url']}"
 		               sparkle:version="{$changes@key}"
-					   sparkle:dsaSignature=""
-		               length=""
+					   sparkle:dsaSignature="{$changes[1]['sparkle_sig']}"
+		               length="{$changes[1]['sparkle_size']}"
 		               type="application/octet-stream" />
         	</item>
         {/foreach}

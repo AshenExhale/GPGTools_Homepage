@@ -8,7 +8,7 @@
 		        <title>Version 2011.01.25</title>
 		        <description><![CDATA[
 		        <ul>
-                                                                                                                        <li>MacGPG: 2.0.17.</li>
+                                                                                                                                                                <li>MacGPG: 2.0.17.</li>
                                                                                                     <li>GPGMail: 1.3.2rc1.</li>
                                                                                                     <li>GPG Keychain Access: 0.8.3b.</li>
                                                                                                     <li>GPGServices: 1.3.</li>
@@ -31,7 +31,7 @@
 		        <title>Version 2011.01.18beta1</title>
 		        <description><![CDATA[
 		        <ul>
-                                                                                                                        <li>Update: GPGMail 1.3.2rc1.</li>
+                                                                                                                                                                <li>Update: GPGMail 1.3.2rc1.</li>
                                                                                                     <li>Update: GPG Keychain Access 0.8.0b.</li>
                                                                                                    <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/37'>Issue 37</a>: Does not break GPG2 anymore.</li>
                                                                                                    <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/9'>Issue 9</a>: Now based on MacGPG2 2.0.17rc3.</li>
@@ -56,7 +56,7 @@
 		        <title>Version 2011.01.05_1</title>
 		        <description><![CDATA[
 		        <ul>
-                                                                                                                        <li>Update: GPGMail 1.3.2beta.</li>
+                                                                                                                                                                <li>Update: GPGMail 1.3.2beta.</li>
                                                                                                    <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/15'>Issue 15</a>: Fixed check for OS requirements.</li>
                                                                                                    <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/26'>Issue 26</a>: Fixed permission issues.</li>
                                                                                                    <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/27'>Issue 27</a>: Added check for GPG2.</li>
@@ -76,7 +76,7 @@
 		        <title>Version 2011.01.05</title>
 		        <description><![CDATA[
 		        <ul>
-                                                                                                                       <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/15'>Issue 15</a>: Fixed check for OS requirements.</li>
+                                                                                                                                                               <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/15'>Issue 15</a>: Fixed check for OS requirements.</li>
                                                                                                    <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/26'>Issue 26</a>: Fixed permission issues.</li>
                                                                                                    <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/27'>Issue 27</a>: Added check for GPG2.</li>
                                                     </ul>
@@ -95,7 +95,7 @@
 		        <title>Version 2011.01.03</title>
 		        <description><![CDATA[
 		        <ul>
-                                                                                                                        <li>no release notes.</li>
+                                                                                                                                                                <li>no release notes.</li>
                                                     </ul>
 		        ]]></description>
     		    <sparkle:releaseNotesLink>
