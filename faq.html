@@ -70,7 +70,9 @@
                           <li><a href="#2.1"><span class="question">What if I have my own self-compiled version of GnuPG V1 or V2?</span></a></li>
                        </ul></li>
                     <li>GPGMail<ul class="">
-                          <li><a href="#3.1"><span class="question">I've an issue with GPGMail. What now?</span></a></li>
+                          <li><a href="#3.1"><span class="question">Why can't I see my secret key in Mail.app?</span></a></li>
+                          <li><a href="#3.2"><span class="question">What if I update Mac OS X? Will this break GPGMail?</span></a></li>
+                          <li><a href="#3.3"><span class="question">I've an other issue with GPGMail. What now?</span></a></li>
                        </ul></li>
                     <li>Any Other Business<ul class="">
                           <li><a href="#4.1"><span class="question">I have a question / an issue not listed here. What now?</span></a></li>
@@ -93,7 +95,9 @@
                        </ul>
                     <h3 class="clear">GPGMail</h3>
             <ul class="sub">
-                          <li id="3.1"><div class="question">I've an issue with GPGMail. What now?</div><div class="answer">Sorry for any inconvenience. Please have a look at the <a href="https://github.com/gpgmail/GPGMail/wiki/FAQ">GPGMail FAQ</a>.</div></li>
+                          <li id="3.1"><div class="question">Why can't I see my secret key in Mail.app?</div><div class="answer">Try to run the <a href="installer.html">GPGTools</a> or <a href="macgpg2.html">MacGPG2</a> installer. This issue can occur when the file ~/.gnupg/gpg.conf is be broken. You can test it by running 'if ( gpg2 --gpgconf-test ) ; then echo "fine"; else echo "broken"; fi'.</div></li>
+                          <li id="3.2"><div class="question">What if I update Mac OS X? Will this break GPGMail?</div><div class="answer">Try to run the <a href="installer.html">GPGTools</a> or <a href="macgpg2.html">GPGMail</a> installer. They will update the bundle automatically. This issue can occur after some OS X updates. You can also wait with the update till we publish an updated version via Sparkle (the internal update mechanism).</div></li>
+                          <li id="3.3"><div class="question">I've an other issue with GPGMail. What now?</div><div class="answer">Sorry for any inconvenience. First, try to run our <a href="installer.html">GPGTools installer</a>. Please also have a look at the <a href="https://github.com/gpgmail/GPGMail/wiki/FAQ">GPGMail FAQ</a>.</div></li>
                        </ul>
                     <h3 class="clear">Any Other Business</h3>
             <ul class="sub">
