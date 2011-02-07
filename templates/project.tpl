@@ -64,8 +64,10 @@
             <h3>Software Portals</h3>
             <p>Ratings and user comments on other sites.</p>
             <ul id="other" class="sub">
-            {if $macupdate neq ''}<li><script type='text/javascript' src='http://www.macupdate.com/developers/badge/{$macupdate}'></script><noscript><a href="http://www.macupdate.com/app/mac/{$macupdate}" title='{$title} on MacUpdate'>{$title} on MacUpdate</a></noscript></li>{/if}
-            {if $iusethis neq ''}<li><script type="text/javascript" src="http://osx.iusethis.com/app/include/{$iusethis}/1"></script><noscript><a href="http://osx.iusethis.com/app/{$iusethis}" title='{$title} on iusethis'>{$title} on iusethis</a></noscript></li>{/if}
+            {if $macupdate neq ''}<li class="portal"><script type='text/javascript' src='http://www.macupdate.com/developers/badge/{$macupdate}'></script><noscript><a href="http://www.macupdate.com/app/mac/{$macupdate}" title='{$title} on MacUpdate'>{$title} on MacUpdate</a></noscript></li>{/if}
+            {if $iusethis neq ''}<li class="portal"><script type="text/javascript" src="http://osx.iusethis.com/app/include/{$iusethis}/1"></script><noscript><a href="http://osx.iusethis.com/app/{$iusethis}" title='{$title} on iusethis'>{$title} on iusethis</a></noscript></li>{/if}
+            {if $heise neq ''}<li class="portal"><a href="http://www.heise.de/software/download/{$heise}" title='{$title} on heise'><img src="http://www.heise.de/software/download/logo{$heise}.png" title="{$title} on heise" alt="{$title} on heise" /></a></li>{/if}
+            
             </ul>
             {/if}
             <h3>Release Notes</h3>
