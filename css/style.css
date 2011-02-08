@@ -304,8 +304,11 @@ h1, h2 {
     font-weight: normal;
 }
 
-h3 {
+h3, h4 {
     color: #5C96B0;
+}
+
+h3 {
     font-size:large;
     font-weight: normal;
     margin-bottom:.5em;
@@ -530,4 +533,13 @@ img.icon {
 }
 .portal img {
 	width:135px;
+}
+
+h3.intro, h4, img.intro {
+    margin-top:1em;
+}
+
+p.description {
+    font-style:italic;
+    margin-bottom:1em;
 }
