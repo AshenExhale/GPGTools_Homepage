@@ -14,6 +14,7 @@
             <ul class="sub">
             <li>Twitter: <a href="http://twitter.com/gpgtools">follow</a> | <a href="http://twitter.com/statuses/user_timeline/170783148.rss">feed</a></li>
             <li>Latest changes: <a href="http://gpgtools.lighthouseapp.com/events.atom">feed</a></li>
+            <li>Latest releases: have a look at the appcast feed on the according project page</li>
             </ul>
             <h3>Mailing Lists</h3>
             <p>To read e-mails from the teams and to communicate with us and other users:</p>

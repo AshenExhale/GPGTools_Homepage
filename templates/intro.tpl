@@ -1,7 +1,7 @@
 {extends file="index.tpl"}
 {block name=body}
     <div id="overview">
-      <div id="o_content"><h2>How OpenPGP works</h2></div>
+      <div id="o_content"><h2>How PGP works</h2></div>
     </div>
     <div id="spacer">
     </div>
@@ -16,7 +16,6 @@ The following text is taken from the document <a href="http://www.pgpi.org/doc/p
 <P>
  <UL>
 <LI> <A HREF="#p1"> The Basics of Cryptography </A>
- <UL>
 <LI> <A HREF="#p2"> Encryption and decryption </A>
 <LI> <A HREF="#p3"> What is cryptography? </A>
  <UL>
@@ -52,7 +51,6 @@ The following text is taken from the document <a href="http://www.pgpi.org/doc/p
 </UL>
 <LI> <A HREF="#p23"> What is a passphrase? </A>
 <LI> <A HREF="#p24"> Key splitting </A>
-</UL>
 </UL>
 <BR>
 <h3 class="intro" id="p1">The Basics of Cryptography</h3>

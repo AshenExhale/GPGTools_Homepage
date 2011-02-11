@@ -31,10 +31,10 @@
           </div>
           <div id="navigation">
             <ul>
-              <li><a href="projects.php">Projects</a>|</li>
-              <li><a href="news.php">News</a>|</li>
-              <li><a href="about.php">About</a>|</li>
-              <li><a href="faq.php">FAQ</a></li>
+              <li><a href="projects.php" title="more information about the included applications and related projects">Projects</a>|</li>
+              <li><a href="news.php" title="how to stay up to date">News</a>|</li>
+              <li><a href="faq.php" title="frequently asked questions">FAQ</a>|</li>
+              <li><a href="about.php" title="how to contact us">Contact</a></li>
             </ul>
           </div>
           <a id="badge" href="http://gpgtools.lighthouseapp.com/tickets">
