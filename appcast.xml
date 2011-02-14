@@ -137,7 +137,29 @@
 		<description>Visit http://www.gpgtools.org/ for further information.</description>
 		<language>en</language>
 			    	<item>
-		        <title>MacGPG2 version 2.0.17</title>
+		        <title>MacGPG2 version 2.0.17-9</title>
+		        <description><![CDATA[
+		        <ul>
+                                                                                                                                        <li><a href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/21'>Issue 21</a>: added missing gpg-agent patch.</li>
+                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/24'>Issue 24</a>: fixing invalid gpg.conf files.</li>
+                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/30'>Issue 30</a>: Patch to facilitate IDEA support; requires alternative encryption library (NOT INCLUDED).</li>
+                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/32'>Issue 32</a>: fixing permissions.</li>
+                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/33'>Issue 33</a>: fixing incorrectop options in gpg-agent.conf.</li>
+                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/40'>Issue 40</a>: fixing unusable secret keys on 32-bit machines.</li>
+                                                    </ul>
+		        ]]></description>
+    		    <sparkle:releaseNotesLink>
+	    	        http://www.gpgtools.org/macgpg2_sparkle.html
+		        </sparkle:releaseNotesLink>
+    		    <pubDate>Mon, 14 Feb 2011 16:20:00 +0100</pubDate>
+		        <enclosure url="http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.17-9.zip"
+		               sparkle:version="2.0.17-9"
+					   sparkle:dsaSignature=""
+		               length=""
+		               type="application/octet-stream" />
+        	</item>
+        	    	<item>
+		        <title>MacGPG2 version 2.0.17-6</title>
 		        <description><![CDATA[
 		        <ul>
                                                                                                                                         <li>Tiger and PPC chips no longer supported.</li>
@@ -159,7 +181,7 @@
 		        </sparkle:releaseNotesLink>
     		    <pubDate>Tue, 25 Jan 2011 12:00:00 +0100</pubDate>
 		        <enclosure url="http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.17.6.zip"
-		               sparkle:version="2.0.17"
+		               sparkle:version="2.0.17-6"
 					   sparkle:dsaSignature=""
 		               length=""
 		               type="application/octet-stream" />
