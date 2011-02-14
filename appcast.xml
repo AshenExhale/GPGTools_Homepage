@@ -155,7 +155,7 @@
 		        <enclosure url="http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.17-9.zip"
 		               sparkle:version="2.0.17-9"
 					   sparkle:dsaSignature=""
-		               length=""
+		               length="8446511"
 		               type="application/octet-stream" />
         	</item>
         	    	<item>
@@ -183,7 +183,7 @@
 		        <enclosure url="http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.17.6.zip"
 		               sparkle:version="2.0.17-6"
 					   sparkle:dsaSignature=""
-		               length=""
+		               length="8446511"
 		               type="application/octet-stream" />
         	</item>
         	    	<item>
@@ -208,7 +208,7 @@
 		        <enclosure url="http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.16.zip"
 		               sparkle:version="2.0.16"
 					   sparkle:dsaSignature=""
-		               length=""
+		               length="8446511"
 		               type="application/octet-stream" />
         	</item>
         		<title>GPGTools - GPGMail - Changelog</title>
