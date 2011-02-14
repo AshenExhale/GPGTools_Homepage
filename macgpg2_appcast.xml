@@ -13,7 +13,7 @@
                                                                             <li><a href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/24'>Issue 24</a>: fixing invalid gpg.conf files.</li>
                                                                             <li><a href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/30'>Issue 30</a>: Patch to facilitate IDEA support; requires alternative encryption library (NOT INCLUDED).</li>
                                                                             <li><a href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/32'>Issue 32</a>: fixing permissions.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/33'>Issue 33</a>: fixing incorrectop options in gpg-agent.conf.</li>
+                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/33'>Issue 33</a>: fixing incorrect options in gpg-agent.conf.</li>
                                                                             <li><a href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/40'>Issue 40</a>: fixing unusable secret keys on 32-bit machines.</li>
                                                     </ul>
 		        ]]></description>
