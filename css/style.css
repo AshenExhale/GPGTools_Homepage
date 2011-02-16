@@ -457,9 +457,11 @@ div#info {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    margin:3em;
-    padding:.5em;
-    width:20em;
+    margin:1em;
+    margin-top:3em;
+    padding:.8em;
+    padding-right:0;
+    min-width:20em;
 }
 div#info p {
     display:inline;
@@ -467,6 +469,7 @@ div#info p {
 }
 div#info img {
     float:left;
+    padding-bottom:0em;
 }
 img#64bit {height:34px; width:35px;}
 img#secure {height:50px; width:35px;}
