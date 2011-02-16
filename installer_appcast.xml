@@ -11,6 +11,7 @@
 		        <ul>
                                                                                                                                         <li>Update: MacGPG2.0.17-9.</li>
                                                                             <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/51'>Issue 51</a>: Fixed: automatically removing no-use-standard-socket from gpg-agent.conf.</li>
+                                                                            <li>Checksum: 59b3aa790803a8f678842e5ee3ae6d4c4ba5fc55 (SHA-1).</li>
                                                     </ul>
 		        ]]></description>
     		    <sparkle:releaseNotesLink>

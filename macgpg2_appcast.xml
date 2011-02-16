@@ -15,6 +15,7 @@
                                                                             <li><a href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/32'>Issue 32</a>: fixing permissions.</li>
                                                                             <li><a href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/33'>Issue 33</a>: fixing incorrect options in gpg-agent.conf.</li>
                                                                             <li><a href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/40'>Issue 40</a>: fixing unusable secret keys on 32-bit machines.</li>
+                                                                            <li>Checksum: 147c7910fe5ced9148a8a02d1046c991a7790919 (SHA-1).</li>
                                                     </ul>
 		        ]]></description>
     		    <sparkle:releaseNotesLink>

@@ -13,7 +13,8 @@
     <p>Requires {$reqs}.</p>
         <hr>
     <p>
-        (<a href="https://github.com/downloads/{$url_base}/{$url_sig}" class='piwik_download' title='the signature'>sig</a> |
+        (<a href="https://github.com/downloads/{$url_base}/{$url_sig}" class='piwik_download' title='the gpg file signature'>sig</a> |
+        <a href="#releasenotes" title='the SHA-1 file checksum'>sha</a> |
         <a href="https://github.com/{$url_base}/downloads" title='other files and versions'>others</a> |
         <a href="https://github.com/{$url_base}" title='the sources of this project'>src</a> |
         <a href="https://github.com/{$url_base}/raw/master/LICENSE.txt" title='the license of this project'>license</a>{if $url_beta neq ''} | <a href="https://github.com/downloads/{$url_base}/{$url_beta}" title="not released test version (use at your own risk)">beta</a>{/if}  |
@@ -68,10 +69,10 @@
             {if $macupdate neq ''}<li class="portal"><script type='text/javascript' src='http://www.macupdate.com/developers/badge/{$macupdate}'></script><noscript><a href="http://www.macupdate.com/app/mac/{$macupdate}" title='{$title} on MacUpdate'>{$title} on MacUpdate</a></noscript></li>{/if}
             {if $iusethis neq ''}<li class="portal"><script type="text/javascript" src="http://osx.iusethis.com/app/include/{$iusethis}/1"></script><noscript><a href="http://osx.iusethis.com/app/{$iusethis}" title='{$title} on iusethis'>{$title} on iusethis</a></noscript></li>{/if}
             {if $heise neq ''}<li class="portal"><a href="http://www.heise.de/software/download/{$heise}" title='{$title} on heise'><img src="http://www.heise.de/software/download/logo{$heise}.png" title="{$title} on heise" alt="{$title} on heise" /></a></li>{/if}
-            
+
             </ul>
             {/if}
-            <h3>Release Notes</h3>
+            <h3 id="releasenotes">Release Notes</h3>
             <p>Also have a look at the <a href="{$changelogfile}">list of all release notes</a> and <a href="https://github.com/{$url_base}/commits/master" title='last commits'>list of last changes</a>.<br/><br/></p>
 			{foreach $changelog as $changes}
 				{if $changes@index eq 3}
