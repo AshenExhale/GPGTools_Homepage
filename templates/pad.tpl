@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" ?><XML_DIZ_INFO>
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML_DIZ_INFO>
 	<MASTER_PAD_VERSION_INFO>
 		<MASTER_PAD_VERSION>3.10</MASTER_PAD_VERSION>
 		<MASTER_PAD_EDITOR></MASTER_PAD_EDITOR>
@@ -32,11 +33,11 @@
 		</Support_Info>
 	</Company_Info>
 	<Program_Info>
-		<Program_Name>GPGTools - Installer</Program_Name>
-		<Program_Version>2011.02.14</Program_Version>
-		<Program_Release_Month>02</Program_Release_Month>
-		<Program_Release_Day>14</Program_Release_Day>
-		<Program_Release_Year>2011</Program_Release_Year>
+		<Program_Name>GPGTools - {$title}</Program_Name>
+		<Program_Version>{$version}</Program_Version>
+		<Program_Release_Month>{$month}</Program_Release_Month>
+		<Program_Release_Day>{$day}</Program_Release_Day>
+		<Program_Release_Year>{$year}</Program_Release_Year>
 		<Program_Cost_Dollars />
 		<Program_Cost_Other_Code />
 		<Program_Cost_Other />
@@ -51,9 +52,9 @@
 		<Program_Categories />
 		<Program_System_Requirements />
 		<File_Info>
-			<File_Size_Bytes>19043995</File_Size_Bytes>
-			<File_Size_K>19044</File_Size_K>
-			<File_Size_MB>19</File_Size_MB>
+			<File_Size_Bytes>{$changelog[$changelog|@key][1]['sparkle_size']}</File_Size_Bytes>
+			<File_Size_K>{math equation="round(x / 1000)" x=$changelog[$changelog|@key][1]['sparkle_size']}</File_Size_K>
+			<File_Size_MB>{math equation="round(x / 1000000)" x=$changelog[$changelog|@key][1]['sparkle_size']}</File_Size_MB>
 		</File_Info>
 		<Expire_Info>
 			<Has_Expire_Info>N</Has_Expire_Info>
@@ -69,7 +70,7 @@
 		<English>
 			<Keywords />
 			<Char_Desc_45 />
-			<Char_Desc_80>GPGTools - Installer</Char_Desc_80>
+			<Char_Desc_80>GPGTools - {$title}</Char_Desc_80>
 			<Char_Desc_250 />
 			<Char_Desc_450 />
 			<Char_Desc_2000 />
@@ -79,12 +80,12 @@
 		<Application_URLs>
 			<Application_Info_URL>http://gpgtools.org</Application_Info_URL>
 			<Application_Order_URL />
-			<Application_Screenshot_URL>http://www.gpgtools.org/images/installer_dmg.png</Application_Screenshot_URL>
-			<Application_Icon_URL>http://www.gpgtools.org/images/gpginstaller.png</Application_Icon_URL>
-			<Application_XML_File_URL>http://www.gpgtools.org/installer_pad.xml</Application_XML_File_URL>
+			<Application_Screenshot_URL>http://www.gpgtools.org/images/{$screenshots|@key}</Application_Screenshot_URL>
+			<Application_Icon_URL>http://www.gpgtools.org/images/{$img_logo}</Application_Icon_URL>
+			<Application_XML_File_URL>http://www.gpgtools.org/{$name}_pad.xml</Application_XML_File_URL>
 		</Application_URLs>
 		<Download_URLs>
-			<Primary_Download_URL>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110214.dmg</Primary_Download_URL>
+			<Primary_Download_URL>{$changelog[$changelog|@key][1]['sparkle_url']}</Primary_Download_URL>
 			<Secondary_Download_URL />
 			<Additional_Download_URL_1 />
 			<Additional_Download_URL_2 />
