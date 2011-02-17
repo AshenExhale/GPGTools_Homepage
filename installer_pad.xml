@@ -11,7 +11,7 @@
 		<City_Town>No Town</City_Town>
 		<State_Province />
 		<Zip_Postal_Code />
-		<Country>No Country </<Country>
+		<Country>No Country</Country>
 		<Company_WebSite_URL>http://gpgtools.org</Company_WebSite_URL>
 		<Contact_Info>
 			<Author_First_Name>GPGTools></Author_First_Name>
