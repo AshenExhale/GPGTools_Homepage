@@ -34,8 +34,8 @@
 	<Program_Info>
 		<Program_Name>GPGTools - Installer</Program_Name>
 		<Program_Version>2011.02.14</Program_Version>
-		<Program_Release_Month>14</Program_Release_Month>
-		<Program_Release_Day>02</Program_Release_Day>
+		<Program_Release_Month>02</Program_Release_Month>
+		<Program_Release_Day>14</Program_Release_Day>
 		<Program_Release_Year>2011</Program_Release_Year>
 		<Program_Cost_Dollars />
 		<Program_Cost_Other_Code />
@@ -53,7 +53,7 @@
 		<File_Info>
 			<File_Size_Bytes>19043995</File_Size_Bytes>
 			<File_Size_K>19043.995</File_Size_K>
-			<File_Size_M>19.043995</File_Size_M>
+			<File_Size_MB>19.043995</File_Size_MB>
 		</File_Info>
 		<Expire_Info>
 			<Has_Expire_Info>N</Has_Expire_Info>
