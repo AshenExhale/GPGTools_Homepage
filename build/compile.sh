@@ -14,11 +14,14 @@ echo " * Running PHP...";
 for src in `ls *.php`; do
     dest=`basename -s .php "$src"`
     echo "   * $dest";
-    if [[ $dest == *appcast* ]]; then
-        php $src > "$dest".xml
-    else
-        php $src > "$dest".html
-    fi
+	
+	if fileExtension="$(grep -m 1 '^[[:space:]]*/\*[[:space:]]*fileExtension=.*\*/' "$src")" ;then
+		fileExtension="$(echo "$fileExtension" | sed -nE 's#.*fileExtension=([^\*]*)\*/#\1#p')"
+	else
+		fileExtension="html"
+	fi
+	
+	php "$src" > "${dest}.${fileExtension}"
 done
 # ------------------------------------------
 
