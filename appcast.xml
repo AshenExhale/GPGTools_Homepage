@@ -277,5 +277,81 @@
 		               length="2451447"
 		               type="application/octet-stream" />
         	</item>
+        		<title>GPGTools - GPG Keychain Access - Changelog</title>
+		<link>http://www.gpgtools.org/keychain_appcast.xml</link>
+		<description>Visit http://www.gpgtools.org/ for further information.</description>
+		<language>en</language>
+			    	<item>
+		        <title>GPG Keychain Access version 0.8.2b</title>
+		        <description><![CDATA[
+		        <ul>
+                                                                                                                                        <li>Removed support to start gpg-agent.</li>
+                                                                            <li>Checksum: 510e67b107bf5b97a404d68828d24ad7e6864521 (SHA-1).</li>
+                                                    </ul>
+		        ]]></description>
+    		    <sparkle:releaseNotesLink>
+	    	        http://www.gpgtools.org/keychain_sparkle.html
+		        </sparkle:releaseNotesLink>
+    		    <pubDate>Sun, 23 Jan 2011 12:00:00 +0100</pubDate>
+		        <enclosure url="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.2b.dmg"
+		               sparkle:version="0.8.2b"
+					   sparkle:dsaSignature="MCwCFEmnKqzPj+XBj3Fy3yqBU1LwT6y+AhRtjSDtsJcHRprEu5dKQZiFvHeIsA=="
+		               length="1786936"
+		               type="application/octet-stream" />
+        	</item>
+        	    	<item>
+		        <title>GPG Keychain Access version 0.8.1b</title>
+		        <description><![CDATA[
+		        <ul>
+                                                                                                                                        <li>Added keyserver preferences.</li>
+                                                    </ul>
+		        ]]></description>
+    		    <sparkle:releaseNotesLink>
+	    	        http://www.gpgtools.org/keychain_sparkle.html
+		        </sparkle:releaseNotesLink>
+    		    <pubDate>Sat, 22 Jan 2011 12:00:00 +0100</pubDate>
+		        <enclosure url="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.1b.dmg"
+		               sparkle:version="0.8.1b"
+					   sparkle:dsaSignature="MC0CFGlksDkuvMZ+zX4y2tel8F+BFtPqAhUAoesG5GFjuGaBIUq+j8/fqH4diqA="
+		               length="1784179"
+		               type="application/octet-stream" />
+        	</item>
+        	    	<item>
+		        <title>GPG Keychain Access version 0.8.0b</title>
+		        <description><![CDATA[
+		        <ul>
+                                                                                                                                        <li>Added support for MacGPG2-2.0.17.</li>
+                                                    </ul>
+		        ]]></description>
+    		    <sparkle:releaseNotesLink>
+	    	        http://www.gpgtools.org/keychain_sparkle.html
+		        </sparkle:releaseNotesLink>
+    		    <pubDate>Sun, 16 Jan 2011 12:00:00 +0100</pubDate>
+		        <enclosure url="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess-0_8_0b.tar.bz2"
+		               sparkle:version="0.8.0b"
+					   sparkle:dsaSignature="MC4CFQCO61zx/KqfaHW6O0Xo5WXWEDY4ogIVAJGYjrvvOk3SfLBktrJiR9R9cSsm"
+		               length="1069156"
+		               type="application/octet-stream" />
+        	</item>
+        	    	<item>
+		        <title>GPG Keychain Access version 0.3.1b</title>
+		        <description><![CDATA[
+		        <ul>
+                                                                                                                                        <li>Right click context menu.</li>
+                                                                            <li>Added new icons.</li>
+                                                                            <li>Added support for algorithm preferences.</li>
+                                                                            <li>Showing validity.</li>
+                                                    </ul>
+		        ]]></description>
+    		    <sparkle:releaseNotesLink>
+	    	        http://www.gpgtools.org/keychain_sparkle.html
+		        </sparkle:releaseNotesLink>
+    		    <pubDate>Sat, 11 Dec 2010 12:00:00 +0100</pubDate>
+		        <enclosure url="https://github.com/downloads/gpgmail/GPGKeychainAccess/GPGKeychainAccess-0_3_1b.tar.bz2"
+		               sparkle:version="0.3.1b"
+					   sparkle:dsaSignature="MCwCFDeqwRaC7E67ua6BcOCsprTVV3BVAhRtjcXp9u173+TG+mg21cXjRCMyhg=="
+		               length="1069448"
+		               type="application/octet-stream" />
+        	</item>
         </channel>
 </rss>

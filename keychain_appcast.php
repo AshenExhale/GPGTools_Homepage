@@ -5,16 +5,8 @@
 /*fileExtension=xml*/
 require('libs/Smarty.class.php');
 require('libs/Smarty.config.php');
-
-require('installer.php.conf');
-$theSite->display('templates/appcast.tpl');
-require('macgpg2.php.conf');
-$theSite->display('templates/appcast.tpl');
-require('gpgmail.php.conf');
-$theSite->display('templates/appcast.tpl');
 require('keychain.php.conf');
 $theSite->display('templates/appcast.tpl');
-
 ?>
 </channel>
 </rss>

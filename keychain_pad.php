@@ -2,6 +2,6 @@
 /*fileExtension=xml*/
 require('libs/Smarty.class.php');
 require('libs/Smarty.config.php');
-require('installer.php.conf');
+require('keychain.php.conf');
 $theSite->display('templates/pad.tpl');
 ?>
