@@ -546,3 +546,8 @@ p.description {
     font-style:italic;
     margin-bottom:1em;
 }
+
+li:target {
+    background:#ddd;
+    border:1px solid black;
+}
