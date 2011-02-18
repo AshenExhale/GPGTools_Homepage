@@ -12,6 +12,9 @@ require('macgpg2.php.conf');
 $theSite->display('templates/appcast.tpl');
 require('gpgmail.php.conf');
 $theSite->display('templates/appcast.tpl');
+require('keychain.php.conf');
+$theSite->display('templates/appcast.tpl');
+
 ?>
 </channel>
 </rss>
