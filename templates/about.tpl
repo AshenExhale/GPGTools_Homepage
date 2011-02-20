@@ -24,7 +24,7 @@
             </ul>
             <p class="clear"><br/></p>
             <h3>How can I contact you?</h3>
-            <p>We would be pleased to year from you! Here are your options:</p>
+            <p>We would be pleased to hear from you! Here are your options:</p>
             <ul class="sub">
                 <li>download our key: <a href="./files/gpgtools.asc" title="The GPGTools Project OpenGPG key">0x76D78F0500D026C4</a></li>
                 <li>drop us a mail: <a href="mailto:gpgtools-users@lists.gpgtools.org">to the mailing list</a></li>
