@@ -20,7 +20,7 @@
 			<Author_Email>gpgtools-org@lists.gpgtools.org</Author_Email>
 			<Contact_First_Name>GPGTools</Contact_First_Name>
 			<Contact_Last_Name>Project Team</Contact_Last_Name>
-			<Contact_Email>gpgtools-users@lists.gpgtools.org</Contact_Email>
+			<Contact_Email>gpgtools-org@lists.gpgtools.org</Contact_Email>
 		</Contact_Info>
 		<Support_Info>
 			<Sales_Email>gpgtools-users@lists.gpgtools.org</Sales_Email>
@@ -33,7 +33,7 @@
 		</Support_Info>
 	</Company_Info>
 	<Program_Info>
-		<Program_Name>GPGTools - {$title}</Program_Name>
+		<Program_Name>{$title}</Program_Name>
 		<Program_Version>{$version}</Program_Version>
 		<Program_Release_Month>{$month}</Program_Release_Month>
 		<Program_Release_Day>{$day}</Program_Release_Day>
@@ -70,8 +70,8 @@
 		<English>
 			<Keywords />
 			<Char_Desc_45 />
-			<Char_Desc_80>GPGTools - {$title}</Char_Desc_80>
-			<Char_Desc_250 />
+			<Char_Desc_80 />
+			<Char_Desc_250>{$short_description}</Char_Desc_250>
 			<Char_Desc_450 />
 			<Char_Desc_2000 />
 		</English>
