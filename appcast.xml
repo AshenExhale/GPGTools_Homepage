@@ -282,6 +282,26 @@
 		<description>Visit http://www.gpgtools.org/ for further information.</description>
 		<language>en</language>
 			    	<item>
+		        <title>GPG Keychain Access version 0.8.4</title>
+		        <description><![CDATA[
+		        <ul>
+                                                                                                                                        <li><a href='http://gpgtools.lighthouseapp.com/projects/65684/tickets/20'>Issue 20</a>: Save toolbar configuration.</li>
+                                                                            <li>Added Cmd+R shortcut to View > Refresh menu item.</li>
+                                                                            <li>Added long key type to Key Inspector.</li>
+                                                                            <li>Checksum: e8e696bc879e0d9de9aa7d9e9e54bf052cf6baaf (SHA-1).</li>
+                                                    </ul>
+		        ]]></description>
+    		    <sparkle:releaseNotesLink>
+	    	        http://www.gpgtools.org/keychain_sparkle.html
+		        </sparkle:releaseNotesLink>
+    		    <pubDate>Tue, 22 Feb 2011 12:00:00 +0100</pubDate>
+		        <enclosure url="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.4.dmg"
+		               sparkle:version="0.8.4"
+					   sparkle:dsaSignature="MCwCFCy2D7OdIs5pI9akgg/LA/9gsqPDAhRSYfBdPAzLqNDbwYVd8ljZJBrgfg=="
+		               length="1262263"
+		               type="application/octet-stream" />
+        	</item>
+        	    	<item>
 		        <title>GPG Keychain Access version 0.8.2b</title>
 		        <description><![CDATA[
 		        <ul>
