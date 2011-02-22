@@ -6,11 +6,11 @@
 	</MASTER_PAD_VERSION_INFO>
 	<Company_Info>
 		<Company_Name>GPGTools Project Team</Company_Name>
-		<Address_1 />
+		<Address_1>No Street</Address_1>
 		<Address_2 />
-		<City_Town>No Town</City_Town>
+		<City_Town>No City</City_Town>
 		<State_Province />
-		<Zip_Postal_Code />
+		<Zip_Postal_Code>0000</Zip_Postal_Code>
 		<Country>No Country</Country>
 		<Company_WebSite_URL>http://gpgtools.org</Company_WebSite_URL>
 		<Contact_Info>
@@ -77,7 +77,7 @@
 	</Program_Descriptions>
 	<Web_Info>
 		<Application_URLs>
-			<Application_Info_URL>http://gpgtools.org</Application_Info_URL>
+			<Application_Info_URL>http://www.gpgtools.org/gpgmail.html</Application_Info_URL>
 			<Application_Order_URL />
 			<Application_Screenshot_URL>http://www.gpgtools.org/images/gpgmail_preferences.png</Application_Screenshot_URL>
 			<Application_Icon_URL>http://www.gpgtools.org/images/gpgmail.png</Application_Icon_URL>

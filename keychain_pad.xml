@@ -6,17 +6,17 @@
 	</MASTER_PAD_VERSION_INFO>
 	<Company_Info>
 		<Company_Name>GPGTools Project Team</Company_Name>
-		<Address_1 />
+		<Address_1>No Street</Address_1>
 		<Address_2 />
-		<City_Town>No Town</City_Town>
+		<City_Town>No City</City_Town>
 		<State_Province />
-		<Zip_Postal_Code />
+		<Zip_Postal_Code>0000</Zip_Postal_Code>
 		<Country>No Country</Country>
 		<Company_WebSite_URL>http://gpgtools.org</Company_WebSite_URL>
 		<Contact_Info>
 			<Author_First_Name>GPGTools></Author_First_Name>
 			<Author_Last_Name>Project Team </Author_Last_Name>
-			<Author_Email>gpgtools-users@lists.gpgtools.org</Author_Email>
+			<Author_Email>gpgtools-org@lists.gpgtools.org</Author_Email>
 			<Contact_First_Name>GPGTools</Contact_First_Name>
 			<Contact_Last_Name>Project Team</Contact_Last_Name>
 			<Contact_Email>gpgtools-users@lists.gpgtools.org</Contact_Email>
@@ -77,7 +77,7 @@
 	</Program_Descriptions>
 	<Web_Info>
 		<Application_URLs>
-			<Application_Info_URL>http://gpgtools.org</Application_Info_URL>
+			<Application_Info_URL>http://www.gpgtools.org/keychain.html</Application_Info_URL>
 			<Application_Order_URL />
 			<Application_Screenshot_URL>http://www.gpgtools.org/images/gpgkeychain_keys.png</Application_Screenshot_URL>
 			<Application_Icon_URL>http://www.gpgtools.org/images/gpgkeychain.png</Application_Icon_URL>
