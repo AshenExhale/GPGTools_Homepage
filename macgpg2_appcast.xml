@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 		<title>GPGTools - MacGPG2 - Changelog</title>
 		<link>http://www.gpgtools.org/macgpg2_appcast.xml</link>
+		<atom:link href="http://www.gpgtools.org/macgpg2_appcast.xml" rel="self" type="application/rss+xml" />
+		<docs>http://sparkle.andymatuschak.org/documentation</docs>
 		<description>Visit http://www.gpgtools.org/ for further information.</description>
 		<language>en</language>
         			    	<item>
 		        <title>MacGPG2 version 2.0.17-9</title>
+    		    <pubDate>Mon, 14 Feb 2011 16:20:00 +0100</pubDate>
+    		    <guid>http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.17-9.zip</guid>
 		        <description><![CDATA[
 		        <ul>
                                                                                                                                         <li><a href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/21'>Issue 21</a>: added missing gpg-agent patch.</li>
@@ -21,7 +25,6 @@
     		    <sparkle:releaseNotesLink>
 	    	        http://www.gpgtools.org/macgpg2_sparkle.html
 		        </sparkle:releaseNotesLink>
-    		    <pubDate>Mon, 14 Feb 2011 16:20:00 +0100</pubDate>
 		        <enclosure url="http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.17-9.zip"
 		               sparkle:version="2.0.17-9"
 					   sparkle:dsaSignature=""
@@ -30,6 +33,8 @@
         	</item>
         	    	<item>
 		        <title>MacGPG2 version 2.0.17-6</title>
+    		    <pubDate>Tue, 25 Jan 2011 12:00:00 +0100</pubDate>
+    		    <guid>http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.17.6.zip</guid>
 		        <description><![CDATA[
 		        <ul>
                                                                                                                                         <li>Tiger and PPC chips no longer supported.</li>
@@ -49,7 +54,6 @@
     		    <sparkle:releaseNotesLink>
 	    	        http://www.gpgtools.org/macgpg2_sparkle.html
 		        </sparkle:releaseNotesLink>
-    		    <pubDate>Tue, 25 Jan 2011 12:00:00 +0100</pubDate>
 		        <enclosure url="http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.17.6.zip"
 		               sparkle:version="2.0.17-6"
 					   sparkle:dsaSignature=""
@@ -58,6 +62,8 @@
         	</item>
         	    	<item>
 		        <title>MacGPG2 version 2.0.16</title>
+    		    <pubDate>Sun, 31 Oct 2010 12:00:00 +0100</pubDate>
+    		    <guid>http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.16.zip</guid>
 		        <description><![CDATA[
 		        <ul>
                                                                                                                                         <li>Last version to support PPC and MacOSX Tiger.</li>
@@ -74,7 +80,6 @@
     		    <sparkle:releaseNotesLink>
 	    	        http://www.gpgtools.org/macgpg2_sparkle.html
 		        </sparkle:releaseNotesLink>
-    		    <pubDate>Sun, 31 Oct 2010 12:00:00 +0100</pubDate>
 		        <enclosure url="http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.16.zip"
 		               sparkle:version="2.0.16"
 					   sparkle:dsaSignature=""

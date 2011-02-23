@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 		<title>GPGTools - GPG Keychain Access - Changelog</title>
 		<link>http://www.gpgtools.org/keychain_appcast.xml</link>
+		<atom:link href="http://www.gpgtools.org/keychain_appcast.xml" rel="self" type="application/rss+xml" />
+		<docs>http://sparkle.andymatuschak.org/documentation</docs>
 		<description>Visit http://www.gpgtools.org/ for further information.</description>
 		<language>en</language>
         			    	<item>
 		        <title>GPG Keychain Access version 0.8.4</title>
+    		    <pubDate>Tue, 22 Feb 2011 12:00:00 +0100</pubDate>
+    		    <guid>http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.4.dmg</guid>
 		        <description><![CDATA[
 		        <ul>
                                                                                                                                         <li><a href='http://gpgtools.lighthouseapp.com/projects/65684/tickets/20'>Issue 20</a>: Save toolbar configuration.</li>
@@ -18,7 +22,6 @@
     		    <sparkle:releaseNotesLink>
 	    	        http://www.gpgtools.org/keychain_sparkle.html
 		        </sparkle:releaseNotesLink>
-    		    <pubDate>Tue, 22 Feb 2011 12:00:00 +0100</pubDate>
 		        <enclosure url="http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.4.dmg"
 		               sparkle:version="0.8.4"
 					   sparkle:dsaSignature="MCwCFCy2D7OdIs5pI9akgg/LA/9gsqPDAhRSYfBdPAzLqNDbwYVd8ljZJBrgfg=="
@@ -27,6 +30,8 @@
         	</item>
         	    	<item>
 		        <title>GPG Keychain Access version 0.8.2b</title>
+    		    <pubDate>Sun, 23 Jan 2011 12:00:00 +0100</pubDate>
+    		    <guid>http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.2b.dmg</guid>
 		        <description><![CDATA[
 		        <ul>
                                                                                                                                         <li>Removed support to start gpg-agent.</li>
@@ -36,7 +41,6 @@
     		    <sparkle:releaseNotesLink>
 	    	        http://www.gpgtools.org/keychain_sparkle.html
 		        </sparkle:releaseNotesLink>
-    		    <pubDate>Sun, 23 Jan 2011 12:00:00 +0100</pubDate>
 		        <enclosure url="http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.2b.dmg"
 		               sparkle:version="0.8.2b"
 					   sparkle:dsaSignature="MCwCFEmnKqzPj+XBj3Fy3yqBU1LwT6y+AhRtjSDtsJcHRprEu5dKQZiFvHeIsA=="
@@ -45,6 +49,8 @@
         	</item>
         	    	<item>
 		        <title>GPG Keychain Access version 0.8.1b</title>
+    		    <pubDate>Sat, 22 Jan 2011 12:00:00 +0100</pubDate>
+    		    <guid>http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.1b.dmg</guid>
 		        <description><![CDATA[
 		        <ul>
                                                                                                                                         <li>Added keyserver preferences.</li>
@@ -53,7 +59,6 @@
     		    <sparkle:releaseNotesLink>
 	    	        http://www.gpgtools.org/keychain_sparkle.html
 		        </sparkle:releaseNotesLink>
-    		    <pubDate>Sat, 22 Jan 2011 12:00:00 +0100</pubDate>
 		        <enclosure url="http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.1b.dmg"
 		               sparkle:version="0.8.1b"
 					   sparkle:dsaSignature="MC0CFGlksDkuvMZ+zX4y2tel8F+BFtPqAhUAoesG5GFjuGaBIUq+j8/fqH4diqA="
@@ -62,6 +67,8 @@
         	</item>
         	    	<item>
 		        <title>GPG Keychain Access version 0.8.0b</title>
+    		    <pubDate>Sun, 16 Jan 2011 12:00:00 +0100</pubDate>
+    		    <guid>http://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess-0_8_0b.tar.bz2</guid>
 		        <description><![CDATA[
 		        <ul>
                                                                                                                                         <li>Added support for MacGPG2-2.0.17.</li>
@@ -70,7 +77,6 @@
     		    <sparkle:releaseNotesLink>
 	    	        http://www.gpgtools.org/keychain_sparkle.html
 		        </sparkle:releaseNotesLink>
-    		    <pubDate>Sun, 16 Jan 2011 12:00:00 +0100</pubDate>
 		        <enclosure url="http://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess-0_8_0b.tar.bz2"
 		               sparkle:version="0.8.0b"
 					   sparkle:dsaSignature="MC4CFQCO61zx/KqfaHW6O0Xo5WXWEDY4ogIVAJGYjrvvOk3SfLBktrJiR9R9cSsm"
@@ -79,6 +85,8 @@
         	</item>
         	    	<item>
 		        <title>GPG Keychain Access version 0.3.1b</title>
+    		    <pubDate>Sat, 11 Dec 2010 12:00:00 +0100</pubDate>
+    		    <guid>http://github.com/downloads/gpgmail/GPGKeychainAccess/GPGKeychainAccess-0_3_1b.tar.bz2</guid>
 		        <description><![CDATA[
 		        <ul>
                                                                                                                                         <li>Right click context menu.</li>
@@ -90,7 +98,6 @@
     		    <sparkle:releaseNotesLink>
 	    	        http://www.gpgtools.org/keychain_sparkle.html
 		        </sparkle:releaseNotesLink>
-    		    <pubDate>Sat, 11 Dec 2010 12:00:00 +0100</pubDate>
 		        <enclosure url="http://github.com/downloads/gpgmail/GPGKeychainAccess/GPGKeychainAccess-0_3_1b.tar.bz2"
 		               sparkle:version="0.3.1b"
 					   sparkle:dsaSignature="MCwCFDeqwRaC7E67ua6BcOCsprTVV3BVAhRtjcXp9u173+TG+mg21cXjRCMyhg=="
