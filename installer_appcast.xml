@@ -6,6 +6,11 @@
 		<atom:link href="http://www.gpgtools.org/installer_appcast.xml" rel="self" type="application/rss+xml" />
 		<docs>http://sparkle.andymatuschak.org/documentation</docs>
 		<description>Visit http://www.gpgtools.org/ for further information.</description>
+		<image>
+			<url>http://www.gpgtools.org/images/rss_icon.png</url>
+			<link>http://www.gpgtools.org/installer_appcast.xml</link>
+			<title>GPGTools</title>
+		</image>
 		<language>en</language>
         			    	<item>
 		        <title>Installer version 2011.02.14</title>

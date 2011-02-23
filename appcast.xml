@@ -7,6 +7,11 @@
 		<language>en</language>
 		<docs>http://sparkle.andymatuschak.org/documentation</docs>
 		<atom:link href="http://www.gpgtools.org/appcast.xml" rel="self" type="application/rss+xml" />
+		<image>
+			<url>http://www.gpgtools.org/images/rss_icon.png</url>
+			<link>http://www.gpgtools.org/appcast.xml</link>
+			<title>GPGTools</title>
+		</image>
 <item>
 		        <title>GPG Keychain Access version 0.8.4</title>
     		    <pubDate>Tue, 22 Feb 2011 12:00:00 +0100</pubDate>

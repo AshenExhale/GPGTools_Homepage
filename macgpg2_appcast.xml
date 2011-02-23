@@ -6,6 +6,11 @@
 		<atom:link href="http://www.gpgtools.org/macgpg2_appcast.xml" rel="self" type="application/rss+xml" />
 		<docs>http://sparkle.andymatuschak.org/documentation</docs>
 		<description>Visit http://www.gpgtools.org/ for further information.</description>
+		<image>
+			<url>http://www.gpgtools.org/images/rss_icon.png</url>
+			<link>http://www.gpgtools.org/macgpg2_appcast.xml</link>
+			<title>GPGTools</title>
+		</image>
 		<language>en</language>
         			    	<item>
 		        <title>MacGPG2 version 2.0.17-9</title>

@@ -14,6 +14,11 @@ $header = <<<EOD
 		<language>en</language>
 		<docs>http://sparkle.andymatuschak.org/documentation</docs>
 		<atom:link href="http://www.gpgtools.org/appcast.xml" rel="self" type="application/rss+xml" />
+		<image>
+			<url>http://www.gpgtools.org/images/rss_icon.png</url>
+			<link>http://www.gpgtools.org/appcast.xml</link>
+			<title>GPGTools</title>
+		</image>
 
 EOD;
 
