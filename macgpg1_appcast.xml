@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+		<title>GPGTools - MacGPG1 - Changelog</title>
+		<link>http://www.gpgtools.org/macgpg1_appcast.xml</link>
+		<atom:link href="http://www.gpgtools.org/macgpg1_appcast.xml" rel="self" type="application/rss+xml" />
+		<docs>http://sparkle.andymatuschak.org/documentation</docs>
+		<description>Visit http://www.gpgtools.org/ for further information.</description>
+		<image>
+			<url>http://www.gpgtools.org/images/rss_icon.png</url>
+			<link>http://www.gpgtools.org/macgpg1_appcast.xml</link>
+			<title>GPGTools</title>
+		</image>
+		<language>en</language>
+        			    	<item>
+		        <title>MacGPG1 version 1.4.11-1</title>
+    		    <pubDate>Thu, 24 Feb 2011 00:13:08 +0100</pubDate>
+    		    <guid>http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-1.4.11-1.zip</guid>
+		        <description><![CDATA[
+		        <ul>
+                                                                                                                                        <li>initial version.</li>
+                                                                            <li>Checksum: 908eb8b4a4a00fba92bc1f270419c10f2a4b3446 (SHA-1).</li>
+                                                    </ul>
+		        ]]></description>
+    		    <sparkle:releaseNotesLink>
+	    	        http://www.gpgtools.org/macgpg1_sparkle.html
+		        </sparkle:releaseNotesLink>
+		        <enclosure url="http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-1.4.11-1.zip"
+		               sparkle:version="1.4.11-1"
+					   sparkle:dsaSignature=""
+		               length="3077981"
+		               type="application/octet-stream" />
+        	</item>
+        </channel>
+</rss>
