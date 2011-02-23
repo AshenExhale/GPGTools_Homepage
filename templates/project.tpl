@@ -24,7 +24,8 @@
     <div id="main">
         <div id="m_content">
             <h3>Overview</h3>
-            <p>{$overview}<br/><br/></p>
+            {$overview}
+            <p><br/><br/></p>
             <h3>Support and Issues</h3>
             <p>Please have a look at the <a href="http://gpgtools.lighthouseapp.com/projects/{$lighthouse}/tickets?q=state%3Aopen&amp;filter=">list of open issues</a> and ask <a href="mailto:gpgtools-users@lists.gpgtools.org">the mailing list</a> for further support.{if $url_wiki neq ''} Additionally we provide informations in our <a href="https://github.com/{$url_base}/{$url_wiki}" title="community maintained wiki">wiki</a>.{/if}</p>
             {if is_array($limitations)}
