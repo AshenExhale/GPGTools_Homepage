@@ -5,7 +5,7 @@
 		<link>http://www.gpgtools.org/keychain_appcast.xml</link>
 		<description>Visit http://www.gpgtools.org/ for further information.</description>
 		<language>en</language>
-			    	<item>
+        			    	<item>
 		        <title>GPG Keychain Access version 0.8.4</title>
 		        <description><![CDATA[
 		        <ul>
@@ -19,7 +19,7 @@
 	    	        http://www.gpgtools.org/keychain_sparkle.html
 		        </sparkle:releaseNotesLink>
     		    <pubDate>Tue, 22 Feb 2011 12:00:00 +0100</pubDate>
-		        <enclosure url="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.4.dmg"
+		        <enclosure url="http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.4.dmg"
 		               sparkle:version="0.8.4"
 					   sparkle:dsaSignature="MCwCFCy2D7OdIs5pI9akgg/LA/9gsqPDAhRSYfBdPAzLqNDbwYVd8ljZJBrgfg=="
 		               length="1262263"
@@ -37,7 +37,7 @@
 	    	        http://www.gpgtools.org/keychain_sparkle.html
 		        </sparkle:releaseNotesLink>
     		    <pubDate>Sun, 23 Jan 2011 12:00:00 +0100</pubDate>
-		        <enclosure url="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.2b.dmg"
+		        <enclosure url="http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.2b.dmg"
 		               sparkle:version="0.8.2b"
 					   sparkle:dsaSignature="MCwCFEmnKqzPj+XBj3Fy3yqBU1LwT6y+AhRtjSDtsJcHRprEu5dKQZiFvHeIsA=="
 		               length="1786936"
@@ -54,7 +54,7 @@
 	    	        http://www.gpgtools.org/keychain_sparkle.html
 		        </sparkle:releaseNotesLink>
     		    <pubDate>Sat, 22 Jan 2011 12:00:00 +0100</pubDate>
-		        <enclosure url="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.1b.dmg"
+		        <enclosure url="http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.1b.dmg"
 		               sparkle:version="0.8.1b"
 					   sparkle:dsaSignature="MC0CFGlksDkuvMZ+zX4y2tel8F+BFtPqAhUAoesG5GFjuGaBIUq+j8/fqH4diqA="
 		               length="1784179"
@@ -71,7 +71,7 @@
 	    	        http://www.gpgtools.org/keychain_sparkle.html
 		        </sparkle:releaseNotesLink>
     		    <pubDate>Sun, 16 Jan 2011 12:00:00 +0100</pubDate>
-		        <enclosure url="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess-0_8_0b.tar.bz2"
+		        <enclosure url="http://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess-0_8_0b.tar.bz2"
 		               sparkle:version="0.8.0b"
 					   sparkle:dsaSignature="MC4CFQCO61zx/KqfaHW6O0Xo5WXWEDY4ogIVAJGYjrvvOk3SfLBktrJiR9R9cSsm"
 		               length="1069156"
@@ -91,7 +91,7 @@
 	    	        http://www.gpgtools.org/keychain_sparkle.html
 		        </sparkle:releaseNotesLink>
     		    <pubDate>Sat, 11 Dec 2010 12:00:00 +0100</pubDate>
-		        <enclosure url="https://github.com/downloads/gpgmail/GPGKeychainAccess/GPGKeychainAccess-0_3_1b.tar.bz2"
+		        <enclosure url="http://github.com/downloads/gpgmail/GPGKeychainAccess/GPGKeychainAccess-0_3_1b.tar.bz2"
 		               sparkle:version="0.3.1b"
 					   sparkle:dsaSignature="MCwCFDeqwRaC7E67ua6BcOCsprTVV3BVAhRtjcXp9u173+TG+mg21cXjRCMyhg=="
 		               length="1069448"

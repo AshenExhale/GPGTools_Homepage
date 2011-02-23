@@ -84,7 +84,7 @@
 			<Application_XML_File_URL>http://www.gpgtools.org/keychain_pad.xml</Application_XML_File_URL>
 		</Application_URLs>
 		<Download_URLs>
-			<Primary_Download_URL>https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.4.dmg</Primary_Download_URL>
+			<Primary_Download_URL>http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.4.dmg</Primary_Download_URL>
 			<Secondary_Download_URL />
 			<Additional_Download_URL_1 />
 			<Additional_Download_URL_2 />
