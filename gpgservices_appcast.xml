@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+		<title>GPGTools - GPGServices - Changelog</title>
+		<link>http://www.gpgtools.org/gpgservices_appcast.xml</link>
+		<atom:link href="http://www.gpgtools.org/gpgservices_appcast.xml" rel="self" type="application/rss+xml" />
+		<docs>http://sparkle.andymatuschak.org/documentation</docs>
+		<description>Visit http://www.gpgtools.org/ for further information.</description>
+		<image>
+			<url>http://www.gpgtools.org/images/rss_icon.png</url>
+			<link>http://www.gpgtools.org/gpgservices_appcast.xml</link>
+			<title>GPGTools</title>
+		</image>
+		<language>en</language>
+        			    	<item>
+		        <title>GPGServices version 1.4</title>
+    		    <pubDate></pubDate>
+    		    <guid></guid>
+		        <description><![CDATA[
+		        <ul>
+                                                        <li>Just a new icon and an unified installer script.</li>
+                                                                            <li>Checksum: 4da3e7a62a49c631fd0e117536c0380528072a10 (SHA-1).</li>
+                                                    </ul>
+		        ]]></description>
+    		    <sparkle:releaseNotesLink>
+	    	        http://www.gpgtools.org/gpgservices_sparkle.html
+		        </sparkle:releaseNotesLink>
+		        <enclosure url=""
+		               sparkle:version="1.4"
+					   sparkle:dsaSignature=""
+		               length=""
+		               type="application/octet-stream" />
+        	</item>
+        	    	<item>
+		        <title>GPGServices version 1.3</title>
+    		    <pubDate></pubDate>
+    		    <guid></guid>
+		        <description><![CDATA[
+		        <ul>
+                                                        <li><a href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/15'>Issue 15</a>: added support for decryption.</li>
+                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/2'>Issue 2</a>: installer checks for gpg existence.</li>
+                                                    </ul>
+		        ]]></description>
+    		    <sparkle:releaseNotesLink>
+	    	        http://www.gpgtools.org/gpgservices_sparkle.html
+		        </sparkle:releaseNotesLink>
+		        <enclosure url=""
+		               sparkle:version="1.3"
+					   sparkle:dsaSignature=""
+		               length=""
+		               type="application/octet-stream" />
+        	</item>
+        	    	<item>
+		        <title>GPGServices version 1.2b</title>
+    		    <pubDate></pubDate>
+    		    <guid></guid>
+		        <description><![CDATA[
+		        <ul>
+                                                        <li>now compatible with MacGPG 2.0.17.</li>
+                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/5'>Issue 5</a>: logout/login not needed anymore.</li>
+                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/3'>Issue 3</a>: renamed context menu.</li>
+                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/11'>Issue 11</a>: better feedback when importing existing keys.</li>
+                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/13'>Issue 13</a>: changed product the identifier.</li>
+                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/14'>Issue 14</a>: updated version information.</li>
+                                                    </ul>
+		        ]]></description>
+    		    <sparkle:releaseNotesLink>
+	    	        http://www.gpgtools.org/gpgservices_sparkle.html
+		        </sparkle:releaseNotesLink>
+		        <enclosure url=""
+		               sparkle:version="1.2b"
+					   sparkle:dsaSignature=""
+		               length=""
+		               type="application/octet-stream" />
+        	</item>
+        	    	<item>
+		        <title>GPGServices version 1.1a</title>
+    		    <pubDate></pubDate>
+    		    <guid></guid>
+		        <description><![CDATA[
+		        <ul>
+                                                        <li>initial port from the old sources to Snow Leopard.</li>
+                                                    </ul>
+		        ]]></description>
+    		    <sparkle:releaseNotesLink>
+	    	        http://www.gpgtools.org/gpgservices_sparkle.html
+		        </sparkle:releaseNotesLink>
+		        <enclosure url=""
+		               sparkle:version="1.1a"
+					   sparkle:dsaSignature=""
+		               length=""
+		               type="application/octet-stream" />
+        	</item>
+        </channel>
+</rss>
