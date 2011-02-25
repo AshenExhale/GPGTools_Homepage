@@ -74,7 +74,7 @@
             {if $macupdate neq ''}<li class="portal"><script type='text/javascript' src='http://www.macupdate.com/developers/badge/{$macupdate}'></script><noscript><a href="http://www.macupdate.com/app/mac/{$macupdate}" title='{$title} on MacUpdate'>{$title} on MacUpdate</a></noscript></li>{/if}
             {if $iusethis neq ''}<li class="portal"><script type="text/javascript" src="http://osx.iusethis.com/app/include/{$iusethis}/1"></script><noscript><a href="http://osx.iusethis.com/app/{$iusethis}" title='{$title} on iusethis'>{$title} on iusethis</a></noscript></li>{/if}
             {if $heise neq ''}<li class="portal"><a href="http://www.heise.de/software/download/{$heise}" title='{$title} on heise'><img src="http://www.heise.de/software/download/logo{$heise}.png" title="{$title} on heise" alt="{$title} on heise" /></a></li>{/if}
-
+            {if $cnet neq ''}<li class="portal"><a href="http://download.cnet.com/{$cnet}.html" title='{$title} on cnet'><img src="http://i.i.com.com/cnwk.1d/i/dl/button/dl-button_a.gif" title="{$title} on cnet" alt="{$title} on cnet" /></a></li>{/if}
             </ul>
             {/if}
             <h3 id="releasenotes">Release Notes</h3>
