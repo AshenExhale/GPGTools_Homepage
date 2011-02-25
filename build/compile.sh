@@ -16,9 +16,6 @@ fi
 # Set file extension:
 #	/*fileExtension=xml*/
 #
-# Ignore file:
-#	/*compileIgnore*/
-#
 ################################
 
 
@@ -27,16 +24,14 @@ echo " * Running PHP...";
 for src in `ls *.php`; do
     dest=`basename -s .php "$src"`
 	
-	if ! grep -m 1 '^[[:space:]]*/\*[[:space:]]*compileIgnore.*\*/' "$src" > /dev/null ;then
-		if fileExtension="$(grep -m 1 '^[[:space:]]*/\*[[:space:]]*fileExtension=.*\*/' "$src")" ;then
-			fileExtension="$(echo "$fileExtension" | sed -nE 's#.*fileExtension=([^\*]*)\*/#\1#p')"
-		else
-			fileExtension="html"
-		fi
-		
-		echo "   * $dest";
-		php "$src" > "${dest}.${fileExtension}"
+	if fileExtension="$(grep -m 1 '^[[:space:]]*/\*[[:space:]]*fileExtension=.*\*/' "$src")" ;then
+		fileExtension="$(echo "$fileExtension" | sed -nE 's#.*fileExtension=([^\*]*)\*/#\1#p')"
+	else
+		fileExtension="html"
 	fi
+	
+	echo "   * $dest";
+	php "$src" > "${dest}.${fileExtension}"
 done
 # ------------------------------------------
 
