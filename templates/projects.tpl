@@ -33,6 +33,7 @@
                 <li><div class="project"><a href="macgpg2.html"><img src="./images/macgpg2.png" alt="Mac OS X bindings for GnuPG 2.x" title="Mac OS X bindings for GnuPG 2.x" class="logo"/><br/>MacGPG2</a></div></li>
                 <li><div class="project"><a href="gpgservices.html"><img src="./images/gpgservices.png" alt="Mac OS X GPG Services Menu" title="Mac OS X GPG Services Menu" class="logo"/><br/>GPGServices</a></div></li>
                 <li><div class="project"><a href="gpgpreferences.html"><img src="./images/gpgpreferences-128px.png" alt="Mac OS X GPG System Preferences" title="Mac OS X GPG System Preferences" class="logo"/><br/>GPGPreferences</a></div></li>
+                <li><div class="project"><a href="mobile.html"><img src="./images/mobile.png" alt="Mobile OpenPGP" title="Mobile OpenPGP" class="logo"/><br/>Mobile OpenPGP</a></div></li>
             </ul>
             <h3 id="related" class="clear">Related Projects</h3>
             <p>List of related projects that are included in the installer.</p>
@@ -47,8 +48,7 @@
                 <li><a href="https://github.com/GPGTools/ABKey">ABKey</a>. GPG for the OS X address book (state: we need a maintainer).</li>
                 <li><a href="https://github.com/GPGTools/GPGMail_Preferences">GPGTools/GPGMail Preferences</a>. A system wide preference pane for the GPGTools (state: needs more work).</li>
                 <li><a href="https://github.com/GPGTools/GPGMail_Spotlight">GPGMail Spotlight Plugin</a>. OS X Spotlight Plugin to search within encrypted mails (state: needs a maintainer, not implemented yet).</li>
-                <li><a href="https://github.com/AlexanderWillner/GPGMail_Mobile/wiki/Introduction">GPGMail mobile</a>. An OpenPGP implementation in JavaScript for mobile devices (state: proof of concept).</li>
-            </ul>
+¥            </ul>
             <h3 id="interesting" class="clear">Interesting Projects</h3>
             <p>List of interesting OpenPGP related OS X projects.</p>
             <ul class="sub">
