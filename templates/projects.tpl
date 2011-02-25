@@ -25,7 +25,7 @@
                 <li><div class="project"><a href="installer.html"><img src="./images/gpginstaller.png" alt="Installer OpenPGP and related tools" title="Installer for OpenPGP and related tools" class="logo"/><br/>Installer</a></div></li>
             </ul>
             <h3 id="maintained" class="clear">Maintained Projects</h3>
-            <p>List of maintained projects that are included in the installer.</p>
+            <p>List of maintained projects that are (mostly) included in the installer.</p>
             <ul class="sub projects">
                 <li><div class="project"><a href="gpgmail.html"><img src="./images/gpgmail.png" alt="OpenPGP plugin for Apple Mail" title="OpenPGP plugin for Apple Mail" class="logo"/><br/>GPGMail</a></div></li>
                 <li><div class="project"><a href="keychain.html"><img src="./images/gpgkeychain.png" alt="Keychain for OpenPGP" title="Keychain for OpenPGP" class="logo"/><br/>GPG Keychain Access</a></div></li>
