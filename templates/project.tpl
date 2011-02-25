@@ -6,19 +6,23 @@
     <div id="spacer">
     </div>
     <div id="info">
+    {if $url_dl neq ''}
     <a href="https://github.com/downloads/{$url_base}/{$url_dl}" class='piwik_download' title='start the download'><img src="./images/download.png" title="download" alt="download" id="download"/></a>
     <h3><a href="https://github.com/downloads/{$url_base}/{$url_dl}" class='piwik_download' title='start the download'>Download</a></h3>
+    {/if}
     <p>Version {$version}.</p>
     <p>{$date}.</p>
     <p>Requires {$reqs}.</p>
         <hr>
     <p>
-        (<a href="https://github.com/downloads/{$url_base}/{$url_sig}" class='piwik_download' title='the gpg file signature'>sig</a> |
-        <a href="#releasenotes" title='the SHA-1 file checksum'>sha</a> |
-        <a href="https://github.com/{$url_base}/downloads" title='other files and versions'>others</a> |
+        ({if $url_sig neq ''}<a href="https://github.com/downloads/{$url_base}/{$url_sig}" class='piwik_download' title='the gpg file signature'>sig</a> |{/if}
+        {if $url_sig neq ''}<a href="#releasenotes" title='the SHA-1 file checksum'>sha</a> |{/if}
+        {if $url_sig neq ''}<a href="https://github.com/{$url_base}/downloads" title='other files and versions'>others</a> |{/if}
         <a href="https://github.com/{$url_base}" title='the sources of this project'>src</a> |
         <a href="https://github.com/{$url_base}/raw/master/LICENSE.txt" title='the license of this project'>license</a>{if $url_beta neq ''} | <a href="https://github.com/downloads/{$url_base}/{$url_beta}" title="not released test version (use at your own risk)">beta</a>{/if}  |
-        <a href="{$name}_appcast.xml" title='a feed with the latest versions'>feed</a>)
+        {if $url_wiki neq ''}<a href="https://github.com/{$url_base}/{$url_wiki}" title="community maintained wiki">wiki</a> |{/if}
+        <a href="{$name}_appcast.xml" title='a feed with the latest versions'>feed</a>
+        )
     </p>
     </div>
     <div id="main">
@@ -74,7 +78,7 @@
             </ul>
             {/if}
             <h3 id="releasenotes">Release Notes</h3>
-            <p>Also have a look at the <a href="{$changelogfile}">list of all release notes</a> and <a href="https://github.com/{$url_base}/commits/master" title='last commits'>list of last changes</a>.<br/><br/></p>
+            <p>Also have a look at the <a href="{$changelogfile}">list of all release notes</a> and <a href="https://github.com/{$url_base}/commits" title='last commits'>list of last changes</a>.<br/><br/></p>
 			{foreach $changelog as $changes}
 				{if $changes@index eq 3}
 					{break}

@@ -6,7 +6,7 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>MacGPG1 | GPGTools (OpenPGP Tools for Apple OS X)</title>
+  <title>Mobile OpenPGP | GPGTools (OpenPGP Tools for Apple OS X)</title>
   <meta name="description" content="GPGTools - OpenPGP/PGP/GPG tools for Apple OS X (GPGMail, GPG Keychain Access, ...). To encrypt, decrypt, validate, and sign files and e-mails.">
   <meta name="author" content="GPGTools Project Team">
   <meta name="keywords" content="OpenPGP, PGP, GPG, Encryption, Decryption, Security, Apple, OS X, Mail, Keychain">
@@ -46,21 +46,19 @@
 
 
     <div id="overview">
-      <div id="o_content"><img src="./images/macgpg1.png" alt="MacGPG1" title="MacGPG1" class="logo"/> <h2>MacGPG1</h2></div>
+      <div id="o_content"><img src="./images/mobile.png" alt="Mobile OpenPGP" title="Mobile OpenPGP" class="logo"/> <h2>Mobile OpenPGP</h2></div>
     </div>
     <div id="spacer">
     </div>
     <div id="info">
-        <a href="https://github.com/downloads/GPGTools/MacGPG1/MacGPG1-1.4.11-1.dmg" class='piwik_download' title='start the download'><img src="./images/download.png" title="download" alt="download" id="download"/></a>
-    <h3><a href="https://github.com/downloads/GPGTools/MacGPG1/MacGPG1-1.4.11-1.dmg" class='piwik_download' title='start the download'>Download</a></h3>
-        <p>Version 1.4.11-1.</p>
+        <p>Version 0.2.</p>
     <p>24. February 2011.</p>
-    <p>Requires OS X >= 10.5.</p>
+    <p>Requires WebKit or iOS.</p>
         <hr>
     <p>
-        (<a href="https://github.com/downloads/GPGTools/MacGPG1/MacGPG1-1.4.11-1.dmg.sig" class='piwik_download' title='the gpg file signature'>sig</a> |        <a href="#releasenotes" title='the SHA-1 file checksum'>sha</a> |        <a href="https://github.com/GPGTools/MacGPG1/downloads" title='other files and versions'>others</a> |        <a href="https://github.com/GPGTools/MacGPG1" title='the sources of this project'>src</a> |
-        <a href="https://github.com/GPGTools/MacGPG1/raw/master/LICENSE.txt" title='the license of this project'>license</a>  |
-                <a href="macgpg1_appcast.xml" title='a feed with the latest versions'>feed</a>
+        (                        <a href="https://github.com/GPGTools/Mobile" title='the sources of this project'>src</a> |
+        <a href="https://github.com/GPGTools/Mobile/raw/master/LICENSE.txt" title='the license of this project'>license</a>  |
+        <a href="https://github.com/GPGTools/Mobile/wiki/Introduction" title="community maintained wiki">wiki</a> |        <a href="mobile_appcast.xml" title='a feed with the latest versions'>feed</a>
         )
     </p>
     </div>
@@ -68,31 +66,44 @@
         <div id="m_content">
             <h3>Overview</h3>
             
-	<p>MacGPG1 is an open source Mac OS X port of GnuPG. The project aims at making GnuPG easy to install, maybe provide a native Mac OS X pinentry utility and interact with existing GnuPG tools for Mac OS X.</p>
+	<p>This project aims to provide an Open Source OpenPGP architecture/application for mobile phones either based on JavaScript so it can be used on virtually every device in a browser in every country or as a native application. It should allow you to sign, encrypt, decrypt, and verify any kind of text - in particular e-mails. The idea is to implement the basic OpenPGP functionality and to reuse it in other projects.</p>
 
             <p><br/><br/></p>
             <h3>Support and Issues</h3>
-            <p>Please have a look at the <a href="http://gpgtools.lighthouseapp.com/projects/70639/tickets?q=state%3Aopen&amp;filter=">list of open issues</a> and ask <a href="mailto:gpgtools-users@lists.gpgtools.org">the mailing list</a> for further support.</p>
+            <p>Please have a look at the <a href="http://gpgtools.lighthouseapp.com/projects/65687/tickets?q=state%3Aopen&amp;filter=">list of open issues</a> and ask <a href="mailto:gpgtools-users@lists.gpgtools.org">the mailing list</a> for further support. Additionally we provide informations in our <a href="https://github.com/GPGTools/Mobile/wiki/Introduction" title="community maintained wiki">wiki</a>.</p>
                         <p>Often reported limitations:</p>
             <ul id="limitations" class="sub">
-                               <li><a href="http://gpgtools.lighthouseapp.com/projects/70639/tickets/">Issue #</a>: Very first alpha build!.</li>
+                               <li><a href="http://gpgtools.lighthouseapp.com/projects/65687/tickets/">Issue #</a>: Currently a "only" a <a href="http://gpgtools.org/mobile">JavaScript based proof of concept</a> including encryption and decryption.</li>
                             </ul>
             
                         <h3>Main Features</h3>
             <ul id="features" class="sub">
-                               <li><img src="./images/installericon.png" alt="Installer" title="Installer" class="icon" /> Is based on the GPGTools infrastructure and developments.</li>
+                               <li><img src="./images/webkit-icon.png" alt="WebKit" title="WebKit" class="icon" /> Runs in WebKit browsers (Safari/Chrome/iPhone/iPad/Android). Have a look at the <a href="http://gpgtools.org/mobile">online demo</a>.</li>
                             </ul>
                                     <h3>Screenshots</h3>
             <ul class="sub projects">
-                            <li><a href="./images/macgpg1_volume.png"><img class="screenshot" src="./images/macgpg1_volume.png" alt="MacGPG1 volume" title="MacGPG1 volume" /><br/>MacGPG1 volume</a>.</li>
-                            <li><a href="./images/macgpg1_installer.png"><img class="screenshot" src="./images/macgpg1_installer.png" alt="MacGPG1 installer" title="MacGPG1 installer" /><br/>MacGPG1 installer</a>.</li>
+                            <li><a href="./images/mobile_icon.png"><img class="screenshot" src="./images/mobile_icon.png" alt="application icon" title="application icon" /><br/>application icon</a>.</li>
+                            <li><a href="./images/mobile_home.png"><img class="screenshot" src="./images/mobile_home.png" alt="home screen" title="home screen" /><br/>home screen</a>.</li>
+                            <li><a href="./images/mobile_encrypt.png"><img class="screenshot" src="./images/mobile_encrypt.png" alt="encrypt message" title="encrypt message" /><br/>encrypt message</a>.</li>
+                            <li><a href="./images/mobile_decrypt.png"><img class="screenshot" src="./images/mobile_decrypt.png" alt="decrypt message" title="decrypt message" /><br/>decrypt message</a>.</li>
+                            <li><a href="./images/mobile_options.png"><img class="screenshot" src="./images/mobile_options.png" alt="options" title="options" /><br/>options</a>.</li>
+                            <li><a href="./images/mobile_architecture.png"><img class="screenshot" src="./images/mobile_architecture.png" alt="envisioned architecture" title="envisioned architecture" /><br/>envisioned architecture</a>.</li>
                         </ul>
-                                                <h3 id="releasenotes">Release Notes</h3>
-            <p>Also have a look at the <a href="macgpg1_changelog.html">list of all release notes</a> and <a href="https://github.com/GPGTools/MacGPG1/commits" title='last commits'>list of last changes</a>.<br/><br/></p>
-							                <p><b>Version 1.4.11-1 (24. February 2011).</b></p>
+                                    <h3>Screencasts</h3>
+            <ul class="sub projects">
+                            <li><a href="http://www.gpgtools.org/videos/gpgmobile/install.m4v" title='Install the application'><img class="screenshot" src="./images/screencast.jpg" alt="Install the application" title="Install the application" /><br />Install the application</a>.</li>
+                            <li><a href="http://www.gpgtools.org/videos/gpgmobile/encrypt.m4v" title='Encrypt message'><img class="screenshot" src="./images/screencast.jpg" alt="Encrypt message" title="Encrypt message" /><br />Encrypt message</a>.</li>
+                            <li><a href="http://www.gpgtools.org/videos/gpgmobile/decrypt.m4v" title='Decrypt message'><img class="screenshot" src="./images/screencast.jpg" alt="Decrypt message" title="Decrypt message" /><br />Decrypt message</a>.</li>
+                        </ul>
+                                    <h3 id="releasenotes">Release Notes</h3>
+            <p>Also have a look at the <a href="mobile_changelog.html">list of all release notes</a> and <a href="https://github.com/GPGTools/Mobile/commits" title='last commits'>list of last changes</a>.<br/><br/></p>
+							                <p><b>Version 0.2 (24. February 2011).</b></p>
                 <ul class="sub">
-                                                                                                                                                                <li>initial version.</li>
-                                                                                                    <li>Checksum: 908eb8b4a4a00fba92bc1f270419c10f2a4b3446 (SHA-1).</li>
+                                                                                                                                                                <li>integrated decryption.</li>
+                                                    </ul>
+            				                <p><b>Version 0.1 (23. September 2010).</b></p>
+                <ul class="sub">
+                                                                                                                                                                <li>initial release / proof of concept.</li>
                                                     </ul>
                     </div>
     </div>
