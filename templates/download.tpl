@@ -5,7 +5,7 @@
 	</head>
 	<body>
 		<p>
-			If you are not redirected automatically, you can click here: 
+			If the download does not start automatically you can click here: 
 			<a href="https://github.com/downloads/{$url_base}/{$url_dl}">https://github.com/downloads/{$url_base}/{$url_dl}</a>
 		</p>
 	</body
