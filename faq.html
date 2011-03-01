@@ -67,9 +67,11 @@
                           <li><a href="#1.6"><span class="question">What is the relationship between GPGTools and package XYZ?</span></a></li>
                           <li><a href="#1.7"><span class="question">Is GPGTools the same as Gpg Tools?</span></a></li>
                           <li><a href="#1.8"><span class="question">What are the MacGPG Tools?</span></a></li>
+                          <li><a href="#1.9"><span class="question">Why is there an "XXX" installer and a "GPGTools" installer? Do I need both? Which one should I install first? If I install one do I need the other?</span></a></li>
                        </ul></li>
                     <li>MacGPG2<ul class="">
                           <li><a href="#2.1"><span class="question">What if I have my own self-compiled version of GnuPG V1 or V2?</span></a></li>
+                          <li><a href="#2.2"><span class="question">Why is there a "MacGPG1" and "MacGPG2"?</span></a></li>
                        </ul></li>
                     <li>GPGMail<ul class="">
                           <li><a href="#3.1"><span class="question">Why can't I see my secret key in Mail.app?</span></a></li>
@@ -92,10 +94,12 @@
                           <li id="1.6"><div class="question">What is the relationship between GPGTools and package XYZ?</div><div class="answer">All packages are independently developed. The GPGTools Project Team just provides a consistent infrastructure (one mailing list, one ticket system, one web site, ...) and releases the all-in-one installer.</div></li>
                           <li id="1.7"><div class="question">Is GPGTools the same as Gpg Tools?</div><div class="answer">No - sorry for the confusion. The according author's web site no longer exists. It seems that for all useful purposes, Gpg Tools does not exist any longer.</div></li>
                           <li id="1.8"><div class="question">What are the MacGPG Tools?</div><div class="answer">There is no such thing. As far as we know.</div></li>
+                          <li id="1.9"><div class="question">Why is there an "XXX" installer and a "GPGTools" installer? Do I need both? Which one should I install first? If I install one do I need the other?</div><div class="answer">Because the different packages have different maintainers and some "power users" only want to download the components they need. The safest way is just to use the GPGTools installer and select the components you want to use. As inherent to the functional principle, every package expects to have a working GnuPG installation (e.g. MacGPG2 that is included in the installer) on your system.</div></li>
                        </ul>
                     <h3 class="clear">MacGPG2</h3>
             <ul class="sub">
-                          <li id="2.1"><div class="question">What if I have my own self-compiled version of GnuPG V1 or V2?</div><div class="answer">No problem. MacGPG2 will be installed at /usr/lib/MacGPG2. Although, you might want to check the symlinks /usr/local/bin/gpg and /usr/local/bin/gpg2. Furthermore, MacGPG2 package installations older than 2.0.17 will be removed.</div></li>
+                          <li id="2.1"><div class="question">What if I have my own self-compiled version of GnuPG V1 or V2?</div><div class="answer">No problem. MacGPG will be installed at /usr/lib/MacGPG1 and /usr/lib/MacGPG2 - this way it is very easy to uninstall. Although, you might want to check the symlinks /usr/local/bin/gpg and /usr/local/bin/gpg2. Furthermore, MacGPG2 package installations older than 2.0.17 will be removed.</div></li>
+                          <li id="2.2"><div class="question">Why is there a "MacGPG1" and "MacGPG2"?</div><div class="answer">GnuPG comes in two flavours: version 1 is the well known and portable standalone version, whereas version 2 is the enhanced variant. If you are uncertain install MacGPG2.</div></li>
                        </ul>
                     <h3 class="clear">GPGMail</h3>
             <ul class="sub">
