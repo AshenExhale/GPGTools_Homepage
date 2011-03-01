@@ -7,21 +7,21 @@
     </div>
     <div id="info">
     {if $url_dl neq ''}
-    <a href="https://github.com/downloads/{$url_base}/{$url_dl}" class='piwik_download' title='start the download'><img src="./images/download.png" title="download" alt="download" id="download"/></a>
-    <h3><a href="https://github.com/downloads/{$url_base}/{$url_dl}" class='piwik_download' title='start the download'>Download</a></h3>
+    <a href="https://github.com/downloads/{$url_base}/{$url_dl}" class='piwik_download' target='_blank' title='start the download'><img src="./images/download.png" title="download" alt="download" id="download"/></a>
+    <h3><a href="https://github.com/downloads/{$url_base}/{$url_dl}" class='piwik_download' target='_blank' title='start the download'>Download</a></h3>
     {/if}
     <p>Version {$version}.</p>
     <p>{$date}.</p>
     <p>Requires {$reqs}.</p>
         <hr>
     <p>
-        ({if $url_sig neq ''}<a href="https://github.com/downloads/{$url_base}/{$url_sig}" class='piwik_download' title='the gpg file signature'>sig</a> |{/if}
-        {if $url_sig neq ''}<a href="#releasenotes" title='the SHA-1 file checksum'>sha</a> |{/if}
-        {if $url_sig neq ''}<a href="https://github.com/{$url_base}/downloads" title='other files and versions'>others</a> |{/if}
-        <a href="https://github.com/{$url_base}" title='the sources of this project'>src</a> |
-        <a href="https://github.com/{$url_base}/raw/master/LICENSE.txt" title='the license of this project'>license</a>{if $url_beta neq ''} | <a href="https://github.com/downloads/{$url_base}/{$url_beta}" title="not released test version (use at your own risk)">beta</a>{/if}  |
-        {if $url_wiki neq ''}<a href="https://github.com/{$url_base}/{$url_wiki}" title="community maintained wiki">wiki</a> |{/if}
-        <a href="{$name}_appcast.xml" title='a feed with the latest versions'>feed</a>
+        ({if $url_sig neq ''}<a href="https://github.com/downloads/{$url_base}/{$url_sig}" class='piwik_download' target='_blank' title='the gpg file signature'>sig</a> |{/if}
+        {if $url_sig neq ''}<a href="#releasenotes" title='the SHA-1 file checksum' target='_blank'>sha</a> |{/if}
+        {if $url_sig neq ''}<a href="https://github.com/{$url_base}/downloads" title='other files and versions' target='_blank'>others</a> |{/if}
+        <a href="https://github.com/{$url_base}" title='the sources of this project' target='_blank'>src</a> |
+        <a href="https://github.com/{$url_base}/raw/master/LICENSE.txt" title='the license of this project' target='_blank'>license</a>{if $url_beta neq ''} | <a href="https://github.com/downloads/{$url_base}/{$url_beta}" title="not released test version (use at your own risk)" target='_blank'>beta</a>{/if}  |
+        {if $url_wiki neq ''}<a href="https://github.com/{$url_base}/{$url_wiki}" title="community maintained wiki" target='_blank'>wiki</a> |{/if}
+        <a href="{$name}_appcast.xml" title='a feed with the latest versions' target='_blank'>feed</a>
         )
     </p>
     </div>
@@ -31,7 +31,7 @@
             {$overview}
             <p><br/><br/></p>
             <h3>Support and Issues</h3>
-            <p>Please have a look at the <a href="http://gpgtools.lighthouseapp.com/projects/{$lighthouse}/tickets?q=state%3Aopen&amp;filter=">list of open issues</a> and ask <a href="mailto:gpgtools-users@lists.gpgtools.org">the mailing list</a> for further support.{if $url_wiki neq ''} Additionally we provide informations in our <a href="https://github.com/{$url_base}/{$url_wiki}" title="community maintained wiki">wiki</a>.{/if}</p>
+            <p>Please have a look at the <a href="http://gpgtools.lighthouseapp.com/projects/{$lighthouse}/tickets?q=state%3Aopen&amp;filter=" target='_blank'>list of open issues</a> and ask <a href="mailto:gpgtools-users@lists.gpgtools.org">the mailing list</a> for further support.{if $url_wiki neq ''} Additionally we provide informations in our <a href="https://github.com/{$url_base}/{$url_wiki}" title="community maintained wiki" target='_blank'>wiki</a>.{/if}</p>
             {if is_array($limitations)}
             <p>Often reported limitations:</p>
             <ul id="limitations" class="sub">
@@ -78,7 +78,7 @@
             </ul>
             {/if}
             <h3 id="releasenotes">Release Notes</h3>
-            <p>Also have a look at the <a href="{$changelogfile}">list of all release notes</a> and <a href="https://github.com/{$url_base}/commits" title='last commits'>list of last changes</a>.<br/><br/></p>
+            <p>Also have a look at the <a href="{$changelogfile}" target='_blank'>list of all release notes</a> and <a href="https://github.com/{$url_base}/commits" title='last commits' target='_blank'>list of last changes</a>.<br/><br/></p>
 			{foreach $changelog as $changes}
 				{if $changes@index eq 3}
 					{break}
@@ -88,7 +88,7 @@
                 {foreach $changes[1] as $change}
                     {if $change@key|substr:0:7 == 'sparkle'}{continue}{/if}
                     {if $change@key > 0}
-                       <li><a href='http://gpgtools.lighthouseapp.com/projects/{$lighthouse}/tickets/{$change@key}'>Issue {$change@key}</a>: {$change}.</li>
+                       <li><a href='http://gpgtools.lighthouseapp.com/projects/{$lighthouse}/tickets/{$change@key}' target='_blank'>Issue {$change@key}</a>: {$change}.</li>
                     {else}
                         <li>{$change}.</li>
                     {/if}
