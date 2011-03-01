@@ -16,7 +16,7 @@
         <hr>
     <p>
         ({if $url_sig neq ''}<a href="https://github.com/downloads/{$url_base}/{$url_sig}" class='piwik_download' target='_blank' title='the gpg file signature'>sig</a> |{/if}
-        {if $url_sig neq ''}<a href="#releasenotes" title='the SHA-1 file checksum' target='_blank'>sha</a> |{/if}
+        {if $url_sig neq ''}<a href="#releasenotes" title='the SHA-1 file checksum'>sha</a> |{/if}
         {if $url_sig neq ''}<a href="https://github.com/{$url_base}/downloads" title='other files and versions' target='_blank'>others</a> |{/if}
         <a href="https://github.com/{$url_base}" title='the sources of this project' target='_blank'>src</a> |
         <a href="https://github.com/{$url_base}/raw/master/LICENSE.txt" title='the license of this project' target='_blank'>license</a>{if $url_beta neq ''} | <a href="https://github.com/downloads/{$url_base}/{$url_beta}" title="not released test version (use at your own risk)" target='_blank'>beta</a>{/if}  |
