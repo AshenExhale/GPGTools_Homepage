@@ -13,9 +13,25 @@
 			<title>GPGTools</title>
 		</image>
 <item>
+		        <title>Installer version 20110302</title>
+    		    <pubDate>Wed, 02 Mar 2011 11:28:00 +0100</pubDate>
+    		    <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110302.dmg</guid>
+		        <description><![CDATA[
+		        <ul>
+                                                                                                                                        <li>Update: GPGMail 1.3.2.</li>
+                                                                            <li>Update: GPG Keychain Access 0.8.4.</li>
+                                                                            <li>Checksum: bfa802500b8f009bdcafa00bcf1eff0a644f4b88 (SHA-1).</li>
+                                                    </ul>
+		        ]]></description>
+    		    <sparkle:releaseNotesLink>
+	    	        http://www.gpgtools.org/installer_sparkle.html
+		        </sparkle:releaseNotesLink>
+		        <enclosure url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110302.dmg" sparkle:version="20110302" sparkle:dsaSignature="" length="19208869" type="application/octet-stream"/>
+        	</item>
+<item>
 		        <title>GPGMail version 1.3.2</title>
     		    <pubDate>Tue, 01 Mar 2011 12:00:00 +0100</pubDate>
-    		    <guid>http://github.com/downloads/gpgmail/GPGMail/GPGMail-1.3.2gm1.zip</guid>
+    		    <guid>http://github.com/downloads/gpgmail/GPGMail/GPGMail-1.3.2.zip</guid>
 		        <description><![CDATA[
 		        <ul>
                                                                                                                                         <li>Important: Our new home is http://gpgtools.org.</li>
@@ -56,7 +72,7 @@
     		    <sparkle:releaseNotesLink>
 	    	        http://www.gpgtools.org/gpgmail_sparkle.html
 		        </sparkle:releaseNotesLink>
-		        <enclosure url="http://github.com/downloads/gpgmail/GPGMail/GPGMail-1.3.2gm1.zip" sparkle:version="1.3.2" sparkle:dsaSignature="MCwCFG9n0pUclL/xvz7MgiGwIShkuocqAhQYQ7Dkx/pf9Pheey/JD4pP50ooJQ==" length="3595170" type="application/octet-stream"/>
+		        <enclosure url="http://github.com/downloads/gpgmail/GPGMail/GPGMail-1.3.2.zip" sparkle:version="1.3.2" sparkle:dsaSignature="MCwCFG9n0pUclL/xvz7MgiGwIShkuocqAhQYQ7Dkx/pf9Pheey/JD4pP50ooJQ==" length="3595170" type="application/octet-stream"/>
         	</item>
 <item>
 		        <title>GPG Keychain Access version 0.8.4</title>
@@ -103,7 +119,7 @@
                                                                             <li><a href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/32'>Issue 32</a>: fixing permissions.</li>
                                                                             <li><a href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/33'>Issue 33</a>: fixing incorrect options in gpg-agent.conf.</li>
                                                                             <li><a href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/40'>Issue 40</a>: fixing unusable secret keys on 32-bit machines.</li>
-                                                                            <li>Checksum: 147c7910fe5ced9148a8a02d1046c991a7790919 (SHA-1).</li>
+                                                                            <li>Checksum: 6fc707319cd6f26fbc902aeec90939ac13aef7f3 (SHA-1).</li>
                                                     </ul>
 		        ]]></description>
     		    <sparkle:releaseNotesLink>
