@@ -8,11 +8,11 @@
     <div id="info">
     {if $url_dl neq ''}
     <a href="https://github.com/downloads/{$url_base}/{$url_dl}" class='piwik_download' target='_blank' title='start the download'><img src="./images/download.png" title="download" alt="download" id="download"/></a>
-    <h3><a href="https://github.com/downloads/{$url_base}/{$url_dl}" class='piwik_download' target='_blank' title='start the download'>Download</a></h3>
+    <h3><a href="https://github.com/downloads/{$url_base}/{$url_dl}" class='piwik_download' target='_blank' title='start the download'>Download ({math equation="round(x / 1000000)" x=$changelog[$changelog|@key][1]['sparkle_size']} MB)</a></h3>
     {/if}
-    <p>Version {$version}.</p>
-    <p>{$date}.</p>
-    <p>Requires {$reqs}.</p>
+    <p>Version {$version}.<br/></p>
+    <p>{$date}.<br/></p>
+    <p>Requires {$reqs}.<br/></p>
         <hr>
     <p>
         ({if $url_sig neq ''}<a href="https://github.com/downloads/{$url_base}/{$url_sig}" class='piwik_download' target='_blank' title='the gpg file signature'>sig</a> |{/if}
