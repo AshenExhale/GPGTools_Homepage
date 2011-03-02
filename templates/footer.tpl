@@ -29,6 +29,7 @@ var _paq = _paq || [];
     _paq.push(['setSiteId', {$IDSITE}]);
     _paq.push(['setTrackerUrl', u+'piwik.php']);
     _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
     var d=document,
         g=d.createElement('script'),
         s=d.getElementsByTagName('script')[0];
