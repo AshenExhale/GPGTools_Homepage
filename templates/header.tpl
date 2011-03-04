@@ -38,9 +38,11 @@
               <li><a href="donate.php" title="how to donate">Donate</a></li>
             </ul>
           </div>
+<!--
           <a id="badge" href="http://gpgtools.lighthouseapp.com/tickets">
               <span>We need developers!</span>
               <span>Fix an issue ;)</span>
           </a>
+-->
       </div>
     </header>

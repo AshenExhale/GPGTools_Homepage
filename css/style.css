@@ -426,9 +426,13 @@ div#spacer {
     background: #e4e4e4;
     background: -moz-linear-gradient(top, #e4e4e4, #d5d5d5);
     background: -webkit-gradient(linear, left top, left bottom, from(#e4e4e4), to(#d5d5d5));
-    height:3em;
+    height:1.7em;
     border-top:1px solid #aaa;
     border-bottom:1px solid #aaa;
+    -webkit-box-shadow: 0px 2px 5px #aaa;
+    -moz-box-shadow: 0px 2px 5px #aaa;
+    box-shadow: 0px 2px 5px #aaa;
+    padding-left:.3em;
 }
 div#main {
     margin-top: 3em;
@@ -462,6 +466,9 @@ div#info {
     padding:.8em;
     padding-right:0;
     min-width:20em;
+    -webkit-box-shadow: 2px 2px 5px #aaa;
+    -moz-box-shadow: 2px 2px 5px #aaa;
+    box-shadow: 2px 2px 5px #aaa;
 }
 div#info p {
     display:inline;
@@ -496,11 +503,14 @@ footer {
     background: linear-gradient(top, #dadada, #ededed);
     background: -moz-linear-gradient(top, #dadada, #ededed);
     background: -webkit-gradient(linear, left top, left bottom, from(#dadada), to(#ededed));
-    height:3.2em;
+    height:1.7em;
     border-top:1px solid #aaa;
     border-bottom:1px solid #aaa;
-    margin-top:10em;
+    margin-top:5em;
     clear:both;
+    -webkit-box-shadow: 0px -2px 5px #aaa;
+    -moz-box-shadow: 0px -2px 5px #aaa;
+    box-shadow: 0px -2px 5px #aaa;
 }
 
 footer div {
