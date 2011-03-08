@@ -48,7 +48,7 @@
                 <li><a href="https://github.com/GPGTools/ABKey">ABKey</a>. GPG for the OS X address book (state: we need a maintainer).</li>
                 <li><a href="https://github.com/GPGTools/GPGMail_Preferences">GPGTools/GPGMail Preferences</a>. A system wide preference pane for the GPGTools (state: needs more work).</li>
                 <li><a href="https://github.com/GPGTools/GPGMail_Spotlight">GPGMail Spotlight Plugin</a>. OS X Spotlight Plugin to search within encrypted mails (state: needs a maintainer, not implemented yet).</li>
-¥            </ul>
+            </ul>
             <h3 id="interesting" class="clear">Interesting Projects</h3>
             <p>List of interesting OpenPGP related OS X projects.</p>
             <ul class="sub">
