@@ -45,9 +45,9 @@ $limitations = array(
 $theSite->assign('limitations', $limitations);
 
 $features = array(
-'/macgpg2/images/logo.png' => array('Integrated <a href="/macgpg2/index.php">MacGPG2</a> (does not break your gpg1 installation, if there is one)', 'gpg2, gpg-agent, pinentry-mac'),
-'/gpgmail/images/logo.png' => array('Integrated <a href="/gpgmail/index.php">GPGMail</a> (with <a href="/faq.php#3.2">OS update auto-fix</a>)', 'GPGMail'),
-'/gpgkeychain/images/logo.png' => array('Integrated <a href="/keychain/index.php">GPG Keychain Access</a>', 'GPG Keychain Access'),
+'/macgpg2/images/logo-35px.png' => array('Integrated <a href="/macgpg2/index.php">MacGPG2</a> (does not break your gpg1 installation, if there is one)', 'gpg2, gpg-agent, pinentry-mac'),
+'/gpgmail/images/logo-35px.png' => array('Integrated <a href="/gpgmail/index.php">GPGMail</a> (with <a href="/faq.php#3.2">OS update auto-fix</a>)', 'GPGMail'),
+'/keychain/images/logo-35px.png' => array('Integrated <a href="/keychain/index.php">GPG Keychain Access</a>', 'GPG Keychain Access'),
 '/gpgservices/images/logo.png' => array('Integrated <a href="/gpgservices/index.php">GPGServices</a>', 'GPGServices'),
 '/gpgpreferences/images/logo-35px.png' => array('Integrated <a href="/gpgpreferences/index.php">GPGPreferences</a> (initial version, GPG and GPGMail auto-fix only)', 'GPGPreferences'),
 '/images/enigmail.png' => array('Integrated <a href="http://enigmail.mozdev.org/">Enigmail</a>', 'Mozilla Enigmail'),
