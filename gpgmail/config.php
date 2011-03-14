@@ -8,7 +8,7 @@ $current=$release[$version];
 
 $theSite->assign('title', 'GPGMail');
 $theSite->assign('name', 'gpgmail');
-$theSite->assign('img_logo', 'images/logo.png');
+$theSite->assign('img_logo', 'images/logo-128px.png');
 $theSite->assign('url_base', 'GPGTools/GPGMail');
 $theSite->assign('url_dl', "GPGMail-$version.dmg");
 $theSite->assign('url_sig', "GPGMail-$version.dmg.sig");

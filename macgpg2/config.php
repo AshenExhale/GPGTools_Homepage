@@ -8,7 +8,7 @@ $current = $release[$version];
 
 $theSite->assign('title',    'MacGPG2');
 $theSite->assign('name', 'macgpg2');
-$theSite->assign('img_logo', 'images/logo.png');
+$theSite->assign('img_logo', 'images/logo-128px.png');
 $theSite->assign('url_base', 'GPGTools/MacGPG2');
 $theSite->assign('url_dl',   "MacGPG2-$version.dmg");
 $theSite->assign('url_sig',  "MacGPG2-$version.dmg.sig");

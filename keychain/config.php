@@ -12,7 +12,7 @@ $current=$release[$version];
 
 $theSite->assign('title', 'GPG Keychain Access');
 $theSite->assign('name', 'keychain');
-$theSite->assign('img_logo', 'images/logo.png');
+$theSite->assign('img_logo', 'images/logo-128px.png');
 $theSite->assign('url_base', 'GPGTools/GPGKeychainAccess');
 $theSite->assign('url_dl', "GPG%20Keychain%20Access-$version.dmg");
 $theSite->assign('url_beta', '');

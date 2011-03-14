@@ -80,7 +80,7 @@
 			<Application_Info_URL>http://www.gpgtools.org/gpgmail.html</Application_Info_URL>
 			<Application_Order_URL />
 			<Application_Screenshot_URL>http://www.gpgtools.org/images/images/preferences.png</Application_Screenshot_URL>
-			<Application_Icon_URL>http://www.gpgtools.org/images/images/logo.png</Application_Icon_URL>
+			<Application_Icon_URL>http://www.gpgtools.org/images/images/logo-128px.png</Application_Icon_URL>
 			<Application_XML_File_URL>http://www.gpgtools.org/gpgmail_pad.xml</Application_XML_File_URL>
 		</Application_URLs>
 		<Download_URLs>

@@ -14,7 +14,7 @@ $current = $release[$version];
 
 $theSite->assign('title',    'Installer');
 $theSite->assign('name', 'installer');
-$theSite->assign('img_logo', 'images/logo.png');
+$theSite->assign('img_logo', 'images/logo-128px.png');
 $theSite->assign('url_base', 'GPGTools/GPGTools');
 $theSite->assign('url_dl',   "GPGTools-$version.dmg");
 $theSite->assign('url_sig',  "GPGTools-$version.dmg.sig");

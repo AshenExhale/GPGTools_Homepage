@@ -5,7 +5,7 @@ $current = $release['1.4.11-1'];
 
 $theSite->assign('title',    'MacGPG1');
 $theSite->assign('name', 'macgpg1');
-$theSite->assign('img_logo', 'images/logo.png');
+$theSite->assign('img_logo', 'images/logo-128px.png');
 $theSite->assign('url_base', 'GPGTools/MacGPG1');
 $theSite->assign('url_dl',   'MacGPG1-1.4.11-1.dmg');
 $theSite->assign('url_sig',  'MacGPG1-1.4.11-1.dmg.sig');
