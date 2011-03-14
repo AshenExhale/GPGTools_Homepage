@@ -15,7 +15,7 @@
             you like what we're doing please spread the word, contribute, or
             donate any amount of money.</p><ul class="sub"></ul>
             <h3>How to Donate?</h3>
-            <p>There are several ways to donate money to a project. Currently, we offer PayPal donations only, but if you want to use another service please <a href="about.html">let us know</a>.</p><ul class="sub"></ul>
+            <p>There are several ways to donate money to a project. Currently, we offer PayPal donations only, but if you want to use another service please <a href="about.php">let us know</a>.</p><ul class="sub"></ul>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_donations">
 <input type="hidden" name="business" value="alex@willner.ws">

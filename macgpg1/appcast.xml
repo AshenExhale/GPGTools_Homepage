@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+		<title>GPGTools - MacGPG1 - Changelog</title>
+		<link>http://www.gpgtools.org/macgpg1_appcast.xml</link>
+		<atom:link href="http://www.gpgtools.org/macgpg1_appcast.xml" rel="self" type="application/rss+xml" />
+		<docs>http://sparkle.andymatuschak.org/documentation</docs>
+		<description>Visit http://www.gpgtools.org/ for further information.</description>
+		<image>
+			<url>http://www.gpgtools.org/images/rss_icon.png</url>
+			<link>http://www.gpgtools.org/macgpg1_appcast.xml</link>
+			<title>GPGTools</title>
+		</image>
+		<language>en</language>
+        
+Fatal error: Uncaught exception 'SmartyException' with message 'Unable to load template file 'templates/appcast_core.tpl'' in /Users/Roman/Documents/OpenSource/GPG/GPGTools_Homepage/libs/sysplugins/smarty_internal_template.php:163
+Stack trace:
+#0 /Users/Roman/Documents/OpenSource/GPG/GPGTools_Homepage/libs/sysplugins/smarty_internal_template.php(538): Smarty_Internal_Template->isExisting(true)
+#1 /Users/Roman/Documents/OpenSource/GPG/GPGTools_Homepage/templates_c/a4155b0db7811985d1a1897592146f15b4dea53a.file.appcast.tpl.php(36): Smarty_Internal_Template->getRenderedTemplate()
+#2 /Users/Roman/Documents/OpenSource/GPG/GPGTools_Homepage/libs/sysplugins/smarty_internal_template.php(423): include('/Users/Roman/Do...')
+#3 /Users/Roman/Documents/OpenSource/GPG/GPGTools_Homepage/libs/sysplugins/smarty_internal_template.php(555): Smarty_Internal_Template->renderTemplate()
+#4 /Users/Roman/Documents/OpenSource/GPG/GPGTools_Homepage/libs/Smarty.class.php(335): Smarty_Internal_Template->getRenderedTemplate()
+#5 /Users/Roman/Documents/ in /Users/Roman/Documents/OpenSource/GPG/GPGTools_Homepage/libs/sysplugins/smarty_internal_template.php on line 163

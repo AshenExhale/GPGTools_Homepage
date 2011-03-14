@@ -23,13 +23,13 @@ $header = <<<EOD
 EOD;
 
 $body = "";
-require('installer.php.conf');
+require('installer/config.php');
 $body .= $theSite->fetch('templates/appcast_core.tpl');
-require('macgpg2.php.conf');
+require('macgpg2/config.php');
 $body .= $theSite->fetch('templates/appcast_core.tpl');
-require('gpgmail.php.conf');
+require('gpgmail/config.php');
 $body .= $theSite->fetch('templates/appcast_core.tpl');
-require('keychain.php.conf');
+require('keychain/config.php');
 $body .= $theSite->fetch('templates/appcast_core.tpl');
 
 $footer = "    </channel>\n</rss>\n";

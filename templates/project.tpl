@@ -1,13 +1,13 @@
 {extends file="index.tpl"}
 {block name=body}
     <div id="overview">
-      <div id="o_content"><img src="./images/{$img_logo}" alt="{$title}" title="{$title}" class="logo"/> <h2>{$title}</h2></div>
+      <div id="o_content"><img src="{$img_logo}" alt="{$title}" title="{$title}" class="logo"/> <h2>{$title}</h2></div>
     </div>
     <div id="spacer">
     </div>
     <div id="info">
     {if $url_dl neq ''}
-    <a href="https://github.com/downloads/{$url_base}/{$url_dl}" class='piwik_download' target='_blank' title='start the download'><img src="./images/download.png" title="download" alt="download" id="download"/></a>
+    <a href="https://github.com/downloads/{$url_base}/{$url_dl}" class='piwik_download' target='_blank' title='start the download'><img src="/images/download.png" title="download" alt="download" id="download"/></a>
     <h3><a href="https://github.com/downloads/{$url_base}/{$url_dl}" class='piwik_download' target='_blank' title='start the download'>Download ({math equation="round(x / 1000000)" x=$changelog[$changelog|@key][1]['sparkle_size']} MB)</a></h3>
     {/if}
     <p>Version {$version}<br/></p>
@@ -47,7 +47,7 @@
             <h3>Main Features</h3>
             <ul id="features" class="sub">
                {foreach from=$features key=f_url item=f_title}
-                <li><img src="./images/{$f_url}" alt="{$f_title[1]}" title="{$f_title[1]}" class="icon" /> {$f_title[0]}.</li>
+                <li><img src="{$f_url}" alt="{$f_title[1]}" title="{$f_title[1]}" class="icon" /> {$f_title[0]}.</li>
                 {/foreach}
             </ul>
             {/if}
@@ -55,7 +55,7 @@
             <h3>Screenshots</h3>
             <ul class="sub projects">
             {foreach from=$screenshots key=o_url item=o_title}
-                <li><a href="./images/{$o_url}"><img class="screenshot" src="./images/{$o_url}" alt="{$o_title}" title="{$o_title}" /><br/>{$o_title}</a>.</li>
+                <li><a href="{$o_url}"><img class="screenshot" src="{$o_url}" alt="{$o_title}" title="{$o_title}" /><br/>{$o_title}</a>.</li>
             {/foreach}
             </ul>
             {/if}
@@ -63,7 +63,7 @@
             <h3>Screencasts</h3>
             <ul class="sub projects">
             {foreach from=$screencasts key=s_url item=s_title}
-                <li><a href="http://www.gpgtools.org/videos/{$s_url}" title='{$s_title}'><img class="screenshot" src="./images/screencast.jpg" alt="{$s_title}" title="{$s_title}" /><br />{$s_title}</a>.</li>
+                <li><a href="http://www.gpgtools.org/videos/{$s_url}" title='{$s_title}'><img class="screenshot" src="/images/screencast.jpg" alt="{$s_title}" title="{$s_title}" /><br />{$s_title}</a>.</li>
             {/foreach}
             </ul>
             {/if}

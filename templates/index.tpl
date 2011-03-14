@@ -1,5 +1,5 @@
-{include file="templates/header.tpl"}
+{include file="header.tpl"}
 
 {block name=body}Default Body{/block}
 
-{include file="templates/footer.tpl"}
+{include file="footer.tpl"}

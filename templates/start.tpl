@@ -21,13 +21,13 @@
             And if you have any further questions that are not listed in the
             <a href="faq.php" title="Frequently Asked Questions">FAQ</a> or if
             you want to get the latest news, please do not heasitate to open the
-            <a href="about.html"
+            <a href="about.php"
             title="have a look at the 'How can I contact you?' section.">
             contact</a> section. Finally, if you like you can <a href="donate.php">make a donation</a>.</p>
             <ul class="sub"></ul>
             <div class="project2">
-                <a href="installer.html">
-                    <img src="./images/gpginstaller.png" alt="Installer for OpenPGP and all necessary files" title="Installer for OpenPGP and all necessary files" />
+                <a href="installer/index.php">
+                    <img src="/installer/images/logo.png" alt="Installer for OpenPGP and all necessary files" title="Installer for OpenPGP and all necessary files" />
                     <br/>
                     Download GPG Tools Installer
                 </a>

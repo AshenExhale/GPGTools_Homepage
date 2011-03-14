@@ -6,8 +6,8 @@
 	<meta name="author" content="GPGTools Project Team">
 	<meta name="robots" content="noindex" />
 	<link rel="shortcut icon" href="./favicon.ico">
-	<link rel="stylesheet" media="all" href="./css/style.css?v=2">
-	<link rel="stylesheet" media="screen and (min-device-width: 1024px)" href="./css/badge.css?v=2" />
+	<link rel="stylesheet" media="all" href="/css/style.css?v=2">
+	<link rel="stylesheet" media="screen and (min-device-width: 1024px)" href="/css/badge.css?v=2" />
 	<script src="./js/libs/modernizr-1.6.min.js"></script>
 </head>
 
