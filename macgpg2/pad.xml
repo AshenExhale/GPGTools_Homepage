@@ -1,3 +1,7 @@
+
+Warning: include(/Library/WebServer/Documents/libs/plugins/function.math.php): failed to open stream: No such file or directory in /Users/Roman/Documents/OpenSource/GPG/GPGTools_Homepage/templates_c/5e61c174b9bca51aa9956cccaf763e6926853e84.file.pad.tpl.php on line 20
+
+Warning: include(): Failed opening '/Library/WebServer/Documents/libs/plugins/function.math.php' for inclusion (include_path='.:/usr/lib/php') in /Users/Roman/Documents/OpenSource/GPG/GPGTools_Homepage/templates_c/5e61c174b9bca51aa9956cccaf763e6926853e84.file.pad.tpl.php on line 20
 <?xml version="1.0" encoding="UTF-8" ?><XML_DIZ_INFO>
 	<MASTER_PAD_VERSION_INFO>
 		<MASTER_PAD_VERSION>3.10</MASTER_PAD_VERSION>
@@ -52,46 +56,5 @@
 		<Program_System_Requirements />
 		<File_Info>
 			<File_Size_Bytes>8446511</File_Size_Bytes>
-			<File_Size_K>8447</File_Size_K>
-			<File_Size_MB>8</File_Size_MB>
-		</File_Info>
-		<Expire_Info>
-			<Has_Expire_Info>N</Has_Expire_Info>
-			<Expire_Count />
-			<Expire_Based_On />
-			<Expire_Other_Info />
-			<Expire_Month />
-			<Expire_Day />
-			<Expire_Year />
-		</Expire_Info>
-	</Program_Info>
-	<Program_Descriptions>
-		<English>
-			<Keywords />
-			<Char_Desc_45 />
-			<Char_Desc_80 />
-			<Char_Desc_250>MacGPG2 is an open source Mac OS X port of GnuPG. The project aims at making GnuPG easy to install, provide a native Mac OS X pinentry utility and interact with existing GnuPG tools for Mac OS X.</Char_Desc_250>
-			<Char_Desc_450 />
-			<Char_Desc_2000 />
-		</English>
-	</Program_Descriptions>
-	<Web_Info>
-		<Application_URLs>
-			<Application_Info_URL>http://www.gpgtools.org/macgpg2.html</Application_Info_URL>
-			<Application_Order_URL />
-			<Application_Screenshot_URL>http://www.gpgtools.org/images/images/screenshot.png</Application_Screenshot_URL>
-			<Application_Icon_URL>http://www.gpgtools.org/images/images/logo.png</Application_Icon_URL>
-			<Application_XML_File_URL>http://www.gpgtools.org/macgpg2_pad.xml</Application_XML_File_URL>
-		</Application_URLs>
-		<Download_URLs>
-			<Primary_Download_URL>http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.17-9.zip</Primary_Download_URL>
-			<Secondary_Download_URL />
-			<Additional_Download_URL_1 />
-			<Additional_Download_URL_2 />
-		</Download_URLs>
-	</Web_Info>
-	<Permissions>
-		<Distribution_Permissions />
-		<EULA />
-	</Permissions>
-</XML_DIZ_INFO>
+			<File_Size_K>
+Fatal error: Call to undefined function smarty_function_math() in /Users/Roman/Documents/OpenSource/GPG/GPGTools_Homepage/templates_c/5e61c174b9bca51aa9956cccaf763e6926853e84.file.pad.tpl.php on line 82
