@@ -9,4 +9,4 @@
 			<title>GPGTools</title>
 		</image>
 		<language>en</language>
-        {include file="templates/appcast_core.tpl"}
+        {include file="appcast_core.tpl"}

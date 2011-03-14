@@ -12,12 +12,24 @@
 			<title>GPGTools</title>
 		</image>
 		<language>en</language>
-        
-Fatal error: Uncaught exception 'SmartyException' with message 'Unable to load template file 'templates/appcast_core.tpl'' in /Users/Roman/Documents/OpenSource/GPG/GPGTools_Homepage/libs/sysplugins/smarty_internal_template.php:163
-Stack trace:
-#0 /Users/Roman/Documents/OpenSource/GPG/GPGTools_Homepage/libs/sysplugins/smarty_internal_template.php(538): Smarty_Internal_Template->isExisting(true)
-#1 /Users/Roman/Documents/OpenSource/GPG/GPGTools_Homepage/templates_c/a4155b0db7811985d1a1897592146f15b4dea53a.file.appcast.tpl.php(36): Smarty_Internal_Template->getRenderedTemplate()
-#2 /Users/Roman/Documents/OpenSource/GPG/GPGTools_Homepage/libs/sysplugins/smarty_internal_template.php(423): include('/Users/Roman/Do...')
-#3 /Users/Roman/Documents/OpenSource/GPG/GPGTools_Homepage/libs/sysplugins/smarty_internal_template.php(555): Smarty_Internal_Template->renderTemplate()
-#4 /Users/Roman/Documents/OpenSource/GPG/GPGTools_Homepage/libs/Smarty.class.php(335): Smarty_Internal_Template->getRenderedTemplate()
-#5 /Users/Roman/Documents/ in /Users/Roman/Documents/OpenSource/GPG/GPGTools_Homepage/libs/sysplugins/smarty_internal_template.php on line 163
+        			    	<item>
+		        <title>MacGPG1 version 1.4.11-1</title>
+    		    <pubDate>Thu, 24 Feb 2011 00:13:08 +0100</pubDate>
+    		    <guid>http://github.com/downloads/GPGTools/MacGPG1/MacGPG1-1.4.11-1.dmg</guid>
+		        <description><![CDATA[
+		        <ul>
+                                                                                                                                        <li>initial version.</li>
+                                                                            <li>Checksum: 908eb8b4a4a00fba92bc1f270419c10f2a4b3446 (SHA-1).</li>
+                                                    </ul>
+		        ]]></description>
+    		    <sparkle:releaseNotesLink>
+	    	        http://www.gpgtools.org/macgpg1_sparkle.html
+		        </sparkle:releaseNotesLink>
+		        <enclosure url="http://github.com/downloads/GPGTools/MacGPG1/MacGPG1-1.4.11-1.dmg"
+		               sparkle:version="1.4.11-1"
+					   sparkle:dsaSignature=""
+		               length="3077981"
+		               type="application/octet-stream" />
+        	</item>
+        </channel>
+</rss>

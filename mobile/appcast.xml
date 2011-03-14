@@ -12,12 +12,41 @@
 			<title>GPGTools</title>
 		</image>
 		<language>en</language>
-        
-Fatal error: Uncaught exception 'SmartyException' with message 'Unable to load template file 'templates/appcast_core.tpl'' in /Users/Roman/Documents/OpenSource/GPG/GPGTools_Homepage/libs/sysplugins/smarty_internal_template.php:163
-Stack trace:
-#0 /Users/Roman/Documents/OpenSource/GPG/GPGTools_Homepage/libs/sysplugins/smarty_internal_template.php(538): Smarty_Internal_Template->isExisting(true)
-#1 /Users/Roman/Documents/OpenSource/GPG/GPGTools_Homepage/templates_c/a4155b0db7811985d1a1897592146f15b4dea53a.file.appcast.tpl.php(36): Smarty_Internal_Template->getRenderedTemplate()
-#2 /Users/Roman/Documents/OpenSource/GPG/GPGTools_Homepage/libs/sysplugins/smarty_internal_template.php(423): include('/Users/Roman/Do...')
-#3 /Users/Roman/Documents/OpenSource/GPG/GPGTools_Homepage/libs/sysplugins/smarty_internal_template.php(555): Smarty_Internal_Template->renderTemplate()
-#4 /Users/Roman/Documents/OpenSource/GPG/GPGTools_Homepage/libs/Smarty.class.php(335): Smarty_Internal_Template->getRenderedTemplate()
-#5 /Users/Roman/Documents/ in /Users/Roman/Documents/OpenSource/GPG/GPGTools_Homepage/libs/sysplugins/smarty_internal_template.php on line 163
+        			    	<item>
+		        <title>Mobile OpenPGP version 0.2</title>
+    		    <pubDate>Thu, 24 Feb 2011 00:13:08 +0100</pubDate>
+    		    <guid></guid>
+		        <description><![CDATA[
+		        <ul>
+                                                                                                                                        <li>integrated decryption.</li>
+                                                    </ul>
+		        ]]></description>
+    		    <sparkle:releaseNotesLink>
+	    	        http://www.gpgtools.org/mobile_sparkle.html
+		        </sparkle:releaseNotesLink>
+		        <enclosure url=""
+		               sparkle:version="0.2"
+					   sparkle:dsaSignature=""
+		               length=""
+		               type="application/octet-stream" />
+        	</item>
+        	    	<item>
+		        <title>Mobile OpenPGP version 0.1</title>
+    		    <pubDate>Thu, 23 Sep 2010 00:13:08 +0200</pubDate>
+    		    <guid></guid>
+		        <description><![CDATA[
+		        <ul>
+                                                                                                                                        <li>initial release / proof of concept.</li>
+                                                    </ul>
+		        ]]></description>
+    		    <sparkle:releaseNotesLink>
+	    	        http://www.gpgtools.org/mobile_sparkle.html
+		        </sparkle:releaseNotesLink>
+		        <enclosure url=""
+		               sparkle:version="0.1"
+					   sparkle:dsaSignature=""
+		               length=""
+		               type="application/octet-stream" />
+        	</item>
+        </channel>
+</rss>
