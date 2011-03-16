@@ -55,7 +55,13 @@
             <h3>Screenshots</h3>
             <ul class="sub projects">
             {foreach from=$screenshots key=o_url item=o_title}
-                <li><a href="{$o_url}"><img class="screenshot" src="{$o_url}" alt="{$o_title}" title="{$o_title}" /><br/>{$o_title}</a>.</li>
+				{if is_array($o_title)}
+					{assign var="o_thumb" value=$o_title[0]}
+					{assign var="o_title" value=$o_title[1]}
+				{else}
+					{assign var="o_thumb" value=$o_url}
+				{/if}
+                <li><a href="{$o_url}"><img class="screenshot" src="{$o_thumb}" alt="{$o_title}" title="{$o_title}" /><br/>{$o_title}</a>.</li>
             {/foreach}
             </ul>
             {/if}

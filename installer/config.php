@@ -56,8 +56,8 @@ $features = array(
 $theSite->assign('features', $features);
 
 $screenshots = array(
-'images/volume.png' => 'The installation volume',
-'images/installer.png' => 'List of components you can choose from'
+'images/volume.png' => array('images/volume-small.png', 'The installation volume'),
+'images/installer.png' => array('images/installer-small.png', 'List of components you can choose from')
 );
 $theSite->assign('screenshots', $screenshots);
 

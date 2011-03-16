@@ -40,8 +40,8 @@ $features = array(
 $theSite->assign('features', $features);
 
 $screenshots = array(
-    'images/volume.png' => "MacGPG1 volume",
-    'images/installer.png' => "MacGPG1 installer"
+    'images/volume.png' => array('images/volume-small.png', 'MacGPG1 volume'),
+    'images/installer.png' => array('images/installer-small.png', 'MacGPG1 installer')
 );
 $theSite->assign('screenshots', $screenshots);
 

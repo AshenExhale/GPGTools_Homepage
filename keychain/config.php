@@ -49,7 +49,7 @@ $features = array(
 $theSite->assign('features', $features);
 
 $screenshots = array(
-"images/keys.png" => "List of installed keys"
+'images/keys.png' => array('images/keys-small.png', 'List of installed keys')
 );
 $theSite->assign('screenshots', $screenshots);
 
