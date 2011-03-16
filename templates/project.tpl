@@ -7,7 +7,7 @@
     </div>
     <div id="info">
     {if $url_dl neq ''}
-    <a href="https://github.com/downloads/{$url_base}/{$url_dl}" class='piwik_download' target='_blank' title='start the download'><img src="/images/download.png" title="download" alt="download" id="download"/></a>
+    <a href="https://github.com/downloads/{$url_base}/{$url_dl}" class='piwik_download' target='_blank' title='start the download'><img src="{$root}images/download.png" title="download" alt="download" id="download"/></a>
     <h3><a href="https://github.com/downloads/{$url_base}/{$url_dl}" class='piwik_download' target='_blank' title='start the download'>Download ({math equation="round(x / 1000000)" x=$changelog[$changelog|@key][1]['sparkle_size']} MB)</a></h3>
     {/if}
     <p>Version {$version}<br/></p>
@@ -69,7 +69,7 @@
             <h3>Screencasts</h3>
             <ul class="sub projects">
             {foreach from=$screencasts key=s_url item=s_title}
-                <li><a href="http://www.gpgtools.org/videos/{$s_url}" title='{$s_title}'><img class="screenshot" src="/images/screencast.jpg" alt="{$s_title}" title="{$s_title}" /><br />{$s_title}</a>.</li>
+                <li><a href="http://www.gpgtools.org/videos/{$s_url}" title='{$s_title}'><img class="screenshot" src="{$root}images/screencast.jpg" alt="{$s_title}" title="{$s_title}" /><br />{$s_title}</a>.</li>
             {/foreach}
             </ul>
             {/if}

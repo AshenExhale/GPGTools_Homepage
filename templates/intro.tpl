@@ -71,7 +71,7 @@ information is hidden from anyone for whom it is not intended, even those
 who can see the encrypted data. The process of reverting ciphertext to its
 original plaintext is called <I>decryption</I>. <I>Figure 1-1</I> illustrates this process.
 <P>
-<img class="intro" SRC="/images/pgp/fig1-1.gif" />
+<img class="intro" SRC="{$root}images/pgp/fig1-1.gif" />
 <p class="description">Figure 1-1. Encryption and decryption</p>
 <P>
 <h3 class="intro" id="p3">What is cryptography?</h3>
@@ -129,7 +129,7 @@ In conventional cryptography, also called <I>secret-key </I>or <I>symmetric-key
 Encryption Standard (DES) is an example of a conventional cryptosystemthat
 is widely employed by the Federal Government. <I>Figure 1-2</I> is an illustration of the conventional encryption process.
 <P>
-<img class="intro" SRC="/images/pgp/fig1-2.gif" />
+<img class="intro" SRC="{$root}images/pgp/fig1-2.gif" />
 <p class="description">Figure 1-2. Conventional encryption </p>
 <P>
 <h3 class="intro" id="p7">Caesar's Cipher</h3>
@@ -196,7 +196,7 @@ Anyone who has a public key can encrypt information but cannot decrypt it.
 Only the person who has the corresponding private key can decrypt the
 information.
 <P>
-<img class="intro" SRC="/images/pgp/fig1-3.gif" />
+<img class="intro" SRC="{$root}images/pgp/fig1-3.gif" />
 <p class="description">Figure 1-3. Public key encryption</p>
 <P>
 The primary benefit of public key cryptography is that it allows people who
@@ -237,14 +237,14 @@ ciphertext. Once the data is encrypted, the session key is then encrypted to the
 recipient's public key. This public key-encrypted session key is transmitted
 along with the ciphertext to the recipient.
 <P>
-<img class="intro" SRC="/images/pgp/fig1-4.gif" />
+<img class="intro" SRC="{$root}images/pgp/fig1-4.gif" />
 <p class="description">Figure 1-4. How OpenPGP encryption works</p>
 <P>
 Decryption works in the reverse. The recipient's copy of OpenPGP uses his or her
 private key to recover the temporary session key, which OpenPGP then uses to
 decrypt the conventionally-encrypted ciphertext.
 <P>
-<img class="intro" SRC="/images/pgp/fig1-5.gif" />
+<img class="intro" SRC="{$root}images/pgp/fig1-5.gif" />
 <p class="description">Figure 1-5. How OpenPGP decryption works</p>
 <P>
 The combination of the two encryption methods combines the convenience of
@@ -311,7 +311,7 @@ dealing with.
 <P>
 The basic manner in which digital signatures are created is illustrated in <I>Figure 1-6</I>. Instead of encrypting information using someone else's public key, you encrypt it with your private key. If the information can be decrypted with your public key, then it must have originated with you.
 <P>
-<img class="intro" SRC="/images/pgp/fig1-6.gif" />
+<img class="intro" SRC="{$root}images/pgp/fig1-6.gif" />
 <p class="description">Figure 1-6. Simple digital signatures</p>
 <P>
 <h3 class="intro" id="p13">Hash functions</h3>
@@ -340,7 +340,7 @@ signature from one document and attach it to another, or to alter a signed
 message in any way. The slightest change in a signed document will cause the
 digital signature verification process to fail.
 <P>
-<img class="intro" SRC="/images/pgp/fig1-7.gif" />
+<img class="intro" SRC="{$root}images/pgp/fig1-7.gif" />
 <p class="description">Figure 1-7. Secure digital signatures</p>
 <P>
 Digital signatures play a major role in authenticating and <I>validating </I>other OpenPGP
@@ -393,7 +393,7 @@ bound to, </I>the public key.
 Thus, a certificate is basically a public key with one or two forms of ID
 attached, plus a hearty stamp of approval from some other trusted individual.
 <P>
-<img class="intro" SRC="/images/pgp/fig1-8.gif" />
+<img class="intro" SRC="{$root}images/pgp/fig1-8.gif" />
 <p class="description">Figure 1-8. Anatomy of a OpenPGP certificate</p>
 <P>
 <h3 class="intro" id="p15">Certificate distribution</h3>
@@ -490,7 +490,7 @@ labels on the key are authentic. (Note that 'authentic' is in the eye of its
 beholder — signatures are opinions, and different people devote different
 levels of due diligence in checking authenticity before signing a key.)
 <P>
-<img class="intro" SRC="/images/pgp/fig1-9.gif" />
+<img class="intro" SRC="{$root}images/pgp/fig1-9.gif" />
 <p class="description">Figure 1-9. A OpenPGP certificate</p>
 <P>
 <h4>X.509 certificate format</h4>
@@ -573,7 +573,7 @@ basic First Aid) with a public key taped to it. It has your name and some
 information about you on it, plus the signature of the person who issued it to
 you.
 <P>
-<img class="intro" SRC="/images/pgp/fig1-10.gif" />
+<img class="intro" SRC="{$root}images/pgp/fig1-10.gif" />
 <p class="description">Figure 1-10. An X.509 certificate</p>
 <P>
 Probably the most widely visible use of X.509 certificates today is in web browsers.
@@ -698,7 +698,7 @@ directly trusted certificates.
 In OpenPGP, a user who validates keys herself and never sets another certificate to
 be a trusted introducer is using direct trust.
 <P>
-<img class="intro" SRC="/images/pgp/fig1-11.gif" />
+<img class="intro" SRC="{$root}images/pgp/fig1-11.gif" />
 <p class="description">Figure 1-11. Direct trust</p>
 <P>
 <h4>Hierarchical Trust</h4>
@@ -709,7 +709,7 @@ Consider it as a big trust "tree." The "leaf" certificate's validity is verified
 tracing backward from its certifier, to other certifiers, until a directly trusted
 root certificate is found.
 <P>
-<img class="intro" SRC="/images/pgp/fig1-12.gif" />
+<img class="intro" SRC="{$root}images/pgp/fig1-12.gif" />
 <p class="description">Figure 1-12. Hierarchical trust</p>
 <P>
 

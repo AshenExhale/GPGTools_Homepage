@@ -27,7 +27,7 @@
             <ul class="sub"></ul>
             <div class="project2">
                 <a href="installer/index.php">
-                    <img src="/installer/images/logo-128px.png" alt="Installer for OpenPGP and all necessary files" title="Installer for OpenPGP and all necessary files" />
+                    <img src="{$root}installer/images/logo-128px.png" alt="Installer for OpenPGP and all necessary files" title="Installer for OpenPGP and all necessary files" />
                     <br/>
                     Download GPG Tools Installer
                 </a>
