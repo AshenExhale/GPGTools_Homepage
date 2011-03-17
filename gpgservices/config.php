@@ -53,9 +53,9 @@ $features = array(
 $theSite->assign('features', $features);
 
 $screenshots = array(
-'images/prefs.png' => 'Enable the services in the preferences',
-'images/verify.png' => 'Verify a text selection',
-'images/insert.png' => 'Insert your own key',
+'images/prefs.png' => array('images/prefs-small.png', 'Enable the services in the preferences'),
+'images/verify.png' => array('images/verify-small.png', 'Verify a text selection'),
+'images/insert.png' => array('images/insert-small.png', 'Insert your own key')
 );
 $theSite->assign('screenshots', $screenshots);
 $theSite->assign('screencasts', "");

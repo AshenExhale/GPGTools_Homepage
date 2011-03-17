@@ -45,8 +45,8 @@ $features = array(
 $theSite->assign('features', $features);
 
 $screenshots = array(
-'images/gpg.png' => 'Fix GPG installations',
-'images/gpgmail.png' => 'Fix GPGMail (e.g. after an OS update)',
+'images/gpg.png' => array('images/gpg-small.png', 'Fix GPG installations'),
+'images/gpgmail.png' => array('images/gpgmail-small.png', 'Fix GPGMail (e.g. after an OS update)')
 );
 $theSite->assign('screenshots', $screenshots);
 $theSite->assign('screencasts', "");

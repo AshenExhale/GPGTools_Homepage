@@ -41,7 +41,7 @@ $features = array(
 $theSite->assign('features', $features);
 
 $screenshots = array(
-	'images/screenshot.png' => "MacGPG2 Installer"
+	'images/screenshot.png' => array('images/screenshot-small.png', 'MacGPG2 Installer')
 );
 $theSite->assign('screenshots', $screenshots);
 

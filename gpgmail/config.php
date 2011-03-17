@@ -51,10 +51,10 @@ $features = array(
 $theSite->assign('features', $features);
 
 $screenshots = array(
-'images/preferences.png' => 'Preferences',
-'images/compose.png' => 'Composing a message',
-'images/encrypted.png' => 'Encrypted message',
-'images/decrypted.png' => 'Decrypted message'
+'images/preferences.png' => array('images/preferences-small.png', 'Preferences'),
+'images/compose.png' => array('images/compose-small.png', 'Composing a message'),
+'images/encrypted.png' => array('images/encrypted-small.png', 'Encrypted message'),
+'images/decrypted.png' => array('images/decrypted-small.png', 'Decrypted message')
 );
 $theSite->assign('screenshots', $screenshots);
 

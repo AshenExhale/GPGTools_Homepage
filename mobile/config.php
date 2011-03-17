@@ -42,12 +42,12 @@ $features = array(
 $theSite->assign('features', $features);
 
 $screenshots = array(
-    'images/icon.png' => "application icon",
-    'images/home.png' => "home screen",
-    'images/encrypt.png' => "encrypt message",
-    'images/decrypt.png' => "decrypt message",
-    'images/options.png' => "options",
-    'images/architecture.png' => "envisioned architecture",
+    'images/icon.png' => array('images/icon-small.png', 'application icon'),
+    'images/home.png' => array('images/home-small.png', 'home screen'),
+    'images/encrypt.png' => array('images/encrypt-small.png', 'encrypt message'),
+    'images/decrypt.png' => array('images/decrypt-small.png', 'decrypt message'),
+    'images/options.png' => array('images/options-small.png', 'options'),
+    'images/architecture.png' => array('images/architecture-small.png', 'envisioned architecture')
 );
 $theSite->assign('screenshots', $screenshots);
 
