@@ -1,6 +1,6 @@
 <?php /*compileIgnore*/
 
-	
+
 $version="1.4";
 $release['1.4'] = mktime(12, 0, 0, 01, 26, 2011);
 $release['1.3'] = mktime(12, 0, 0, 01, 23, 2011);
@@ -48,7 +48,8 @@ $theSite->assign('limitations', $limitations);
 
 
 $features = array(
-'/images/installericon.png' => array('Is part of the <a href="/installer/index.php" title="our main project: the installer">GPGTools Installer</a>', 'Installer'),
+'../images/installericon.png' => array('Is part of the <a href="/installer/index.php" title="our main project: the installer">GPGTools Installer</a>', 'Installer'),
+'../images/hotkeys.png' => array('Can be used via keyboard shortcuts: cmd + shift + <span title="decrypt">d</span>|<span title="encrypt">e</span>|<span title="verify">v</span>|<span title="sign">r</span>|<span title="import key">i</span>|<span title="insert fingerprint">f</span>|<span title="insert key">k</span>', 'shortcuts'),
 );
 $theSite->assign('features', $features);
 
