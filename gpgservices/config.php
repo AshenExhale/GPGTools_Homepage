@@ -42,7 +42,7 @@ $theSite->assign('cnet', "3000-2092_4-75335372");
 $limitations = array(
 '4' => 'Services are not automatically enabled',
 '10' => 'Encryption no yet implemented (fixed in the current beta)',
-'19' => 'Beta: crash when encrypting with an expired key',
+'19' => 'Beta: crash when encrypting with an expired key (fixed in the current beta)',
 );
 $theSite->assign('limitations', $limitations);
 
