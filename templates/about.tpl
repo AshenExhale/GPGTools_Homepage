@@ -32,7 +32,7 @@
                 <li>twitter: <a href="http://twitter.com/gpgtools/">to our account</a></li>
                 <li>open a bug or feature request: <a href="http://gpgtools.lighthouseapp.com/tickets">at the issue tracker</a></li>
                 <li>browse the projects: <a href="http://github.com/gpgtools/">at the github page</a></li>
-                <li>drop us a line: <form action="http://www.gpgtools.org/mail.php" method="post"><input type="text" name="message" /><input type="submit" value="send feedback" /></form></li>
+                <li>drop us a line: <form id="feedback" action="http://www.gpgtools.org/mail.php" method="post"><input type="text" name="message" /><input type="submit" value="send feedback" /></form></li>
             </ul>
             <h3>Links that might be of interest for you</h3>
             <p>More details about the mailing lists and other related pages:</p>

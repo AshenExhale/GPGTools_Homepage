@@ -561,3 +561,5 @@ li:target {
     background:#ddd;
     border:1px solid black;
 }
+
+#feedback {display: inline;}
