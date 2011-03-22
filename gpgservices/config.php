@@ -10,7 +10,7 @@ $current = $release[$version];
 
 $theSite->assign('title', 'GPGServices');
 $theSite->assign('name', 'gpgservices');
-$theSite->assign('img_logo', 'images/logo.png');
+$theSite->assign('img_logo', 'images/logo-128px.png');
 $theSite->assign('url_base', 'GPGTools/GPGServices');
 $theSite->assign('url_dl', "GPGServices-$version.dmg");
 $theSite->assign('url_sig', "GPGServices-$version.dmg.sig");
