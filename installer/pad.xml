@@ -33,9 +33,9 @@
 	</Company_Info>
 	<Program_Info>
 		<Program_Name>Installer</Program_Name>
-		<Program_Version>2011.03.02</Program_Version>
+		<Program_Version>2011.03.22</Program_Version>
 		<Program_Release_Month>03</Program_Release_Month>
-		<Program_Release_Day>02</Program_Release_Day>
+		<Program_Release_Day>22</Program_Release_Day>
 		<Program_Release_Year>2011</Program_Release_Year>
 		<Program_Cost_Dollars />
 		<Program_Cost_Other_Code />
@@ -51,9 +51,9 @@
 		<Program_Categories />
 		<Program_System_Requirements />
 		<File_Info>
-			<File_Size_Bytes>19174951</File_Size_Bytes>
-			<File_Size_K>19175</File_Size_K>
-			<File_Size_MB>19</File_Size_MB>
+			<File_Size_Bytes>19625272</File_Size_Bytes>
+			<File_Size_K>19625</File_Size_K>
+			<File_Size_MB>20</File_Size_MB>
 		</File_Info>
 		<Expire_Info>
 			<Has_Expire_Info>N</Has_Expire_Info>
@@ -84,7 +84,7 @@
 			<Application_XML_File_URL>http://www.gpgtools.org/installer_pad.xml</Application_XML_File_URL>
 		</Application_URLs>
 		<Download_URLs>
-			<Primary_Download_URL>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110302.dmg</Primary_Download_URL>
+			<Primary_Download_URL>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110322.dmg</Primary_Download_URL>
 			<Secondary_Download_URL />
 			<Additional_Download_URL_1 />
 			<Additional_Download_URL_2 />
