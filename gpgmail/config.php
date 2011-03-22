@@ -1,6 +1,7 @@
 <?php /*compileIgnore*/
 
-$version='1.3.2';
+$version='1.3.3';
+$release['1.3.3'] = mktime(12, 0, 0, 03, 22, 2011);
 $release['1.3.2'] = mktime(12, 0, 0, 03, 02, 2011);
 $release['1.3.1'] = mktime(12, 0, 0, 11, 16, 2010);
 $release['1.3.0'] = mktime(12, 0, 0, 07, 27, 2010);
@@ -43,8 +44,8 @@ $limitations = array(
 $theSite->assign('limitations', $limitations);
 
 $features = array(
-"$root/images/update.png" => array("Integrated update mechanism and installer can <a href='$root/faq.php#3.2'>auto-fix the current installation</a> after an OS update", 'update mechanism'),
-"$root/images/installericon.png" => array("Is part of the <a href='$root/installer/index.php' title='our main project: the installer'>GPGTools Installer</a>", 'Installer'),
+"$root/images/update.png" => array('Integrated update mechanism and installer can <a href="/faq.php#3.2">auto-fix the current installation</a> after an OS update', 'update mechanism'),
+"$root/images/installericon.png" => array('Is part of the <a href="/installer/index.php" title="our main project: the installer">GPGTools Installer</a>', 'Installer'),
 "$root/images/secure.jpg" => array('Sign, encrypt, decrypt, and verify all your mails', 'mail security'),
 "$root/images/64bit.jpg" => array('The bundle is 64-bit and Snow Leopard ready', 'Snow Leopard')
 );
@@ -62,6 +63,17 @@ $screencasts = array('encrypt_mail.m4v' => 'Send an encrypted Mail');
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
+    '1.3.3' => array(date('d. F Y', $release['1.3.3']), array(
+        'sparkle_date' => date(DATE_RFC2822, $release['1.3.3']),
+        'sparkle_url' => 'http://github.com/downloads/gpgtools/GPGMail/GPGMail-1.3.3.zip',
+        'sparkle_sig' => 'MC0CFDF/nJUUuhpYNh25VUwb1yH+TgH0AhUAgpedhe7sUZqf9+IO+st35OQVw8o=',
+        'sparkle_size' => '3181052',
+        'a' => 'Important: Fixed compatibility with final OS X 10.6.7 release',
+        'b' => 'Fix: French localization',
+        '136' => 'Fix: Encryption/signing only with in-key-mentioned mail addresses broken',
+        'sha' => 'Checksum: e9d334141767efee588494dc73595eed43ad4064 (SHA-1)',
+        )),
+
     '1.3.2' => array(date('d. F Y', $release['1.3.2']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['1.3.2']),
         'sparkle_url' => 'http://github.com/downloads/gpgtools/GPGMail/GPGMail-1.3.2.zip',

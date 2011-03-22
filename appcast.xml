@@ -13,6 +13,23 @@
 			<title>GPGTools</title>
 		</image>
 <item>
+		        <title>GPGMail version 1.3.3</title>
+    		    <pubDate>Tue, 22 Mar 2011 12:00:00 +0100</pubDate>
+    		    <guid>http://github.com/downloads/gpgtools/GPGMail/GPGMail-1.3.3.zip</guid>
+		        <description><![CDATA[
+		        <ul>
+                                                                                                                                        <li>Important: Fixed compatibility with final OS X 10.6.7 release.</li>
+                                                                            <li>Fix: French localization.</li>
+                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/136'>Issue 136</a>: Fix: Encryption/signing only with in-key-mentioned mail addresses broken.</li>
+                                                                            <li>Checksum: e9d334141767efee588494dc73595eed43ad4064 (SHA-1).</li>
+                                                    </ul>
+		        ]]></description>
+    		    <sparkle:releaseNotesLink>
+	    	        http://www.gpgtools.org/gpgmail_sparkle.html
+		        </sparkle:releaseNotesLink>
+		        <enclosure url="http://github.com/downloads/gpgtools/GPGMail/GPGMail-1.3.3.zip" sparkle:version="1.3.3" sparkle:dsaSignature="MC0CFDF/nJUUuhpYNh25VUwb1yH+TgH0AhUAgpedhe7sUZqf9+IO+st35OQVw8o=" length="3181052" type="application/octet-stream"/>
+        	</item>
+<item>
 		        <title>GPG Keychain Access version 0.8.6</title>
     		    <pubDate>Tue, 22 Mar 2011 12:00:00 +0100</pubDate>
     		    <guid>https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.6.dmg</guid>
