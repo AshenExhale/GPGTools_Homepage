@@ -48,8 +48,8 @@ $theSite->assign('limitations', $limitations);
 
 
 $features = array(
-'../images/installericon.png' => array('Is part of the <a href="/installer/index.php" title="our main project: the installer">GPGTools Installer</a>', 'Installer'),
-'../images/hotkeys.png' => array('Can be used via keyboard shortcuts: cmd + shift + <span title="decrypt">d</span>|<span title="encrypt">e</span>|<span title="verify">v</span>|<span title="sign">r</span>|<span title="import key">i</span>|<span title="insert fingerprint">f</span>|<span title="insert key">k</span>', 'shortcuts'),
+"$root/images/installericon.png" => array("Is part of the <a href='$root/installer/index.php' title='our main project: the installer'>GPGTools Installer</a>", 'Installer'),
+"$root/images/hotkeys.png" => array('Can be used via keyboard shortcuts: cmd + shift + <span title="decrypt">d</span>|<span title="encrypt">e</span>|<span title="verify">v</span>|<span title="sign">r</span>|<span title="import key">i</span>|<span title="insert fingerprint">f</span>|<span title="insert key">k</span>', 'shortcuts'),
 );
 $theSite->assign('features', $features);
 

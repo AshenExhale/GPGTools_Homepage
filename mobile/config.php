@@ -37,7 +37,7 @@ $limitations = array(
 $theSite->assign('limitations', $limitations);
 
 $features = array(
-    '/images/webkit-icon.png' => array('Runs in WebKit browsers (Safari/Chrome/iPhone/iPad/Android). Have a look at the <a href="http://gpgtools.org/mobile">online demo</a>', 'WebKit'),
+    "$root/images/webkit-icon.png" => array('Runs in WebKit browsers (Safari/Chrome/iPhone/iPad/Android). Have a look at the <a href="http://gpgtools.org/mobile">online demo</a>', 'WebKit'),
 );
 $theSite->assign('features', $features);
 

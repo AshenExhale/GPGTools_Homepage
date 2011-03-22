@@ -36,7 +36,7 @@ $limitations = array(
 $theSite->assign('limitations', $limitations);
 
 $features = array(
-    '/images/installericon.png' => array('Is based on the GPGTools infrastructure and developments', 'Installer'),
+    "$root/images/installericon.png" => array('Is based on the GPGTools infrastructure and developments', 'Installer'),
 );
 $theSite->assign('features', $features);
 

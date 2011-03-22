@@ -1,8 +1,9 @@
 <?php /*compileIgnore*/
 
 
-$version='0.8.4';
+$version='0.8.6';
 
+$release['0.8.6'] = mktime(12, 0, 0, 3, 22, 2011);
 $release['0.8.4'] = mktime(12, 0, 0, 2, 22, 2011);
 $release['0.8.2b'] = mktime(12, 0, 0, 1, 23, 2011);
 $release['0.8.1b'] = mktime(12, 0, 0, 1, 22, 2011);
@@ -42,9 +43,9 @@ $theSite->assign('cnet', "3000-2144_4-23925");
 $theSite->assign('limitations', "");
 
 $features = array(
-'/images/installericon.png' => array('Is part of the <a href="/installer/index.php" title="our main project: the installer">GPGTools Installer</a>', 'Installer'),
-'/images/secure.jpg' => array("Create, delete, find, sign, and verify all your keys", "key management"),
-'/images/64bit.jpg' => array("The bundle is 64-bit and Snow Leopard ready", "Snow Leopard"),
+"$root/images/installericon.png" => array("Is part of the <a href='$root/installer/index.php' title='our main project: the installer'>GPGTools Installer</a>", 'Installer'),
+"$root/images/secure.jpg" => array("Create, delete, find, sign, and verify all your keys", "key management"),
+"$root/images/64bit.jpg" => array("The bundle is 64-bit and Snow Leopard ready", "Snow Leopard"),
 );
 $theSite->assign('features', $features);
 
@@ -59,6 +60,15 @@ $screencasts = array(
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
+	'0.8.6' => array(date('d. F Y', $release['0.8.6']), array(
+		'sparkle_date' => date(DATE_RFC2822, $release['0.8.6']),
+		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.6.dmg',
+		'sparkle_sig' => 'MCwCFAFcJaNuFoTiADilH/vBpGEFmUapAhQt7YSVbKN+40Iw+Nmyat8J6eB2PA==',
+		'sparkle_size' => '1517149',
+		'a' => 'French localization',
+		'b'	=> 'Fixed a bug with the algorithm preferences',
+		'sha' => 'Checksum: 73a71cc8b42b0a97aa30398b03a6956b46431c3a (SHA-1)'
+		)),
     '0.8.4' => array(date("d. F Y", $release['0.8.4']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['0.8.4']),
         'sparkle_url' => "http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.4.dmg",

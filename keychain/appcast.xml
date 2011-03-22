@@ -13,6 +13,26 @@
 		</image>
 		<language>en</language>
         			    	<item>
+		        <title>GPG Keychain Access version 0.8.6</title>
+    		    <pubDate>Tue, 22 Mar 2011 12:00:00 +0100</pubDate>
+    		    <guid>https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.6.dmg</guid>
+		        <description><![CDATA[
+		        <ul>
+                                                                                                                                        <li>French localization.</li>
+                                                                            <li>Fixed a bug with the algorithm preferences.</li>
+                                                                            <li>Checksum: 73a71cc8b42b0a97aa30398b03a6956b46431c3a (SHA-1).</li>
+                                                    </ul>
+		        ]]></description>
+    		    <sparkle:releaseNotesLink>
+	    	        http://www.gpgtools.org/keychain_sparkle.html
+		        </sparkle:releaseNotesLink>
+		        <enclosure url="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.6.dmg"
+		               sparkle:version="0.8.6"
+					   sparkle:dsaSignature="MCwCFAFcJaNuFoTiADilH/vBpGEFmUapAhQt7YSVbKN+40Iw+Nmyat8J6eB2PA=="
+		               length="1517149"
+		               type="application/octet-stream" />
+        	</item>
+        	    	<item>
 		        <title>GPG Keychain Access version 0.8.4</title>
     		    <pubDate>Tue, 22 Feb 2011 12:00:00 +0100</pubDate>
     		    <guid>http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.4.dmg</guid>

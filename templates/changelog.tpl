@@ -1,7 +1,7 @@
 {extends file="index.tpl"}
 {block name=body}
     <div id="overview">
-      <div id="o_content"><img src="./images/{$img_logo}" alt="{$title}" title="{$title}" class="logo"/> <h2>{$title}</h2></div>
+      <div id="o_content"><img src="{$img_logo}" alt="{$title}" title="{$title}" class="logo"/> <h2>{$title}</h2></div>
     </div>
     <div id="spacer">
     </div>

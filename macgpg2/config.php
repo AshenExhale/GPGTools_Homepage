@@ -36,7 +36,7 @@ $limitations = "";
 $theSite->assign('limitations', $limitations);
 
 $features = array(
-	'/images/installericon.png' => array('Is part of the <a href="/installer/index.php" title="our main project: the installer">GPGTools Installer</a>', 'Installer'),
+	"$root/images/installericon.png" => array("Is part of the <a href='$root/installer/index.php' title='our main project: the installer'>GPGTools Installer</a>", 'Installer'),
 );
 $theSite->assign('features', $features);
 
