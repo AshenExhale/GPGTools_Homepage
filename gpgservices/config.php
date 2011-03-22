@@ -1,7 +1,7 @@
 <?php /*compileIgnore*/
 
-
-$version="1.4";
+$version="1.5";
+$release['1.5'] = mktime(12, 0, 0, 03, 22, 2011);
 $release['1.4'] = mktime(12, 0, 0, 01, 26, 2011);
 $release['1.3'] = mktime(12, 0, 0, 01, 23, 2011);
 $release['1.2'] = mktime(12, 0, 0, 01, 17, 2011);
@@ -14,7 +14,7 @@ $theSite->assign('img_logo', 'images/logo.png');
 $theSite->assign('url_base', 'GPGTools/GPGServices');
 $theSite->assign('url_dl', "GPGServices-$version.dmg");
 $theSite->assign('url_sig', "GPGServices-$version.dmg.sig");
-$theSite->assign('url_beta', 'GPGServices-1.5beta2.dmg');
+$theSite->assign('url_beta', '');
 $theSite->assign('url_wiki', '');
 $theSite->assign('version', $version);
 $theSite->assign('date',     date("d. F Y", $current));
@@ -30,6 +30,7 @@ $theSite->assign('overview', '
 	<p>Signing and pasting your key or fingerprint require the host application to support pasting of text
 	(so you will not be able to sign text highlighted in a pdf file in Preview, for instance).
 	Verifying a signature and importing a key only require that you can highlight the text.</p>
+	<p>Furthermore, it will be possible to sign/encrypt/decrypt/verify any file or folder.</p>
 ');
 $theSite->assign('short_description', 'GPGServices is a plugin for the global Services menu (in the Application menu), which adds the ability to sign and verify plain text in any application that supports text services. It allows to import a key from text and return your default key.');
 
@@ -41,8 +42,6 @@ $theSite->assign('cnet', "3000-2092_4-75335372");
 
 $limitations = array(
 '4' => 'Services are not automatically enabled',
-'10' => 'Encryption no yet implemented (fixed in the current beta)',
-'19' => 'Beta: crash when encrypting with an expired key (fixed in the current beta)',
 );
 $theSite->assign('limitations', $limitations);
 
@@ -62,6 +61,18 @@ $theSite->assign('screenshots', $screenshots);
 $theSite->assign('screencasts', "");
 
 $changelog = array(
+    '1.5' => array(date("d. F Y", $release['1.5']), array(
+        'sparkle_date' => date(DATE_RFC2822, $release['1.5']),
+        'sparkle_url' => "http://github.com/downloads/GPGTools/GPGServices/GPGServices-1.5.dmg",
+        'sparkle_sig' => "",
+        'sparkle_size' => "1041848",
+        "10" => "Feature: Encryption support for text (thank you Moritz)",
+        "21" => "Feature: Started encryption support for files (thank you Moritz)",
+        "17" => "Feature: Signing does not require a default key anymore (thank you Moritz)",
+        "2" => "Enhancement: Installer checks for GnuPG now",
+        "5" => "Enhancement: Logout is not neccessary anymore",
+        'sha' => "Checksum: d3ff1ca41643c9aceeb714ef0ab7c0a9ae9f23d3 (SHA-1)",
+    )),
     '1.4' => array(date("d. F Y", $release['1.4']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['1.4']),
         'sparkle_url' => "http://github.com/downloads/GPGTools/GPGServices/GPGServices-1.4.dmg",

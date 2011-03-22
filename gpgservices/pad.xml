@@ -33,9 +33,9 @@
 	</Company_Info>
 	<Program_Info>
 		<Program_Name>GPGServices</Program_Name>
-		<Program_Version>1.4</Program_Version>
-		<Program_Release_Month>01</Program_Release_Month>
-		<Program_Release_Day>26</Program_Release_Day>
+		<Program_Version>1.5</Program_Version>
+		<Program_Release_Month>03</Program_Release_Month>
+		<Program_Release_Day>22</Program_Release_Day>
 		<Program_Release_Year>2011</Program_Release_Year>
 		<Program_Cost_Dollars />
 		<Program_Cost_Other_Code />
@@ -51,8 +51,8 @@
 		<Program_Categories />
 		<Program_System_Requirements />
 		<File_Info>
-			<File_Size_Bytes>975922</File_Size_Bytes>
-			<File_Size_K>976</File_Size_K>
+			<File_Size_Bytes>1041848</File_Size_Bytes>
+			<File_Size_K>1042</File_Size_K>
 			<File_Size_MB>1</File_Size_MB>
 		</File_Info>
 		<Expire_Info>
@@ -84,7 +84,7 @@
 			<Application_XML_File_URL>http://www.gpgtools.org/gpgservices_pad.xml</Application_XML_File_URL>
 		</Application_URLs>
 		<Download_URLs>
-			<Primary_Download_URL>http://github.com/downloads/GPGTools/GPGServices/GPGServices-1.4.dmg</Primary_Download_URL>
+			<Primary_Download_URL>http://github.com/downloads/GPGTools/GPGServices/GPGServices-1.5.dmg</Primary_Download_URL>
 			<Secondary_Download_URL />
 			<Additional_Download_URL_1 />
 			<Additional_Download_URL_2 />

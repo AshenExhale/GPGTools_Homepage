@@ -13,6 +13,29 @@
 		</image>
 		<language>en</language>
         			    	<item>
+		        <title>GPGServices version 1.5</title>
+    		    <pubDate>Tue, 22 Mar 2011 12:00:00 +0100</pubDate>
+    		    <guid>http://github.com/downloads/GPGTools/GPGServices/GPGServices-1.5.dmg</guid>
+		        <description><![CDATA[
+		        <ul>
+                                                                                                                                        <li><a href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/10'>Issue 10</a>: Feature: Encryption support for text (thank you Moritz).</li>
+                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/21'>Issue 21</a>: Feature: Started encryption support for files (thank you Moritz).</li>
+                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/17'>Issue 17</a>: Feature: Signing does not require a default key anymore (thank you Moritz).</li>
+                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/2'>Issue 2</a>: Enhancement: Installer checks for GnuPG now.</li>
+                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/67607/tickets/5'>Issue 5</a>: Enhancement: Logout is not neccessary anymore.</li>
+                                                                            <li>Checksum: d3ff1ca41643c9aceeb714ef0ab7c0a9ae9f23d3 (SHA-1).</li>
+                                                    </ul>
+		        ]]></description>
+    		    <sparkle:releaseNotesLink>
+	    	        http://www.gpgtools.org/gpgservices_sparkle.html
+		        </sparkle:releaseNotesLink>
+		        <enclosure url="http://github.com/downloads/GPGTools/GPGServices/GPGServices-1.5.dmg"
+		               sparkle:version="1.5"
+					   sparkle:dsaSignature=""
+		               length="1041848"
+		               type="application/octet-stream" />
+        	</item>
+        	    	<item>
 		        <title>GPGServices version 1.4</title>
     		    <pubDate>Wed, 26 Jan 2011 12:00:00 +0100</pubDate>
     		    <guid>http://github.com/downloads/GPGTools/GPGServices/GPGServices-1.4.dmg</guid>
