@@ -10,7 +10,7 @@ $theSite->assign('img_logo', 'images/logo-128px.png');
 $theSite->assign('url_base', 'GPGTools/MacGPG1');
 $theSite->assign('url_dl',   'MacGPG1-1.4.11-1.dmg');
 $theSite->assign('url_sig',  'MacGPG1-1.4.11-1.dmg.sig');
-$theSite->assign('url_beta', 'MacGPG1-1.4.11-2.dmg');
+$theSite->assign('url_beta', 'MacGPG1-1.4.11-3.dmg');
 $theSite->assign('url_wiki', '');
 $theSite->assign('version',  '1.4.11-1');
 $theSite->assign('date',     date("d. F Y", $current));
