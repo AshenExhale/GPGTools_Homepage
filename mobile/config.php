@@ -7,7 +7,7 @@ $current = $release[$version];
 
 $theSite->assign('title',    'Mobile OpenPGP');
 $theSite->assign('name', 'mobile');
-$theSite->assign('img_logo', 'images/logo.png');
+$theSite->assign('img_logo', 'images/logo-128px.png');
 $theSite->assign('url_base', 'GPGTools/Mobile');
 $theSite->assign('url_dl',   '');
 $theSite->assign('url_sig',  '');

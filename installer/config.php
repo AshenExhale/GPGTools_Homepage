@@ -1,7 +1,8 @@
 <?php /*compileIgnore*/
 
-	
-$version="20110302";
+
+$version="20110322";
+$release['20110322'] = mktime(14, 05, 0, 03, 22, 2011);
 $release['20110302'] = mktime(11, 28, 0, 03, 02, 2011);
 $release['20110214'] = mktime(17, 10, 0, 02, 14, 2011);
 $release['2011.02.01'] = mktime(12, 0, 0, 02, 01, 2011);
@@ -67,6 +68,17 @@ $screencasts = array(
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
+    '20110322' => array(date("d. F Y", $release['20110322']), array(
+        'sparkle_date' => date(DATE_RFC2822, $release['20110322']),
+        'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110322.dmg",
+        'sparkle_sig' => "",
+        'sparkle_size' => "19625272",
+        'a' => 'Update: GPGMail 1.3.3',
+        'b' => 'Update: GPG Keychain Access 0.8.6',
+        'c' => 'Update: GPGServices 1.5',
+        '54' => 'Fix: Verification if mail is running give false positives (thank you Patrik)',
+        'sha' => "Checksum: 2c3685155ac5ee1be25fb69b4eeb3ef34486d252 (SHA-1)",
+        )),
     '20110302' => array(date("d. F Y", $release['20110302']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['20110302']),
         'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110302.dmg",

@@ -31,9 +31,9 @@
                 <li><div class="project"><a href="keychain/index.php"><img src="{$root}keychain/images/logo-128px.png" alt="Keychain for OpenPGP" title="Keychain for OpenPGP" class="logo"/><br/>GPG Keychain Access</a></div></li>
                 <li><div class="project"><a href="macgpg1/index.php"><img src="{$root}macgpg1/images/logo-128px.png" alt="Mac OS X bindings for GnuPG 1.x" title="Mac OS X bindings for GnuPG 1.x" class="logo"/><br/>MacGPG1</a></div></li>
                 <li><div class="project"><a href="macgpg2/index.php"><img src="{$root}macgpg2/images/logo-128px.png" alt="Mac OS X bindings for GnuPG 2.x" title="Mac OS X bindings for GnuPG 2.x" class="logo"/><br/>MacGPG2</a></div></li>
-                <li><div class="project"><a href="gpgservices/index.php"><img src="{$root}gpgservices/images/logo.png" alt="Mac OS X GPG Services Menu" title="Mac OS X GPG Services Menu" class="logo"/><br/>GPGServices</a></div></li>
+                <li><div class="project"><a href="gpgservices/index.php"><img src="{$root}gpgservices/images/logo-128px.png" alt="Mac OS X GPG Services Menu" title="Mac OS X GPG Services Menu" class="logo"/><br/>GPGServices</a></div></li>
                 <li><div class="project"><a href="gpgpreferences/index.php"><img src="{$root}gpgpreferences/images/logo-128px.png" alt="Mac OS X GPG System Preferences" title="Mac OS X GPG System Preferences" class="logo"/><br/>GPGPreferences</a></div></li>
-                <li><div class="project"><a href="mobile/index.php"><img src="{$root}mobile/images/logo.png" alt="Mobile OpenPGP" title="Mobile OpenPGP" class="logo"/><br/>Mobile OpenPGP</a></div></li>
+                <li><div class="project"><a href="mobile/index.php"><img src="{$root}mobile/images/logo-128px.png" alt="Mobile OpenPGP" title="Mobile OpenPGP" class="logo"/><br/>Mobile OpenPGP</a></div></li>
             </ul>
             <h3 id="related" class="clear">Related Projects</h3>
             <p>List of related projects that are included in the installer.</p>

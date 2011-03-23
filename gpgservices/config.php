@@ -10,7 +10,7 @@ $current = $release[$version];
 
 $theSite->assign('title', 'GPGServices');
 $theSite->assign('name', 'gpgservices');
-$theSite->assign('img_logo', 'images/logo.png');
+$theSite->assign('img_logo', 'images/logo-128px.png');
 $theSite->assign('url_base', 'GPGTools/GPGServices');
 $theSite->assign('url_dl', "GPGServices-$version.dmg");
 $theSite->assign('url_sig', "GPGServices-$version.dmg.sig");
@@ -67,6 +67,8 @@ $changelog = array(
         'sparkle_sig' => "",
         'sparkle_size' => "1041848",
         "10" => "Feature: Encryption support for text (thank you Moritz)",
+        "29" => "Feature: Started encryption support for files (thank you Moritz)",
+        "24" => "Feature: Insert key|fingerprint shows a selection window (thank you Moritz)",
         "21" => "Feature: Started encryption support for files (thank you Moritz)",
         "17" => "Feature: Signing does not require a default key anymore (thank you Moritz)",
         "2" => "Enhancement: Installer checks for GnuPG now",
