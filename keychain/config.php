@@ -1,8 +1,9 @@
 <?php /*compileIgnore*/
 
 
-$version='0.8.6';
+$version='0.8.7';
 
+$release['0.8.7'] = mktime(12, 0, 0, 3, 24, 2011);
 $release['0.8.6'] = mktime(12, 0, 0, 3, 22, 2011);
 $release['0.8.4'] = mktime(12, 0, 0, 2, 22, 2011);
 $release['0.8.2b'] = mktime(12, 0, 0, 1, 23, 2011);
@@ -60,6 +61,15 @@ $screencasts = array(
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
+	'0.8.7' => array(date('d. F Y', $release['0.8.7']), array(
+		'sparkle_date' => date(DATE_RFC2822, $release['0.8.7']),
+		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.7.dmg',
+		'sparkle_sig' => 'MCwCFGSTjR3eaXlh5+onDy2QzyjQeYA0AhRFDSo+zmpoSaFmcQibbkYodNWNVg==',
+		'sparkle_size' => '1516862',
+		'a' => 'Fixed crash on startup.',
+		'b' => 'Better german localization.',
+		'sha' => 'Checksum: fa06410597db8e258c5199b1a2c8fad9f23a9bc5 (SHA-1)'
+		)),
 	'0.8.6' => array(date('d. F Y', $release['0.8.6']), array(
 		'sparkle_date' => date(DATE_RFC2822, $release['0.8.6']),
 		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.6.dmg',
