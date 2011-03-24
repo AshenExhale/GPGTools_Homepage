@@ -1,18 +1,19 @@
 <?php /*compileIgnore*/
 
-$release['1.4.11-2'] = mktime(0, 1, 8, 03, 18, 2011);
+$version="1.4.11-1";
+$release['1.4.11-5'] = mktime(0, 1, 8, 03, 24, 2011);
 $release['1.4.11-1'] = mktime(0, 13, 8, 02, 24, 2011);
-$current = $release['1.4.11-1'];
+$current = $release[$version];
 
 $theSite->assign('title',    'MacGPG1');
 $theSite->assign('name', 'macgpg1');
 $theSite->assign('img_logo', 'images/logo-128px.png');
 $theSite->assign('url_base', 'GPGTools/MacGPG1');
-$theSite->assign('url_dl',   'MacGPG1-1.4.11-1.dmg');
-$theSite->assign('url_sig',  'MacGPG1-1.4.11-1.dmg.sig');
-$theSite->assign('url_beta', 'MacGPG1-1.4.11-3.dmg');
+$theSite->assign('url_dl',   "MacGPG1-$version.dmg");
+$theSite->assign('url_sig',  "MacGPG1-$version.dmg.sig");
+$theSite->assign('url_beta', 'MacGPG1-1.4.11-5.dmg');
 $theSite->assign('url_wiki', '');
-$theSite->assign('version',  '1.4.11-1');
+$theSite->assign('version',  "$version");
 $theSite->assign('date',     date("d. F Y", $current));
 $theSite->assign('month',  date("m", $current));
 $theSite->assign('day',  date("d", $current));
@@ -31,7 +32,7 @@ $theSite->assign('heise', "14689");
 $theSite->assign('cnet', "3000-2092_4-75374714");
 
 $limitations = array(
-'' => 'Very first alpha build!',
+//'' => 'Very first alpha build!',
 );
 $theSite->assign('limitations', $limitations);
 
