@@ -33,8 +33,8 @@
 	</Company_Info>
 	<Program_Info>
 		<Program_Name>MacGPG1</Program_Name>
-		<Program_Version>1.4.11-1</Program_Version>
-		<Program_Release_Month>02</Program_Release_Month>
+		<Program_Version>1.4.11-5</Program_Version>
+		<Program_Release_Month>03</Program_Release_Month>
 		<Program_Release_Day>24</Program_Release_Day>
 		<Program_Release_Year>2011</Program_Release_Year>
 		<Program_Cost_Dollars />
@@ -51,8 +51,8 @@
 		<Program_Categories />
 		<Program_System_Requirements />
 		<File_Info>
-			<File_Size_Bytes>3077981</File_Size_Bytes>
-			<File_Size_K>3078</File_Size_K>
+			<File_Size_Bytes>3149997</File_Size_Bytes>
+			<File_Size_K>3150</File_Size_K>
 			<File_Size_MB>3</File_Size_MB>
 		</File_Info>
 		<Expire_Info>
@@ -84,7 +84,7 @@
 			<Application_XML_File_URL>http://www.gpgtools.org/macgpg1_pad.xml</Application_XML_File_URL>
 		</Application_URLs>
 		<Download_URLs>
-			<Primary_Download_URL>http://github.com/downloads/GPGTools/MacGPG1/MacGPG1-1.4.11-1.dmg</Primary_Download_URL>
+			<Primary_Download_URL>http://github.com/downloads/GPGTools/MacGPG1/MacGPG1-1.4.11-5.dmg</Primary_Download_URL>
 			<Secondary_Download_URL />
 			<Additional_Download_URL_1 />
 			<Additional_Download_URL_2 />
