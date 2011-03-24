@@ -25,6 +25,8 @@ EOD;
 $body = "";
 require('installer/config.php');
 $body .= $theSite->fetch('templates/appcast_core.tpl');
+require('macgpg1/config.php');
+$body .= $theSite->fetch('templates/appcast_core.tpl');
 require('macgpg2/config.php');
 $body .= $theSite->fetch('templates/appcast_core.tpl');
 require('gpgmail/config.php');
