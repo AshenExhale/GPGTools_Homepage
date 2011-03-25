@@ -66,8 +66,8 @@ $changelog = array(
 		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.7.dmg',
 		'sparkle_sig' => 'MCwCFGSTjR3eaXlh5+onDy2QzyjQeYA0AhRFDSo+zmpoSaFmcQibbkYodNWNVg==',
 		'sparkle_size' => '1516862',
-		'a' => 'Fixed crash on startup.',
-		'b' => 'Better german localization.',
+		'a' => 'Fixed crash on startup',
+		'b' => 'Better german localization',
 		'sha' => 'Checksum: fa06410597db8e258c5199b1a2c8fad9f23a9bc5 (SHA-1)'
 		)),
 	'0.8.6' => array(date('d. F Y', $release['0.8.6']), array(
