@@ -314,16 +314,6 @@ h3 {
     margin-bottom:.5em;
 }
 
-header {
-    text-align:center;
-    vertical-align: text-top;
-    background: #333;
-    background: -moz-linear-gradient(top, #333, #131313);
-    background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#131313));
-    min-height:4em;
-    padding-top:1em;
-}
-
 a {
     text-decoration:none;
 }
@@ -409,17 +399,6 @@ div.project2 {
     margin-top:5em;
 }
 
-
-div#overview {
-    vertical-align: text-top;
-    background: #3b577d;
-    background: -moz-linear-gradient(top, #3b577d, #273f5c);
-    background: -webkit-gradient(linear, left top, left bottom, from(#3b577d), to(#273f5c));
-    height:3em;
-    padding-top:3em;
-    padding-right:1em;
-}
-
 div#o_content {
     max-width:70em;
     margin-left: auto;
@@ -430,6 +409,25 @@ div#o_content img {
     float:right;
 }
 
+header {
+    text-align:center;
+    vertical-align: text-top;
+    background: #333;
+    background: -moz-linear-gradient(top, #333, #131313);
+    background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#131313));
+    min-height:4em;
+    padding-top:1em;
+}
+
+div#overview {
+    vertical-align: text-top;
+    background: #3b577d;
+    background: -moz-linear-gradient(top, #3b577d, #273f5c);
+    background: -webkit-gradient(linear, left top, left bottom, from(#3b577d), to(#273f5c));
+    height:3em;
+    padding-top:3em;
+}
+
 div#spacer {
     background: #e4e4e4;
     background: -moz-linear-gradient(top, #e4e4e4, #d5d5d5);
@@ -437,11 +435,37 @@ div#spacer {
     height:1.7em;
     border-top:1px solid #aaa;
     border-bottom:1px solid #aaa;
-    -webkit-box-shadow: 0px 2px 5px #aaa;
-    -moz-box-shadow: 0px 2px 5px #aaa;
-    box-shadow: 0px 2px 5px #aaa;
-    padding-left:.3em;
 }
+
+footer {
+    background: #dadada;
+    background: linear-gradient(top, #dadada, #ededed);
+    background: -moz-linear-gradient(top, #dadada, #ededed);
+    background: -webkit-gradient(linear, left top, left bottom, from(#dadada), to(#ededed));
+    height:1.7em;
+    border-top:1px solid #aaa;
+    border-bottom:1px solid #aaa;
+    margin-top:5em;
+    clear:both;
+    -webkit-box-shadow: 0px -2px 5px #aaa;
+    -moz-box-shadow: 0px -2px 5px #aaa;
+    box-shadow: 0px -2px 5px #aaa;
+}
+
+footer div {
+    max-width:70em;
+    padding-left:1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer h3 {
+    display:inline;
+    font-size:100%;
+    color: #444;
+}
+
+
 div#main {
     margin-top: 3em;
     margin-left: auto;
@@ -506,33 +530,6 @@ img.logo {height:128px; width:128px;}
 #sprite-mrwong span {background:url('../images/sn.png'); background-position: -114px 0; height: 100%; left: 0; position:absolute; top:0; width: 100%;}
 #sprite-live span {background:url('../images/sn.png'); background-position: -152px 0; height: 100%; left: 0; position:absolute; top:0; width: 100%;}
 
-footer {
-    background: #dadada;
-    background: linear-gradient(top, #dadada, #ededed);
-    background: -moz-linear-gradient(top, #dadada, #ededed);
-    background: -webkit-gradient(linear, left top, left bottom, from(#dadada), to(#ededed));
-    height:1.7em;
-    border-top:1px solid #aaa;
-    border-bottom:1px solid #aaa;
-    margin-top:5em;
-    clear:both;
-    -webkit-box-shadow: 0px -2px 5px #aaa;
-    -moz-box-shadow: 0px -2px 5px #aaa;
-    box-shadow: 0px -2px 5px #aaa;
-}
-
-footer div {
-    max-width:70em;
-    padding-left:1em;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-footer h3 {
-    display:inline;
-    font-size:100%;
-    color: #444;
-}
 #sn {margin-top:.2em;}
 .clear { clear:both; }
 img.icon {
