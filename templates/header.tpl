@@ -4,6 +4,7 @@
 <!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
 <!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+{strip}
 <head>
   <meta charset="utf-8">
   <title>{$title} | GPGTools (OpenPGP Tools for Apple OS X)</title>
@@ -44,3 +45,4 @@
           </a>
       </div>
     </header>
+{/strip}
