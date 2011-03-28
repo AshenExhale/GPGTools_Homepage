@@ -12,472 +12,78 @@
 			<link>http://www.gpgtools.org/appcast.xml</link>
 			<title>GPGTools</title>
 		</image>
-<item>
-		        <title>GPG Keychain Access version 0.8.7</title>
-    		    <pubDate>Thu, 24 Mar 2011 12:00:00 +0100</pubDate>
-    		    <guid>https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.7.dmg</guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li>Fixed crash on startup.</li>
-                                                                            <li>Better german localization.</li>
-                                                                            <li>Checksum: fa06410597db8e258c5199b1a2c8fad9f23a9bc5 (SHA-1).</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/keychain_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.7.dmg" sparkle:version="0.8.7" sparkle:dsaSignature="MCwCFGSTjR3eaXlh5+onDy2QzyjQeYA0AhRFDSo+zmpoSaFmcQibbkYodNWNVg==" length="1516862" type="application/octet-stream"/>
-        	</item>
-<item>
-		        <title>MacGPG1 version 1.4.11-5</title>
-    		    <pubDate>Thu, 24 Mar 2011 00:08:03 +0100</pubDate>
-    		    <guid>http://github.com/downloads/GPGTools/MacGPG1/MacGPG1-1.4.11-5.dmg</guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li><a href='http://gpgtools.lighthouseapp.com/projects/70639/tickets/2'>Issue 2</a>: Added PPC support.</li>
-                                                                            <li>Checksum: 090fa41bc4c71a1d110a256d1d9623b5450576ee (SHA-1).</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/macgpg1_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url="http://github.com/downloads/GPGTools/MacGPG1/MacGPG1-1.4.11-5.dmg" sparkle:version="1.4.11-5" sparkle:dsaSignature="" length="3149997" type="application/octet-stream"/>
-        	</item>
-<item>
-		        <title>Installer version 20110322</title>
-    		    <pubDate>Tue, 22 Mar 2011 14:05:00 +0100</pubDate>
-    		    <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110322.dmg</guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li>Update: GPGMail 1.3.3.</li>
-                                                                            <li>Update: GPG Keychain Access 0.8.6.</li>
-                                                                            <li>Update: GPGServices 1.5.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/54'>Issue 54</a>: Fix: Verification if mail is running give false positives (thank you Patrik).</li>
-                                                                            <li>Checksum: 2c3685155ac5ee1be25fb69b4eeb3ef34486d252 (SHA-1).</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/installer_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110322.dmg" sparkle:version="20110322" sparkle:dsaSignature="" length="19625272" type="application/octet-stream"/>
-        	</item>
-<item>
-		        <title>GPGMail version 1.3.3</title>
-    		    <pubDate>Tue, 22 Mar 2011 12:00:00 +0100</pubDate>
-    		    <guid>http://github.com/downloads/gpgtools/GPGMail/GPGMail-1.3.3.zip</guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li>Important: Fixed compatibility with final OS X 10.6.7 release.</li>
-                                                                            <li>Fix: French localization.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/136'>Issue 136</a>: Fix: Encryption/signing only with in-key-mentioned mail addresses broken.</li>
-                                                                            <li>Checksum: e9d334141767efee588494dc73595eed43ad4064 (SHA-1).</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/gpgmail_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url="http://github.com/downloads/gpgtools/GPGMail/GPGMail-1.3.3.zip" sparkle:version="1.3.3" sparkle:dsaSignature="MC0CFDF/nJUUuhpYNh25VUwb1yH+TgH0AhUAgpedhe7sUZqf9+IO+st35OQVw8o=" length="3181052" type="application/octet-stream"/>
-        	</item>
-<item>
-		        <title>GPG Keychain Access version 0.8.6</title>
-    		    <pubDate>Tue, 22 Mar 2011 12:00:00 +0100</pubDate>
-    		    <guid>https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.6.dmg</guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li>French localization.</li>
-                                                                            <li>Fixed a bug with the algorithm preferences.</li>
-                                                                            <li>Checksum: 73a71cc8b42b0a97aa30398b03a6956b46431c3a (SHA-1).</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/keychain_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.6.dmg" sparkle:version="0.8.6" sparkle:dsaSignature="MCwCFAFcJaNuFoTiADilH/vBpGEFmUapAhQt7YSVbKN+40Iw+Nmyat8J6eB2PA==" length="1517149" type="application/octet-stream"/>
-        	</item>
-<item>
-		        <title>GPGMail version 1.3.2</title>
-    		    <pubDate>Wed, 02 Mar 2011 12:00:00 +0100</pubDate>
-    		    <guid>http://github.com/downloads/gpgtools/GPGMail/GPGMail-1.3.2.zip</guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li>Important: Our new home is http://gpgtools.org.</li>
-                                                                            <li>Important: Now compatible with OS X 10.6.7.</li>
-                                                                            <li>Important: You might have to recheck your GPGMail configuration.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/3'>Issue 3</a>: Fix: Checked "Encrypt reply to OpenPGP-encrypted message" does not work.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/19'>Issue 19</a>: Fix: Choose key for encryption does not show keys..</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/20'>Issue 20</a>: Fix: Invalid crypto engine.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/27'>Issue 27</a>: Fix: GPG Exception - Bad Passphrase (pinentry-mac crash).</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/97'>Issue 97</a>: Fix: GPGMail does not sign though it is set by default.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/108'>Issue 108</a>: Fix: GPGMail not signing by default when set to choose keys by account.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/112'>Issue 112</a>: Fix: Current Build of GPGMail Is Not Supported On Mac OS X 10.6.7 (10J842).</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/115'>Issue 115</a>: Fix: Rename PGP to OpenPGP.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/132'>Issue 132</a>: Fix: Can not decrypt recently sent messages.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/134'>Issue 134</a>: Fix: Mail.bundle gets deactivated by Mail.app each time Mail.app is opened.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/2'>Issue 2</a>: Enhancement: Provide a compressed DMG with a background image.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/15'>Issue 15</a>: Enhancement: Add "Comment" section to signature.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/96'>Issue 96</a>: Enhancement: Change warning about missing private key.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/104'>Issue 104</a>: Enhancement: Installer should have a look at /L/M/B.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/122'>Issue 122</a>: Enhancement: Add Logo to the window, which appears when checking for updates.</li>
-                                                                            <li>Old issue 23: Fixed the "Use Keychain to store passphrases" bug.</li>
-                                                                            <li>Old issue 79: Fixed the "Encrypted reply to an encrypted message" bug.</li>
-                                                                            <li>Old issue 81: Fixed the "update now button" bug.</li>
-                                                                            <li>Old issue 97: Fixed the "check for update pulldown menu" bug.</li>
-                                                                            <li>Old issue 110: Fixed the "password chaching/timeout" bug.</li>
-                                                                            <li>Old issue 192: Added the "Do not check for updates at the first start" feature.</li>
-                                                                            <li>Old issue 197: Fixed the "show passphrase setting" bug.</li>
-                                                                            <li>Old issue 210: Fixed the "no longer prompted to enter passphrase" bug.</li>
-                                                                            <li>Old issue 233: Fixed the "bundle is a folder" bug.</li>
-                                                                            <li>Old issue 236: Fixed the "wrong bundle version and icon shown" bug.</li>
-                                                                            <li>Translation: Swedish (thank you Mischa!).</li>
-                                                                            <li>Other: New icons (thank you Josef!).</li>
-                                                                            <li>Other: Shared preferences for different GPG tools.</li>
-                                                                            <li>Other: Massive code cleanup.</li>
-                                                                            <li>Checksum: 57ceb923ec6eebba49496ff135b70a68e7e0bc30 (SHA-1).</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/gpgmail_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url="http://github.com/downloads/gpgtools/GPGMail/GPGMail-1.3.2.zip" sparkle:version="1.3.2" sparkle:dsaSignature="MCwCFHXIwXKI/rZRw9Ssx9KOXTuaNyGSAhROjBBaw4G2X2PMyI9Ww9SYa7XqUQ==" length="3179912" type="application/octet-stream"/>
-        	</item>
-<item>
-		        <title>Installer version 20110302</title>
-    		    <pubDate>Wed, 02 Mar 2011 11:28:00 +0100</pubDate>
-    		    <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110302.dmg</guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li>Enhancement: now compatible with Snow Leopard 10.6.7.</li>
-                                                                            <li>Update: GPGMail 1.3.2.</li>
-                                                                            <li>Update: GPG Keychain Access 0.8.4.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/51'>Issue 51</a>: Enhancement: Remove "no-use-standard-socket" from gpg-agent.conf.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/52'>Issue 52</a>: Enhancement: Add a key server if none exists.</li>
-                                                                            <li>Checksum: 446559bba04ab5c4704b9942d4179da8ab0f56ee (SHA-1).</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/installer_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110302.dmg" sparkle:version="20110302" sparkle:dsaSignature="" length="19174951" type="application/octet-stream"/>
-        	</item>
-<item>
-		        <title>MacGPG1 version 1.4.11-1</title>
-    		    <pubDate>Thu, 24 Feb 2011 00:13:08 +0100</pubDate>
-    		    <guid>http://github.com/downloads/GPGTools/MacGPG1/MacGPG1-1.4.11-1.dmg</guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li>Initial version.</li>
-                                                                            <li>Checksum: 908eb8b4a4a00fba92bc1f270419c10f2a4b3446 (SHA-1).</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/macgpg1_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url="http://github.com/downloads/GPGTools/MacGPG1/MacGPG1-1.4.11-1.dmg" sparkle:version="1.4.11-1" sparkle:dsaSignature="" length="3077981" type="application/octet-stream"/>
-        	</item>
-<item>
-		        <title>GPG Keychain Access version 0.8.4</title>
-    		    <pubDate>Tue, 22 Feb 2011 12:00:00 +0100</pubDate>
-    		    <guid>http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.4.dmg</guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li><a href='http://gpgtools.lighthouseapp.com/projects/65684/tickets/20'>Issue 20</a>: Save toolbar configuration.</li>
-                                                                            <li>Added Cmd+R shortcut to View > Refresh menu item.</li>
-                                                                            <li>Added long key type to Key Inspector.</li>
-                                                                            <li>Checksum: e8e696bc879e0d9de9aa7d9e9e54bf052cf6baaf (SHA-1).</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/keychain_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url="http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.4.dmg" sparkle:version="0.8.4" sparkle:dsaSignature="MCwCFCy2D7OdIs5pI9akgg/LA/9gsqPDAhRSYfBdPAzLqNDbwYVd8ljZJBrgfg==" length="1262263" type="application/octet-stream"/>
-        	</item>
-<item>
-		        <title>Installer version 20110214</title>
-    		    <pubDate>Mon, 14 Feb 2011 17:10:00 +0100</pubDate>
-    		    <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110214.dmg</guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li>Update: MacGPG2.0.17-9.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/51'>Issue 51</a>: Enhancement: automatically removing no-use-standard-socket from gpg-agent.conf.</li>
-                                                                            <li>Checksum: 59b3aa790803a8f678842e5ee3ae6d4c4ba5fc55 (SHA-1).</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/installer_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110214.dmg" sparkle:version="20110214" sparkle:dsaSignature="" length="19043995" type="application/octet-stream"/>
-        	</item>
-<item>
-		        <title>MacGPG2 version 2.0.17-9</title>
-    		    <pubDate>Mon, 14 Feb 2011 16:20:00 +0100</pubDate>
-    		    <guid>http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.17-9.zip</guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li><a href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/21'>Issue 21</a>: added missing gpg-agent patch.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/24'>Issue 24</a>: fixing invalid gpg.conf files.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/30'>Issue 30</a>: Patch to facilitate IDEA support; requires alternative encryption library (NOT INCLUDED).</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/32'>Issue 32</a>: fixing permissions.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/33'>Issue 33</a>: fixing incorrect options in gpg-agent.conf.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/40'>Issue 40</a>: fixing unusable secret keys on 32-bit machines.</li>
-                                                                            <li>Checksum: 6fc707319cd6f26fbc902aeec90939ac13aef7f3 (SHA-1).</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/macgpg2_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url="http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.17-9.zip" sparkle:version="2.0.17-9" sparkle:dsaSignature="" length="8446511" type="application/octet-stream"/>
-        	</item>
-<item>
-		        <title>Installer version 2011.02.01</title>
-    		    <pubDate>Tue, 01 Feb 2011 12:00:00 +0100</pubDate>
-    		    <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110201.dmg</guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/19'>Issue 19</a>: Highlight: automatically add new UUIDs (so already compatible with 10.6.7).</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/38'>Issue 38</a>: Enhancement: the user is now forced to close Mail.app.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/47'>Issue 47</a>: Enhancement: removing old pinentry configurations from gpg.conf.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/49'>Issue 49</a>: Fixed: issues on clean OS X installations.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/46'>Issue 46</a>: Fixed: issues updating old preference panes.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/43'>Issue 43</a>: Fixed: issues with users in OpenDirectory folders.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/42'>Issue 42</a>: Fixed: issues with the uninstaller when gpg is not installed.</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/installer_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110201.dmg" sparkle:version="2011.02.01" sparkle:dsaSignature="" length="30086116" type="application/octet-stream"/>
-        	</item>
-<item>
-		        <title>MacGPG2 version 2.0.17-6</title>
-    		    <pubDate>Tue, 25 Jan 2011 12:00:00 +0100</pubDate>
-    		    <guid>http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.17.6.zip</guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li>Tiger and PPC chips no longer supported.</li>
-                                                                            <li>v2.0.16 will be deleted from your system.</li>
-                                                                            <li>You may need to change the file path for gpg2 to /usr/local/MacGPG2/bin/gpg2.</li>
-                                                                            <li>Removal now as simple as 'sudo rm -fr /usr/local/MacGPG2'.</li>
-                                                                            <li>Core upgraded to GnuPG v2.0.17.</li>
-                                                                            <li>Configured to use standard socket and daemonise gpg agent on the fly if required.</li>
-                                                                            <li>Maximum key size increased to 8192 bits; recommended for expert users only.</li>
-                                                                            <li>Includes GPGTools gpg-agent cache-id option patch.</li>
-                                                                            <li>Installs exclusively under /usr/local/MacGPG2/ removing previous v2.0.16 install.</li>
-                                                                            <li>Creates default gpg configuration file if none exists.</li>
-                                                                            <li>Libksba upgraded to v1.1.0.</li>
-                                                                            <li>Libusb upgraded to v1.0.8.</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/macgpg2_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url="http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.17.6.zip" sparkle:version="2.0.17-6" sparkle:dsaSignature="" length="8446511" type="application/octet-stream"/>
-        	</item>
-<item>
-		        <title>Installer version 2011.01.25</title>
-    		    <pubDate>Tue, 25 Jan 2011 12:00:00 +0100</pubDate>
-    		    <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110125.dmg</guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li>MacGPG: 2.0.17.</li>
-                                                                            <li>GPGMail: 1.3.2rc1.</li>
-                                                                            <li>GPG Keychain Access: 0.8.3b.</li>
-                                                                            <li>GPGServices: 1.3.</li>
-                                                                            <li>GPGPreferences: 0.4 (GPGMail autofix only).</li>
-                                                                            <li>Enigmail: 1.1.2.</li>
-                                                                            <li>Many other small bug fixes.</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/installer_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110125.dmg" sparkle:version="2011.01.25" sparkle:dsaSignature="" length="29573564" type="application/octet-stream"/>
-        	</item>
-<item>
-		        <title>Installer version 2011.01.03</title>
-    		    <pubDate>Sun, 23 Jan 2011 12:00:00 +0100</pubDate>
-    		    <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110103.dmg</guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li>no release notes.</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/installer_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110103.dmg" sparkle:version="2011.01.03" sparkle:dsaSignature="" length="11518950" type="application/octet-stream"/>
-        	</item>
-<item>
-		        <title>GPG Keychain Access version 0.8.2b</title>
-    		    <pubDate>Sun, 23 Jan 2011 12:00:00 +0100</pubDate>
-    		    <guid>http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.2b.dmg</guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li>Removed support to start gpg-agent.</li>
-                                                                            <li>Checksum: 510e67b107bf5b97a404d68828d24ad7e6864521 (SHA-1).</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/keychain_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url="http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.2b.dmg" sparkle:version="0.8.2b" sparkle:dsaSignature="MCwCFEmnKqzPj+XBj3Fy3yqBU1LwT6y+AhRtjSDtsJcHRprEu5dKQZiFvHeIsA==" length="1786936" type="application/octet-stream"/>
-        	</item>
-<item>
-		        <title>GPG Keychain Access version 0.8.1b</title>
-    		    <pubDate>Sat, 22 Jan 2011 12:00:00 +0100</pubDate>
-    		    <guid>http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.1b.dmg</guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li>Added keyserver preferences.</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/keychain_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url="http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.1b.dmg" sparkle:version="0.8.1b" sparkle:dsaSignature="MC0CFGlksDkuvMZ+zX4y2tel8F+BFtPqAhUAoesG5GFjuGaBIUq+j8/fqH4diqA=" length="1784179" type="application/octet-stream"/>
-        	</item>
-<item>
-		        <title>Installer version 2011.01.18beta1</title>
-    		    <pubDate>Tue, 18 Jan 2011 12:00:00 +0100</pubDate>
-    		    <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110118_beta1.dmg</guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li>Update: GPGMail 1.3.2rc1.</li>
-                                                                            <li>Update: GPG Keychain Access 0.8.0b.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/37'>Issue 37</a>: Does not break GPG2 anymore.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/9'>Issue 9</a>: Now based on MacGPG2 2.0.17rc3.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/34'>Issue 34</a>: Added GPGServices.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/28'>Issue 28</a>: Updated uninstaller.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/13'>Issue 13</a>: Added pka support.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/12'>Issue 12</a>: Remove start-gpg-agent.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/29'>Issue 29</a>: Updated icons.</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/installer_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110118_beta1.dmg" sparkle:version="2011.01.18beta1" sparkle:dsaSignature="" length="27150208" type="application/octet-stream"/>
-        	</item>
-<item>
-		        <title>GPG Keychain Access version 0.8.0b</title>
-    		    <pubDate>Sun, 16 Jan 2011 12:00:00 +0100</pubDate>
-    		    <guid>http://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess-0_8_0b.tar.bz2</guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li>Added support for MacGPG2-2.0.17.</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/keychain_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url="http://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess-0_8_0b.tar.bz2" sparkle:version="0.8.0b" sparkle:dsaSignature="MC4CFQCO61zx/KqfaHW6O0Xo5WXWEDY4ogIVAJGYjrvvOk3SfLBktrJiR9R9cSsm" length="1069156" type="application/octet-stream"/>
-        	</item>
-<item>
-		        <title>Installer version 2011.01.05_1</title>
-    		    <pubDate>Wed, 05 Jan 2011 13:00:00 +0100</pubDate>
-    		    <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110105_1.dmg</guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li>Update: GPGMail 1.3.2beta.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/15'>Issue 15</a>: Fixed check for OS requirements.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/26'>Issue 26</a>: Fixed permission issues.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/27'>Issue 27</a>: Added check for GPG2.</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/installer_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110105_1.dmg" sparkle:version="2011.01.05_1" sparkle:dsaSignature="" length="12205736" type="application/octet-stream"/>
-        	</item>
-<item>
-		        <title>Installer version 2011.01.05</title>
-    		    <pubDate>Wed, 05 Jan 2011 12:00:00 +0100</pubDate>
-    		    <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110105.dmg</guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/15'>Issue 15</a>: Fixed check for OS requirements.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/26'>Issue 26</a>: Fixed permission issues.</li>
-                                                                            <li><a href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/27'>Issue 27</a>: Added check for GPG2.</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/installer_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110105.dmg" sparkle:version="2011.01.05" sparkle:dsaSignature="" length="11519130" type="application/octet-stream"/>
-        	</item>
-<item>
-		        <title>GPG Keychain Access version 0.3.1b</title>
-    		    <pubDate>Sat, 11 Dec 2010 12:00:00 +0100</pubDate>
-    		    <guid>http://github.com/downloads/gpgmail/GPGKeychainAccess/GPGKeychainAccess-0_3_1b.tar.bz2</guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li>Right click context menu.</li>
-                                                                            <li>Added new icons.</li>
-                                                                            <li>Added support for algorithm preferences.</li>
-                                                                            <li>Showing validity.</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/keychain_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url="http://github.com/downloads/gpgmail/GPGKeychainAccess/GPGKeychainAccess-0_3_1b.tar.bz2" sparkle:version="0.3.1b" sparkle:dsaSignature="MCwCFDeqwRaC7E67ua6BcOCsprTVV3BVAhRtjcXp9u173+TG+mg21cXjRCMyhg==" length="1069448" type="application/octet-stream"/>
-        	</item>
-<item>
-		        <title>GPGMail version 1.3.1</title>
-    		    <pubDate>Tue, 16 Nov 2010 12:00:00 +0100</pubDate>
-    		    <guid>http://github.com/downloads/gpgmail/GPGMail/GPGMail-1.3.1.zip</guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li>Issue 221: Fixed compatibility with 10.6.5.</li>
-                                                                            <li>Issue 14: Added make clean.</li>
-                                                                            <li>Issue 98: Renamed preference pane to GPGMail.</li>
-                                                                            <li>Issue 54: Renamed PGP to OpenPGP in the menu.</li>
-                                                                            <li>Issue 81: Disabled 'update now' button.</li>
-                                                                            <li>Issue 212: Started to update the logos.</li>
-                                                                            <li>And many, many other minor updates.</li>
-                                                                            <li>Checksum: b5f76a2c5667fd15b98c70ab2745f510f58c8eae (SHA-1).</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/gpgmail_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url="http://github.com/downloads/gpgmail/GPGMail/GPGMail-1.3.1.zip" sparkle:version="1.3.1" sparkle:dsaSignature="MC0CFQCCKRaaP1fD3HBy9634f7cl+1ZgkwIUBserUijOEUalQmEfIDWhdHG+yUk=" length="2448070" type="application/octet-stream"/>
-        	</item>
-<item>
-		        <title>MacGPG2 version 2.0.16</title>
-    		    <pubDate>Sun, 31 Oct 2010 12:00:00 +0100</pubDate>
-    		    <guid>http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.16.zip</guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li>Last version to support PPC and MacOSX Tiger.</li>
-                                                                            <li>Maximum key size increased to 8192 bits; recommended for expert users only.</li>
-                                                                            <li>Core upgraded to GnuPG v2.0.16.</li>
-                                                                            <li>Configured to use standard socket and daemonise gpg agent on the fly if required.</li>
-                                                                            <li>Libassuan upgraded to v2.0.2-svn389.</li>
-                                                                            <li>Libgpg-error updated to v1.9.</li>
-                                                                            <li>Libgcrypt updated to v1.4.6.</li>
-                                                                            <li>If the agent's --use-standard-socket option is active, all tools try to start and daemonize the agent on the fly. In the past this was only supported on W32; on non-W32 systems the new configure option --use-standard-socket may now be used to use this feature by default.</li>
-                                                                            <li>The gpg-agent commands KILLAGENT and RELOADAGENT are now available on all platforms.</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/macgpg2_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url="http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.16.zip" sparkle:version="2.0.16" sparkle:dsaSignature="" length="8446511" type="application/octet-stream"/>
-        	</item>
-<item>
-		        <title>GPGMail version 1.3.0</title>
-    		    <pubDate>Tue, 27 Jul 2010 12:00:00 +0200</pubDate>
-    		    <guid>http://www.gpgmail.org/sparkle/GPGMail-1.3.0.zip</guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li>Added Sparkle updates.</li>
-                                                                            <li>Changed web site, author, copyright, and e-mail address information to reflect the new project structure.</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/gpgmail_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url="http://www.gpgmail.org/sparkle/GPGMail-1.3.0.zip" sparkle:version="1.3.0" sparkle:dsaSignature="MCwCFFRFvroZn2nLSSr7jKqFCiVVmGaMAhQBGcgwkBFsLhenIgCGg0ViGQOvcw==" length="2451447" type="application/octet-stream"/>
-        	</item>
+<item><title>GPG Keychain Access version 0.8.7</title> <pubDate>Thu, 24 Mar 2011 12:00:00 +0100</pubDate> <guid>https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.7.dmg</guid> <description><![CDATA[<ul><li>Fixed crash on startup.</li><li>Better german localization.</li><li>Checksum: fa06410597db8e258c5199b1a2c8fad9f23a9bc5 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/keychain_sparkle.html </sparkle:releaseNotesLink> <enclosure url="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.7.dmg" sparkle:version="0.8.7" sparkle:dsaSignature="MCwCFGSTjR3eaXlh5+onDy2QzyjQeYA0AhRFDSo+zmpoSaFmcQibbkYodNWNVg==" length="1516862" type="application/octet-stream"/> </item>
+<item><title>MacGPG1 version 1.4.11-5</title> <pubDate>Thu, 24 Mar 2011 00:08:03 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/MacGPG1/MacGPG1-1.4.11-5.dmg</guid> <description><![CDATA[<ul><li><a
+href='http://gpgtools.lighthouseapp.com/projects/70639/tickets/2'>Issue 2</a>: Added PPC support.</li><li>Checksum: 090fa41bc4c71a1d110a256d1d9623b5450576ee (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/macgpg1_sparkle.html </sparkle:releaseNotesLink> <enclosure url="http://github.com/downloads/GPGTools/MacGPG1/MacGPG1-1.4.11-5.dmg" sparkle:version="1.4.11-5" sparkle:dsaSignature="" length="3149997" type="application/octet-stream"/> </item>
+<item><title>Installer version 20110322</title> <pubDate>Tue, 22 Mar 2011 14:05:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110322.dmg</guid> <description><![CDATA[<ul><li>Update: GPGMail 1.3.3.</li><li>Update: GPG Keychain Access 0.8.6.</li><li>Update: GPGServices 1.5.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/54'>Issue 54</a>: Fix: Verification if mail is running give false positives (thank you Patrik).</li><li>Checksum: 2c3685155ac5ee1be25fb69b4eeb3ef34486d252 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/installer_sparkle.html </sparkle:releaseNotesLink> <enclosure url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110322.dmg" sparkle:version="20110322" sparkle:dsaSignature="" length="19625272" type="application/octet-stream"/> </item>
+<item><title>GPGMail version 1.3.3</title> <pubDate>Tue, 22 Mar 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/gpgtools/GPGMail/GPGMail-1.3.3.zip</guid> <description><![CDATA[<ul><li>Important: Fixed compatibility with final OS X 10.6.7 release.</li><li>Fix: French localization.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/136'>Issue 136</a>: Fix: Encryption/signing only with in-key-mentioned mail addresses broken.</li><li>Checksum: e9d334141767efee588494dc73595eed43ad4064 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/gpgmail_sparkle.html </sparkle:releaseNotesLink> <enclosure url="http://github.com/downloads/gpgtools/GPGMail/GPGMail-1.3.3.zip" sparkle:version="1.3.3" sparkle:dsaSignature="MC0CFDF/nJUUuhpYNh25VUwb1yH+TgH0AhUAgpedhe7sUZqf9+IO+st35OQVw8o=" length="3181052" type="application/octet-stream"/> </item>
+<item><title>GPG Keychain Access version 0.8.6</title> <pubDate>Tue, 22 Mar 2011 12:00:00 +0100</pubDate> <guid>https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.6.dmg</guid> <description><![CDATA[<ul><li>French localization.</li><li>Fixed a bug with the algorithm preferences.</li><li>Checksum: 73a71cc8b42b0a97aa30398b03a6956b46431c3a (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/keychain_sparkle.html </sparkle:releaseNotesLink> <enclosure url="https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.6.dmg" sparkle:version="0.8.6" sparkle:dsaSignature="MCwCFAFcJaNuFoTiADilH/vBpGEFmUapAhQt7YSVbKN+40Iw+Nmyat8J6eB2PA==" length="1517149" type="application/octet-stream"/> </item>
+<item><title>GPGMail version 1.3.2</title> <pubDate>Wed, 02 Mar 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/gpgtools/GPGMail/GPGMail-1.3.2.zip</guid> <description><![CDATA[<ul><li>Important: Our new home is http://gpgtools.org.</li><li>Important: Now compatible with OS X 10.6.7.</li><li>Important: You might have to recheck your GPGMail configuration.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/3'>Issue 3</a>: Fix: Checked "Encrypt reply to OpenPGP-encrypted message" does not work.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/19'>Issue 19</a>: Fix: Choose key for encryption does not show keys..</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/20'>Issue 20</a>: Fix: Invalid crypto engine.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/27'>Issue 27</a>: Fix: GPG Exception - Bad Passphrase (pinentry-mac crash).</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/97'>Issue 97</a>: Fix: GPGMail does not sign though it is set by default.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/108'>Issue 108</a>: Fix: GPGMail not signing by default when set to choose keys by account.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/112'>Issue 112</a>: Fix: Current Build of GPGMail Is Not Supported On Mac OS X 10.6.7 (10J842).</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/115'>Issue 115</a>: Fix: Rename PGP to OpenPGP.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/132'>Issue 132</a>: Fix: Can not decrypt recently sent messages.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/134'>Issue 134</a>: Fix: Mail.bundle gets deactivated by Mail.app each time Mail.app is opened.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/2'>Issue 2</a>: Enhancement: Provide a compressed DMG with a background image.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/15'>Issue 15</a>: Enhancement: Add "Comment" section to signature.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/96'>Issue 96</a>: Enhancement: Change warning about missing private key.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/104'>Issue 104</a>: Enhancement: Installer should have a look at /L/M/B.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65764/tickets/122'>Issue 122</a>: Enhancement: Add Logo to the window, which appears when checking for updates.</li><li>Old issue 23: Fixed the "Use Keychain to store passphrases" bug.</li><li>Old issue 79: Fixed the "Encrypted reply to an encrypted message" bug.</li><li>Old issue 81: Fixed the "update now button" bug.</li><li>Old issue 97: Fixed the "check for update pulldown menu" bug.</li><li>Old issue 110: Fixed the "password chaching/timeout" bug.</li><li>Old issue 192: Added the "Do not check for updates at the first start" feature.</li><li>Old issue 197: Fixed the "show passphrase setting" bug.</li><li>Old issue 210: Fixed the "no longer prompted to enter passphrase" bug.</li><li>Old issue 233: Fixed the "bundle is a folder" bug.</li><li>Old issue 236: Fixed the "wrong bundle version and icon shown" bug.</li><li>Translation: Swedish (thank you Mischa!).</li><li>Other: New icons (thank you Josef!).</li><li>Other: Shared preferences for different GPG tools.</li><li>Other: Massive code cleanup.</li><li>Checksum: 57ceb923ec6eebba49496ff135b70a68e7e0bc30 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/gpgmail_sparkle.html </sparkle:releaseNotesLink> <enclosure url="http://github.com/downloads/gpgtools/GPGMail/GPGMail-1.3.2.zip" sparkle:version="1.3.2" sparkle:dsaSignature="MCwCFHXIwXKI/rZRw9Ssx9KOXTuaNyGSAhROjBBaw4G2X2PMyI9Ww9SYa7XqUQ==" length="3179912" type="application/octet-stream"/> </item>
+<item><title>Installer version 20110302</title> <pubDate>Wed, 02 Mar 2011 11:28:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110302.dmg</guid> <description><![CDATA[<ul><li>Enhancement: now compatible with Snow Leopard 10.6.7.</li><li>Update: GPGMail 1.3.2.</li><li>Update: GPG Keychain Access 0.8.4.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/51'>Issue 51</a>: Enhancement: Remove "no-use-standard-socket" from gpg-agent.conf.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/52'>Issue 52</a>: Enhancement: Add a key server if none exists.</li><li>Checksum: 446559bba04ab5c4704b9942d4179da8ab0f56ee (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/installer_sparkle.html </sparkle:releaseNotesLink> <enclosure url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110302.dmg" sparkle:version="20110302" sparkle:dsaSignature="" length="19174951" type="application/octet-stream"/> </item>
+<item><title>MacGPG1 version 1.4.11-1</title> <pubDate>Thu, 24 Feb 2011 00:13:08 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/MacGPG1/MacGPG1-1.4.11-1.dmg</guid> <description><![CDATA[<ul><li>Initial version.</li><li>Checksum: 908eb8b4a4a00fba92bc1f270419c10f2a4b3446 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/macgpg1_sparkle.html </sparkle:releaseNotesLink> <enclosure url="http://github.com/downloads/GPGTools/MacGPG1/MacGPG1-1.4.11-1.dmg" sparkle:version="1.4.11-1" sparkle:dsaSignature="" length="3077981" type="application/octet-stream"/> </item>
+<item><title>GPG Keychain Access version 0.8.4</title> <pubDate>Tue, 22 Feb 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.4.dmg</guid> <description><![CDATA[<ul><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65684/tickets/20'>Issue 20</a>: Save toolbar configuration.</li><li>Added Cmd+R shortcut to View > Refresh menu item.</li><li>Added long key type to Key Inspector.</li><li>Checksum: e8e696bc879e0d9de9aa7d9e9e54bf052cf6baaf (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/keychain_sparkle.html </sparkle:releaseNotesLink> <enclosure url="http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.4.dmg" sparkle:version="0.8.4" sparkle:dsaSignature="MCwCFCy2D7OdIs5pI9akgg/LA/9gsqPDAhRSYfBdPAzLqNDbwYVd8ljZJBrgfg==" length="1262263" type="application/octet-stream"/> </item>
+<item><title>Installer version 20110214</title> <pubDate>Mon, 14 Feb 2011 17:10:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110214.dmg</guid> <description><![CDATA[<ul><li>Update: MacGPG2.0.17-9.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/51'>Issue 51</a>: Enhancement: automatically removing no-use-standard-socket from gpg-agent.conf.</li><li>Checksum: 59b3aa790803a8f678842e5ee3ae6d4c4ba5fc55 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/installer_sparkle.html </sparkle:releaseNotesLink> <enclosure url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110214.dmg" sparkle:version="20110214" sparkle:dsaSignature="" length="19043995" type="application/octet-stream"/> </item>
+<item><title>MacGPG2 version 2.0.17-9</title> <pubDate>Mon, 14 Feb 2011 16:20:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.17-9.zip</guid> <description><![CDATA[<ul><li><a
+href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/21'>Issue 21</a>: added missing gpg-agent patch.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/24'>Issue 24</a>: fixing invalid gpg.conf files.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/30'>Issue 30</a>: Patch to facilitate IDEA support; requires alternative encryption library (NOT INCLUDED).</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/32'>Issue 32</a>: fixing permissions.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/33'>Issue 33</a>: fixing incorrect options in gpg-agent.conf.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/66001/tickets/40'>Issue 40</a>: fixing unusable secret keys on 32-bit machines.</li><li>Checksum: 6fc707319cd6f26fbc902aeec90939ac13aef7f3 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/macgpg2_sparkle.html </sparkle:releaseNotesLink> <enclosure url="http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.17-9.zip" sparkle:version="2.0.17-9" sparkle:dsaSignature="" length="8446511" type="application/octet-stream"/> </item>
+<item><title>Installer version 2011.02.01</title> <pubDate>Tue, 01 Feb 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110201.dmg</guid> <description><![CDATA[<ul><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/19'>Issue 19</a>: Highlight: automatically add new UUIDs (so already compatible with 10.6.7).</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/38'>Issue 38</a>: Enhancement: the user is now forced to close Mail.app.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/47'>Issue 47</a>: Enhancement: removing old pinentry configurations from gpg.conf.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/49'>Issue 49</a>: Fixed: issues on clean OS X installations.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/46'>Issue 46</a>: Fixed: issues updating old preference panes.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/43'>Issue 43</a>: Fixed: issues with users in OpenDirectory folders.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/42'>Issue 42</a>: Fixed: issues with the uninstaller when gpg is not installed.</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/installer_sparkle.html </sparkle:releaseNotesLink> <enclosure url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110201.dmg" sparkle:version="2011.02.01" sparkle:dsaSignature="" length="30086116" type="application/octet-stream"/> </item>
+<item><title>MacGPG2 version 2.0.17-6</title> <pubDate>Tue, 25 Jan 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.17.6.zip</guid> <description><![CDATA[<ul><li>Tiger and PPC chips no longer supported.</li><li>v2.0.16 will be deleted from your system.</li><li>You may need to change the file path for gpg2 to /usr/local/MacGPG2/bin/gpg2.</li><li>Removal now as simple as 'sudo rm -fr /usr/local/MacGPG2'.</li><li>Core upgraded to GnuPG v2.0.17.</li><li>Configured to use standard socket and daemonise gpg agent on the fly if required.</li><li>Maximum key size increased to 8192 bits; recommended for expert users only.</li><li>Includes GPGTools gpg-agent cache-id option patch.</li><li>Installs exclusively under /usr/local/MacGPG2/ removing previous v2.0.16 install.</li><li>Creates default gpg configuration file if none exists.</li><li>Libksba upgraded to v1.1.0.</li><li>Libusb upgraded to v1.0.8.</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/macgpg2_sparkle.html </sparkle:releaseNotesLink> <enclosure url="http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.17.6.zip" sparkle:version="2.0.17-6" sparkle:dsaSignature="" length="8446511" type="application/octet-stream"/> </item>
+<item><title>Installer version 2011.01.25</title> <pubDate>Tue, 25 Jan 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110125.dmg</guid> <description><![CDATA[<ul><li>MacGPG: 2.0.17.</li><li>GPGMail: 1.3.2rc1.</li><li>GPG Keychain Access: 0.8.3b.</li><li>GPGServices: 1.3.</li><li>GPGPreferences: 0.4 (GPGMail autofix only).</li><li>Enigmail: 1.1.2.</li><li>Many other small bug fixes.</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/installer_sparkle.html </sparkle:releaseNotesLink> <enclosure url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110125.dmg" sparkle:version="2011.01.25" sparkle:dsaSignature="" length="29573564" type="application/octet-stream"/> </item>
+<item><title>Installer version 2011.01.03</title> <pubDate>Sun, 23 Jan 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110103.dmg</guid> <description><![CDATA[<ul><li>no release notes.</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/installer_sparkle.html </sparkle:releaseNotesLink> <enclosure url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110103.dmg" sparkle:version="2011.01.03" sparkle:dsaSignature="" length="11518950" type="application/octet-stream"/> </item>
+<item><title>GPG Keychain Access version 0.8.2b</title> <pubDate>Sun, 23 Jan 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.2b.dmg</guid> <description><![CDATA[<ul><li>Removed support to start gpg-agent.</li><li>Checksum: 510e67b107bf5b97a404d68828d24ad7e6864521 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/keychain_sparkle.html </sparkle:releaseNotesLink> <enclosure url="http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.2b.dmg" sparkle:version="0.8.2b" sparkle:dsaSignature="MCwCFEmnKqzPj+XBj3Fy3yqBU1LwT6y+AhRtjSDtsJcHRprEu5dKQZiFvHeIsA==" length="1786936" type="application/octet-stream"/> </item>
+<item><title>GPG Keychain Access version 0.8.1b</title> <pubDate>Sat, 22 Jan 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.1b.dmg</guid> <description><![CDATA[<ul><li>Added keyserver preferences.</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/keychain_sparkle.html </sparkle:releaseNotesLink> <enclosure url="http://github.com/downloads/GPGTools/GPGKeychainAccess/GPG%20Keychain%20Access-0.8.1b.dmg" sparkle:version="0.8.1b" sparkle:dsaSignature="MC0CFGlksDkuvMZ+zX4y2tel8F+BFtPqAhUAoesG5GFjuGaBIUq+j8/fqH4diqA=" length="1784179" type="application/octet-stream"/> </item>
+<item><title>Installer version 2011.01.18beta1</title> <pubDate>Tue, 18 Jan 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110118_beta1.dmg</guid> <description><![CDATA[<ul><li>Update: GPGMail 1.3.2rc1.</li><li>Update: GPG Keychain Access 0.8.0b.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/37'>Issue 37</a>: Does not break GPG2 anymore.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/9'>Issue 9</a>: Now based on MacGPG2 2.0.17rc3.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/34'>Issue 34</a>: Added GPGServices.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/28'>Issue 28</a>: Updated uninstaller.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/13'>Issue 13</a>: Added pka support.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/12'>Issue 12</a>: Remove start-gpg-agent.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/29'>Issue 29</a>: Updated icons.</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/installer_sparkle.html </sparkle:releaseNotesLink> <enclosure url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110118_beta1.dmg" sparkle:version="2011.01.18beta1" sparkle:dsaSignature="" length="27150208" type="application/octet-stream"/> </item>
+<item><title>GPG Keychain Access version 0.8.0b</title> <pubDate>Sun, 16 Jan 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess-0_8_0b.tar.bz2</guid> <description><![CDATA[<ul><li>Added support for MacGPG2-2.0.17.</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/keychain_sparkle.html </sparkle:releaseNotesLink> <enclosure url="http://github.com/downloads/GPGTools/GPGKeychainAccess/GPGKeychainAccess-0_8_0b.tar.bz2" sparkle:version="0.8.0b" sparkle:dsaSignature="MC4CFQCO61zx/KqfaHW6O0Xo5WXWEDY4ogIVAJGYjrvvOk3SfLBktrJiR9R9cSsm" length="1069156" type="application/octet-stream"/> </item>
+<item><title>Installer version 2011.01.05_1</title> <pubDate>Wed, 05 Jan 2011 13:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110105_1.dmg</guid> <description><![CDATA[<ul><li>Update: GPGMail 1.3.2beta.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/15'>Issue 15</a>: Fixed check for OS requirements.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/26'>Issue 26</a>: Fixed permission issues.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/27'>Issue 27</a>: Added check for GPG2.</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/installer_sparkle.html </sparkle:releaseNotesLink> <enclosure url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110105_1.dmg" sparkle:version="2011.01.05_1" sparkle:dsaSignature="" length="12205736" type="application/octet-stream"/> </item>
+<item><title>Installer version 2011.01.05</title> <pubDate>Wed, 05 Jan 2011 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110105.dmg</guid> <description><![CDATA[<ul><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/15'>Issue 15</a>: Fixed check for OS requirements.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/26'>Issue 26</a>: Fixed permission issues.</li><li><a
+href='http://gpgtools.lighthouseapp.com/projects/65162/tickets/27'>Issue 27</a>: Added check for GPG2.</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/installer_sparkle.html </sparkle:releaseNotesLink> <enclosure url="http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110105.dmg" sparkle:version="2011.01.05" sparkle:dsaSignature="" length="11519130" type="application/octet-stream"/> </item>
+<item><title>GPG Keychain Access version 0.3.1b</title> <pubDate>Sat, 11 Dec 2010 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/gpgmail/GPGKeychainAccess/GPGKeychainAccess-0_3_1b.tar.bz2</guid> <description><![CDATA[<ul><li>Right click context menu.</li><li>Added new icons.</li><li>Added support for algorithm preferences.</li><li>Showing validity.</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/keychain_sparkle.html </sparkle:releaseNotesLink> <enclosure url="http://github.com/downloads/gpgmail/GPGKeychainAccess/GPGKeychainAccess-0_3_1b.tar.bz2" sparkle:version="0.3.1b" sparkle:dsaSignature="MCwCFDeqwRaC7E67ua6BcOCsprTVV3BVAhRtjcXp9u173+TG+mg21cXjRCMyhg==" length="1069448" type="application/octet-stream"/> </item>
+<item><title>GPGMail version 1.3.1</title> <pubDate>Tue, 16 Nov 2010 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/gpgmail/GPGMail/GPGMail-1.3.1.zip</guid> <description><![CDATA[<ul><li>Issue 221: Fixed compatibility with 10.6.5.</li><li>Issue 14: Added make clean.</li><li>Issue 98: Renamed preference pane to GPGMail.</li><li>Issue 54: Renamed PGP to OpenPGP in the menu.</li><li>Issue 81: Disabled 'update now' button.</li><li>Issue 212: Started to update the logos.</li><li>And many, many other minor updates.</li><li>Checksum: b5f76a2c5667fd15b98c70ab2745f510f58c8eae (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/gpgmail_sparkle.html </sparkle:releaseNotesLink> <enclosure url="http://github.com/downloads/gpgmail/GPGMail/GPGMail-1.3.1.zip" sparkle:version="1.3.1" sparkle:dsaSignature="MC0CFQCCKRaaP1fD3HBy9634f7cl+1ZgkwIUBserUijOEUalQmEfIDWhdHG+yUk=" length="2448070" type="application/octet-stream"/> </item>
+<item><title>MacGPG2 version 2.0.16</title> <pubDate>Sun, 31 Oct 2010 12:00:00 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.16.zip</guid> <description><![CDATA[<ul><li>Last version to support PPC and MacOSX Tiger.</li><li>Maximum key size increased to 8192 bits; recommended for expert users only.</li><li>Core upgraded to GnuPG v2.0.16.</li><li>Configured to use standard socket and daemonise gpg agent on the fly if required.</li><li>Libassuan upgraded to v2.0.2-svn389.</li><li>Libgpg-error updated to v1.9.</li><li>Libgcrypt updated to v1.4.6.</li><li>If the agent's --use-standard-socket option is active, all tools try to start and daemonize the agent on the fly. In the past this was only supported on W32; on non-W32 systems the new configure option --use-standard-socket may now be used to use this feature by default.</li><li>The gpg-agent commands KILLAGENT and RELOADAGENT are now available on all platforms.</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/macgpg2_sparkle.html </sparkle:releaseNotesLink> <enclosure url="http://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.16.zip" sparkle:version="2.0.16" sparkle:dsaSignature="" length="8446511" type="application/octet-stream"/> </item>
+<item><title>GPGMail version 1.3.0</title> <pubDate>Tue, 27 Jul 2010 12:00:00 +0200</pubDate> <guid>http://www.gpgmail.org/sparkle/GPGMail-1.3.0.zip</guid> <description><![CDATA[<ul><li>Added Sparkle updates.</li><li>Changed web site, author, copyright, and e-mail address information to reflect the new project structure.</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/gpgmail_sparkle.html </sparkle:releaseNotesLink> <enclosure url="http://www.gpgmail.org/sparkle/GPGMail-1.3.0.zip" sparkle:version="1.3.0" sparkle:dsaSignature="MCwCFFRFvroZn2nLSSr7jKqFCiVVmGaMAhQBGcgwkBFsLhenIgCGg0ViGQOvcw==" length="2451447" type="application/octet-stream"/> </item>
     </channel>
 </rss>
