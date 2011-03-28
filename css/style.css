@@ -373,6 +373,14 @@ ul#projects, ul.projects {
     font-weight:bold;
 }
 
+ul.horizontal li {
+	float:left;
+	margin-right:2em;
+}
+br.clear {
+	clear:left;
+}
+
 a#header, a#header:hover {
     color:#fff;
 }

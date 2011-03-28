@@ -31,6 +31,8 @@
             <h3>Overview</h3>
             {$overview}
             <p><br/><br/></p>
+			
+			
             <h3>Support and Issues</h3>
             <p>Please have a look at the <a href="http://gpgtools.lighthouseapp.com/projects/{$lighthouse}/tickets?q=state%3Aopen&amp;filter=" target='_blank'>list of open issues</a> and ask <a href="mailto:gpgtools-users@lists.gpgtools.org">the mailing list</a> for further support.{if $url_wiki neq ''} Additionally we provide informations in our <a href="https://github.com/{$url_base}/{$url_wiki}" title="community maintained wiki" target='_blank'>wiki</a>.{/if}</p>
             {if is_array($limitations)}
@@ -44,6 +46,7 @@
             <p><br/><br/></p>
             {/if}
 
+
             {if is_array($features)}
             <h3>Main Features</h3>
             <ul id="features" class="sub">
@@ -52,9 +55,11 @@
                 {/foreach}
             </ul>
             {/if}
+			
+			
             {if is_array($screenshots)}
             <h3>Screenshots</h3>
-            <ul class="sub projects">
+            <ul class="sub projects horizontal">
             {foreach from=$screenshots key=o_url item=o_title}
 				{if is_array($o_title)}
 					{assign var="o_thumb" value=$o_title[0]}
@@ -62,19 +67,35 @@
 				{else}
 					{assign var="o_thumb" value=$o_url}
 				{/if}
-                <li><a href="{$o_url}"><img class="screenshot" src="{$o_thumb}" alt="{$o_title}" title="{$o_title}" /><br/>{$o_title}</a>.</li>
+                <li>
+					<a href="{$o_url}">
+						<img class="screenshot" src="{$o_thumb}" alt="{$o_title}" title="{$o_title}" />
+						<br/>{$o_title}.
+					</a>
+				</li>
             {/foreach}
+ 				<br class="clear"/>
             </ul>
             {/if}
+			
+			
             {if is_array($screencasts)}
             <h3>Screencasts</h3>
-            <ul class="sub projects">
+            <ul class="sub projects horizontal">
             {foreach from=$screencasts key=s_url item=s_title}
-                <li><a href="http://www.gpgtools.org/videos/{$s_url}" title='{$s_title}'><img class="screenshot" src="{$root}/images/screencast.jpg" alt="{$s_title}" title="{$s_title}" /><br />{$s_title}</a>.</li>
+                <li>
+					<a href="http://www.gpgtools.org/videos/{$s_url}" title='{$s_title}'>
+						<img class="screenshot" src="{$root}/images/screencast.jpg" alt="{$s_title}" title="{$s_title}" />
+						<br />{$s_title}.
+					</a>
+				</li>
             {/foreach}
+ 				<br class="clear"/>
             </ul>
-            {/if}
-            {if $macupdate neq '' or $iusethis neq ''}
+           {/if}
+			
+			
+            {if $macupdate neq '' or $iusethis neq '' or $heise neq '' or $cnet neq ''}
             <h3>Software Portals</h3>
             <p>Ratings and user comments on other sites.</p>
             <ul id="other" class="sub">
@@ -84,6 +105,8 @@
             {if $cnet neq ''}<li class="portal"><a href="http://download.cnet.com/{$cnet}.html" title='{$title} on cnet'><img src="http://i.i.com.com/cnwk.1d/i/dl/button/dl-button_a.gif" title="{$title} on cnet" alt="{$title} on cnet" /></a></li>{/if}
             </ul>
             {/if}
+			
+			
             <h3 id="releasenotes">Release Notes</h3>
             <p>Also have a look at the <a href="{$changelogfile}" target='_blank'>list of all release notes</a> and <a href="https://github.com/{$url_base}/commits" title='last commits' target='_blank'>list of last changes</a>.<br/><br/></p>
 			{foreach $changelog as $changes}
