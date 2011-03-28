@@ -1,5 +1,5 @@
 {extends file="index.tpl"}
-{block name=body}{strip}
+{block name=body}
     <div id="overview">
       <div id="o_content"></div>
     </div>
@@ -33,4 +33,4 @@
             </div>
             </div>
     </div>
-{/strip}{/block}
+{/block}

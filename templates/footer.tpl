@@ -1,4 +1,3 @@
-{strip}
     <footer>
         <div>
             <div>
@@ -48,4 +47,3 @@ var _paq = _paq || [];
   <!-- End Piwik Tag -->
 </body>
 </html>
-{/strip}
