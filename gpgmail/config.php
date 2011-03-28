@@ -44,8 +44,8 @@ $limitations = array(
 $theSite->assign('limitations', $limitations);
 
 $features = array(
-"$root/images/update.png" => array('Integrated update mechanism and installer can <a href="/faq.php#3.2">auto-fix the current installation</a> after an OS update', 'update mechanism'),
-"$root/images/installericon.png" => array('Is part of the <a href="/installer/index.php" title="our main project: the installer">GPGTools Installer</a>', 'Installer'),
+"$root/images/update.png" => array("Integrated update mechanism and installer can <a href='$root/faq.php#3.2'>auto-fix the current installation</a> after an OS update", 'update mechanism'),
+"$root/images/installericon.png" => array("Is part of the <a href='$root/installer/index.php' title='our main project: the installer'>GPGTools Installer</a>", 'Installer'),
 "$root/images/secure.jpg" => array('Sign, encrypt, decrypt, and verify all your mails', 'mail security'),
 "$root/images/64bit.jpg" => array('The bundle is 64-bit and Snow Leopard ready', 'Snow Leopard')
 );

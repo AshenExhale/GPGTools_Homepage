@@ -10,10 +10,10 @@
             <h3>How can I get the latest news?</h3>
             <p>To stay up to date you have several options:</p>
             <ul class="sub projects">
-                <li><div class="project"><a href="http://twitter.com/gpgtools" title="follow us on twitter"><img src="{$root}images/twitter.png" title="follow us on twitter" alt="twitter" /></a></div></li>
-                <li><div class="project"><a href="http://twitter.com/statuses/user_timeline/170783148.rss" title="subscribe our twitter feed"><img src="{$root}images/rss.png" title="subscribe our twitter feed" alt="rss" /></a></div></li>
-                <li><div class="project"><a href="appcast.xml" title="subscribe our appcast feed"><img src="{$root}images/rss.png" title="subscribe our appcast feed" alt="rss" /></a></div></li>
-                <li><div class="project"><a href="http://lists.gpgtools.org/mailman/listinfo/gpgtools-users" title="join our mailing list"><img src="{$root}images/mail.png" title="join our mailing list" alt="mailing list" /></a></div></li>
+                <li><div class="project"><a href="http://twitter.com/gpgtools" title="follow us on twitter"><img src="{$root}/images/twitter.png" title="follow us on twitter" alt="twitter" /></a></div></li>
+                <li><div class="project"><a href="http://twitter.com/statuses/user_timeline/170783148.rss" title="subscribe our twitter feed"><img src="{$root}/images/rss.png" title="subscribe our twitter feed" alt="rss" /></a></div></li>
+                <li><div class="project"><a href="appcast.xml" title="subscribe our appcast feed"><img src="{$root}/images/rss.png" title="subscribe our appcast feed" alt="rss" /></a></div></li>
+                <li><div class="project"><a href="http://lists.gpgtools.org/mailman/listinfo/gpgtools-users" title="join our mailing list"><img src="{$root}/images/mail.png" title="join our mailing list" alt="mailing list" /></a></div></li>
             </ul>
             <p class="clear"><br/></p>
             <h3>How can I contact you?</h3>

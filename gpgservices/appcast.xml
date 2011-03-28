@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 		<title>GPGTools - GPGServices - Changelog</title>
-		<link>http://www.gpgtools.org/gpgservices_appcast.xml</link>
-		<atom:link href="http://www.gpgtools.org/gpgservices_appcast.xml" rel="self" type="application/rss+xml" />
+		<link>http://www.gpgtools.org/gpgservices/appcast.xml</link>
+		<atom:link href="http://www.gpgtools.org/gpgservices/appcast.xml" rel="self" type="application/rss+xml" />
 		<docs>http://sparkle.andymatuschak.org/documentation</docs>
 		<description>Visit http://www.gpgtools.org/ for further information.</description>
 		<image>
 			<url>http://www.gpgtools.org/images/rss_icon.png</url>
-			<link>http://www.gpgtools.org/gpgservices_appcast.xml</link>
+			<link>http://www.gpgtools.org/gpgservices/appcast.xml</link>
 			<title>GPGTools</title>
 		</image>
 		<language>en</language>
