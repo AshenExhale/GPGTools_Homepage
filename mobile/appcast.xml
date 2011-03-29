@@ -1,52 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-		<title>GPGTools - Mobile OpenPGP - Changelog</title>
-		<link>http://www.gpgtools.org/mobile/appcast.xml</link>
-		<atom:link href="http://www.gpgtools.org/mobile/appcast.xml" rel="self" type="application/rss+xml" />
-		<docs>http://sparkle.andymatuschak.org/documentation</docs>
-		<description>Visit http://www.gpgtools.org/ for further information.</description>
-		<image>
-			<url>http://www.gpgtools.org/images/rss_icon.png</url>
-			<link>http://www.gpgtools.org/mobile/appcast.xml</link>
-			<title>GPGTools</title>
-		</image>
-		<language>en</language>
-        			    	<item>
-		        <title>Mobile OpenPGP version 0.2</title>
-    		    <pubDate>Thu, 24 Feb 2011 00:13:08 +0100</pubDate>
-    		    <guid></guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li>integrated decryption.</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/mobile_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url=""
-		               sparkle:version="0.2"
-					   sparkle:dsaSignature=""
-		               length=""
-		               type="application/octet-stream" />
-        	</item>
-        	    	<item>
-		        <title>Mobile OpenPGP version 0.1</title>
-    		    <pubDate>Thu, 23 Sep 2010 00:13:08 +0200</pubDate>
-    		    <guid></guid>
-		        <description><![CDATA[
-		        <ul>
-                                                                                                                                        <li>initial release / proof of concept.</li>
-                                                    </ul>
-		        ]]></description>
-    		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/mobile_sparkle.html
-		        </sparkle:releaseNotesLink>
-		        <enclosure url=""
-		               sparkle:version="0.1"
-					   sparkle:dsaSignature=""
-		               length=""
-		               type="application/octet-stream" />
-        	</item>
-        </channel>
+<title>GPGTools - Mobile OpenPGP - Changelog</title><link>http://www.gpgtools.org/mobile/appcast.xml</link> <atom:link href="http://www.gpgtools.org/mobile/appcast.xml" rel="self" type="application/rss+xml" /> <docs>http://sparkle.andymatuschak.org/documentation</docs> <description>Visit http://www.gpgtools.org/ for further information.</description> <image> <url>http://www.gpgtools.org/images/rss_icon.png</url><link>http://www.gpgtools.org/mobile/appcast.xml</link><title>GPGTools</title> </image> <language>en</language> <item><title>Mobile OpenPGP version 0.2</title> <pubDate>Thu, 24 Feb 2011 00:13:08 +0100</pubDate> <guid></guid> <description><![CDATA[<ul><li>integrated decryption.</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/mobile_sparkle.html </sparkle:releaseNotesLink> <enclosure
+url=""
+sparkle:version="0.2"
+sparkle:dsaSignature=""
+length=""
+type="application/octet-stream" /> </item> <item><title>Mobile OpenPGP version 0.1</title> <pubDate>Thu, 23 Sep 2010 00:13:08 +0200</pubDate> <guid></guid> <description><![CDATA[<ul><li>initial release / proof of concept.</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/mobile_sparkle.html </sparkle:releaseNotesLink> <enclosure
+url=""
+sparkle:version="0.1"
+sparkle:dsaSignature=""
+length=""
+type="application/octet-stream" /> </item></channel>
 </rss>
