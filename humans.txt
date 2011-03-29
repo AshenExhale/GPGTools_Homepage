@@ -1,0 +1,14 @@
+/* humanstxt.org */
+
+/* TEAM */
+	Chef: GPGTools Project Team
+	Contact: gpgtools-org [at] lists.gpgtools.org
+	Twitter: @gpgtools
+	From:
+
+/* SITE */
+	Last update:
+	Language:English
+	Doctype:HTML5 with CSS3
+	Tools:PHP
+	IDE:
