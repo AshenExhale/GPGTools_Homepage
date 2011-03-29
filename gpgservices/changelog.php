@@ -3,6 +3,6 @@ require('../libs/Smarty.class.php');
 require('../libs/Smarty_subdir.config.php');
 require('config.php');
 
-$theSite->assign('title', 'GPGServices Changelog');
+$theSite->assign('subtitle', 'Changelog');
 $theSite->display('changelog.tpl');
 ?>

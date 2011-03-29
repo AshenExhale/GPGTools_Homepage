@@ -6,8 +6,8 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>{$title} | GPGTools (OpenPGP Tools for Apple OS X)</title>
-  <meta name="description" content="{$title} | GPGTools - OpenPGP/PGP/GPG tools for Apple OS X (GPGMail, GPG Keychain Access, ...). To encrypt, decrypt, validate, and sign files and e-mails.">
+  <title>{$title} | {if $subtitle neq ''}{$subtitle} | {/if}GPGTools (OpenPGP Tools for Apple OS X)</title>
+  <meta name="description" content="{$title} | {if $subtitle neq ''}{$subtitle} | {/if}GPGTools - OpenPGP/PGP/GPG tools for Apple OS X (GPGMail, GPG Keychain Access, ...). To encrypt, decrypt, validate, and sign files and e-mails.">
   <meta name="author" content="GPGTools Project Team">
   <meta name="keywords" content="OpenPGP, PGP, GPG, Encryption, Decryption, Security, Apple, OS X, Mail, Keychain, Digital Signatures">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
