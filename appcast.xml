@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-		<title>GPGTools - Changelog</title>
+		<title>GPGTools - Release Notes</title>
 		<link>http://www.gpgtools.org/appcast.xml</link>
 		<description>Visit http://www.gpgtools.org/ for further information.</description>
 		<language>en</language>
