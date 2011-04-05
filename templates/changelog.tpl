@@ -1,6 +1,5 @@
 {extends file="index.tpl"}
 {block name=body}
-{strip}
     <div id="overview">
       <div id="o_content"><img src="{$img_logo}" alt="{$title}" title="{$title}" class="logo"/> <h2>{$title}</h2></div>
     </div>
@@ -24,5 +23,4 @@
             {/foreach}
         </div>
     </div>
-{/strip}
 {/block}

@@ -42,6 +42,7 @@ $theSite->assign('cnet', "3000-2092_4-75335372");
 
 $limitations = array(
 '4' => 'Services are not automatically enabled',
+'21' => 'Working on full file support',
 );
 $theSite->assign('limitations', $limitations);
 

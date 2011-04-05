@@ -1,5 +1,5 @@
 {extends file="index.tpl"}
-{block name=body}{strip}
+{block name=body}
     <div id="overview">
       <div id="o_content"><h2>Projects</h2></div>
     </div>
@@ -41,13 +41,14 @@
                 <li><div class="project"><a href="http://enigmail.mozdev.org"><img src="{$root}/images/enigmail.png" alt="Enigmail" title="Enigmail" class="logo"/><br/>Enigmail</a></div></li>
             </ul>
             <h3 id="incubator" class="clear">Incubator Projects</h3>
-            <p>List of unfinished or outdated but interesting projects ported to the GPGTools infrastructure.</p>
+            <p>List of unfinished or outdated but interesting projects (to be) ported to the GPGTools infrastructure.</p>
             <ul class="sub">
-                <li><a href="https://github.com/GPGTools/GPGFileTool">GPGFileTool</a>. Encrypt/Sign/Decrypt/Verify with a GUI (state: we need a maintainer).</li>
                 <li><a href="https://github.com/GPGTools/GPGPreferences">GPGPreferences</a>. Edit GnuPG's options file with a GUI preference pane (state: we need a maintainer).</li>
                 <li><a href="https://github.com/GPGTools/ABKey">ABKey</a>. GPG for the OS X address book (state: we need a maintainer).</li>
                 <li><a href="https://github.com/GPGTools/GPGMail_Preferences">GPGTools/GPGMail Preferences</a>. A system wide preference pane for the GPGTools (state: needs more work).</li>
-                <li><a href="https://github.com/GPGTools/GPGMail_Spotlight">GPGMail Spotlight Plugin</a>. OS X Spotlight Plugin to search within encrypted mails (state: needs a maintainer, not implemented yet).</li>
+                <li><a href="https://github.com/GPGTools/GPGMail_Spotlight">Spotlight Plugin</a>. OS X Spotlight Plugin to search within encrypted mails (state: needs a maintainer, not implemented yet).</li>
+                <li><a href="#incubator">QuickLook Plugin</a>. OS X QuickLook Plugin to see details of OpenPGP data (state: needs a maintainer, not implemented yet).</li>
+                <li><a href="#incubator">Quicksilver Plugin</a>. Quicksilver Plugin to sign/encrypt/validate/decrypt OpenPGP data (state: needs a maintainer, not implemented yet).</li>
             </ul>
             <h3 id="interesting" class="clear">Interesting Projects</h3>
             <p>List of interesting OpenPGP related OS X projects.</p>
@@ -61,7 +62,8 @@
                 <li><a href="http://de.getfiregpg.org/">FireGPG</a>. GPG plugin for Mozilla Firefox.</li>
                 <li><a href="http://www.media-art-online.org/wija/">wija</a> / <a href="http://www.jbother.org">JBother</a>. OpenPGP compatible Jabber/XMPP chat clients (<a href="http://xmpp.org/extensions/xep-0027.html">XEP-0027</a>) for OS X.</li>
                 <li><a href="http://sourceforge.net/projects/gpgrelay/">GPGrelay</a>. Small email-relaying server that uses GnuPG to sign/encrypt (SMTP-Relay) or verify/decrypt (POP3-/IMAP-Relay) emails. This enables many email-clients to send and receive emails that are PGP-MIME conform.</li>
+                <li><a href="https://github.com/GPGTools/GPGFileTool">GPGFileTool</a>. Encrypt/Sign/Decrypt/Verify with a GUI (state: replaced by GPGServices).</li>
             </ul>
         </div>
     </div>
-{/strip}{/block}
+{/block}

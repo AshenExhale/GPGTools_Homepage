@@ -1,6 +1,5 @@
 {extends file="index.tpl"}
 {block name=body}
-{strip}
     <div id="overview">
       <div id="o_content"><img src="{$img_logo}" alt="{$title}" title="{$title}" class="logo"/> <h2>{$title}</h2></div>
     </div>
@@ -15,24 +14,15 @@
     <p>{$date}<br/></p>
     <p>Requires {$reqs}<br/></p>
         <hr>
-    <p>
-        ({if $url_sig neq ''}<a href="https://github.com/downloads/{$url_base}/{$url_sig}" class='piwik_download' target='_blank' title='the gpg file signature'>sig</a> |{/if}
-        {if $url_sig neq ''}<a href="#releasenotes" title='the SHA-1 file checksum'>sha</a> |{/if}
-        {if $url_sig neq ''}<a href="https://github.com/{$url_base}/downloads" title='other files and versions' target='_blank'>others</a> |{/if}
-        <a href="https://github.com/{$url_base}" title='the sources of this project' target='_blank'>src</a> |
-        <a href="https://github.com/{$url_base}/raw/master/LICENSE.txt" title='the license of this project' target='_blank'>license</a>{if $url_beta neq ''} | <a href="https://github.com/downloads/{$url_base}/{$url_beta}" title="not released test version (use at your own risk)" target='_blank'>beta</a>{/if}  |
-        {if $url_wiki neq ''}<a href="https://github.com/{$url_base}/{$url_wiki}" title="community maintained wiki" target='_blank'>wiki</a> |{/if}
-        <a href="appcast.xml" title='a feed with the latest versions' target='_blank'>feed</a>
-        )
-    </p>
+    <p>({if $url_sig neq ''}<a href="https://github.com/downloads/{$url_base}/{$url_sig}" class='piwik_download' target='_blank' title='the gpg file signature'>sig</a>|{/if}{if $url_sig neq ''}<a href="#releasenotes" title='the SHA-1 file checksum'>sha</a>|{/if}{if $url_sig neq ''}<a href="https://github.com/{$url_base}/downloads" title='other files and versions' target='_blank'>others</a>|{/if}<a href="https://github.com/{$url_base}" title='the sources of this project' target='_blank'>src</a>|<a href="https://github.com/{$url_base}/raw/master/LICENSE.txt" title='the license of this project' target='_blank'>license</a>{if $url_beta neq ''}|<a href="https://github.com/downloads/{$url_base}/{$url_beta}" title="not released test version (use at your own risk)" target='_blank'>beta</a>{/if}|{if $url_wiki neq ''}<a href="https://github.com/{$url_base}/{$url_wiki}" title="community maintained wiki" target='_blank'>wiki</a>|{/if}<a href="appcast.xml" title='a feed with the latest versions' target='_blank'>feed</a>)</p>
     </div>
     <div id="main">
         <div id="m_content">
             <h3>Overview</h3>
             {$overview}
             <p><br/><br/></p>
-			
-			
+
+
             <h3>Support and Issues</h3>
             <p>Please have a look at the <a href="http://gpgtools.lighthouseapp.com/projects/{$lighthouse}/tickets?q=state%3Aopen&amp;filter=" target='_blank'>list of open issues</a> and ask <a href="mailto:gpgtools-users@lists.gpgtools.org">the mailing list</a> for further support.{if $url_wiki neq ''} Additionally we provide informations in our <a href="https://github.com/{$url_base}/{$url_wiki}" title="community maintained wiki" target='_blank'>wiki</a>.{/if}</p>
             {if is_array($limitations)}
@@ -55,8 +45,8 @@
                 {/foreach}
             </ul>
             {/if}
-			
-			
+
+
             {if is_array($screenshots)}
             <h3>Screenshots</h3>
             <ul class="sub projects horizontal">
@@ -77,8 +67,8 @@
  				<br class="clear"/>
             </ul>
             {/if}
-			
-			
+
+
             {if is_array($screencasts)}
             <h3>Screencasts</h3>
             <ul class="sub projects horizontal">
@@ -93,8 +83,8 @@
  				<br class="clear"/>
             </ul>
            {/if}
-			
-			
+
+
             {if $macupdate neq '' or $iusethis neq '' or $heise neq '' or $cnet neq ''}
             <h3>Software Portals</h3>
             <p>Ratings and user comments on other sites.</p>
@@ -105,8 +95,8 @@
             {if $cnet neq ''}<li class="portal"><a href="http://download.cnet.com/{$cnet}.html" title='{$title} on cnet'><img src="http://i.i.com.com/cnwk.1d/i/dl/button/dl-button_a.gif" title="{$title} on cnet" alt="{$title} on cnet" /></a></li>{/if}
             </ul>
             {/if}
-			
-			
+
+
             <h3 id="releasenotes">Release Notes</h3>
             <p>Also have a look at the <a href="{$changelogfile}" target='_blank'>list of all release notes</a> and <a href="https://github.com/{$url_base}/commits" title='last commits' target='_blank'>list of last changes</a>.<br/><br/></p>
 			{foreach $changelog as $changes}
@@ -127,5 +117,4 @@
             {/foreach}
         </div>
     </div>
-{/strip}
 {/block}

@@ -21,7 +21,7 @@ $theSite->assign('year',  date("Y", $current));
 $theSite->assign('reqs',     'WebKit or iOS');
 
 $theSite->assign('overview', '
-	<p>This project aims to provide an Open Source OpenPGP architecture/application for mobile phones either based on JavaScript so it can be used on virtually every device in a browser in every country or as a native application. It should allow you to sign, encrypt, decrypt, and verify any kind of text - in particular e-mails. The idea is to implement the basic OpenPGP functionality and to reuse it in other projects.</p>
+	<p>This project aims to provide an Open Source OpenPGP architecture/application for mobile phones either based on JavaScript (so it can be used on virtually every device in a browser in every country) or as a native application. It should allow you to sign, encrypt, decrypt, and verify any kind of text - in particular e-mails. The idea is to implement the basic OpenPGP functionality and to reuse it in other projects.</p>
 ');
 $theSite->assign('short_description', 'This project aims to provide an Open Source OpenPGP architecture/application for mobile phones either based on JavaScript so it can be used on virtually every device in a browser in every country or as a native application.');
 
