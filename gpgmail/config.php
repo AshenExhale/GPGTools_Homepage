@@ -38,6 +38,7 @@ $theSite->assign('cnet', '3000-2144_4-7335');
 $limitations = array(
 '94' => 'E-Mails are empty',
 '11' => 'Unread count goes out of sync',
+'17' => 'Sometimes the message "E-Mail was encrypted but not PGP signed" prevents decryption',
 '107' => 'Automatic update is not compatible with system wide installations (/L/M/B/)',
 '135' => 'Plugin is not compatible to OS X Lion, yet',
 );
