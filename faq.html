@@ -60,7 +60,9 @@ class=""><li><a
 href="#2.1"><span
 class="question">What if I have my own self-compiled version of GnuPG V1 or V2?</span></a></li><li><a
 href="#2.2"><span
-class="question">Why is there a "MacGPG1" and "MacGPG2"?</span></a></li></ul></li><li>GPGMail<ul
+class="question">Why is there a "MacGPG1" and "MacGPG2"?</span></a></li><li><a
+href="#2.3"><span
+class="question">How can I remove GnuPG?</span></a></li></ul></li><li>GPGMail<ul
 class=""><li><a
 href="#3.1"><span
 class="question">Why can't I see my secret key in Mail.app?</span></a></li><li><a
@@ -119,7 +121,11 @@ class="question">What if I have my own self-compiled version of GnuPG V1 or V2?<
 class="answer">No problem. MacGPG will be installed at /usr/lib/MacGPG1 and /usr/lib/MacGPG2 - this way it is very easy to uninstall. Although, you might want to check the symlinks /usr/local/bin/gpg and /usr/local/bin/gpg2. Furthermore, MacGPG2 package installations older than 2.0.17 will be removed.</div></li><li
 id="2.2"><div
 class="question">Why is there a "MacGPG1" and "MacGPG2"?</div><div
-class="answer">GnuPG comes in two flavours: version 1 is the well known and portable standalone version, whereas version 2 is the enhanced variant. If you are uncertain install MacGPG2.</div></li></ul><h3 class="clear">GPGMail</h3><ul
+class="answer">GnuPG comes in two flavours: version 1 is the well known and portable standalone version, whereas version 2 is the enhanced variant. If you are uncertain install MacGPG2.</div></li><li
+id="2.3"><div
+class="question">How can I remove GnuPG?</div><div
+class="answer">It depends on how you've installed it. You can remove all GPGTools projects (including MacGPG1 or MacGPG2) using the uninstaller that is bundled with the DMG download. If you've used Fink/MacPorts/Brew, you can use the mechanisms provided by these systems. Finally, you can remove the files manually with care(!) by looking at our <a
+href="https://github.com/GPGTools/GPGTools_Core/blob/master/scripts/gpguninstaller.sh">script to remove all gpg related files</a>.</div></li></ul><h3 class="clear">GPGMail</h3><ul
 class="sub"><li
 id="3.1"><div
 class="question">Why can't I see my secret key in Mail.app?</div><div
