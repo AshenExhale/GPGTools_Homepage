@@ -16,6 +16,9 @@
                 <li><div class="project"><a href="http://lists.gpgtools.org/mailman/listinfo/gpgtools-users" title="join our mailing list"><img src="{$root}/images/mail.png" title="join our mailing list" alt="mailing list" /></a></div></li>
             </ul>
             <p class="clear"><br/></p>
+            <h3>What is new?</h3>
+            <div id="tweets"></div>
+            <p class="clear"><br/></p>
             <h3>How can I contact you?</h3>
             <p>We would be pleased to hear from you! Here are your options:</p>
             <ul class="sub">
@@ -40,4 +43,15 @@
             </ul>
         </div>
     </div>
+    <script src="./libs/twitter-1.13.1.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      getTwitters('tweets', {
+        id: 'gpgtools',
+        clearContents: true,
+        count: 3,
+        withFriends: true,
+        ignoreReplies: true,
+        template: '<span class="prefix"><span class="time"><a href="http://twitter.com/%user_screen_name%/statuses/%id_str%">%time%</a></span></span>: <span class="status">"%text%"</span>'
+      });
+    </script>
 {/block}
