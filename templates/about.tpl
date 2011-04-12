@@ -51,7 +51,7 @@
         count: 5,
         withFriends: true,
         ignoreReplies: false,
-        template: '<span class="prefix"><span class="time"><a href="http://twitter.com/%user_screen_name%/statuses/%id_str%">%time%</a></span></span>: <span class="status">"%text%"</span>'
+        template: '<span class="status">%text%</span> (<span class="prefix"><span class="time"><a href="http://twitter.com/%user_screen_name%/statuses/%id_str%">%time%</a></span></span>)'
       });
     </script>
 {/block}
