@@ -1,6 +1,7 @@
 <?php /*compileIgnore*/
 
-$version="1.4.11-5";
+$version="1.4.11-6";
+$release['1.4.11-6'] = mktime(0, 19, 9, 04, 12, 2011);
 $release['1.4.11-5'] = mktime(0, 8, 3, 03, 24, 2011);
 $release['1.4.11-1'] = mktime(0, 13, 8, 02, 24, 2011);
 $current = $release[$version];
@@ -32,9 +33,9 @@ $theSite->assign('heise', "14689");
 $theSite->assign('cnet', "3000-2092_4-75374714");
 
 $limitations = array(
-//'' => 'Very first alpha build!',
+  '' => 'Very first alpha build!',
 );
-$theSite->assign('limitations', $limitations);
+$theSite->assign('limitations', '');//$limitations);
 
 $features = array(
     "$root/images/universal.png" => array('Includes executable code for both PPC and Intel processors', 'PPC support'),
@@ -52,6 +53,14 @@ $theSite->assign('screencasts', "");
 
 
 $changelog = array(
+    '1.4.11-6' => array(date("d. F Y", $release['1.4.11-6']), array(
+        'sparkle_date' => date(DATE_RFC2822, $release['1.4.11-6']),
+        'sparkle_url' => "http://github.com/downloads/GPGTools/MacGPG1/MacGPG1-1.4.11-6.dmg",
+        'sparkle_sig' => "",
+        'sparkle_size' => "3149434",
+        '4' => 'Fixed issue with external executables (wrong prefix)',
+        'sha' => "Checksum: 80f91ce3962cb8e009122804a51444a02c34b1f3 (SHA-1)",
+        )),
     '1.4.11-5' => array(date("d. F Y", $release['1.4.11-5']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['1.4.11-5']),
         'sparkle_url' => "http://github.com/downloads/GPGTools/MacGPG1/MacGPG1-1.4.11-5.dmg",
