@@ -48,9 +48,9 @@
       getTwitters('tweets', {
         id: 'gpgtools',
         clearContents: true,
-        count: 3,
+        count: 5,
         withFriends: true,
-        ignoreReplies: true,
+        ignoreReplies: false,
         template: '<span class="prefix"><span class="time"><a href="http://twitter.com/%user_screen_name%/statuses/%id_str%">%time%</a></span></span>: <span class="status">"%text%"</span>'
       });
     </script>
