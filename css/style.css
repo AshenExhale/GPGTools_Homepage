@@ -557,6 +557,7 @@ img.icon {
 }
 
 #badge {display:none;}
+#tweets {margin-bottom: 1em;}
 
 .question {
     color:#444;

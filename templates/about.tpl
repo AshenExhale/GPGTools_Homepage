@@ -18,6 +18,7 @@
             <p class="clear"><br/></p>
             <h3>What is new?</h3>
             <div id="tweets"></div>
+            <p>Read <a href="http://twitter.com/gpgtools">more</a>...</p>
             <p class="clear"><br/></p>
             <h3>How can I contact you?</h3>
             <p>We would be pleased to hear from you! Here are your options:</p>
