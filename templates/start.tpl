@@ -20,7 +20,7 @@
             information about the included applications and related projects.
             And if you have any further questions that are not listed in the
             <a href="faq.php" title="Frequently Asked Questions">FAQ</a> or if
-            you want to get the latest news, please do not heasitate to open the
+            you want to get the latest news, please do not hesitate to open the
             <a href="about.php" title="have a look at the 'How can I contact you?' section.">
             contact</a> section. Finally, if you like you can <a href="donate.php">make a donation</a>.</p>
             <ul class="sub"></ul>
