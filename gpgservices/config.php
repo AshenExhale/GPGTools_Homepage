@@ -14,7 +14,7 @@ $theSite->assign('img_logo', 'images/logo-128px.png');
 $theSite->assign('url_base', 'GPGTools/GPGServices');
 $theSite->assign('url_dl', "GPGServices-$version.dmg");
 $theSite->assign('url_sig', "GPGServices-$version.dmg.sig");
-$theSite->assign('url_beta', 'GPGServices-1.6a4.dmg');
+$theSite->assign('url_beta', 'GPGServices-1.6a5.dmg');
 $theSite->assign('url_wiki', '');
 $theSite->assign('version', $version);
 $theSite->assign('date',     date("d. F Y", $current));
