@@ -24,13 +24,17 @@ $theSite->assign('year',  date("Y", $current));
 $theSite->assign('reqs', 'OS X 10.6');
 
 $theSite->assign('overview', '
-	<p>GPGServices is a plugin for the global Services menu (in the Application menu),
-	which adds the ability to sign and verify plain text in any application that supports text services.
-	It allows to import a key from text and return your default key.</p>
-	<p>Signing and pasting your key or fingerprint require the host application to support pasting of text
-	(so you will not be able to sign text highlighted in a pdf file in Preview, for instance).
-	Verifying a signature and importing a key only require that you can highlight the text.</p>
-	<p>Furthermore, it will be possible to sign/encrypt/decrypt/verify any file or folder.</p>
+	<p>GPGServices is a plugin for the global
+	<a href="http://www.apple.com/macosx/refinements/">OS X Services menu</a>,
+	which adds the ability to almost any application (e.g. Safari, Finder, or
+	TextEdit) to use OpenPGP functionalities. In a nutshell:</p>
+	<ul>
+	<li>Any folder: sign and encrypt.</li>
+	<li>Any file: verify, sign, import, encrypt, and decrypt.</li>
+	<li>Any text selection: verify and import.</li>
+	<li>Any text field: verify, sign, import, export, encrypt, and decrypt.</li>
+	</ul>
+	<p>Please note that some of these features are still in development.</p>
 ');
 $theSite->assign('short_description', 'GPGServices is a plugin for the global Services menu (in the Application menu), which adds the ability to sign and verify plain text in any application that supports text services. It allows to import a key from text and return your default key.');
 
