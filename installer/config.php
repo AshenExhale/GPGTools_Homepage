@@ -30,9 +30,9 @@ $theSite->assign('reqs',     'OS X 10.6');
 
 $theSite->assign('overview', '
 	<p>The GPGTools are a collection of open source tools for encryption on Mac OS X, gathered in an all-in-one-Installer solution.
-	It installs all related OpenPGP applications, plugins and dependencies. You can choose which components to install.</p>
+	It installs/updates all related OpenPGP applications, plugins and dependencies. You can choose which components to install.</p>
 ');
-$theSite->assign('short_description', 'The GPGTools are a collection of open source tools for encryption on Mac OS X, gathered in an all-in-one-Installer solution. It installs all related OpenPGP applications, plugins and dependencies. You can choose which components to install.');
+$theSite->assign('short_description', 'The GPGTools are a collection of open source tools for encryption on Mac OS X, gathered in an all-in-one-Installer solution. It installs/updates all related OpenPGP applications, plugins and dependencies. You can choose which components to install.');
 
 $theSite->assign('lighthouse', '65162');
 $theSite->assign('macupdate', "9417");
