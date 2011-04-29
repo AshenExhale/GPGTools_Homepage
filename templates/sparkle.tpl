@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="en" class="no-js white">
 <head>
 	<meta charset="utf-8">
 	<title>{$title} – Release Notes</title>

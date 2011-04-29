@@ -452,6 +452,7 @@ footer {
     box-shadow: 0px -2px 5px #aaa;
 }
 html { background:#eee;}
+html.white { background:#fff;}
 #main {
     max-width:70em;
     padding:.5em;
