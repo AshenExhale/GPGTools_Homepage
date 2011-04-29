@@ -1,8 +1,9 @@
 <?php /*compileIgnore*/
 
 
-$version='0.8.7';
+$version='0.8.10';
 
+$release['0.8.10'] = mktime(12, 0, 0, 4, 29, 2011);
 $release['0.8.7'] = mktime(12, 0, 0, 3, 24, 2011);
 $release['0.8.6'] = mktime(12, 0, 0, 3, 22, 2011);
 $release['0.8.4'] = mktime(12, 0, 0, 2, 22, 2011);
@@ -61,6 +62,16 @@ $screencasts = array(
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
+	'0.8.10' => array(date('d. F Y', $release['0.8.10']), array(
+		'sparkle_date' => date(DATE_RFC2822, $release['0.8.10']),
+		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.10.dmg',
+		'sparkle_sig' => 'MC0CFErZFkgCBVyCOIg1poI/POR8QNywAhUAhXmsNF266rFUDWPAC2KxpXiEHyY=',
+		'sparkle_size' => '1518043',
+		'a' => 'Added *.gpg to Drag & Drop file types',
+		'b' => '#48: Added findExecutableWithName',
+		'c' => 'Use --keyserver parameter',
+		'sha' => 'Checksum: ef105e5a0b01e843d2cd1ad539d24dc7664fc828 (SHA-1)'
+		)),
 	'0.8.7' => array(date('d. F Y', $release['0.8.7']), array(
 		'sparkle_date' => date(DATE_RFC2822, $release['0.8.7']),
 		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.7.dmg',
