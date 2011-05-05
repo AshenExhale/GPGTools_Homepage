@@ -63,7 +63,8 @@ $screenshots = array(
 'images/insert.png' => array('images/insert-small.png', 'Insert your own key')
 );
 $theSite->assign('screenshots', $screenshots);
-$theSite->assign('screencasts', "");
+$screencasts = array('gpgservices/file.m4v' => 'Encrypt and sign a file');
+$theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
     '1.5' => array(date("d. F Y", $release['1.5']), array(
