@@ -23,7 +23,7 @@
             <h3>How can I contact you?</h3>
             <p>We would be pleased to hear from you! Here are your options:</p>
             <ul class="sub">
-                <li>drop us an unencrypted mail: <a href="mailto:gpgtools-users@lists.gpgtools.org">to the mailing list</a></li>
+                <li>drop us an unencrypted mail: <a href="mailto:gpgtools-users@lists.gpgtools.org">to the user mailing list</a></li>
                 <li>twitter: <a href="http://twitter.com/gpgtools/">to our account</a></li>
                 <li>open a bug or feature request: <a href="http://gpgtools.lighthouseapp.com/tickets">at the issue tracker</a></li>
                 <li>browse the projects: <a href="http://github.com/gpgtools/">at the github page</a></li>
