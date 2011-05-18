@@ -78,11 +78,11 @@
 	</Program_Descriptions>
 	<Web_Info>
 		<Application_URLs>
-			<Application_Info_URL>http://www.gpgtools.org/{$name}.html</Application_Info_URL>
+			<Application_Info_URL>http://www.gpgtools.org/{$name}/index.html</Application_Info_URL>
 			<Application_Order_URL />
 			<Application_Screenshot_URL>http://www.gpgtools.org/images/{$screenshots|@key}</Application_Screenshot_URL>
 			<Application_Icon_URL>http://www.gpgtools.org/images/{$img_logo}</Application_Icon_URL>
-			<Application_XML_File_URL>http://www.gpgtools.org/{$name}_pad.xml</Application_XML_File_URL>
+			<Application_XML_File_URL>http://www.gpgtools.org/{$name}/pad.xml</Application_XML_File_URL>
 		</Application_URLs>
 		<Download_URLs>
 			<Primary_Download_URL>{$changelog[$changelog|@key][1]['sparkle_url']}</Primary_Download_URL>
