@@ -1,6 +1,7 @@
 <?php /*compileIgnore*/
 
-$version="1.5";
+$version="1.6";
+$release['1.6'] = mktime(15, 0, 0, 05, 18, 2011);
 $release['1.5'] = mktime(12, 0, 0, 03, 22, 2011);
 $release['1.4'] = mktime(12, 0, 0, 01, 26, 2011);
 $release['1.3'] = mktime(12, 0, 0, 01, 23, 2011);
@@ -14,7 +15,7 @@ $theSite->assign('img_logo', 'images/logo-128px.png');
 $theSite->assign('url_base', 'GPGTools/GPGServices');
 $theSite->assign('url_dl', "GPGServices-$version.dmg");
 $theSite->assign('url_sig', "GPGServices-$version.dmg.sig");
-$theSite->assign('url_beta', 'GPGServices-1.6b2.dmg');
+$theSite->assign('url_beta', '');
 $theSite->assign('url_wiki', '');
 $theSite->assign('version', $version);
 $theSite->assign('date',     date("d. F Y", $current));
@@ -34,19 +35,18 @@ $theSite->assign('overview', '
 	<li>Any text selection: verify and import.</li>
 	<li>Any text field: verify, sign, import, export, encrypt, and decrypt.</li>
 	</ul>
-	<p>Please note that some of these features are still in development.</p>
 ');
 $theSite->assign('short_description', 'GPGServices is a plugin for the global Services menu (in the Application menu), which adds the ability to sign and verify plain text in any application that supports text services. It allows to import a key from text and return your default key.');
 
 $theSite->assign('lighthouse', '67607');
 $theSite->assign('macupdate', "36566");
 $theSite->assign('iusethis', "gpgservices");
-$theSite->assign('heise', "");
+$theSite->assign('heise', "79894");
 $theSite->assign('cnet', "3000-2092_4-75335372");
 
 $limitations = array(
 '4' => 'Services are not automatically enabled',
-'21' => 'Working on full file support',
+'61' => 'Aliases are not handled correctly',
 );
 $theSite->assign('limitations', $limitations);
 
@@ -67,6 +67,19 @@ $screencasts = array('gpgservices/file.m4v' => 'Encrypt and sign a file');
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
+    '1.6' => array(date("d. F Y", $release['1.6']), array(
+        'sparkle_date' => date(DATE_RFC2822, $release['1.6']),
+        'sparkle_url' => "http://github.com/downloads/GPGTools/GPGServices/GPGServices-1.6.dmg",
+        'sparkle_sig' => "",
+        'sparkle_size' => "1399096",
+        "21" => "Feature: Any file and folder can be en- and de-crypted",
+        "52" => "Feature: Signatures can be imported",
+        "6" => "Enhancement: Installer can update GPGServices in the HOME directory",
+        "a" => "Enhancement: New icons and GPGService is now associated with the according file extensions",
+        "b" => "Enhancement: Added Growl notifications",
+        "c" => "More: Have a look at <a href='http://gpgtools.lighthouseapp.com/projects/67607/milestones/98266'>the closed issues</a> and <a href='https://github.com/GPGTools/GPGServices/commits'>last changes</a>",
+        'sha' => "Checksum: 552d6fac4bb98e932a9e5c37e2a0f5ea5f64a57e (SHA-1)",
+    )),
     '1.5' => array(date("d. F Y", $release['1.5']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['1.5']),
         'sparkle_url' => "http://github.com/downloads/GPGTools/GPGServices/GPGServices-1.5.dmg",

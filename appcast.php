@@ -33,6 +33,14 @@ require('gpgmail/config.php');
 $body .= $theSite->fetch('templates/appcast_core.tpl');
 require('keychain/config.php');
 $body .= $theSite->fetch('templates/appcast_core.tpl');
+require('gpgservices/config.php');
+$body .= $theSite->fetch('templates/appcast_core.tpl');
+/*
+require('gpgpreferences/config.php');
+$body .= $theSite->fetch('templates/appcast_core.tpl');
+require('mobile/config.php');
+$body .= $theSite->fetch('templates/appcast_core.tpl');
+*/
 
 $footer = "    </channel>\n</rss>\n";
 
