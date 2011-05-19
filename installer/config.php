@@ -20,7 +20,7 @@ $theSite->assign('url_base', 'GPGTools/GPGTools');
 $theSite->assign('url_dl',   "GPGTools-$version.dmg");
 $theSite->assign('url_sig',  "GPGTools-$version.dmg.sig");
 $theSite->assign('url_beta',  "");
-$theSite->assign('url_wiki', '');
+$theSite->assign('url_wiki', 'wiki');
 $theSite->assign('date',     date("d. F Y", $current));
 $theSite->assign('version',  date("Y.m.d", $current));
 $theSite->assign('month',  date("m", $current));
