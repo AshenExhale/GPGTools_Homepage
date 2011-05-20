@@ -64,8 +64,8 @@
 					</a>
 				</li>
             {/foreach}
- 				<br class="clear"/>
             </ul>
+            <p><br class="clear"/></p>
             {/if}
 
 
@@ -80,8 +80,8 @@
 					</a>
 				</li>
             {/foreach}
- 				<br class="clear"/>
             </ul>
+            <p><br class="clear"/></p>
            {/if}
 
 
