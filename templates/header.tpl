@@ -20,6 +20,7 @@
   <link href="appcast.xml" rel="alternate" title="recent releases" type="application/rss+xml" />
   <link href="http://gpgtools.lighthouseapp.com/events.atom" rel="alternate" title="recent code changes and issues" type="application/rss+xml" />
   <script src="./js/libs/modernizr-1.6.min.js"></script>
+  <script src="./js/mail.js"></script>
 </head>
 
 <body>
