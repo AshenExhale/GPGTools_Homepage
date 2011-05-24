@@ -28,8 +28,8 @@ $theSite->assign('short_description', 'MacGPG2 is an open source Mac OS X port o
 
 $theSite->assign('lighthouse', '66001');
 $theSite->assign('macupdate', "11136");
-$theSite->assign('iusethis', "macgnuprivacyguard2");
-$theSite->assign('heise', "");
+$theSite->assign('iusethis', "macgpg2");
+$theSite->assign('heise', "80464");
 $theSite->assign('cnet', "3000-2092_4-7493");
 
 $limitations = "";
