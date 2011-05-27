@@ -35,6 +35,7 @@ $theSite->assign('overview', '
 	<li>Any text selection: verify and import.</li>
 	<li>Any text field: verify, sign, import, export, encrypt, and decrypt.</li>
 	</ul>
+	You can also assign keyboard shortcuts to each operation.
 ');
 $theSite->assign('short_description', 'GPGServices is a plugin for the global Services menu (in the Application menu), which adds the ability to sign and verify plain text in any application that supports text services. It allows to import a key from text and return your default key.');
 
