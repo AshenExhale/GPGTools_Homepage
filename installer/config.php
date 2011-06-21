@@ -52,7 +52,8 @@ $features = array(
 "$root/gpgservices/images/logo.png" => array("Integrated <a href='$root/gpgservices/index.php'>GPGServices</a>", 'GPGServices'),
 "$root/gpgpreferences/images/logo-35px.png" => array("Integrated <a href='$root/gpgpreferences/index.php'>GPGPreferences</a> (initial version, GPG and GPGMail auto-fix only)", 'GPGPreferences'),
 "$root/images/enigmail.png" => array("Integrated <a href='http://enigmail.mozdev.org/'>Enigmail</a>", 'Mozilla Enigmail'),
-"$root/images/64bit.jpg" => array("The application is 64-bit and Snow Leopard ready", 'Snow Leopard')
+"$root/images/64bit.jpg" => array("All applications are 64-bit compatible", '64 bit'),
+"$root/images/lion.png" => array("Compatible with OS X Lion (besides GPGMail)", 'lion compatible'),
 );
 $theSite->assign('features', $features);
 
