@@ -60,6 +60,7 @@
             <ul class="sub">
                 <li><a href="http://macgpg.sourceforge.net/">MacGPG</a>. GPG related software for OS X (original author of GPGServices, GPGFileTool, GPGDropThing, GPGPreferences, ...).</li>
                 <li><a href="http://de.getfiregpg.org/">FireGPG</a>. GPG plugin for Mozilla Firefox.</li>
+                <li><a href="http://binaervarianz.de/projekte/programmieren/itrust/">itrustgpg</a>. Visualize GPG trust relationsips.</li>
                 <li><a href="http://www.media-art-online.org/wija/">wija</a> / <a href="http://www.jbother.org">JBother</a>. OpenPGP compatible Jabber/XMPP chat clients (<a href="http://xmpp.org/extensions/xep-0027.html">XEP-0027</a>) for OS X.</li>
                 <li><a href="http://sourceforge.net/projects/gpgrelay/">GPGrelay</a>. Small email-relaying server that uses GnuPG to sign/encrypt (SMTP-Relay) or verify/decrypt (POP3-/IMAP-Relay) emails. This enables many email-clients to send and receive emails that are PGP-MIME conform.</li>
                 <li><a href="https://github.com/GPGTools/GPGFileTool">GPGFileTool</a>. Encrypt/Sign/Decrypt/Verify with a GUI (state: replaced by GPGServices).</li>
