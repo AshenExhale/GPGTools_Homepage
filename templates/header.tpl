@@ -12,6 +12,10 @@
   <meta name="keywords" content="OpenPGP, PGP, GPG, Encryption, Decryption, Security, Apple, OS X, Mail, Keychain, Digital Signatures">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="all" />
+  {if $prefetch neq ''}
+  <link rel="prerender" href="{$prefetch}">
+  <link rel="prefetch" href="{$prefetch}">
+  {/if}
   <link rel="shortcut icon" href="{$root}/favicon.ico">
   <link rel="apple-touch-icon" href="{$root}/apple-touch-icon.png">
   <link rel="stylesheet" media="all" href="{$root}/css/style.css?v=2">

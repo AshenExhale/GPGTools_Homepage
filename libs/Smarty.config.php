@@ -13,5 +13,6 @@
     $theSite->assign('subtitle', '');
     $root = '.';
     $theSite->assign('root', $root);
+    $theSite->assign('prefetch', '');
     $theSite->registerFilter('output', 'minifyHTML');
 ?>
