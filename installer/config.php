@@ -27,7 +27,7 @@ $theSite->assign('version',  date("Y.m.d", $current));
 $theSite->assign('month',  date("m", $current));
 $theSite->assign('day',  date("d", $current));
 $theSite->assign('year',  date("Y", $current));
-$theSite->assign('reqs',     'OS X 10.6');
+$theSite->assign('reqs',     'OS X 10.5');
 
 $theSite->assign('overview', '
 	<p>The GPGTools are a collection of open source tools for encryption on Mac OS X, gathered in an all-in-one-Installer solution.
