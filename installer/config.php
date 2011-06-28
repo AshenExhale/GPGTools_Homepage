@@ -42,6 +42,7 @@ $theSite->assign('heise', "78714");
 $theSite->assign('cnet', "3000-2092_4-75335253");
 
 $limitations = array(
+'69' => 'GPGMail not compatible with Lion, yet',
 '36' => 'System wide installation of GPGMail not possible, yet',
 );
 $theSite->assign('limitations', $limitations);
