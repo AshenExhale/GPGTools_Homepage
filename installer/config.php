@@ -2,6 +2,7 @@
 
 
 $version="20110322";
+$release['20110628'] = mktime(17, 00, 0, 06, 28, 2011);
 $release['20110322'] = mktime(14, 05, 0, 03, 22, 2011);
 $release['20110302'] = mktime(11, 28, 0, 03, 02, 2011);
 $release['20110214'] = mktime(17, 10, 0, 02, 14, 2011);
@@ -69,6 +70,22 @@ $screencasts = array(
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
+    '20110628-beta' => array(date("d. F Y", $release['20110628']), array(
+        'sparkle_date' => date(DATE_RFC2822, $release['20110628']),
+        'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110628.dmg",
+        'sparkle_sig' => "",
+        'sparkle_size' => "23453171",
+        'a' => 'Update: GPGServices 1.6',
+        'b' => 'Update: GPG Keychain Access 0.8.10',
+        'c' => 'Added: MacGPG1 1.4.11-6',
+        'd' => 'Added: GPGMail (old releases) for 10.5 and 10.4',
+        'e' => 'Added: Enigmail 1.2 for Thunderbird 5',
+        'f' => 'Enhancement: GPGMail version chosen by OS X release',
+        'g' => 'Enhancement: GPGServices only gets installed if OS X >= 10.6',
+        '70' => 'Fix: Detection of Thunderbird',
+        '67' => 'Fix: MacGPG2 does not work with Thunderbird',
+        'sha' => "Checksum: 2c3685155ac5ee1be25fb69b4eeb3ef34486d252 (SHA-1)",
+        )),
     '20110322' => array(date("d. F Y", $release['20110322']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['20110322']),
         'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110322.dmg",
