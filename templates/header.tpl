@@ -16,16 +16,6 @@
   <link rel="prerender" href="{$prefetch}">
   <link rel="prefetch" href="{$prefetch}">
   {/if}
-  <link rel="prerender" href="{$root}/installer/index.php">
-  <link rel="prerender" href="{$root}/projects.php">
-  <link rel="prerender" href="{$root}/faq.php">
-  <link rel="prerender" href="{$root}/about.php">
-  <link rel="prerender" href="{$root}/donate.php">
-  <link rel="prefetch" href="{$root}/installer/index.php">
-  <link rel="prefetch" href="{$root}/projects.php">
-  <link rel="prefetch" href="{$root}/faq.php">
-  <link rel="prefetch" href="{$root}/about.php">
-  <link rel="prefetch" href="{$root}/donate.php">
   <link rel="shortcut icon" href="{$root}/favicon.ico">
   <link rel="apple-touch-icon" href="{$root}/apple-touch-icon.png">
   <link rel="stylesheet" media="all" href="{$root}/css/style.css?v=2">
