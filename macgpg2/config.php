@@ -19,7 +19,7 @@ $theSite->assign('date',     date("d. F Y", $current));
 $theSite->assign('month',  date("m", $current));
 $theSite->assign('day',  date("d", $current));
 $theSite->assign('year',  date("Y", $current));
-$theSite->assign('reqs',     'OS X>=10.5/Intel<br/>(for PCC get <a href="https://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.16.zip">v2.0.16</a>)');
+$theSite->assign('reqs',     'OS X>=10.5/Intel<br/>(get old PPC release: <a href="https://github.com/downloads/GPGTools/MacGPG2/MacGPG2-2.0.16.zip">2.0.16</a>)');
 
 $theSite->assign('overview', '
 	<p>MacGPG2 is an open source Mac OS X port of GnuPG. The project aims at making GnuPG easy to install, provide a native Mac OS X pinentry utility and interact with existing GnuPG tools for Mac OS X.</p>

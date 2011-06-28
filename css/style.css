@@ -533,7 +533,7 @@ div#info img {
 }
 img#64bit {height:34px; width:35px;}
 img#secure {height:50px; width:35px;}
-img#download {height:80px; width:80px;}
+img#download {height:80px; width:80px; margin-bottom:1em;}
 img#gpgtoolslogo {height:128px; width:128px;}
 img.screenshot, video.screenshot {height:100px; vertical-align:middle; margin-top:1em;}
 img.logo {height:128px; width:128px;}

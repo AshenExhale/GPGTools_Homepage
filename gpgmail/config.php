@@ -20,7 +20,7 @@ $theSite->assign('date',     date('d. F Y', $current));
 $theSite->assign('month',  date('m', $current));
 $theSite->assign('day',  date('d', $current));
 $theSite->assign('year',  date('Y', $current));
-$theSite->assign('reqs', 'OS X 10.6<br/>(for OS X 10.5 get <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.2.0v56.dmg">v1.2.0</a>)');
+$theSite->assign('reqs', 'OS X 10.6<br/>(get old releases for: <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.1.2-10.3.dmg">10.3</a>, <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.1.2-10.4.dmg">10.4</a>, <a href="https://github.com/downloads/GPGTools/GPGMail/GPGMail-1.2.0-10.5.dmg">10.5</a>)');
 
 $theSite->assign('overview', '
 	<p>GPGMail is an open source plugin for Apple Mail. It brings the functionality to sign, verify, encrypt and decrypt mails using the OpenPGP standard.</p>
