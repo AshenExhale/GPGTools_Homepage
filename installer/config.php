@@ -2,7 +2,7 @@
 
 
 $version="20110322";
-$release['20110628'] = mktime(17, 00, 0, 06, 28, 2011);
+$release['20110629'] = mktime(23, 00, 0, 06, 29, 2011);
 $release['20110322'] = mktime(14, 05, 0, 03, 22, 2011);
 $release['20110302'] = mktime(11, 28, 0, 03, 02, 2011);
 $release['20110214'] = mktime(17, 10, 0, 02, 14, 2011);
@@ -20,7 +20,7 @@ $theSite->assign('img_logo', 'images/logo-128px.png');
 $theSite->assign('url_base', 'GPGTools/GPGTools');
 $theSite->assign('url_dl',   "GPGTools-$version.dmg");
 $theSite->assign('url_sig',  "GPGTools-$version.dmg.sig");
-$theSite->assign('url_beta',  "GPGTools-20110628.dmg");
+$theSite->assign('url_beta',  "GPGTools-20110629.dmg");
 $theSite->assign('url_wiki', 'wiki');
 $theSite->assign('date',     date("d. F Y", $current));
 $theSite->assign('version',  date("Y.m.d", $current));
@@ -50,7 +50,7 @@ $theSite->assign('limitations', $limitations);
 $features = array(
 "$root/images/lion.png" => array("Compatible with OS X Lion (besides GPGMail)", 'lion compatible'),
 "$root/images/64bit.jpg" => array("All applications are 64-bit compatible", '64 bit'),
-"$root/gpgmail/images/logo-35px.png" => array("Integrated <a href='$root/gpgmail/index.php'>GPGMail</a> (OS X 10.4 to 10.6, Universal)", 'GPGMail'),
+"$root/gpgmail/images/logo-35px.png" => array("Integrated <a href='$root/gpgmail/index.php'>GPGMail</a> (OS X 10.5 to 10.6, Universal)", 'GPGMail'),
 "$root/keychain/images/logo-35px.png" => array("Integrated <a href='$root/keychain/index.php'>GPG Keychain Access</a> (OS X 10.5 to 10.7, Universal)", 'GPG Keychain Access'),
 "$root/gpgservices/images/logo.png" => array("Integrated <a href='$root/gpgservices/index.php'>GPGServices</a> (OS X 10.6 to 10.7, Intel)", 'GPGServices'),
 "$root/gpgpreferences/images/logo-35px.png" => array("Integrated <a href='$root/gpgpreferences/index.php'>GPGToolsPreferences</a> (OS X 10.5 to 10.7, Universal)", 'GPGPreferences'),
@@ -72,21 +72,22 @@ $screencasts = array(
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
-    '20110628-beta' => array(date("d. F Y", $release['20110628']), array(
-        'sparkle_date' => date(DATE_RFC2822, $release['20110628']),
-        'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110628.dmg",
+    '20110629-beta' => array(date("d. F Y", $release['20110629']), array(
+        'sparkle_date' => date(DATE_RFC2822, $release['20110629']),
+        'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110629.dmg",
         'sparkle_sig' => "",
-        'sparkle_size' => "23453171",
+        'sparkle_size' => "22427162",
         'a' => 'Update: GPGServices 1.6',
         'b' => 'Update: GPG Keychain Access 0.8.10',
         'c' => 'Added: MacGPG1 1.4.11-6',
-        'd' => 'Added: GPGMail (old releases) for 10.5 and 10.4',
+        'd' => 'Added: GPGMail for 10.5',
         'e' => 'Added: Enigmail 1.2 for Thunderbird 5',
         'f' => 'Enhancement: GPGMail version chosen by OS X release',
         'g' => 'Enhancement: GPGServices only gets installed if OS X >= 10.6',
+        'h' => 'Fix: Installer now works under OS X 10.5',
         '70' => 'Fix: Detection of Thunderbird',
         '67' => 'Fix: MacGPG2 does not work with Thunderbird',
-        'sha' => "Checksum: 2c3685155ac5ee1be25fb69b4eeb3ef34486d252 (SHA-1)",
+        'sha' => "Checksum: 841051133735d0360a2b9b946decbb4a295a92e6 (SHA-1)",
         )),
     '20110322' => array(date("d. F Y", $release['20110322']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['20110322']),
