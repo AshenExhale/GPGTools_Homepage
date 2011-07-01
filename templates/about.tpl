@@ -28,8 +28,13 @@
                 <li>open a bug or feature request: <a href="http://gpgtools.lighthouseapp.com/tickets">at the issue tracker</a></li>
                 <li>browse the projects: <a href="http://github.com/gpgtools/">at the github page</a></li>
                 <li>download our key: <a href="./files/gpgtools.asc" title="The GPGTools Project OpenGPG key">0x76D78F0500D026C4</a><br />fingerprint: 85E3 8F69 046B 44C1 EC9F B07B 76D7 8F05 00D0 26C4</li>
-                <li>drop us a line (but we can't give you an answer this way):
-                <form action="http://www.gpgtools.org/mail.php" method="post"><input type="text" name="message" /><input type="submit" value="send feedback" /></form></li>
+                <li>drop us a line:
+                    <form action="http://www.gpgtools.org/mail.php" method="post">
+                        your <b>message</b>: <input type="text" name="message" />
+                        and <b>mail</b> (optional): <input type="email" name="mail" />
+                        <input type="submit" value="send feedback" />
+                    </form>
+                </li>
             </ul>
             <h3>Links that might be of interest for you</h3>
             <p>More details about the mailing lists and other related pages:</p>
