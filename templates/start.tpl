@@ -22,7 +22,9 @@
             <a href="faq.php" title="Frequently Asked Questions">FAQ</a> or if
             you want to get the latest news, please do not hesitate to open the
             <a href="about.php" title="have a look at the 'How can I contact you?' section.">
-            contact</a> section. Finally, if you like you can <a href="donate.php">make a donation</a>.</p>
+            contact</a> section. Finally, we would appreciate any kind of
+            <a href="faq.php#5.3">contributions</a> or
+            <a href="donate.php">donations</a>.</p>
             <ul class="sub"></ul>
             <div class="project2">
                 <a href="installer/index.php">
