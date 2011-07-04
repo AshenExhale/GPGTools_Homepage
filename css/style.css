@@ -509,17 +509,19 @@ div#m_content {
     margin: 1em;
 }
 
-ul#features, ul#other {
+ul#features, ul#other, ul#announcement {
     list-style-type: none;
 }
 
-ul#features li img {
+ul#features li img, ul#announcement li img {
     display:inline;
     vertical-align:middle;
     margin-right:1em;
 }
 
-
+ul#announcement li img {
+    width:78px;
+}
 
 
 
