@@ -1,5 +1,6 @@
     <footer>
-        <div>
+<!--
+<div>
             <div>
                 <ul id="sn">
                   <li><a id="sprite-twitter" href="http://twitter.com/home?status=OpenPGP-%20%2F%20GPG-Tools%20for%20Apple%20OS%20X%20http%3A%2F%2Fgpgtools.org" title="Twitter it" target="_blank">Twitter it<span></span></a></li>
@@ -14,6 +15,7 @@
                 </ul>
             </div>
         </div>
+-->
     </footer>
   </div>
   <!--[if lt IE 7 ]>

@@ -599,3 +599,13 @@ li:target {
 }
 
 #feedback {display: inline;}
+
+iframe {
+    border: none;
+    overflow: hidden;
+    height:20px;
+
+}
+iframe#gplus {width:65px;}
+iframe#facebook {width:100px;}
+iframe#twitter {width:110px;}
