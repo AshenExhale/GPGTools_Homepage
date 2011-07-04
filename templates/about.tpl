@@ -48,7 +48,6 @@
                 <li>List developers: <a href="http://lists.gpgtools.org/mailman/listinfo/gpgtools-devel">subscribe</a></li>
             </ul>
         </div>
-    </div>
     <script src="./libs/twitter-1.13.1.min.js" charset="utf-8"></script>
     <script type="text/javascript">
       getTwitters('tweets', {

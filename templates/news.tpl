@@ -23,5 +23,4 @@
                 <li>developers: <a href="http://lists.gpgtools.org/mailman/listinfo/gpgtools-devel">subscribe</a></li>
             </ul>
         </div>
-    </div>
 {/block}

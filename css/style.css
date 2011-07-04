@@ -438,6 +438,7 @@ div#spacer {
     border-bottom:1px solid #aaa;
 }
 
+/*
 footer {
     background: #dadada;
     background: linear-gradient(top, #dadada, #ededed);
@@ -452,6 +453,7 @@ footer {
     -moz-box-shadow: 0px -2px 5px #aaa;
     box-shadow: 0px -2px 5px #aaa;
 }
+*/
 html { background:#eee;}
 html.white { background:#fff;}
 #main {

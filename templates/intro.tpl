@@ -899,5 +899,4 @@ secure network connection is used during the reconstitution process, the key's
 shareholders need not be physically present in order to rejoin the key.
 <p>
         </div>
-    </div>
 {/block}

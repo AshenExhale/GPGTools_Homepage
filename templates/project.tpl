@@ -116,5 +116,4 @@
                 </ul>
             {/foreach}
         </div>
-    </div>
 {/block}

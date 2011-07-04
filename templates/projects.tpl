@@ -66,5 +66,4 @@
                 <li><a href="https://github.com/GPGTools/GPGFileTool">GPGFileTool</a>. Encrypt/Sign/Decrypt/Verify with a GUI (state: replaced by GPGServices).</li>
             </ul>
         </div>
-    </div>
 {/block}
