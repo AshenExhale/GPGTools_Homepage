@@ -11,7 +11,7 @@
             <ul id="announcement" class="sub">
               <li>
                 <img src="./images/lion.png" alt="lion compatible" title="lion compatible" class="icon" />
-                Yes, GPGTools is compatible with OS X Lion (besides GPGMail, but we're <a href="http://gpgtools.lighthouseapp.com/projects/65764/tickets/135">working on it</a>).
+                Yes, GPGTools is compatible with OS X Lion (besides <a href="gpgmail/index.php">GPGMail</a>, but we're <a href="http://gpgtools.lighthouseapp.com/projects/65764/tickets/135">working on it</a>).
                 </li>
             </ul>
             <h3>About</h3>
