@@ -1,0 +1,8 @@
+#!/bin/bash
+
+pushd "$(dirname "$0")" > /dev/null
+
+build/compile.sh
+build/run.sh
+
+popd > /dev/null
