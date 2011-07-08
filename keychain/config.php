@@ -45,10 +45,11 @@ $theSite->assign('cnet', "3000-2144_4-23925");
 $theSite->assign('limitations', "");
 
 $features = array(
-"$root/images/installericon.png" => array("Is part of the <a href='$root/installer/index.php' title='our main project: the installer'>GPGTools Installer</a>", 'Installer'),
-"$root/images/secure.jpg" => array("Create, delete, find, sign, and verify all your keys", "key management"),
-"$root/images/64bit.jpg" => array("The application is 64-bit compatible", "64 bit"),
-"$root/images/lion.png" => array("Compatible with OS X Lion", 'lion compatible'),
+    "$root/images/installericon.png" => array("Is part of the <a href='$root/installer/index.php' title='our main project: the installer'>GPGTools Installer</a>", 'Installer'),
+    "$root/images/secure.jpg" => array("Create, delete, find, sign, and verify all your keys", "key management"),
+    "$root/images/universal.png" => array('Includes executable code for both PPC and Intel processors', 'PPC support'),
+    "$root/images/64bit.jpg" => array("The application is 64-bit compatible", "64 bit"),
+    "$root/images/lion.png" => array("Compatible with OS X Lion", 'lion compatible'),
 );
 $theSite->assign('features', $features);
 

@@ -36,7 +36,7 @@ $limitations = "";
 $theSite->assign('limitations', $limitations);
 
 $features = array(
-	"$root/images/installericon.png" => array("Is part of the <a href='$root/installer/index.php' title='our main project: the installer'>GPGTools Installer</a>", 'Installer'),
+    "$root/images/installericon.png" => array("Is part of the <a href='$root/installer/index.php' title='our main project: the installer'>GPGTools Installer</a>", 'Installer'),
     "$root/images/lion.png" => array("Compatible with OS X Lion", 'lion compatible'),
 );
 $theSite->assign('features', $features);

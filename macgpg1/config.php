@@ -38,8 +38,8 @@ $limitations = array(
 $theSite->assign('limitations', '');//$limitations);
 
 $features = array(
-    "$root/images/universal.png" => array('Includes executable code for both PPC and Intel processors', 'PPC support'),
     "$root/images/installericon.png" => array('Is based on the GPGTools infrastructure and developments', 'Installer'),
+    "$root/images/universal.png" => array('Includes executable code for both PPC and Intel processors', 'PPC support'),
     "$root/images/lion.png" => array("Compatible with OS X Lion", 'lion compatible'),
 );
 $theSite->assign('features', $features);

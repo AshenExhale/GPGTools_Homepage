@@ -39,8 +39,9 @@ $theSite->assign('limitations', $limitations);
 
 
 $features = array(
-"$root/images/update.png" => array("Can <a href='$root/faq.php#3.2'>auto-fix GPGMail after an OS update</a>", 'auto-fix'),
-"$root/images/installericon.png" => array("Is part of the <a href='$root/installer/index.php' title='our main project: the installer'>GPGTools Installer</a>", 'Installer'),
+    "$root/images/installericon.png" => array("Is part of the <a href='$root/installer/index.php' title='our main project: the installer'>GPGTools Installer</a>", 'Installer'),
+    "$root/images/update.png" => array("Can <a href='$root/faq.php#3.2'>auto-fix GPGMail after an OS update</a>", 'auto-fix'),
+
 );
 $theSite->assign('features', $features);
 
