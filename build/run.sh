@@ -1,5 +1,3 @@
 #!/bin/bash
-file=`ls -t *.php.conf|head -n1`;
-file=`basename -s .php.conf $file`;
-open $file.html
 
+open "$(dirname "$(find . -name "config.php" -print0 | xargs -0 ls -1 -t | head -n1)")/index.html"
