@@ -1,8 +1,9 @@
 <?php /*compileIgnore*/
 
 
-$version='0.8.10';
+$version='0.8.13';
 
+$release['0.8.13'] = mktime(12, 0, 0, 7, 11, 2011);
 $release['0.8.10'] = mktime(12, 0, 0, 4, 29, 2011);
 $release['0.8.7'] = mktime(12, 0, 0, 3, 24, 2011);
 $release['0.8.6'] = mktime(12, 0, 0, 3, 22, 2011);
@@ -64,6 +65,16 @@ $screencasts = array(
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
+	'0.8.13' => array(date('d. F Y', $release['0.8.13']), array(
+		'sparkle_date' => date(DATE_RFC2822, $release['0.8.13']),
+		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.13.dmg',
+		'sparkle_sig' => 'MCwCFGWXGQ8FsrHcLDgrqwmSSRkn5u2FAhR3ec9ALAQp1f0jDl8Og21lCiC5qw==',
+		'sparkle_size' => '1409076',
+		'a' => 'French localization',
+		'51' => 'Subkey selection bug fixed.',
+		'c' => 'Some fixes in the localizations.',
+		'sha' => 'Checksum: 7de417177a8017dc8cf32130a59b82059c161e93 (SHA-1)'
+		)),
 	'0.8.10' => array(date('d. F Y', $release['0.8.10']), array(
 		'sparkle_date' => date(DATE_RFC2822, $release['0.8.10']),
 		'sparkle_url' => 'https://github.com/downloads/GPGTools/GPGKeychainAccess/GPG Keychain Access-0.8.10.dmg',
