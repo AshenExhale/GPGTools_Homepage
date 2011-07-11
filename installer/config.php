@@ -2,7 +2,7 @@
 
 
 $version="20110322";
-$release['20110706'] = mktime(23, 00, 0, 06, 29, 2011);
+$release['20110711'] = mktime(19, 00, 0, 07, 11, 2011);
 $release['20110322'] = mktime(14, 05, 0, 03, 22, 2011);
 $release['20110302'] = mktime(11, 28, 0, 03, 02, 2011);
 $release['20110214'] = mktime(17, 10, 0, 02, 14, 2011);
@@ -20,7 +20,7 @@ $theSite->assign('img_logo', 'images/logo-128px.png');
 $theSite->assign('url_base', 'GPGTools/GPGTools');
 $theSite->assign('url_dl',   "GPGTools-$version.dmg");
 $theSite->assign('url_sig',  "GPGTools-$version.dmg.sig");
-$theSite->assign('url_beta',  "GPGTools-20110706.dmg");
+$theSite->assign('url_beta',  "GPGTools-20110711.dmg");
 $theSite->assign('url_wiki', 'wiki');
 $theSite->assign('date',     date("d. F Y", $current));
 $theSite->assign('version',  date("Y.m.d", $current));
@@ -72,13 +72,13 @@ $screencasts = array(
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
-    '20110706-beta' => array(date("d. F Y", $release['20110706']), array(
-        'sparkle_date' => date(DATE_RFC2822, $release['20110706']),
-        'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110706.dmg",
+    '20110711-beta' => array(date("d. F Y", $release['20110711']), array(
+        'sparkle_date' => date(DATE_RFC2822, $release['20110711']),
+        'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110711.dmg",
         'sparkle_sig' => "",
-        'sparkle_size' => "22427175",
+        'sparkle_size' => "22287032",
         'a' => 'Update: GPGServices 1.6',
-        'b' => 'Update: GPG Keychain Access 0.8.10',
+        'b' => 'Update: GPG Keychain Access 0.8.13',
         'c' => 'Added: MacGPG1 1.4.11-6',
         'd' => 'Added: GPGMail for 10.5',
         'e' => 'Added: Enigmail 1.2 for Thunderbird 5',
@@ -87,7 +87,7 @@ $changelog = array(
         'h' => 'Fix: Installer now works under OS X 10.5',
         '70' => 'Fix: Detection of Thunderbird',
         '67' => 'Fix: MacGPG2 does not work with Thunderbird',
-        'sha' => "Checksum: 1b0a369736b166e28631a205af858fde054c1f2b (SHA-1)",
+        'sha' => "Checksum: 4ac5133cf8c9fd86eb35511765b6af90374b05d4 (SHA-1)",
         )),
     '20110322' => array(date("d. F Y", $release['20110322']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['20110322']),
