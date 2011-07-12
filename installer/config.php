@@ -1,7 +1,7 @@
 <?php /*compileIgnore*/
 
 
-$version="20110322";
+$version="20110711";
 $release['20110711'] = mktime(19, 00, 0, 07, 11, 2011);
 $release['20110322'] = mktime(14, 05, 0, 03, 22, 2011);
 $release['20110302'] = mktime(11, 28, 0, 03, 02, 2011);
@@ -20,7 +20,7 @@ $theSite->assign('img_logo', 'images/logo-128px.png');
 $theSite->assign('url_base', 'GPGTools/GPGTools');
 $theSite->assign('url_dl',   "GPGTools-$version.dmg");
 $theSite->assign('url_sig',  "GPGTools-$version.dmg.sig");
-$theSite->assign('url_beta',  "GPGTools-20110711.dmg");
+$theSite->assign('url_beta',  "");
 $theSite->assign('url_wiki', 'wiki');
 $theSite->assign('date',     date("d. F Y", $current));
 $theSite->assign('version',  date("Y.m.d", $current));
@@ -72,7 +72,7 @@ $screencasts = array(
 $theSite->assign('screencasts', $screencasts);
 
 $changelog = array(
-    '20110711-beta' => array(date("d. F Y", $release['20110711']), array(
+    '20110711' => array(date("d. F Y", $release['20110711']), array(
         'sparkle_date' => date(DATE_RFC2822, $release['20110711']),
         'sparkle_url' => "http://github.com/downloads/GPGTools/GPGTools/GPGTools-20110711.dmg",
         'sparkle_sig' => "",
