@@ -523,6 +523,11 @@ ul#features li img, ul#announcement li img {
 
 ul#announcement li img {
     width:78px;
+    float:left;
+    margin-bottom:1em;
+}
+hr {
+    clear:both;
 }
 
 

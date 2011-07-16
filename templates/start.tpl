@@ -11,9 +11,10 @@
             <ul id="announcement" class="sub">
               <li>
                 <img src="./images/lion.png" alt="lion compatible" title="lion compatible" class="icon" />
-                Yes, GPGTools is compatible with OS X Lion (besides <a href="gpgmail/index.php">GPGMail</a>, but we're <a href="http://gpgtools.lighthouseapp.com/projects/65764/tickets/135">working on it</a>).
+                Yes, GPGTools is compatible with OS X Lion (besides <a href="gpgmail/index.php">GPGMail</a>, but we're <a href="http://gpgtools.lighthouseapp.com/projects/65764/tickets/135">working on it</a> - in the meantime <a href="http://www.apple.com/feedback/macosx.html">tell Apple</a> to support Mail bundles officially and use <a href="gpgservices/index.php">GPGServices</a> to handle encrypted messages).
                 </li>
             </ul>
+            <hr/>
             <h3>About</h3>
             <p>GPGTools is an open source initiative to bring
             <a href="http://en.wikipedia.org/wiki/Pretty_Good_Privacy">
