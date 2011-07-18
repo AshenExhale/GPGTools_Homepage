@@ -26,7 +26,7 @@ $theSite->assign('reqs', 'OS X 10.6');
 
 $theSite->assign('overview', '
 	<p>GPGServices is a plugin for the global
-	<a href="http://www.apple.com/macosx/refinements/">OS X Services menu</a>,
+	<a href="http://en.wikipedia.org/wiki/Services_menu#Mac_OS_X">OS X Services menu</a>,
 	which adds the ability to almost any application (e.g. Safari, Finder, or
 	TextEdit) to use OpenPGP functionalities. In a nutshell:</p>
 	<ul>
