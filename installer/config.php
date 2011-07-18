@@ -53,7 +53,7 @@ $features = array(
     "$root/gpgmail/images/logo-35px.png" => array("Integrated <a href='$root/gpgmail/index.php'>GPGMail</a> (OS X 10.5 to 10.6, Universal)", 'GPGMail'),
     "$root/keychain/images/logo-35px.png" => array("Integrated <a href='$root/keychain/index.php'>GPG Keychain Access</a> (OS X 10.5 to 10.7, Universal)", 'GPG Keychain Access'),
     "$root/gpgservices/images/logo.png" => array("Integrated <a href='$root/gpgservices/index.php'>GPGServices</a> (OS X 10.6 to 10.7, Intel)", 'GPGServices'),
-    "$root/gpgpreferences/images/logo-35px.png" => array("Integrated <a href='$root/gpgpreferences/index.php'>GPGToolsPreferences</a> (OS X 10.5 to 10.7, Universal)", 'GPGPreferences'),
+    "$root/gpgpreferences/images/logo-35px.png" => array("Integrated <a href='$root/gpgpreferences/index.php'>GPGToolsPreferences</a> (OS X 10.5 to 10.7, Intel)", 'GPGPreferences'),
     "$root/macgpg2/images/logo-35px.png" => array("Integrated <a href='$root/macgpg2/index.php'>MacGPG2</a> (OS X 10.5 to 10.7, Intel)", 'gpg2, gpg-agent, pinentry-mac'),
     "$root/macgpg1/images/logo-35px.png" => array("Integrated <a href='$root/macgpg1/index.php'>MacGPG1</a> (OS X 10.5 to 10.7, Universal)", 'gpg1'),
     "$root/images/enigmail.png" => array("Integrated <a href='http://enigmail.mozdev.org/'>Enigmail</a> (Thunderbird 3 and 5)", 'Mozilla Enigmail'),

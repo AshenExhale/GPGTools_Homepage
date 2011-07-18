@@ -1,6 +1,6 @@
 <?php /*compileIgnore*/
 
-	
+
 $version="0.6";
 $release['0.6'] = mktime(11, 28, 0, 01, 27, 2011);
 $current = $release[$version];
@@ -18,7 +18,7 @@ $theSite->assign('version',  "$version");
 $theSite->assign('month',  date("m", $current));
 $theSite->assign('day',  date("d", $current));
 $theSite->assign('year',  date("Y", $current));
-$theSite->assign('reqs', 'OS X 10.6');
+$theSite->assign('reqs', 'OS X 10.5');
 
 $theSite->assign('overview', '
 	<p>The GPGTools preferences pane will replace the old GPGPreferences pane in the future.
