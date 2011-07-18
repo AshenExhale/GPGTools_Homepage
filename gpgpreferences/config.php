@@ -18,7 +18,7 @@ $theSite->assign('version',  "$version");
 $theSite->assign('month',  date("m", $current));
 $theSite->assign('day',  date("d", $current));
 $theSite->assign('year',  date("Y", $current));
-$theSite->assign('reqs', 'OS X 10.5');
+$theSite->assign('reqs', 'OS X 10.5/Intel');
 
 $theSite->assign('overview', '
 	<p>The GPGTools preferences pane will replace the old GPGPreferences pane in the future.
