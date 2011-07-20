@@ -11,7 +11,7 @@
             <ul id="announcement" class="sub">
               <li>
                 <img src="./images/lion.png" alt="lion compatible" title="lion compatible" class="icon" />
-                Yes, almost all components of the current GPGTools package run under OS X Lion. However, <a href="gpgmail/index.php">GPGMail</a> is not yet compatbile, but we're <a href="http://gpgtools.lighthouseapp.com/projects/65764/tickets/135">working on that</a>. In the meantime you could <a href="http://www.apple.com/feedback/macosx.html">tell Apple</a> to support Mail bundles officially and use <a href="gpgservices/index.php">GPGServices</a> to handle encrypted messages).
+                Yes, almost all components of the current GPGTools package run under OS X Lion. However, <a href="gpgmail/index.php">GPGMail</a> is not yet compatbile, but we're <a href="http://gpgtools.lighthouseapp.com/projects/65764/tickets/135">working on that</a>. In the meantime you could <a href="http://www.apple.com/feedback/macosx.html">tell Apple</a> to support Mail bundles officially and use <a href="gpgservices/index.php">GPGServices</a> to handle encrypted messages.
                 </li>
             </ul>
             <hr/>
