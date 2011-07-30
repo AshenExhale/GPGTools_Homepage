@@ -1,7 +1,7 @@
 {extends file="index.tpl"}
 {block name=body}
     <div id="overview">
-      <div id="o_content"><h2>Donate</h2></div>
+      <div id="o_content"><h2>Support us</h2></div>
     </div>
     <div id="spacer">
     </div>
@@ -9,14 +9,34 @@
         <div id="m_content">
             <h3>What is this about?</h3>
             <p>GPGTools is an open source project and we all do this out of
-            love for the project. Any kind of donations or contributions are very
-            much appreciated.</p>
+            love for the project. <b>Any kind</b> of help is very much
+            appreciated!</p>
             <ul class="sub"></ul>
-            <h3>How to Contribute or Donate?</h3>
-            <p>If you like what we're doing please spread the word (e.g. see the
-            buttons below), <a href="faq.php#5.3">help us to improve GPGTools</a>,
-            or donate any amount of money.</p>
-            </p>The donation will be used for the development of the
+            <h3>How to help?</h3>
+            <p>If you like what we're doing please consider to help us:</p>
+            <h4>Donate time</h4>
+            <p>Spread the word. E.g. at the bottom of this page you see buttons
+            for social networks you could click on. Also you can tell your
+            friends and co-workers about GPGTools or ask magazines to write
+            articles about OpenPGP based security. Or you could support other
+            users by answering questions via
+            <a href="about.php">mailing list or twitter</a>.</p>
+            <h4>Donate knowledge</h4>
+            <p>Most notably, we need more developers for all different kind of
+            tasks (on several severity levels). Also help for localization,
+            testing beta versions, and documentation would be very helpful. Some
+            starting points:</p>
+            <ul>
+            <li><a href="https://github.com/GPGTools/">All the sources</a></li>
+            <li><a href="http://gpgtools.lighthouseapp.com/tickets/">All the issues</a></li>
+            <li><a href="https://github.com/GPGTools/GPGTools/wiki/How-to-build">How to build</a></li>
+            <li><a href="https://github.com/GPGTools/GPGTools/wiki/How-to-build">How to localize</a></li>
+            <li><a href="http://gpgtools.lighthouseapp.com/events.atom">How to keep up to date with all issues</a></li>
+            <li><a href="https://github.com/GPGTools/GPGTools/wiki/">How to get more information</a></li>
+            <li><a href="about.php">How to get in contact</a></li>
+            </ul>
+            <h4>Donate money</h4>
+            <p>The donation will be used for the development of the
             GPGTools project: developer accounts, marketing, design, etc.
             There are several ways to donate. Currently, we offer PayPal and
             Flattr donations only, but if you want to use another service please
