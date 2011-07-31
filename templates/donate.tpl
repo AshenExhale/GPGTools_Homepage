@@ -20,7 +20,9 @@
             friends and co-workers about GPGTools or ask magazines to write
             articles about OpenPGP based security. Or you could support other
             users by answering questions via
-            <a href="about.php">mailing list or twitter</a>.</p>
+            <a href="about.php">mailing list or twitter</a>. Furthermore, you
+            could <a href="http://www.apple.com/feedback/macosx.html">tell
+            apple</a> to support Mail bundles officially.</p>
             <h4>Donate knowledge</h4>
             <p>Most notably, we need more developers for all different kind of
             tasks (on several severity levels). Also help for localization,
