@@ -1,6 +1,9 @@
 		{foreach $changelog as $changes}
 	    	<item>
 		        <title>{$title} version {$changes@key}</title>
+				{if $changes[1]['sparkle_minOS'] neq ''}
+				<sparkle:minimumSystemVersion>{$changes[1]['sparkle_minOS']}</sparkle:minimumSystemVersion>
+				{/if}
     		    <pubDate>{$changes[1]['sparkle_date']}</pubDate>
     		    <guid>{$changes[1]['sparkle_url']}</guid>
 		        <description><![CDATA[
