@@ -22,7 +22,7 @@ fi
 ################################
 
 
-dirs=(. gpgmail gpgpreferences gpgservices installer keychain macgpg1 macgpg2 mobile)
+dirs=(. gpgmail gpgpreferences gpgservices installer keychain macgpg1 macgpg2 mobile gpgmail2)
 fileCount=0
 unset phpFiles sedText
 
