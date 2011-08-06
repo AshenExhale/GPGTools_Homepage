@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>GPGTools - MacGPG1 - Changelog</title><link>http://www.gpgtools.org/macgpg1/appcast.xml</link> <atom:link href="http://www.gpgtools.org/macgpg1/appcast.xml" rel="self" type="application/rss+xml" /> <docs>http://sparkle.andymatuschak.org/documentation</docs> <description>Visit http://www.gpgtools.org/ for further information.</description> <image> <url>http://www.gpgtools.org/images/rss_icon.png</url><link>http://www.gpgtools.org/macgpg1/appcast.xml</link><title>GPGTools</title> </image> <language>en</language> <item><title>MacGPG1 version 1.4.11-6</title> <pubDate>Tue, 12 Apr 2011 00:19:09 +0200</pubDate> <guid>http://github.com/downloads/GPGTools/MacGPG1/MacGPG1-1.4.11-6.dmg</guid> <description><![CDATA[<ul><li><a
-href='http://gpgtools.lighthouseapp.com/projects/70639/tickets/4'>Issue 4</a>: Fixed issue with external executables (wrong prefix).</li><li>Checksum: 80f91ce3962cb8e009122804a51444a02c34b1f3 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/macgpg1_sparkle.html </sparkle:releaseNotesLink> <enclosure
+href='http://gpgtools.lighthouseapp.com/projects/70639/tickets/4'>Issue 4</a>: Fixed issue with external executables (wrong prefix).</li><li>Checksum: 80f91ce3962cb8e009122804a51444a02c34b1f3 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/macgpg1/sparkle.html </sparkle:releaseNotesLink> <enclosure
 url="http://github.com/downloads/GPGTools/MacGPG1/MacGPG1-1.4.11-6.dmg"
 sparkle:version="1.4.11-6"
 sparkle:dsaSignature=""
 length="3149434"
 type="application/octet-stream" /> </item> <item><title>MacGPG1 version 1.4.11-5</title> <pubDate>Thu, 24 Mar 2011 00:08:03 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/MacGPG1/MacGPG1-1.4.11-5.dmg</guid> <description><![CDATA[<ul><li><a
-href='http://gpgtools.lighthouseapp.com/projects/70639/tickets/2'>Issue 2</a>: Added PPC support.</li><li>Checksum: 090fa41bc4c71a1d110a256d1d9623b5450576ee (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/macgpg1_sparkle.html </sparkle:releaseNotesLink> <enclosure
+href='http://gpgtools.lighthouseapp.com/projects/70639/tickets/2'>Issue 2</a>: Added PPC support.</li><li>Checksum: 090fa41bc4c71a1d110a256d1d9623b5450576ee (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/macgpg1/sparkle.html </sparkle:releaseNotesLink> <enclosure
 url="http://github.com/downloads/GPGTools/MacGPG1/MacGPG1-1.4.11-5.dmg"
 sparkle:version="1.4.11-5"
 sparkle:dsaSignature=""
 length="3149997"
-type="application/octet-stream" /> </item> <item><title>MacGPG1 version 1.4.11-1</title> <pubDate>Thu, 24 Feb 2011 00:13:08 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/MacGPG1/MacGPG1-1.4.11-1.dmg</guid> <description><![CDATA[<ul><li>Initial version.</li><li>Checksum: 908eb8b4a4a00fba92bc1f270419c10f2a4b3446 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/macgpg1_sparkle.html </sparkle:releaseNotesLink> <enclosure
+type="application/octet-stream" /> </item> <item><title>MacGPG1 version 1.4.11-1</title> <pubDate>Thu, 24 Feb 2011 00:13:08 +0100</pubDate> <guid>http://github.com/downloads/GPGTools/MacGPG1/MacGPG1-1.4.11-1.dmg</guid> <description><![CDATA[<ul><li>Initial version.</li><li>Checksum: 908eb8b4a4a00fba92bc1f270419c10f2a4b3446 (SHA-1).</li></ul> ]]></description> <sparkle:releaseNotesLink> http://www.gpgtools.org/macgpg1/sparkle.html </sparkle:releaseNotesLink> <enclosure
 url="http://github.com/downloads/GPGTools/MacGPG1/MacGPG1-1.4.11-1.dmg"
 sparkle:version="1.4.11-1"
 sparkle:dsaSignature=""

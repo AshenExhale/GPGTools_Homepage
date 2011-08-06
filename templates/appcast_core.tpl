@@ -16,7 +16,7 @@
                 </ul>
 		        ]]></description>
     		    <sparkle:releaseNotesLink>
-	    	        http://www.gpgtools.org/{$name}_sparkle.html
+	    	        http://www.gpgtools.org/{$name}/sparkle.html
 		        </sparkle:releaseNotesLink>
 		        <enclosure url="{$changes[1]['sparkle_url']}"
 		               sparkle:version="{$changes@key}"
