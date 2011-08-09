@@ -19,7 +19,8 @@
                 Nevertheless, we're
                 <a href="http://gpgtools.lighthouseapp.com/projects/65764/tickets/135">working on an update</a>
                 of GPGMail that will run under Mac OS X Lion and it will be
-                available soon. You will be notified via this website and
+                available soon (see our <a href="faq.php#3.4">FAQ</a>).
+                You will be notified via this website and
                 <a href="about.php">our other channels</a> once the update is
                 available.
                 In case you want to speed up the process:
