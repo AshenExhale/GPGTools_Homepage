@@ -8,6 +8,6 @@
     <div id="main">
         <div id="m_content">
             <h3>Your message has been sent</h3>
-            <p>Thank you for your feedback. Please also consider joining one of our <a href="http://lists.gpgtools.org/mailman/listinfo/">mailing list</a> to get in touch with us.</p>
+            <p>Thank you for your feedback. Please also consider joining our <a href="http://lists.gpgtools.org/mailman/listinfo/">mailing list</a> to get in touch with us.</p>
         </div>
 {/block}

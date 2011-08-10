@@ -23,10 +23,10 @@
                 You will be notified via this website and
                 <a href="about.php">our other channels</a> once the update is
                 available.
-                In case you want to speed up the process:
+                In case you want to speed up the process,
                 <a href="donate.php">why not support us</a>?
                 In the meantime you could
-                <a href="http://www.apple.com/feedback/macosx.html">tell Apple</a>
+                <a href="http://www.apple.com/feedback/macosx.html">ask Apple</a>
                 to support Mail bundles officially and use
                 <a href="gpgservices/index.php">GPGServices</a> to handle
                 encrypted messages.
@@ -38,10 +38,10 @@
             <a href="http://en.wikipedia.org/wiki/Pretty_Good_Privacy">
                 OpenPGP
             </a>
-            to Apple OS X in the form of an easy installer package (have a look
-            at <a href="http://gpg4win.org/" title="OpenPGP for Windows">Gpg4win</a>
+            to Apple OS X in the form of an easy installer package (see
+ 			<a href="http://gpg4win.org/" title="OpenPGP for Windows">Gpg4win</a>
             if you're a Windows user).
-            This allows you to sign, verify, encrypt, and decrypt files and
+            This allows you to sign, verify, and encrypt/decrypt files and
             e-mails. Read the <a href="intro.php" title="Introduction to OpenPGP">introduction</a>
             to get a detailed idea of how PGP works.</p>
             <p>The <a href="projects.php" title="The projects behind GPGTools">project section</a> provides more

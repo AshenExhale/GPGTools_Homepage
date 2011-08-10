@@ -12,7 +12,7 @@
             us to bring secure OpenPGP based communication to Apple OS X
             and beyond.</p>
             <p>Again, we really appreciate your contribution to our
-            project and please help us spread the word by telling a few of
+            project. Please help us spread the word by telling a few of
             your friends.</p>
             <ul class="sub"></ul>
             <p>

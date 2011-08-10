@@ -15,18 +15,18 @@
             <h3>How to help?</h3>
             <p>If you like what we're doing please consider to help us:</p>
             <h4>Donate time</h4>
-            <p>Spread the word. E.g. at the bottom of this page you see buttons
-            for social networks you could click on. Also you can tell your
-            friends and co-workers about GPGTools or ask magazines to write
-            articles about OpenPGP based security. Or you could support other
-            users by answering questions via
+            <p>Spread the word! At the bottom of the page, click on the buttons 
+			to share us with your social networks. You can also tell your 
+			friends and co-workers about GPGTools, or even ask media to write 
+			articles about OpenPGP based security. You can support other 
+			users by answering questions via
             <a href="about.php">mailing list or twitter</a>. Furthermore, you
-            could <a href="http://www.apple.com/feedback/macosx.html">tell
-            apple</a> to support Mail bundles officially.</p>
+            could <a href="http://www.apple.com/feedback/macosx.html">recommend for
+            Apple</a> to support Mail bundles officially.</p>
             <h4>Donate knowledge</h4>
             <p>Most notably, we need more developers for all different kind of
-            tasks (on several severity levels). Also help for localization,
-            testing beta versions, and documentation would be very helpful. Some
+            tasks (on several levels). Help for localization,
+            testing beta versions, and documentation would also be very helpful. Some
             starting points:</p>
             <ul>
             <li><a href="https://github.com/GPGTools/">All the sources</a></li>

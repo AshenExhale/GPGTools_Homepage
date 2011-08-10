@@ -187,7 +187,7 @@ with it. [J H Ellis: The Possibility of Secure Non-Secret Digital Encryption, CE
 <P>
 Public key cryptography is an asymmetric scheme that uses a <I>pair </I>of keys for
 encryption: a <I>public key, </I>which encrypts data, and a corresponding <I>private, </I>or
-<I>secret key </I>for decryption. Youpublishyour public keytotheworldwhile
+<I>secret key </I>for decryption. You publish your public key to the world while
 keeping your private key secret. Anyone with a copy of your public key can then
 encrypt information that only you can read. Even people you have never met.
 <P>
@@ -400,7 +400,7 @@ attached, plus a hearty stamp of approval from some other trusted individual.
 Certificates are utilized when it's necessary to exchange public keys with
 someone else. For small groups of people who wish to communicate securely,
 it is easy to manually exchange diskettes or emails containing each owner's
-public key. This is <I>manual public key distribution, </I>anditispracticalonlytoa
+public key. This is <I>manual public key distribution, </I>and it is practical only to a
 certain point. Beyond that point, it is necessary to put systems into place that
 can provide the necessary security, storage, and exchange mechanisms so
 coworkers, business partners, or strangers could communicate if need be.
@@ -409,7 +409,7 @@ Servers, </I>or more structured systems that provide additional key management
 features and are called <I>Public Key Infrastructures (PKIs).</I>
 <P>
 <h4>Certificate servers</h4>
-A <I>certificate server, </I>also calledacert <I>server </I>or a <I>key server, </I>is a database that
+A <I>certificate server, </I>also called a cert <I>server </I>or a <I>key server, </I>is a database that
 allows users to submit and retrieve digital certificates. A cert server usually
 provides some administrative features that enable a company to maintain its
 security policies — for example, allowing only those keys that meet certain
@@ -419,7 +419,7 @@ requirements to be stored.
 A PKI contains the certificate storage facilities of a certificate server, but also
 provides certificate management facilities (the ability to issue, revoke, store,
 retrieve, and trust certificates). The main feature of a PKI is the introduction of
-what is known as a <I>Certification Authority, </I>orCA, whichisahumanentity — a
+what is known as a <I>Certification Authority, </I>orCA, which is a human entity — a
 person, group, department, company, or other association — that an
 organization has authorized to issue certificates to its computer users. (A CA's
 role is analogous to a country's government's Passport Office.) A CA creates
@@ -500,7 +500,7 @@ certificates created for one application can be used by any application
 complying with X.509. In practice, however, different companies have created
 their own extensions to X.509 certificates, not all of which work together.
 <P>
-Acertificate requires someone to validate that a public key and the name of the
+A certificate requires someone to validate that a public key and the name of the
 key's owner go together. With OpenPGP certificates, anyone can play the role of
 validator. With X.509 certificates, the validator is always a Certification
 Authority or someone designated by a CA. (Bear in mind that OpenPGP certificates
@@ -513,7 +513,7 @@ describes how to encode it (the data format). All X.509 certificates have the
 following data:
 <UL>
   <LI><B>The X.509 version number — </B>this identifies which version of the X.509
-standardapplies to this certificate, whichaffects what informationcanbe
+standard applies to this certificate, which affects what information can be
 specified in it. The most current is version 3.
 <P>
   <LI><B>The certificate holder's public key — </B>the public key of the certificate
@@ -589,7 +589,7 @@ When you've assured yourself that a certificate belonging to someone else is
 valid, you can sign the copy on your keyring to attest to the fact that you've
 checked the certificate and that it's an authentic one. If you want others to
 know that you gave the certificate your stamp of approval, you can export the
-signatureto a certificateserver so that others canseeit.
+signature to a certificate server so that others can see it.
 <P>
 As described in the section <A href="#PKI">Public Key Infrastructures</A>,
 some companies
@@ -667,8 +667,8 @@ called a <I>root CA certificate </I>to sign certificates. Any certificate signed
 CA certificate is viewed as valid by any other certificate signed by the root.
 This validation process works even for certificates signed by other CAs in the
 system — as long as the root CA certificate signed the subordinate CA's
-certificate, any certificate signed by the CAis considered valid to others within
-the hierarchy. This process of checking back up through the systemto see who
+certificate, any certificate signed by the CA is considered valid to others within
+the hierarchy. This process of checking back up through the system to see who
 signed whose certificate is called tracing a <I>certification path </I>or <I>certification chain.
 </I><P>
 <h3 class="intro" id="p20">Trust models</h3>
@@ -679,7 +679,7 @@ some whom they have never met, such as vendors, customers, clients,
 associates, and so on. Establishing a line of trust to those who have not been
 explicitly trusted by your CA is difficult.
 <P>
-Companies followone or another <I>trust model, </I>which dictates how users will go
+Companies follow one or another <I>trust model, </I>which dictates how users will go
 about establishing certificate validity. There are three different models:
 <P>
 <UL>
@@ -756,7 +756,7 @@ There are three levels of trust you can assign to someone else's public key:
 <UL>
   <LI><I>Complete </I>trust
   <LI><I>Marginal </I>trust
-  <LI>Notrust (or Untrusted)
+  <LI>No trust (or Untrusted)
 </UL>
 To make things confusing, there are also three levels of validity:
 <UL>
@@ -806,14 +806,14 @@ for cryptographic tasks moving forward, however.)
 There are also situations where it is necessary to invalidate a certificate prior
 to its expiration date, such as when an the certificate holder terminates
 employment with the company or suspects that the certificate's corresponding
-private key has been compromised. This is called <I>revocation. </I>Arevoked
+private key has been compromised. This is called <I>revocation. </I>A revoked
 certificate is <I>much </I>more suspect than an expired certificate. Expired certificates
 are unusable, but do not carry the same threat of compromise as a revoked
 certificate.
 <P>
 Anyone who has signed a certificate can revoke his or her signature on the
 certificate (provided he or she uses the same private key that created the
-signature). Arevoked signature indicates that the signer no longer believes the
+signature). A revoked signature indicates that the signer no longer believes the
 public key and identification information belong together, or that the
 certificate's public key (or corresponding private key) has been compromised.
 A revoked signature should carry nearly as much weight as a revoked
@@ -884,11 +884,11 @@ Sharing a private key pair poses such a problem. While it is not a
 recommended practice, sharing a private key pair is necessary at times.
 <I>Corporate Signing Keys, </I>for example, are private keys used by a company to
 sign — for example — legal documents, sensitive personnel information, or
-press releases to authenticatetheirorigin. In such a case, it is worthwhile for
+press releases to authenticate their origin. In such a case, it is worthwhile for
 multiple members of the company to have access to the private key. However,
 this means that any single individual can act fully on behalf of the company.
 <P>
-Insucha caseit is wisetosplit the key among multiple people in such a way
+In such a case it is wise to split the key among multiple people in such a way
 that more than one or two people must present a piece of the key in order to
 reconstitute it to a usable condition. If too few pieces of the key are available,
 then the key is unusable.

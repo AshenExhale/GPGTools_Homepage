@@ -130,7 +130,7 @@ concept of which was introduced by Whitfield Diffie and Martin Hellman in
 1975. (There is now evidence that the British Secret Service invented it a few
 years before Diffie and Hellman, but kept it a military secret — and did nothing
 with it. [J H Ellis: The Possibility of Secure Non-Secret Digital Encryption, CESG Report, January 1970])<P> Public key cryptography is an asymmetric scheme that uses a <I>pair </I>of keys for
-encryption: a <I>public key, </I>which encrypts data, and a corresponding <I>private, </I>or <I>secret key </I>for decryption. Youpublishyour public keytotheworldwhile
+encryption: a <I>public key, </I>which encrypts data, and a corresponding <I>private, </I>or <I>secret key </I>for decryption. You publish your public key to the world while
 keeping your private key secret. Anyone with a copy of your public key can then
 encrypt information that only you can read. Even people you have never met.<P> It is computationally infeasible to deduce the private key from the public key.
 Anyone who has a public key can encrypt information but cannot decrypt it.
@@ -262,20 +262,20 @@ class="intro" SRC="./images/pgp/fig1-8.gif" /><p
 class="description">Figure 1-8. Anatomy of a OpenPGP certificate</p><P><h3 class="intro" id="p15">Certificate distribution</h3> Certificates are utilized when it's necessary to exchange public keys with
 someone else. For small groups of people who wish to communicate securely,
 it is easy to manually exchange diskettes or emails containing each owner's
-public key. This is <I>manual public key distribution, </I>anditispracticalonlytoa
+public key. This is <I>manual public key distribution, </I>and it is practical only to a
 certain point. Beyond that point, it is necessary to put systems into place that
 can provide the necessary security, storage, and exchange mechanisms so
 coworkers, business partners, or strangers could communicate if need be.
 These can come in the form of storage-only repositories called <I>Certificate
 Servers, </I>or more structured systems that provide additional key management
-features and are called <I>Public Key Infrastructures (PKIs).</I><P><h4>Certificate servers</h4> A <I>certificate server, </I>also calledacert <I>server </I>or a <I>key server, </I>is a database that
+features and are called <I>Public Key Infrastructures (PKIs).</I><P><h4>Certificate servers</h4> A <I>certificate server, </I>also called a cert <I>server </I>or a <I>key server, </I>is a database that
 allows users to submit and retrieve digital certificates. A cert server usually
 provides some administrative features that enable a company to maintain its
 security policies — for example, allowing only those keys that meet certain
 requirements to be stored.<P><h4 id="PKI">Public Key Infrastructures</h4> A PKI contains the certificate storage facilities of a certificate server, but also
 provides certificate management facilities (the ability to issue, revoke, store,
 retrieve, and trust certificates). The main feature of a PKI is the introduction of
-what is known as a <I>Certification Authority, </I>orCA, whichisahumanentity — a
+what is known as a <I>Certification Authority, </I>orCA, which is a human entity — a
 person, group, department, company, or other association — that an
 organization has authorized to issue certificates to its computer users. (A CA's
 role is analogous to a country's government's Passport Office.) A CA creates
@@ -318,7 +318,7 @@ class="description">Figure 1-9. A OpenPGP certificate</p><P><h4>X.509 certificat
 with the ITU-T X.509 international standard; thus (theoretically) X.509
 certificates created for one application can be used by any application
 complying with X.509. In practice, however, different companies have created
-their own extensions to X.509 certificates, not all of which work together.<P> Acertificate requires someone to validate that a public key and the name of the
+their own extensions to X.509 certificates, not all of which work together.<P> A certificate requires someone to validate that a public key and the name of the
 key's owner go together. With OpenPGP certificates, anyone can play the role of
 validator. With X.509 certificates, the validator is always a Certification
 Authority or someone designated by a CA. (Bear in mind that OpenPGP certificates
@@ -327,7 +327,7 @@ information about a user or device and their corresponding public key. The
 X.509 standard defines what information goes into the certificate, and
 describes how to encode it (the data format). All X.509 certificates have the
 following data:<UL><LI><B>The X.509 version number — </B>this identifies which version of the X.509
-standardapplies to this certificate, whichaffects what informationcanbe
+standard applies to this certificate, which affects what information can be
 specified in it. The most current is version 3.<P><LI><B>The certificate holder's public key — </B>the public key of the certificate
 holder, together with an algorithm identifier which specifies which
 cryptosystem the key belongs to and any associated key parameters.<P><LI><B>The serial number of the certificate — </B>the entity (application or person)
@@ -366,7 +366,7 @@ certificate is authentic.<P> When you've assured yourself that a certificate bel
 valid, you can sign the copy on your keyring to attest to the fact that you've
 checked the certificate and that it's an authentic one. If you want others to
 know that you gave the certificate your stamp of approval, you can export the
-signatureto a certificateserver so that others canseeit.<P> As described in the section <A
+signature to a certificate server so that others can see it.<P> As described in the section <A
 href="#PKI">Public Key Infrastructures</A>,
 some companies
 designate one or more Certification Authorities (CAs) to indicate certificate
@@ -416,14 +416,14 @@ called a <I>root CA certificate </I>to sign certificates. Any certificate signed
 CA certificate is viewed as valid by any other certificate signed by the root.
 This validation process works even for certificates signed by other CAs in the
 system — as long as the root CA certificate signed the subordinate CA's
-certificate, any certificate signed by the CAis considered valid to others within
-the hierarchy. This process of checking back up through the systemto see who
+certificate, any certificate signed by the CA is considered valid to others within
+the hierarchy. This process of checking back up through the system to see who
 signed whose certificate is called tracing a <I>certification path </I>or <I>certification chain. </I><P><h3 class="intro" id="p20">Trust models</h3> In relatively closed systems, such as within a small company, it is easy to trace
 a certification path back to the root CA. However, users must often
 communicate with people outside of their corporate environment, including
 some whom they have never met, such as vendors, customers, clients,
 associates, and so on. Establishing a line of trust to those who have not been
-explicitly trusted by your CA is difficult.<P> Companies followone or another <I>trust model, </I>which dictates how users will go
+explicitly trusted by your CA is difficult.<P> Companies follow one or another <I>trust model, </I>which dictates how users will go
 about establishing certificate validity. There are three different models:<P><UL><LI>Direct Trust<LI>Hierarchical Trust<LI>A Web of Trust</UL><h4>Direct Trust</h4> Direct trust is the simplest trust model. In this model, a user trusts that a key
 is valid because he or she knows where it came from. All cryptosystems use
 this form of trust in some way. For example, in web browsers, the root
@@ -459,7 +459,7 @@ as certifier of others' keys</UL> You indicate, on your copy of my key, whether 
 counts. It's really a reputation system: certain people are reputed to give good
 signatures, and people trust them to attest to other keys' validity.<P><h4>Levels of trust in OpenPGP</h4> The highest level of trust in a key, <I>implicit </I>trust, is trust in your own key pair.
 OpenPGP assumes that if you own the private key, you must trust the actions of its
-related public key. Any keys signed by your implicitly trusted key are valid.<P> There are three levels of trust you can assign to someone else's public key:<UL><LI><I>Complete </I>trust<LI><I>Marginal </I>trust<LI>Notrust (or Untrusted)</UL> To make things confusing, there are also three levels of validity:<UL><LI>Valid<LI>Marginally valid<LI>Invalid</UL> To define another's key as a trusted introducer, you<OL><LI>Start with a valid key, one that is either<UL><LI>signed by you or<LI>signed by another trusted introducer</UL> and then<LI>Set the level of trust you feel the key's owner is entitled.</OL><P> For example, suppose your key ring contains Alice's key. You have validated
+related public key. Any keys signed by your implicitly trusted key are valid.<P> There are three levels of trust you can assign to someone else's public key:<UL><LI><I>Complete </I>trust<LI><I>Marginal </I>trust<LI>No trust (or Untrusted)</UL> To make things confusing, there are also three levels of validity:<UL><LI>Valid<LI>Marginally valid<LI>Invalid</UL> To define another's key as a trusted introducer, you<OL><LI>Start with a valid key, one that is either<UL><LI>signed by you or<LI>signed by another trusted introducer</UL> and then<LI>Set the level of trust you feel the key's owner is entitled.</OL><P> For example, suppose your key ring contains Alice's key. You have validated
 Alice's key and you indicate this by signing it. You know that Alice is a real
 stickler for validating others' keys. You therefore assign her key with
 Complete trust. This makes Alice a Certification Authority. If Alice signs
@@ -481,12 +481,12 @@ was encrypted or signed within the validity period — it should not be trusted
 for cryptographic tasks moving forward, however.)<P> There are also situations where it is necessary to invalidate a certificate prior
 to its expiration date, such as when an the certificate holder terminates
 employment with the company or suspects that the certificate's corresponding
-private key has been compromised. This is called <I>revocation. </I>Arevoked
+private key has been compromised. This is called <I>revocation. </I>A revoked
 certificate is <I>much </I>more suspect than an expired certificate. Expired certificates
 are unusable, but do not carry the same threat of compromise as a revoked
 certificate.<P> Anyone who has signed a certificate can revoke his or her signature on the
 certificate (provided he or she uses the same private key that created the
-signature). Arevoked signature indicates that the signer no longer believes the
+signature). A revoked signature indicates that the signer no longer believes the
 public key and identification information belong together, or that the
 certificate's public key (or corresponding private key) has been compromised.
 A revoked signature should carry nearly as much weight as a revoked
@@ -533,17 +533,20 @@ punchline of that joke you can never quite remember.<P><h3 class="intro" id="p24
 Sharing a private key pair poses such a problem. While it is not a
 recommended practice, sharing a private key pair is necessary at times. <I>Corporate Signing Keys, </I>for example, are private keys used by a company to
 sign — for example — legal documents, sensitive personnel information, or
-press releases to authenticatetheirorigin. In such a case, it is worthwhile for
+press releases to authenticate their origin. In such a case, it is worthwhile for
 multiple members of the company to have access to the private key. However,
-this means that any single individual can act fully on behalf of the company.<P> Insucha caseit is wisetosplit the key among multiple people in such a way
+this means that any single individual can act fully on behalf of the company.<P> In such a case it is wise to split the key among multiple people in such a way
 that more than one or two people must present a piece of the key in order to
 reconstitute it to a usable condition. If too few pieces of the key are available,
 then the key is unusable.<P> Some examples are to split a key into three pieces and require two of them to
 reconstitute the key, or split it into two pieces and require both pieces. If a
 secure network connection is used during the reconstitution process, the key's
 shareholders need not be physically present in order to rejoin the key.<p></div><hr/> <iframe
-id="twitter" src="http://platform.twitter.com/widgets/tweet_button.html?url=http%3A%2F%2Fwww.gpgtools.org&amp;text=OpenPGP-/GPG-Tools%20for%20Apple%20OS%20X"></iframe> <iframe
-id="gplus" src="http://plusone.google.com/u/0/_/%2B1/button?hl=en-US&amp;url=http%3A%2F%2Fwww.gpgtools.org&amp;size=medium&amp;count=true"></iframe> <iframe
+id="twitter" src="http://platform.twitter.com/widgets/tweet_button.html?url=http%3A%2F%2Fwww.gpgtools.org&amp;text=OpenPGP-/GPG-Tools%20for%20Apple%20OS%20X" scrolling="no" frameborder="0" width="150" height="20"></iframe> <g:plusone size="medium" href="http://www.gpgtools.org"></g:plusone> <script type="text/javascript">(function() {
+		    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		    po.src = 'https://apis.google.com/js/plusone.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		  })();</script> <iframe
 id="facebook" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.gpgtools.org&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=light&amp;height=20" ></iframe></div><footer></footer></div> <!--[if lt IE 7 ]> <script src="./js/libs/dd_belatedpng.js"></script> <script>DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images</script> <![endif]--> <script type="text/javascript">var _paq = _paq || [];
 (function(){
     var u=(("https:" == document.location.protocol) ? "https://www.gpgtools.org/piwik/" : "http://www.gpgtools.org/piwik/");

@@ -16,21 +16,21 @@
                 <li><div class="project"><a href="http://lists.gpgtools.org/mailman/listinfo/gpgtools-users" title="join our mailing list"><img src="{$root}/images/mail.png" title="join our mailing list" alt="mailing list" /></a></div></li>
             </ul>
             <p class="clear"><br/></p>
-            <h3>What is new?</h3>
+            <h3>What's new?</h3>
             <div id="tweets"></div>
             <p>Read <a href="http://twitter.com/gpgtools">more</a>...</p>
             <p class="clear"><br/></p>
             <h3>How can I contact you?</h3>
             <p>We would be pleased to hear from you! Here are your options:</p>
             <ul class="sub">
-                <li>drop us an unencrypted mail: <a href="javascript:linkTo_UnCryptMailto('nbjmup;hqhuppmt.vtfstAmjtut/hqhuppmt/psh');">gpgtools-users@<span style="display:none;">REMOVETHISPART.</span>lists.gpgtools.org</a></li>
-                <li>twitter: <a href="http://twitter.com/gpgtools/">to our account</a></li>
-                <li>open a bug or feature request: <a href="http://gpgtools.lighthouseapp.com/tickets">at the issue tracker</a></li>
-                <li>browse the projects: <a href="http://github.com/gpgtools/">at the github page</a></li>
-                <li>download our key: <a href="./files/gpgtools.asc" title="The GPGTools Project OpenGPG key">0x76D78F0500D026C4</a><br />fingerprint: 85E3 8F69 046B 44C1 EC9F B07B 76D7 8F05 00D0 26C4</li>
-                <li>drop us a line:
+                <li>Drop us an unencrypted mail: <a href="javascript:linkTo_UnCryptMailto('nbjmup;hqhuppmt.vtfstAmjtut/hqhuppmt/psh');">gpgtools-users@<span style="display:none;">REMOVETHISPART.</span>lists.gpgtools.org</a></li>
+                <li>Twitter: <a href="http://twitter.com/gpgtools/">to our account</a></li>
+                <li>Open a bug or feature request: <a href="http://gpgtools.lighthouseapp.com/tickets">at the issue tracker</a></li>
+                <li>Browse the projects: <a href="http://github.com/gpgtools/">at the github page</a></li>
+                <li>Download our key: <a href="./files/gpgtools.asc" title="The GPGTools Project OpenGPG key">0x76D78F0500D026C4</a><br />Fingerprint: 85E3 8F69 046B 44C1 EC9F B07B 76D7 8F05 00D0 26C4</li>
+                <li>Drop us a line:
                     <form action="http://www.gpgtools.org/mail.php" method="post">
-                        your <b>message</b>: <input type="text" name="message" />
+                        Your <b>message</b>: <input type="text" name="message" />
                         and <b>mail</b> (optional): <input type="email" name="mail" />
                         <input type="submit" value="send feedback" />
                     </form>
@@ -43,8 +43,8 @@
                 <li>Introduction: <a href="intro.php" title="How PGP works">How PGP works</a>.</li>
                 <li>Wiki: <a href="projects.php" title="Wikis">Have a look on the project pages for further documentation</a>.</li>
                 <li>Donations: <a href="donate.php" title="how to donate">How to donate</a>.</li>
-                <li>List for announcements (read only): <a href="http://lists.gpgtools.org/mailman/listinfo/gpgtools-announce">subscribe</a> | <a href="http://lists.gpgtools.org/pipermail/gpgtools-announce/">archive</a></li>
-                <li>List for users: <a href="http://lists.gpgtools.org/mailman/listinfo/gpgtools-users">subscribe</a> | <a href="http://lists.gpgtools.org/pipermail/gpgtools-users/">archive</a></li>
+                <li>List for announcements (read only): <a href="http://lists.gpgtools.org/mailman/listinfo/gpgtools-announce">Subscribe</a> | <a href="http://lists.gpgtools.org/pipermail/gpgtools-announce/">Archive</a></li>
+                <li>List for users: <a href="http://lists.gpgtools.org/mailman/listinfo/gpgtools-users">Subscribe</a> | <a href="http://lists.gpgtools.org/pipermail/gpgtools-users/">Archive</a></li>
                 <li>List developers: <a href="http://lists.gpgtools.org/mailman/listinfo/gpgtools-devel">subscribe</a></li>
             </ul>
         </div>
